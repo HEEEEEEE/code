@@ -1,0 +1,246 @@
+div,form,dl,dt,span,img,input
+{margin:0;padding:0;font-family:'Helvetica'}
+
+#ClosecMbacK{display:none;width:100%;height:100%;background-color:rgb(0,0,0);opacity:0.5;position:fixed;left:0px;top:0px;z-Index:4900000;}
+
+#ClosecM{display:none;width:100%;height:100%;position:fixed;top:0;left:0;z-index:5000000;}
+.ClosecM{width:425px;height:0;background-color:rgb(255,255,255);position:relative;margin:50px auto;z-index:5;}
+/*******************************************************/
+	#ClosecM_top{width:425px;height:40px;background-color:rgb(255,255,255);opacity:1;border-width:0;margin:0;overflow:hidden;}
+	
+		#ClosecM_top #ClosecM_toptitle
+		{	
+		 width:425px;height:40px;
+	                  border-width:0;
+		                 border-style:solid;	
+		                      border-color:white;
+		      background-color:;
+		   opacity:;			
+		 margin:0 auto;
+	
+		 overflow:hidden;
+		}
+			#ClosecM_top span:nth-child(1)
+			{color:rgb(255,125,0);font-size:37px;}
+			#ClosecM_top span:nth-child(2)
+			{color:rgb(0,0,0);font-size:37px;}
+
+		
+		#ClosecM_top #ClosecM_topclosedt
+		{
+		 width:425px;
+		       height:40px;					
+		 	background-color:;
+			              opacity:;						
+		 position:absolute;
+		               top:0px;
+		        left:0px;
+		z-index:5000;
+		}		
+			#ClosecM_topclosedt img
+			{display:block;
+		            	width:29px;height:29px;
+			                  border-width:3px 3px 0 3px;
+				                 border-style:solid;	
+				                      border-color:rgb(255,125,0);
+				      background-color:;
+				   opacity:0.75;
+				 position:absolute;
+				               top:9px;
+				        right:12px;
+				z-index:5000;				
+		             cursor:pointer;
+                                    } 
+			#ClosecM_topclosedt img:hover{opacity:1;}
+/*******************************************************/
+#ClosecM_content
+{
+ width:425px;height:;
+             border-width:0;
+                 border-style:solid;	
+                      border-color:white;
+      background-color:rgb(255,125,0);	
+ margin:0;	
+ overflow:hidden;
+}
+		
+	#ClosecM_content dl dt
+	{background-color:;margin:0 auto;}
+	#ClosecM_content dl dt:nth-child(3){margin-top:0;}
+		/*NamENamENamENamENamENamENamENamENamENamENamENamENamE*/		
+		#ClosecM_cname span
+		{display:block;
+		     width:250px;height:25px;
+		              background-color:rgb(0,0,0);
+			                     text-align:center;
+			                margin:0 auto;
+			      color:rgb(255,112,0);
+		            font-size:16px; 
+		         font-style:;
+		font-weight:500;	
+		}			
+		#ClosecM_cname #NamE
+		{			
+		 display:block;
+		     width:240px;height:25px;
+			padding:0 5px;
+			background-color:black;		
+			    border-width:0;
+			         border-style:solid;
+				  border-color:white;
+			margin:0 auto;
+			text-align:center;
+		    color:white;
+		font-size:16px; 
+		}
+		/*Face:add*/
+		/*up up up up up*/
+		#ClosecM_cfaceadd{display:block;margin-top:5px;}			
+		#ClosecM_cup
+		{width:250px;height:25px;
+		      opacity:0;
+		            position:absolute;
+		                         top:110px;
+		                    left:87.5px;	
+		          z-index:5249;
+		 overflow:hidden;	
+		}
+			#ClosecM_cup #UP
+			{			
+			 display:block;
+			     width:250px;
+			         height:25px;
+			 margin:0 auto;
+		             cursor:pointer;				
+			}									
+		/*add:be covered by up*/
+			#ClosecM_cupcover span:nth-child(1)
+			{display:block;
+			       width:250px;height:25px;
+			                background-color:rgb(0,0,0);
+				text-align:center;
+				           margin:0 auto;
+				      color:rgb(255,112,0);
+			            font-size:16px; 
+			         font-style:;
+			font-weight:500;	
+			}			
+			#ClosecM_cupcover span:nth-child(2)
+			{display:block;
+			     width:250px;height:25px;
+			           background-color:rgb(0,0,0);
+		                       opacity:1;				
+			           margin:0 auto;
+			
+		                       text-align:center;
+			           line-height:25px;
+				    color:rgb(255,255,255);
+			            font-size:16px; 
+			 font-weight:500;	
+			}
+		/*FacE:show*/
+		#ClosecM_cface{display:none;background-color:;}	
+		#ClosecM_cface span:nth-child(1)
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:black;
+		            font-size:16px; 
+		         font-style:;
+		font-weight:500;	
+		}
+		#ClosecM_cface #ClosecM_cfaceimgdt{width:425px;height:50px;opacity:1;margin:0 auto;}
+		#ClosecM_cfaceimgdt span:nth-child(1){display:block;width:75px;height:75px;position:absolute;top:110px;left:175px;z-index:5;}			
+		#ClosecM_cface #ClosecM_cfaceimg{display:block;width:100%;height:100%;}
+		#ClosecM_cfaceimgdt span:nth-child(2){display:block;width:250px;height:50px;background-color:rgb(0,0,0);margin:0 auto;margin-top:25px;}	
+				
+		#ClosecM_cface dt:nth-child(3){width:425px;position:absolute;top:160px;left:0;z-index:6;}
+		#ClosecM_cface #ClosecM_cfacechange
+		{			
+		 display:block;
+		     width:75px;height:25px;
+			background-color:rgb(0,0,0);
+			opacity:0.5;		
+			    border-width:0;
+			         border-style:solid;
+				  border-color:white;
+			margin:0 auto;
+			text-align:center;
+			line-height:25px;
+		    color:white;
+		font-size:16px;
+		cursor:pointer; 
+		}
+		#ClosecM_cface #ClosecM_cfacechange:hover{opacity:1;}																							
+/*******************************************************/
+	#ClosecM_bom
+	{
+	 width:425px;height:40px;
+	        background-color:rgb(255,255,255);
+		      border-width:0;
+			   border-style:solid;
+		      border-color:white;
+		margin:0;	
+	}
+		#ClosecM_bom	#SubmiT
+		{			
+		 display:block;
+		     width;height:;
+			background-color:black;		
+			    border-width:0;
+			         border-style:solid;
+				  border-color:white;
+			      opacity:0.85;
+			margin:0 auto;
+			text-align:center;
+		       color:white;
+		  font-size:25px;
+		cursor:pointer; 
+		}
+		#ClosecM_bom	#SubmiT:hover{opacity:1;}				
+/*******************************************************/		
+#ClosecM_tip
+{display:none;
+       width:250px;
+               height:25px;
+            background-color:rgb(0,0,0);
+               position:absolute;
+              top:40px;
+            left:87.5px;	
+       z-index:5250;
+ overflow:hidden;	
+}						
+	#ClosecM_tipspan1	
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:rgb(255,255,255);
+		            font-size:16px; 	
+		}				
+#ClosecM_tip1
+{display:none;
+       width:250px;
+               height:25px;
+                     background-color:rgb(0,0,0);
+               position:absolute;
+              top:95px;
+            left:87.5px;	
+       z-index:5250;
+ overflow:hidden;	
+}						
+						
+	#ClosecM_tipspan2	
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:rgb(255,255,255);
+		            font-size:16px; 	
+		}		
+		
+		
+		
+		
+		
+		
+		
+		

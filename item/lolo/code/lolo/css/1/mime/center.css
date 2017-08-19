@@ -1,0 +1,631 @@
+
+#CenteR{
+	height:;
+	     width:;
+	       background-color:;
+	margin:0 auto;
+	     position:relative;
+            z-index:2502;			
+}
+	#CenteR_rightforright{
+		 width:260px;
+		     height:100%;
+		        background-color:rgba(255,255,255,0);
+		        opacity:0;
+		       position:absolute;
+		     top:0;
+		 right:0;
+		 z-index:2499;
+	}
+	#CenteR_main{
+		height:;
+		     width:;
+		       background-color:;
+		margin:0 auto;
+		     position:relative;
+	            z-index:2504;		
+	}
+
+/*MEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEME*/	
+		.forNormal .center_mainMeforNormal{
+	
+		}/*differentE*/
+		#CenteR_mainmeme{
+			height:;
+			     width:;
+			        background-color:;
+			       margin:0 auto;
+			     position:relative;
+		            z-index:2250;				
+		}		
+			/*BACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACK*/
+			.forNormal .me_backforNormal{
+				width:100%;
+				   height:;
+				    background-color:;
+		                              margin:0 auto;
+				      margin-top:57.5px;	
+	   	                           position:relative;
+	                                    z-index:2500;		
+			}/*differentE*/
+				.forNormal .me_backConHiddenforNormal{display:none;}/*differentE*/
+				#mE_backcon{		
+				}	
+					/*havehavehavehavehavehavehavehavehavehavehavehavehave*/		
+					#mE_backconhave{
+						width:100%;
+						   height:250px;
+						    background-color:;
+				                              margin:0 auto;
+						      top:5px;		
+			   	                           position:relative;
+			                                    z-index:2501;	
+					}
+						/*CONCONCONCONCONCONCONCONCONCONCONCONCON*/
+						#mE_backconhavecon{
+							width:100%;
+							   height:250px;
+							    background-color:;
+					                              margin:0 auto;
+					
+				   	                           position:relative;
+				                                    z-index:2500;
+						}
+							#mE_backconhaveconcon{
+								display:block;
+								width:100%;
+								   height:250px;
+								    background-color:;
+						                              margin:0 auto;
+								      margin-top:5px;		
+					   	                           position:relative;
+					                                    z-index:2500;
+							}
+						/*TOOLTOOLTOOLTOOLTOOLTOOLTOOLTOOLTOOLTOOL*/
+						#mE_backconhavetool{}
+							/*clearclearclearclearclearclearclearclear*/
+							#mE_backconhavetoolclear{
+							         display:block;
+							         width:25px;
+								      height:25px;
+								padding:12.5px 12.5px 0 0;
+								         background-color:;
+								         opacity:0.5;
+							            position:absolute;
+							                 right:0;
+							                      top:0;
+							         z-index:2502;
+								
+								cursor:default;					
+							}
+							#mE_backconhavetoolclear:hover{opacity:1;}				
+							/*changechangechangechangechangechangechange*/
+							#mE_backconhavetoolchange{
+								display:block;									
+								     width:125px;
+								        height:25px;
+								background-color:rgba(255,255,255,1);
+								opacity:0.5;
+								            position:absolute;
+								                 right:12.5px;
+								                   bottom:12.5px;
+								         z-index:2502;
+													
+								       text-align:center;
+								       	line-height:25px;
+								
+								    color:rgba(0,255,0,0.5);
+								font-size:22.5px;
+								
+								cursor:default;
+							}
+							#mE_backconhavetoolchange:hover{opacity:1;}
+
+							
+							
+					#mE_backconfra{
+						width:100%;
+						   height:250px;
+						    background-color:rgba(25,25,25,0.125);	
+			   	                           position:absolute;
+						               top:5px;
+						          left:0;
+			                                    z-index:2500;	
+					}
+					
+					
+					
+					/*nonononononononononononononononononononononononono*/		
+					#mE_backconno{
+						width:250px;
+						   height:250px;
+						    background-color:;
+						             border-width:5px;
+						      border-style:solid;
+						             border-color:rgba(0,0,150,1);
+				                                  margin:0 auto;	
+			   	                           position:relative;
+			                                    z-index:2500;	
+					}
+						#mE_backconnocon{
+							width:250px;
+							   height:250px;
+							    background-color:;
+					                                  margin:0 auto;	
+				   	                           position:relative;
+				                                    z-index:2500;		
+						}
+							#mE_backconnoconcancel:hover{color:rgba(255,115,0,1);}
+							/*uploaduploaduploaduploaduploaduploadupload*/						
+						         	#FroM_upload1{
+						     		display:block;
+							     	     width:100px;
+								          height:100px;
+							                 margin:75px auto;
+						                          position:relative;
+						                         z-index:2500;	
+							}					     
+								#img_upload1{
+									display:block;
+									      width:100%;
+									          height:100%;
+									          background-color:rgba(25,25,25,0.125);	
+									margin:0 auto;
+								}
+								#img_upload1:hover{
+									    background-color:rgba(255,255,255,1)	
+								}
+			/*BACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACK*/
+								
+																
+								
+			/*AVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVAT*/								
+			.forNormal .me_avatarforNormal{
+				width:270px;
+			       height:;
+   	                                   position:absolute;
+			         		top:125px;
+			    	       left:0px;
+                                               z-index:2501;				
+			}/*differentE*/
+				.forNormal .me_avatarConHiddenforNormal{display:none;}/*differentE*/
+				#mE_avatarcon{							
+				}
+					.avatarcon{
+						width:220px;
+						       height:220px;
+					            background-color:rgba(255,255,255,1);
+					
+						margin:0 auto;
+						     margin-left:50px;
+			   	                                   position:relative;
+			                                         z-index:2500;
+						overflow:hidden;	
+					}
+						.avatarfra{}
+						/*frafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafra*/
+							/**************************************************************************
+							 *top
+							 */
+							.avatarfra1{
+							          width:100%;
+								 height:22.5px;
+							                background-color:rgba(0,0,0,0.05);
+								
+							          position:absolute;
+								            top:0;
+								        left:0;
+							          z-index:2500;
+								
+							          overflow:hidden;	
+							}
+								/**************************************************************************
+								 *right
+								 */
+								.avatarfra2{
+								          width:22.5px;
+									 height:100%;
+								                background-color:rgba(0,0,0,0.05);
+									
+								          position:absolute;
+									            top:0;
+									       right:0;
+								          z-index:2502;
+									
+								          overflow:hidden;	
+								}
+			
+									/**************************************************************************
+									 *center
+									 */
+									.avatarfra3{
+									          width:180px;
+										 height:180px;
+									                background-color:rgba(255,255,255,1);
+										
+									          margin:20px;
+									          	    position:relative;
+									          z-index:2499;
+										
+									          overflow:hidden;	
+									}	
+							
+								/**************************************************************************
+								 *bottom
+								 */
+								.avatarfra4{
+								          width:100%;
+									 height:22.5px;
+								                background-color:rgba(0,0,0,0.05);
+									
+								          position:absolute;
+									            bottom:0;
+									       left:0;
+								          z-index:2503;
+									
+								          overflow:hidden;	
+								}									
+							/**************************************************************************
+							 *left
+							 */
+							.avatarfra5{
+							          width:22.5px;
+								 height:100%;
+							                background-color:rgba(0,0,0,0.05);
+								
+							          position:absolute;
+								            top:0;
+								        left:0;
+							          z-index:2504;
+								
+							          overflow:hidden;	
+							}					
+						/*frafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafra*/
+					
+					/*followfollowfollowfollowfollowfollowfollowfollowfoll*/
+					#SocialFollow{
+						 width:220px;
+						          height:220px;
+							 background-color:;	 
+			   	                                position:absolute;
+						     top:0;
+						    left:50px;
+			                                     z-index:2551;
+						
+						 cursor:pointer;
+					}/*differentE*/
+						#SociaL_follow{									
+							    width:220px;
+								 height:70px;
+							    background-color:;
+								
+							    position:absolute;
+							                right:0;
+								           top:50%;
+							            margin-top:-35px;    
+							    z-index:2501;
+						}								
+							#FolloW{	
+								    display:block;								
+								             width:70px;
+									      height:70px;
+								    background-color:rgba(255,255,255,0.75);
+								         background-repeat:no-repeat;
+									background-position:center center;
+								    background-size:contain;
+								
+								    margin:0 auto;
+								          position:relative;
+								                   z-index:2500;
+							}
+							
+							#followFra{
+							        display:block;
+								    width:220px;
+									 height:50px;
+								    background-color:rgba(255,255,255,0.5);
+									
+								      position:absolute;
+								                left:0;
+									 top:50%;
+								 margin-top:-25px;  
+							        z-index:2499;	
+							}												
+						
+					/*havehavehavehavehavehavehavehavehavehavehavehavehave*/		
+
+						/*CONCONCONCONCONCONCONCONCONCONCONCONCON*/
+						#mE_avatarconhaveconcon{
+							display:block;
+							width:100%;
+							   height:100%;
+							    background-color:;
+					                              margin:0 auto;	
+				   	                           position:relative;
+				                                    z-index:2500;	
+						}						
+
+						
+							
+					#mE_avatarconfra{	
+					}
+					
+					
+					
+					/*nonononononononononononononononononononononononono*/		
+					#mE_avatarconnotool{}
+				
+						/*uploaduploaduploaduploaduploaduploadupload*/						
+					         	#FroM_upload2{
+	
+						}					     
+							#img_upload2{
+								display:block;
+								   padding:25%;
+								      width:50%;
+								          height:50%;
+								          background-color:;	
+								margin:0 auto;
+							}						
+							#img_upload2:hover{
+								   padding:17.5%;
+								      width:65%;
+								          height:65%;	
+							}
+							
+							
+				/*
+				*INFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFO
+				*
+				*
+				*
+				*/
+				/*namenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamen*/
+				#mE_avatarname{
+				           width:220px;
+					          height:25px;
+						 background-color:;	
+						 opacity:1; 
+					          border-width:0;
+						          border-style:solid;
+						 border-color:rgb(0,0,0);	   
+					margin:0 auto;
+					     margin-top:5px;
+					       margin-left:50px;
+		   	                                   position:relative;
+		                                    z-index:2500;
+				}
+					#mE_avatarname a{
+						display:block;
+						width:;
+						    height:; 	   
+							margin:0 auto;
+	 					    position:relative;
+			                                    z-index:2500;
+							
+					            text-align:center;
+						     line-height:25px;
+						        	color:rgb(0,0,255);
+						font-size:25px;		             
+							text-overflow:ellipsis;
+					            overflow:hidden;
+					}
+
+				/*mimemimemimemimemimemimemimemimemimemimemimemimemimemime*/
+				.mime{
+					width:270px;
+					          height:;
+					    background-color:;	
+					opacity:1; 	   
+					margin:0 auto;
+					     margin-top:5px;
+				            overflow:hidden;	
+				}
+					.mimeBaisc{
+						width:100%;
+						          height:25px;
+			   				      margin:0 auto;						
+					}
+						.mimeBaisc .mimeTitle{
+							display:block;
+							width:100%;
+							          height:25px;
+			   
+							margin:0 auto;
+							
+						            text-align:right;
+							     line-height:25px;
+								color:rgba(50,25,0,0.75);
+							        font-size:15px;		             
+						            cursor:pointer;						
+						}
+						.mimeBaisc .chooseYes{color:rgba(255,112,0,1);cursor:default;}	
+						.mimeBaisc .chooseNo:hover{color:rgba(0,0,255,1);}									
+			/*AVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVAT*/
+
+								
+								
+			/*MINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINE*/								
+			.forNormal .me_mineforNormal{
+				width:;
+				   height:;
+				    background-color:;
+		                              margin:0 auto;
+				margin-top:5px;
+				       margin-left:320px;	
+	   	                           position:relative;
+	                                    z-index:2500;		
+			}
+			/*MINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINEMINE*/
+				
+				
+				
+				
+				
+/*MEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEME*/
+				
+				
+				
+				
+				
+				
+/*IDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEA*/				
+.forNormal .center_mainIdeaforNormal{
+width:;
+      height:;
+            background-color:;
+                             margin:0 auto;
+	            margin-top:5px;
+	       margin-left:320px;
+	margin-right:50px;	
+  position:relative;
+z-index:2500;		
+}/*differentE*/	    
+		/*searchsearchsearchsearchsearchsearchsearchsearchsearch*/
+						
+		/*searchsearchsearchsearchsearchsearchsearchsearchsearch*/	
+
+		
+		
+		/*closecloseclosecloseclosecloseclosecloseclosecloseclose*/	
+		 .forNormal .projectClose_closeforNormal{}/*differentE*/ 
+			/*toptoptoptoptoptoptoptoptoptoptoptoptoptop*/
+			 #IdeA_showcontop{	
+			 }
+				 					 				 	
+			 /*conconconconconconconconconconconconconcon*/
+			 #IdeA{
+			 	margin-bottom:50px;
+			                   position:relative;
+			                  z-index:2500;
+			            overflow:hidden;	
+			 }								
+/*IDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEAIDEA*/				
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+/*forScrollforScrollforScrollforScrollforScrollforScrollforScrollforScrollforScrollforScrollforScrollforScrollforScrollforScroll*/	
+.forScroll .center_mainMeforScroll{
+	height:;
+	     width:100%;
+	        background-color:;
+	         top:0;
+	      left:0;
+	     position:fixed;
+            z-index:2504;	
+}
+				
+				
+				
+.forScroll .me_backforScroll{
+	width:100%;
+	     height:;
+	        background-color:rgba(255,255,255,1);	
+ 	                           position:absolute;
+	    top:-163.75px;
+	      left:0;				
+                                  z-index:2500;		
+}
+	.forScroll .me_backConHiddenforScroll{
+		width:100%;
+		   height:250px;
+		    background-color:;
+		    opacity:0;
+		      top:12.5px;	
+		     left:0;	
+  	               position:absolute;
+                         z-index:5000;					
+	}
+
+	
+
+.forScroll .me_avatarforScroll{
+	width:270px;
+       height:;
+	position:absolute;
+       top:-30px;
+    	 left:0px;
+       z-index:2501;				
+}
+	.forScroll .me_avatarConHiddenforScroll{
+		width:270px;
+		   height:220px;
+		    background-color:;
+		    opacity:0;
+		        top:0;	
+		     left:0;	
+  	                position:absolute;
+                        z-index:5000;					
+	}
+
+	
+	
+.forScroll .me_mineforScroll{
+	width:;
+	   height:;
+	    background-color:rgba(255,255,255,0.75);
+                             margin:0 auto;
+	margin-top:80px;
+	       margin-left:320px;	
+ 	    position:relative;
+	  top:-8px;
+            z-index:2500;		
+}
+
+
+
+.forScroll .me_minePerforScroll{									
+	 display:none;		
+}
+
+
+
+.forScroll .center_mainIdeaforScroll{
+width:;
+      height:;
+            background-color:;
+         margin:0 auto;
+	  margin-top:212px;
+	       margin-left:320px;
+	margin-right:50px;	
+  position:relative;
+z-index:2000;		
+}	    
+
+
+
+.forScroll .projectClose_searchforScroll{
+	width:0;
+	       height:0;
+	             background-color:;
+	opacity:0;
+	 
+	margin:0 auto;
+	        position:relative;		
+	z-index:2500;					
+}
+
+
+
+.forScroll .projectClose_closeforScroll{
+	width:;
+	      height:;
+	            background-color:;
+	                             margin:0 auto;	
+	            position:relative;
+	z-index:2500;	
+ }

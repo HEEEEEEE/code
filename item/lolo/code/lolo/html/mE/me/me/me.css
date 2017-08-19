@@ -1,0 +1,502 @@
+#MenU_me{
+	width:100%;
+	     height:;
+	        background-color:rgba(0,0,0,0.25);
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	          bottom:0;
+	z-index:5000;
+}
+#MenU_mecenterback{
+	width:100%;
+	     height:;
+	        background-color:;
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	          bottom:0;
+	z-index:2499;	
+}
+	#MenU_metop{
+		width:100%;
+		    height:57.5px;
+		      background-color:;
+		      opacity:1;
+		position:fixed;
+		          top:0;
+		           left:0;
+		z-index:2500;
+	}
+		#MenU_medone{
+			float:right;
+			     width:75px;
+			          height:50px;
+			     background-color:rgba(255,255,255,1);	
+			opacity:1; 	 
+			  
+			margin-left:5px;
+			     margin-top:3.75px;
+   	                                   position:relative;
+                                    		z-index:2500;
+		            text-align:center;
+			     line-height:50px;
+			    color:rgba(0,0,255,1);
+			font-size:16px;			
+
+			cursor:pointer;			
+		}
+		#MenU_medone:hover{font-size:22.5px;}
+		#MenU_mecancel{
+			float:right;
+			     width:75px;
+			          height:50px;
+			     background-color:rgba(255,255,255,1);	
+			opacity:0.75; 
+				   
+			margin:0;
+			     margin-top:3.75px;
+   	                                   position:relative;
+                                    		z-index:2500;
+		            text-align:center;
+			     line-height:50px;
+			        	color:rgba(255,112,0,1);
+			        font-size:16px;			
+
+			cursor:default;
+		}
+		#MenU_mecancel:hover{opacity:1;}		
+	#MenU_mecenter{
+		height:;
+		     width:;
+		       background-color:;
+		     position:relative;
+	            z-index:2500;
+	}
+/*MEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEME*/	
+		#MenU-CenteR_mainme{
+			height:;
+			     width:100%;
+			        background-color:;
+			       margin:0 auto;
+			     position:relative;
+		            z-index:2250;	
+		}
+			/*BACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACK*/
+			#MenU-mE_back{
+				width:100%;
+				   height:;
+				    background-color:;
+		                              margin:0 auto;
+				      margin-top:57.5px;	
+	   	                           position:relative;
+	                                    z-index:2500;		
+			}
+				#MenU-mE_backcon{		
+				}	
+					      #MenU-mE_backcontool{
+						width:100%;
+						   height:250px;
+						    background-color:;	
+			   	                           position:absolute;
+						               top:5px;
+						          left:0;
+			                                    z-index:2525;					      						      		
+					      }	
+						/*brobrobrobrobrobrobrobrobrobrobrobrobrobro*/
+						#MenU-mE_backcontoolbro	{
+						         display:block;
+						              width:100%;
+							      height:250px;
+							         background-color:;
+							      margin:0 auto;
+						              position:relative;
+						          z-index:2500;								
+						}		
+						/*cancelcancelcancelcancelcancelcancelcancel*/
+						#MenU-mE_backcontoolcancel{
+						         display:block;
+						              width:;
+							      height:25px;
+							         background-color:;
+						              position:absolute;
+						                           right:12.5px;
+						                         top:0;
+						              z-index:2502;
+													
+							       text-align:right;
+							       	line-height:25px;
+							
+							    color:rgba(255,115,0,0.5);
+							  font-size:22.5px;
+						           font-weight:500;
+							
+						         cursor:default;					
+						}
+						#MenU-mE_backcontoolcancel:hover{color:rgba(255,115,0,1);}
+
+						
+						
+					#MenU-mE_backconfra{
+						width:100%;
+						   height:250px;
+						    background-color:rgba(25,25,25,0.25);	
+			   	                           position:absolute;
+						               top:5px;
+						          left:0;
+			                                    z-index:2500;	
+					}
+
+					
+					
+					/*nonononononononononononononononononononononononono*/		
+					#MenU-mE_backconno{
+						width:250px;
+						   height:250px;
+						    background-color:;
+						             border-width:5px;
+						      border-style:solid;
+						             border-color:rgba(0, 0, 150, 1);
+				                                  margin:0 auto;	
+			   	                           position:relative;
+			                                    z-index:2500;	
+					}
+						#MenU-mE_backconnocon{
+							width:250px;
+							   height:250px;
+							    background-color:;
+					                                  margin:0 auto;	
+				   	                           position:relative;
+				                                    z-index:2500;		
+						}
+							/*uploaduploaduploaduploaduploaduploadupload*/						
+						         	#MenU-FroM_upload1{
+						     		display:block;
+							     	     width:100px;
+								          height:100px;
+							                 margin:75px auto;
+						                          position:relative;
+						                         z-index:2500;	
+							}					     
+								#MenU-img_upload1{
+									display:block;
+									      width:100%;
+									          height:100%;
+									          background-color:rgba(25,25,25,0.125);	
+									margin:0 auto;
+								}
+								#MenU-InpuT_upload1{
+									display:block;											display:block;
+									      width:100%;
+									          height:100%;
+									opacity:0;
+								         position:absolute;
+								                     right:0;
+								                   top:0;
+								         z-index:2501;	
+								}
+			/*BACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACKBACK*/
+								
+																
+								
+			/*AVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVAT*/								
+			#MenU-mE_avatar{
+				width:270px;
+			       height:;
+   	                                   position:absolute;
+			         		top:125px;
+			    	       left:0px;
+                                               z-index:2501;				
+			}
+				#MenU-mE_avatarcon{							
+				}
+					.avatarcon{
+						width:220px;
+						       height:220px;
+					            background-color:rgba(255,255,255,1);
+					
+						margin:0 auto;
+						      margin-left:50px;
+			   	                                   position:relative;
+			                                          z-index:2500;
+						overflow:hidden;	
+					}
+						.avatarfra{}
+						/*frafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafra*/
+								
+						/*frafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafra*/	
+					/*nonononononononononononononononononononononononono*/		
+					      #MenU-mE_avatarconnotool{
+						width:100%;
+						   height:100%;
+						    background-color:;	
+			   	                           position:absolute;
+						               top:0;
+						          left:0;
+			                                    z-index:2525;					      						      		
+					      }	
+						/*brobrobrobrobrobrobrobrobrobrobrobrobrobro*/
+						#MenU-mE_avatarconnobro	{
+						         display:block;
+						              width:180px;
+							      height:180px;
+							         background-color:rgba(255,255,255,1);
+							      margin:20px;
+						              position:relative;
+						          z-index:2500;								
+						}		
+						/*cancelcancelcancelcancelcancelcancelcancel*/
+						#MenU-mE_avatarconnocancel{
+						         display:block;
+						              width:;
+							      height:25px;
+							         background-color:;
+						              position:absolute;
+						                           right:5px;
+						                         top:0;
+						              z-index:2502;
+													
+							       text-align:right;
+							       	line-height:25px;
+							
+							    color:rgba(255,115,0,0.5);
+							  font-size:16px;
+						           font-weight:500;
+							
+						         cursor:default;					
+						}
+						#MenU-mE_avatarconnocancel:hover{color:rgba(255,115,0,1);}
+						/*uploaduploaduploaduploaduploaduploadupload*/						
+					         	#MenU-FroM_upload2{
+	
+						}					     
+							#MenU-img_upload2{
+								display:block;
+								   padding:25%;
+								      width:50%;
+								          height:50%;
+								          background-color:;	
+								margin:0 auto;
+							}
+							#MenU-InpuT_upload2{
+								display:block;											display:block;
+								      width:100%;
+								          height:100%;
+								opacity:0;
+							         position:absolute;
+							                     right:0;
+							                   top:0;
+							         z-index:2501;	
+							}						
+
+
+
+				/*
+				*INFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFO
+				*
+				*
+				*
+				*/
+				/*namenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamenamen*/
+				#MenU-mE_avatarname{
+					width:270px;
+					          height:;
+						 background-color:;	
+						 opacity:1; 
+					          border-width:0;
+						          border-style:solid;
+						 border-color:rgb(0,0,0);	   
+					margin:0 auto;
+					     margin-top:5px;
+		   	                                   position:relative;
+		                                    		z-index:2500;
+				            overflow:hidden;					
+					}	
+						.avatarname{float:left}
+						#MenU-mE_avatarname span{
+							display:block;
+							width:50px;;
+							          height:25px;
+								 background-color:;	
+								 opacity:1; 	   
+							margin:0 auto;
+				   	                                   position:relative;
+				                                    		z-index:2500;
+						            overflow:hidden;
+							
+						            text-align:center;
+							     line-height:25px;
+							        	color:rgba(255,255,255,1);
+							        font-size:16px;		             		
+						}
+						#MenU-mE_avatarname input{
+							    display:block;
+							          width:210px;
+						                height:25px;
+							          padding:0 5px;
+							          background-color:rgba(255,255,255,0.5);	
+							          opacity:1; 
+						                border-width: 0;	   
+							      margin:0;
+				   	                                   position:relative;
+				                                    		z-index:2500;
+							
+							    text-align:left;
+								 line-height:25px;
+								         color:rgb(0,0,0);
+								                 font-size:16px;		             
+					                            overflow:hidden;	
+						}												
+				/*biobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobiobio*/
+				#MenU-mE_avatarbio	{
+					width:270px;
+					          height:;
+						 background-color:;	
+						 opacity:1; 
+					          border-width:0;
+						          border-style:solid;
+						 border-color:rgb(0,0,0);	   
+					margin:0 auto;
+					     margin-top:5px;
+		   	                                   position:relative;
+		                                    		z-index:2500;
+				            overflow:hidden;	
+				}
+					.avatarbio{float:left;}
+					#MenU-mE_avatarbiotitle{
+						width:50px;;
+						          height:75px;
+							 background-color:;	
+							 opacity:1; 	   
+						margin:0 auto;
+			   	                                   position:relative;
+			                                    		z-index:2500;
+					            overflow:hidden;
+						
+					            text-align:center;
+						     line-height:75px;
+						        	color:rgba(255,255,255,1);
+						        font-size:16px;		             
+					            overflow:hidden;						
+					}
+					#MenU-mE_avatarbiocon{
+						display:block;									
+						          width:210px;
+							   height:75px;
+							         padding:0 5px;
+							          background-color:rgba(255,255,255,0.5);	
+							          opacity:1; 
+						                border-width:0;		      			
+							         margin:0;
+					                      overflow:hidden;
+		
+							    white-space:pre-wrap;
+						
+							overflow-wrap:break-word;word-wrap:break-word;			
+						      word-break:break-all;
+												
+						      text-align:left;
+							line-height:25px;
+						
+						    color:rgba(0,0,0,1);
+						font-size:16px;
+						
+						cursor:text;		
+					}
+				/*emailemailemailemailemailemailemailemailemailemailemailemailemailemailemailemailemailemailemailemailemailemailemailemail*/
+				#MenU-mE_avataremail	{
+					width:270px;
+					          height:;
+						 background-color:;	
+						 opacity:1; 	   
+					margin:0 auto;
+					     margin-top:5px;
+		   	                                   position:relative;
+		                                    		z-index:2500;
+				            overflow:hidden;	
+				}
+					.avataremail{float:left;}
+					#MenU-mE_avataremailtitle{
+						width:50px;;
+						          height:25px;
+							 background-color:;	
+							 opacity:1; 	   
+						        margin:0;
+			   	                                   position:relative;
+			                                    		z-index:2500;
+					            overflow:hidden;
+						
+					            text-align:center;
+						     line-height:25px;
+						        	color:rgba(255,255,255,1);
+						        font-size:16px;		             
+					            overflow:hidden;						
+					}
+					#MenU-mE_avataremailcon{
+						 width:210px;
+						          height:25px;
+						                padding:0 5px;
+							          background-color:rgba(255,255,255,0.5);	
+							       opacity:1; 
+						                border-width:0;	   
+						       margin:0;
+			   	                                   position:relative;
+			                                    		z-index:2500;
+							
+					            text-align:left;
+						     line-height:25px;
+						        	color:rgba(0,0,0,1);
+						                	font-size:16px;		             
+					            overflow:hidden;	
+					}
+				/*
+				*INFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFOINFO
+				*/
+				/*tipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstipsti*/
+				#MenU_metips{
+					width:270px;
+					          height:;
+						 background-color:;	
+					             opacity:1; 
+		   	                        position:absolute;
+					          top:0;
+					            left:0;
+		                                                   z-index:2550;					
+				}
+					.menu-metipscon{
+						width:270px;;
+						          height:25px;
+							 background-color:;	
+							 opacity:1; 	   
+						margin:0 auto;
+						     margin-top:5px;
+			   	                                position:relative;
+			                                    	      z-index:2500;	
+					}
+					#MenU_metipscon2{
+	 					height:75px;
+					}	
+						.menu-metipscon span{
+							display:inline-block;
+							 width:;
+							    height:25px;
+							background-color:;	
+							opacity:1;
+							 	   
+							margin:0 auto;
+				   	                        	position:relative;
+				                                    		z-index:2500;
+							
+						            text-align:center;
+							     line-height:25px;
+							    color:rgba(255,255,255,1);
+							font-size:16px;		             		
+						}
+						#MenU_metipscon2 span{
+		 					height:75px;
+							        line-height:75px;
+						}																									
+			/*AVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVATARAVAT*/
+					

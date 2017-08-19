@@ -1,0 +1,213 @@
+
+#MenU_ideatag{
+	width:100%;
+	     height:;
+	        background-color:rgba(0,0,0,0.25);
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	          bottom:0;
+	z-index:5000;
+}
+#MenU_ideatagback{
+	width:100%;
+	     height:100%;
+	        background-color:;
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	z-index:2499;	
+}
+	#MenU_ideatagin{
+		width:500px;
+		     height:;
+		        background-color:;
+		position:fixed;
+		          top:0;
+		                left:0;
+		          bottom:0;
+		z-index:2500;
+	}
+	
+#TaG{
+	width:360px;
+	       height:;
+	         padding:0;
+	           background-color:rgba(0, 0, 0, 0.12);
+	       margin:0 auto;
+	    position:relative;	            
+	z-index:2500;
+}
+	/*toptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptop*/
+	.tag-top{	
+	   	width:100%;
+		      height:25px;
+			 background-color:;
+			
+		       margin:0 auto;
+		    position:relative;	            
+		z-index:2500;		
+	}
+		/*title*/
+		#TaG_entertitle{
+			width:100%;
+			     height:100%;
+			        background-color:;
+			position:absolute;
+			          top:0;
+			                left:0;
+			z-index:2500;
+		}
+			#TaG_entertitlecon{
+				display:block;
+				   width:;
+			                  height:25px;
+			                          margin:0;	
+					overflow:hidden;
+										
+				       text-align:left;
+				line-height:25px;
+				
+				    color:rgba(255,255,255,1);
+				font-size:20px;
+			}			
+		/*tips*/			
+		#TaG_enteralbe{
+			width:100%;
+			     height:100%;
+			        background-color:;
+			position:absolute;
+			          top:0;
+			                left:0;
+			z-index:2500;
+		}
+			#TaG_enteralbe span{
+				float:right;
+				   width:;
+			                  height:25px;
+			            margin-right:5px;	
+					overflow:hidden;
+										
+				       text-align:right;
+				line-height:25px;
+				
+				    color:rgba(50,25,0,1);
+				font-size:15px;
+			}
+			#TaG_enteralbe span:nth-child(2){color:rgba(255,255,0,1);font-size:22.5px;}
+		/*boxboxboxboxboxboxboxboxboxboxboxboxboxboxboxboxboxboxbox*/
+		.tag-center{
+		   	width:100%;
+			      height:35px;
+				 background-color:;
+				
+			       margin:0 auto;
+			    position:relative;	            
+			z-index:2500;	
+		}
+			#TaG_enter{
+			   	width:100%;
+				      height:35px;
+					 background-color:;
+					
+				       margin:0 auto;
+				    position:relative;	            
+				z-index:2500;	
+			}
+				#TaG_entercon{
+				   	width:350px;
+					      height:25px;
+					         padding:5px;
+						 background-color:rgba(255,255,255,1);
+					         border-width:0;
+						
+					       margin:0 auto;
+					    position:relative;	            
+					z-index:2500;
+										
+					       text-align:left;
+					line-height:25px;
+					
+					    color:rgba(50,25,0,1);
+					font-size:16px;	
+				}
+	/*bottombottombottombottombottombottombottombottom*/
+			.tag-bottom{
+			            width:360px;
+			                height:25px;
+			                   background-color:;			
+			                margin:0 auto;
+			            position:relative;
+			     z-index:2502;		
+			}
+				/*DONEDONEDONEDONEDONEDONEDONEDONEDONEDONEDONE*/		
+				#TaG_done{
+				   width:50px;
+				      height:25px;										
+					background-color:rgba(255,255,255,1);
+					opacity:0.75;
+				   margin:0 auto;						
+				}
+				#TaG_done:hover{opacity:1;}
+					#TaG_done span{
+						display:block;									
+						     width:;
+						        height:;
+							margin:0 auto;
+	
+						                overflow:hidden;
+												
+						       text-align:center;
+						       	line-height:25px;
+						
+						    color:rgba(125,170,17,1);
+						font-size:16px;
+						
+						cursor:default;											
+					}
+				/*cancelcancelcancelcancelcancelcancelcancelcan*/		
+				#TaG_cancel{									
+				          width:;
+					   height:;
+					         opacity:1;
+					
+				        		position:absolute;
+				        	         top:2.5px;
+				        	        right:2.5px;	            
+				          z-index:2551;	
+				}
+					#TaG_cancelcon{
+						display:block;									
+						     width:;
+						        height:;
+							 margin:0;
+												
+						       text-align:right;
+						       	line-height:16px;
+						
+						    color:rgba(255,125,0,0.5);
+						font-size:16px;
+						
+						cursor:default;											
+					}
+					#TaG_cancelcon:hover{color:rgba(255,125,0,1);}
+
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					

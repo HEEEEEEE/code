@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's jsx</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        const arr=['com','net'];
+        const elementMap_arr =<div>{
+            arr.map((a) => (<a key={a}> {a} </a>))
+           /*-----------------------------------------------------------------------------------------------------------
+             the key is unique and necessary for forEach
+                Keys help React identify which items have changed, are added, or are removed
+                    (e, index)We don't recommend using indexes for keys if the items can reorder, as that would be slow
+             A good rule of thumb is that elements inside the map() call need keys
+            -----------------------------------------------------------------------------------------------------------*/
+        } </div>;
+        const ob =['com','net'];
+        const obj =[{id:0,title:'com'},{id:1,title:'net'}];
+
+
+        const elementMap_obj = obj.map((o) => {return o.title});
+
+        const elementMap_obj0 = obj.map( (o)=>{return (<a key={o.id}>{o.title}</a>)} );//{}
+        const elementMap_obj1 = obj.map( (o)=>(<a key={o.id}>{o.title}</a>) );//()
+
+        alert(ob[0]);
+
+        console.log(obj instanceof Array);//true
+
+        console.log(elementMap_obj instanceof Array);//true
+//        alert(elementMap_obj);
+
+        console.log(elementMap_obj0 instanceof Array);//true
+//        alert(elementMap_obj0);
+
+        console.log(elementMap_obj1 instanceof Array);//true
+//        alert(elementMap_obj1);
+
+        ReactDOM.render(
+            <div>
+                {ob}
+            </div>,
+            document.getElementById('container')
+        );
+        /*
+            method:
+                array.map(function(){return()})
+            object:
+                array:
+                    []
+                    [{},{}]
+
+
+            such as
+                (e) => (<a key={e}> {e} </a>)
+                equal to
+                 function(e){
+                     return (
+                        <a key={e}> {e} </a>
+                    )
+                 }
+             format
+                (argument) =>  body
+         */
+    </script>
+</body>
+
+</html>

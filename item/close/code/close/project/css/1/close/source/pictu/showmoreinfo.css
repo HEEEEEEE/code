@@ -1,0 +1,181 @@
+div,span,dl,dt,a,form,input,textarea
+		{margin:0;padding:0;font-family:'Helvetica'}
+/*moreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfo*/
+/*
+ *
+ ****************
+#LefT_sourcemoreinfo{display:none;width:100%;height:100%;background-color:rgba(0,0,0,0.85);position:fixed;left:0px;top:0px;z-Index:4999999999999;;}
+	#LefT_sourcemoreinfofore
+	{width:325px;
+		background-color:rgba(50,50,50,0.25);
+	 	border-width:8px 0;
+	                border-style:solid;
+	                    border-color:rgb(255,255,255);     		
+	     position:absolute;
+	              top:50px;
+	                 left:325px;
+	              bottom:0;
+	         z-index:8;
+	 overflow:hidden;
+	}
+*****************/
+#SourcemoreinfO{width:100%;height:100%;background-color:rgba(0,0,0,0.5);position:fixed;left:0px;top:0px;z-Index:4999999999999;}
+	.sourcemoreinfofore
+	{width:325px;
+		background-color:rgba(50,50,50,0.25);
+	 	border-width:0;
+	                border-style:solid;
+	                    border-color:rgb(255,255,255);     		
+	     position:absolute;
+	              top:58px;
+	                 left:325px;
+	              bottom:8px;
+	         z-index:8;
+	 overflow:hidden;
+	}
+
+	/*FramE*/
+	/*HidE*/
+	#SourcemoreinfohidE{width:42px;height:42px;position:absolute;left:0;top:0;z-Index:2500;}
+		#SourcemoreinfohidE dl dt span{display:block;width:42px;height:42px;background-repeat:no-repeat;background-size:42px 42px;background-position:center center;} 
+	/*TitlE*/
+	#SourcemoreinfotitlE{width:325px;height:42px;background-color:rgba(0,0,0,1);position:absolute;left:0;top:0;z-Index:2499;}
+		#SourcemoreinfotitlE dl dt span
+	                                         {display:block;
+				           margin:0 auto;
+					     line-height:42px;
+					                 text-align:center;
+					     color:rgba(0,0,255,1);
+					font-size:22.5px;
+				      cursor:default;
+	                                         } 	
+	                                         
+	                                         
+	                                         
+	/*InfO*/
+	#SourcE_moreinfo{width:325px;height:100%;position:absolute;left:0;top:55px;bottom:0;z-Index:2499;}
+	#SourcE_moreinfo div{margin-bottom:12px;position:relative;}
+	/*SourcE:name*/
+	#SourcE_moreinfoname{}
+		#SourcE_moreinfoname dl{}
+			#SourcE_moreinfoname dl dt span
+	                        {display:block;
+	                              margin:0 auto;
+	                                    color:rgba(255,255,255,0.5);
+	                                          line-height:35px;
+	                              text-align:center;
+	                         font-size:15px;
+	                         }
+			#SourcE_moreinfoname dl dt #ImagenamE
+	                         {display:block;
+	                              margin:0 auto;
+	                                 background-color:rgba(50,50,50,0.25);
+	                                                    line-height:22.5px;
+	                         		          text-align:center;
+			                                overflow-wrap:break-word;
+			                            word-wrap:break-word;			
+			                    word-break:break-all;	                         	                         
+	                                     color:rgba(255,255,255,1);
+	                          font-size:16px;
+                                      }	                         	                                                                                        	
+	/*SourcE:des*/
+	#SourcE_moreinfodes{}
+		#SourcE_moreinfodes dl{}
+			#SourcE_moreinfodes dl dt span
+	                        {display:block;
+	                              margin:0 auto;
+	                                    color:rgba(255,255,255,0.5);
+	                                          line-height:35px;
+	                              text-align:center;
+	                         font-size:15px;
+	                         }
+			#SourcE_moreinfodes dl dt textarea
+			{display:block;
+	                              width:315px;
+			            min-height:22.5px;
+	                         	height:22.5px;
+				padding:0 5px;
+				background-color:rgba(50, 50, 50, 0.25);
+				border-width:0;
+				margin-top:5px;
+	
+	                                               resize:vertical;
+	                                               overflow:hidden;
+				overflow-wrap:break-word;word-wrap:break-word;			
+			          word-break:break-all;						
+			       text-align:left;
+			    color:rgba(255,255,255,1);
+			font-size:16px;
+	
+	                                   cursor:default;
+			}	                                                                                           		                                         
+	/*others infoothers infoothers infoothers infoothers info*/
+	#SourcE_moreinfoothers{background-color:rgba(25, 50, 0, 0.25);}
+		#SourcE_moreinfoothers dl{margin-bottom:5px;position:relative;}
+			.moreinfoothersframe
+		                        {display:block;
+		                              margin:0 auto;
+		                                    color:rgba(255,255,255,0.5);
+		                                          line-height:35px;
+		                              text-align:center;
+		                         font-size:15px;
+		                         }
+			.moreinfoothersinfo{display:block; margin:0 auto;background-color:rgba(50, 50, 50, 0.25);line-height:22.5px;text-align:center;color:rgba(255,255,255,1);font-size:16px;}		                         		
+	/*SourcE:ssize*/
+	         	
+		/*SourcE:fsize*/
+
+	/*SourcE:type*/
+	                                         
+	/*SourcE:caname*/ 
+	#SourcE_moreinfofromca{}
+		#SourcE_moreinfofromca dl{}
+			#SourcE_moreinfofromca dl dt span
+	                        {display:block;
+	                              margin:0 auto;
+	                                    color:rgba(255,255,255,0.5);		                         
+	                                          line-height:35px;
+	                              text-align:center;
+	                         font-size:15px;
+	                         }
+			#SourcE_moreinfofromca dl dt #FromcA
+	                         {display:block;
+	                              margin:0 auto;
+	                                 background-color:rgba(50,50,50,0.25);
+	                                                    line-height:22.5px;
+	                         		          text-align:center;
+			                                overflow-wrap:break-word;
+			                            word-wrap:break-word;			
+			                    word-break:break-all;	                         	                         
+	                                     color:rgba(255,255,255,1);
+	                          font-size:16px;
+                                      }	                         	                         	  	                                                                                 
+	/*SourcE:cname*/
+	#SourcE_moreinfofromc{}
+		#SourcE_moreinfofromc dl{}
+			#SourcE_moreinfofromc dl dt span
+	                        {display:block;
+	                              margin:0 auto;
+	                                    color:rgba(255,255,255,0.5);
+	                                          line-height:35px;
+	                              text-align:center;
+	                         font-size:15px;
+	                         }
+			#SourcE_moreinfofromc dl dt #FromC
+	                         {display:block;
+	                              margin:0 auto;
+	                                 background-color:rgba(50,50,50,0.25);
+	                                                    line-height:22.5px;
+	                         		          text-align:center;
+			                                overflow-wrap:break-word;
+			                            word-wrap:break-word;			
+			                    word-break:break-all;	                         	                         
+	                                     color:rgba(255,255,255,1);
+	                          font-size:16px;
+                                      }	                         	
+
+/*FramE*/
+/*BottoM*/
+.sourcemoreinfobottom{width:325px;height:42px;background-color:rgba(0,0,0,1);position:fixed;left:325px;bottom:8px;z-Index:2499;}
+
+/*moreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfomoreinfo*/

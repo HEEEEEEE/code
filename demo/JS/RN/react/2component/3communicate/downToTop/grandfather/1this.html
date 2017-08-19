@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's component communicate</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <!-- <script type='text/babel' src='react.js'> -->
+    <script type='text/babel'>
+                    class Third extends React.Component{
+                        render(){
+                            return(
+                                <div className='I am third child' onClick={this.props.handleClick.bind(this)}>
+                                    click me
+                                </div>
+                            )
+                        }
+                    }
+                class Second extends React.Component{
+                    render(){
+                        return(
+                            <div className='second'>
+                                <Third handleClick={this.props.handleClick.bind(this)} />
+                                <div>{this.state.click}</div>
+                             </div>
+                        )
+                    }
+                }
+            class First extends React.Component{
+                constructor(props){
+                    super(props);
+                    this.state={click:''}
+                }
+                handleTrans(e){
+                    this.setState({click:e.target.className})
+                }
+                render(){
+                    return(
+                        <div className='first'>
+                            <Second handleClick={this.handleTrans.bind(this)} />
+                            <div>{this.state.click}</div>
+                        </div>
+                    )
+                }
+            }
+            ReactDOM.render(
+                    <First />,
+                    document.getElementById('container')
+            )
+        /*
+         <Third handleClick={this.props.handleClick.bind(this)} />
+         keep this.props
+         */
+    </script>
+</body>
+
+</html>

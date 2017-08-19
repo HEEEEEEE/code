@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's refs</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+            class Input extends React.Component{
+//                changeInput1(){
+//                    let v=this.inputChange.value;
+//                    console.log(v)
+//                }
+//                onChange={this.changeInput1.bind(this)}
+                clickInput2(){
+                    let v=this.inputChange.value;
+                    alert(v)
+                }
+                render(){
+                    return (
+                        <div>
+                            <input type='text' ref={arg => this.inputChange = arg} />
+                            <input type='button' onClick={this.clickInput2.bind(this)} />
+                        </div>
+                    )
+                }
+            };
+            var Span = React.createClass({
+                render: function (){
+                    return (
+                            <span ref='ChangeSpan'></span>
+                    )
+                }
+            });
+        var Div = React.createClass({
+            render: function (){
+                return (
+                        <div>
+                            <Input />
+                            <Span />
+                        </div>
+                )
+            }
+        });
+        ReactDOM.render(
+                <Div />,
+                document.getElementById('container')
+        )
+        /*
+         refs
+             作用
+             可以确保在任何时间总是拿到正确的实例
+             可以确保在任何时间拿到用户输入的数据
+             范围
+             this.refs.ChangeInput 只能在同一组件中使用
+             实际
+             与后台进行交互时 提交用户数据什么的时
+             格式
+                1
+                 <input ref='ChangePart' type='text' onChange={this.change}/>
+                 change: function(){var obj=this.refs.ChangePart;console.log(obj.value)},
+               2
+                <input type='text' ref={arg => this.inputChange = arg} onChange={this.changeInput1.bind(this)} />
+                let v=this.inputChange.value;
+         */
+    </script>
+</body>
+
+</html>

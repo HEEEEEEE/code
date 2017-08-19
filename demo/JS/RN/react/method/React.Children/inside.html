@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's this.props.children</title>
+    <meta charset="UTF-8">
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react-dom.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+                const Child = React.createClass({
+                    render: function(){
+                        return (
+                            <span>I'm a component child</span>
+                        );
+                    }
+                });
+            class Father extends React.Component{
+                render(){
+                    //React.Children.count(children)Returns the total number of components in children
+                    console.log(React.Children.count(this.props.children));
+                    //React.Children.only(children)Returns the only child html object in children
+                    //console.log(React.Children.only(this.props.children));should be just one child in component otherwise it throw a wrong
+                    console.log(React.Children.toArray(this.props.children));
+                    return(
+                        <div>{
+                            React.Children.map(this.props.children, function(c){
+                                //forEach
+                                return(<a>{c}</a>)
+                            })
+                        }</div>
+                    )
+                }
+            };
+        const element=
+        <Father>
+            <Child />
+            <button>I'm a html child</button>
+        </Father>;
+
+        ReactDOM.render(
+            element,
+            document.getElementById('container')
+        );
+        /*
+
+         */
+    </script>
+</body>
+
+</html>

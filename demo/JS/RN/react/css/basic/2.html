@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's css</title>
+    <meta charset="utf-8">
+    <style>
+        @charset "UTF-8";
+        body,div,span{margin:0;padding:0}
+        .green{width:25px;height:25px;background:green}
+    </style>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react-dom.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/browser.min.js'></script>
+</head>
+<body>
+    <div id='Container'></div>
+    <script type='text/babel'>
+        var CssComponent = React.createClass({
+            getInitialState: function(){
+                return {red:true}
+            },
+            click: function(){
+                this.setState({red:!this.state.red})
+            },
+            render: function(){
+                var cssCStyle={width:'25px',height:'25px',background:'blue'};
+                return (
+                    <div>
+                        <span onClick={this.click} style={this.state.red?({width:'25px',height:'25px',background:'red'}):({})}>{this.props.cssA}</span>
+                        <span className='green'>{this.props.cssB}</span>
+                        <span style={cssCStyl}>{this.props.cssC}</span>
+                    </div>
+                )
+            }
+        });
+
+        var props = {cssA:'RED',cssB:'GREEN',cssC:'BLUE'};
+        ReactDOM.render(
+            <CssComponent {...props}/>,
+            document.getElementById('Container')
+        )
+        {/*
+            在 react 中
+            use
+                1
+                style={{width:'25px',height:'25px',background:'red'}}
+                style={this.state.red?({width:'25px',height:'25px',background:'red'}):({})}
+                2
+                 var cssCStyle={width:'25px',height:'25px',background:'blue'};
+                 style={cssCStyl}
+            model
+                start:在html中定义如下代码
+                    style={}
+                use
+                    style={+{对象格式的style定义在、
+                    +}
+        */}
+    </script>
+</body>
+</html>

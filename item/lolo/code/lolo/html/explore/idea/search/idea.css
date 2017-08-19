@@ -1,0 +1,568 @@
+	/**************************************************************************
+	 *IdeA:search
+	 *
+	 *
+	 */
+             /*ideaideaideaideaideaideaideaideaideaideaideaideaideaideaideaideaideaidea*/
+	.idea_search{
+		float:left;
+	          width:325px;
+		 height:325px;
+	                background-color:rgba(255,255,255,1);
+		
+	          margin-left:12.5px;
+	             margin-bottom:50px;
+	          	    position:relative;
+	          overflow:hidden;		
+	}
+	.idea_search:nth-child(3n+1){margin-left:0;}
+					
+		/**************************************************************************
+		 *IdeA:search top
+		 */
+		.idea_search-top{
+		          width:100%;
+			 height:30px;
+		                background-color:rgba(0,0,0,0.05);
+			
+		          position:absolute;
+			            top:0;
+			               left:0;
+				      z-index:2500;
+			
+		          overflow:hidden;	
+		}
+			/**************************************************************************
+			 *IdeA:search right
+			 */
+			.idea_search-right{
+			          width:30px;
+				 height:100%;
+			                background-color:rgba(0,0,0,0.05);
+				
+			          position:absolute;
+				            top:0;
+				               right:0;
+					      z-index:2502;
+				
+			          overflow:hidden;	
+			}				
+				/**************************************************************************
+				 *IdeA:search center
+				 */
+				.idea_search-center{
+				          width:265px;
+					 height:265px;
+				                background-color:rgba(255,255,255,1);
+					
+				          margin:30px;
+				          	    position:relative;
+						   z-index:2499;
+					
+				          overflow:hidden;	
+				}
+					/*conconconconconconconconconconconconconconconconcon*/
+					.idea_search-center-con{
+					          width:235px;
+						 height:235px;
+					                background-color:rgba(255,255,255,1);
+						
+					          margin:15px auto;
+					          	    position:relative;
+							   z-index:2499;
+						
+					          overflow:hidden;	
+					}				
+						/*
+						lanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslans
+						*/																
+						.idea_search-center-con-1{
+						          width:100%;
+							 height:100%;
+						                background-color:rgba(255,255,255,1);
+							
+						          margin:0 auto;
+						          	    position:relative;
+								   z-index:2500;
+							
+						          overflow:hidden;									
+						}
+							.idea_search-center-con-1 span{
+								display:block;									
+								     width:100%;
+								        height:100%;
+									padding:0;
+									        margin:0 auto;
+										overflow:hidden;
+	
+								            white-space:pre-wrap;
+								
+									overflow-wrap:break-word;word-wrap:break-word;			
+								          word-break:break-all;
+														
+								       text-align:left;
+								       	line-height:25px;
+								
+								    color:rgba(50,25,0,1);
+								font-size:16px;
+								
+								cursor:default;	     	     	
+						     	}				
+						/*
+						ImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagE
+						*/
+						.idea_search-center-con-2{
+						          width:100%;
+							 height:100%;
+						                background-color:rgba(255,255,255,1);
+							
+						          margin:0 auto;
+						          	    position:relative;
+								   z-index:2500;
+							
+						          overflow:hidden;									
+						}
+							.idea_search-image{
+								        width:100%;
+						             		   height:100%;
+						             	     background-color:;
+					             		        opacity:1;				             		      
+						             	margin:0 auto;		             		        
+					             	}
+								.idea_search-image span{
+									display:block;
+									        width:100%;
+							             		   height:100%;
+							             	     background-color:;
+									     background-repeat:no-repeat;
+									     background-size:contain;
+									     background-position:top center;				             		      
+							             	margin:0 auto;		             		        
+						             	}				
+				/*conconconconconconconconconconconconconconconconcon*/
+					/*pre:toolpre:toolpre:toolpre:toolpre:toolpre:toolpre:toolpre:toolpre:toolpre:tool*/	             	
+					.idea_search-center-tool{	
+					}
+						/*basic*/
+						.idea_search-toollans,.idea_search-toolimage{
+						          width:20px;
+							 height:20px;
+						                background-color:rgba(163,220,23,1);
+							    border-width:2px;
+							    border-style:solid;
+							    border-color:rgba(163,220,23,1);
+							    opacity:0.35;
+							    
+						          			position:absolute;
+								        top:8px;
+								     right:8px;
+							          z-index:2551;					
+							overflow:hidden;							
+						}
+						.idea_search-toollans:hover{opacity:1;border-width:0;width:25px;height:25px;background-color:rgba(125,170,17,1);}
+						.idea_search-toolimage:hover{opacity:1;border-width:0;width:25px;height:25px;background-color:rgba(125,170,17,1);}
+							.idea_search-toollans img,.idea_search-toolimage img{
+							 display:block;
+							          width:100%;
+								 height:100%;
+							                background-color:;
+								
+								margin:0 auto;
+							          	        position:relative;
+								          		z-index:2500;						
+							}
+						/*show*/
+						.idea_search-toollansshow,.idea_search-toolimageshow{
+						          width:25px;
+							 height:25px;
+						                background-color:rgba(125,170,17,1);
+							    opacity:0.85;
+							    
+						          			position:absolute;
+								        top:8px;
+								     right:8px;
+							          z-index:2551;					
+							overflow:hidden;							
+						}
+							.idea_search-toollansshow img,.idea_search-toolimageshow img{
+							 display:block;
+							          width:100%;
+								 height:100%;
+							                background-color:;
+								
+								margin:0 auto;
+							          	        position:relative;
+								          		z-index:2500;						
+							}
+					/*pre:conpre:conpre:conpre:conpre:conpre:conpre:conpre:conpre:conpre:conpre:con*/
+					.idea_search-center-pre{
+					          width:235px;
+						 height:235px;
+					                background-color:;
+					          	   	 position:absolute;
+						    top:15px;
+						 left:12.5px;
+					          z-index:2552;	
+					}
+						/*lanlanlanlanlanlanlanlanlanlanlanlanlanlanlanlanlanlan*/
+						.idea_search-center-pre-1{	
+						}		
+							.idea_search-center-pre-1 span{	
+								display:block;									
+								          width:225px;
+								               min-height:100px;
+									   height:225px;
+								               max-height:225px;
+									         padding:5px;
+								                        background-color:rgba(50,50,50,0.5);
+									         margin:0;
+				
+									    white-space:pre-wrap;
+								
+									overflow-wrap:break-word;word-wrap:break-word;			
+								      word-break:break-all;
+														
+								      text-align:left;
+									line-height:25px;
+								
+								    color:rgba(255,255,255,1);
+								font-size:16px;
+								
+								cursor:default;
+							}
+						/*imageimageimageimageimageimageimageimageimageimageimageimageimage*/
+						.idea_search-center-pre-2{	
+							   width:235px;
+							      height:235px;
+							         background-color:rgba(50,50,50,0.5);
+							   margin:0 auto;
+							    	position:relative;
+							         		z-index:2500;								
+						}
+							.idea_search-pre-image{
+								                display:block;
+								            width:235px;
+								      height:235px;
+							       background-color:;
+								    margin:0 auto;
+								    	position:relative;
+								         		z-index:2500;								
+							}
+					/*enterenterenterenterenterenterenterenterenterenterenter
+					*/		
+					.idea_search-center-enterfra{
+					          width:165px;
+						 height:165px;
+					                background-color:rgba(0, 0, 0, 0);
+						
+					          	    position:absolute;
+						          top:50px;
+						            left:50px;
+							   z-index:2549;	
+					}
+					.idea_search-center-enter{
+					          width:165px;
+						 height:165px;
+					                background-color:rgba(0, 0, 255, 0.25);
+						
+					          	    position:absolute;
+						          top:50px;
+						            left:50px;
+							   z-index:2550;	
+					}				
+						.idea_search-center-enter a{
+							display:block;
+							        width:90px;
+					             		   height:90px;
+					             	      background-color:;				             		      
+					             	margin:0 auto;
+							margin-top:37.5px;		             		        
+				             	}							
+							.idea_search-center-enter a span{
+								display:block;
+								        width:90px;
+						             		   height:90px;
+						             	      background-color:;
+								           background-repeat:no-repeat;
+								         background-size:contain;
+								      background-position:top center;				             		      
+						             	margin:0 auto;		             		        
+					             	}																																																	
+			/**************************************************************************
+			 *IdeA:search bottom
+			 */
+			.idea_search-bottom{
+			          width:100%;
+				 height:30px;
+			                background-color:rgba(0,0,0,0.05);
+				
+			          position:absolute;
+				            bottom:0;
+				               left:0;
+					      z-index:2503;
+				
+			          overflow:hidden;	
+			}															
+		/**************************************************************************
+		 *IdeA:search left
+		 */
+		.idea_search-left{
+		          width:30px;
+			 height:100%;
+		                background-color:rgba(0,0,0,0.05);
+			
+		          position:absolute;
+			            top:0;
+			               left:0;
+				      z-index:2504;
+			
+		          overflow:hidden;	
+		}
+		/**************************************************************************
+		 *IdeA:search others
+		 */
+		.idea_search-others{	
+		}
+		/*1111111111111111111111111111111111111111111111111111111111111111111111111*/
+			.idea_search-others-1{
+				width:;
+				   height:33px;
+				        opacity:0.25;
+				
+				    position:absolute;
+				           top:10px;
+				       left:10px;
+				z-index:2505;	
+			}
+			.idea_search-others-1:hover{opacity:0.75;}
+				.idea_search-others-1-div{
+					float:left;
+					    width:;
+					      height:;
+					
+					       margin-left:2.5px;
+					     position:relative;
+					z-index:2500;
+				}
+				            /*avatar*/
+					.idea_search-others-1-avatar{
+					          width:33px;
+						 height:33px;
+					                background-color:rgba(255,112,0,1);
+						
+					          border-radius:33px;
+					                position:relative;
+							z-index:2500;
+					          overflow:hidden;	
+					}
+						.idea_search-others-1-avatar a{
+							display:block;
+						          width:100%;
+							 height:33px;
+						                background-color:rgba(0,0,0,0);						
+						          margin:0 auto;	
+						                    position:relative;
+								        z-index:2500;
+							
+						                     overflow:hidden;
+						          cursor:default;	
+						}
+							.idea_search-others-1-avatar a img{
+								display:block;
+							          width:100%;
+								 height:30px;
+							                background-color:rgba(0,0,0,0);						
+							          margin:0 auto;	
+							                    position:relative;
+									        z-index:2500;
+								
+							                     overflow:hidden;	
+							}						
+					/*others*/
+					.idea_search-others-1-1{
+					          width:;
+						 height:33px;
+					                background-color:;
+						
+					          position:relative;
+							z-index:2500;	
+					}
+						.idea_search-others-1-1-name{
+							display:block;									
+							     width:225px;
+							        height:16.5px;
+								padding:0;
+								        margin:0;	
+						}
+							.idea_search-others-1-1-name a{
+								display:block;									
+								     width:100%;
+								        height:16.5px;
+									padding:0;
+									        margin:0;
+										overflow:hidden;
+										text-overflow:ellipsis;				
+								       text-align:left;
+								       	line-height:16.5px;
+								
+								    color:rgba(255,75,0,1);
+								font-size:16px;
+								
+								cursor:pointer;	
+							}
+								.idea_search-others-1-1-name a span{
+									display:block;									
+									     width:100%;
+									        height:16.5px;
+										padding:0;
+										        margin:0;
+											overflow:hidden;
+											text-overflow:ellipsis;				
+									       text-align:left;
+									       	line-height:16.5px;
+									
+									    color:rgba(255,75,0,1);
+									font-size:16px;	
+								}
+						/*timetimetimetimetimetimetimetimetimetimetimetimetime*/
+						.idea_search-others--1-1-time{
+							display:block;									
+							     width:225px;
+							        height:16.5px;
+							  padding:0;
+							margin:0;	
+						}
+							.idea_search-others--1-1-time span{
+								float:left;									
+								     width:;
+								        height:16.5px;
+									padding:0;
+								margin-right:0;
+												
+								      text-align:left;
+								       	line-height:16.5px;
+								
+								    color:rgba(50,25,0,1);
+								font-size:12px;
+								
+								cursor:default;	
+							}															
+		/*2222222222222222222222222222222222222222222222222222222222222222222222222*/
+			.idea_search-others-2{
+			            width:75px;
+				      height:75px;
+                                                      background-color:;
+				
+				position:absolute;
+				    right:0;
+				        bottom:0;
+				z-index:2506;	
+			}  
+			            /*
+				processprocessprocessprocessprocessprocessprocessprocessprocessprocess
+				*/
+					.idea_search-others-timeprocess{
+					          width:75px;
+						 height:75px;
+					                background-color:;
+						    	background-repeat:no-repeat;
+						    		background-size:contain;
+						    	background-size:center center;
+						    opacity:1;
+						
+						    margin:0 auto;
+					          	    position:relative;
+					          z-index:2500;									            	
+					}					
+						.idea_search-others-timeprocess a{
+							display:block;									
+							     width:75px;
+							        height:15px;
+							background-color:;
+							
+							position:absolute;
+							    right:0;
+							        bottom:0;	
+							
+						                 text-align:right;
+					                        line-height:15px;
+							
+							        color:rgba(255,125,0,1);
+							   font-size:15px;
+						}			             	
+			            /*
+				processingprocessingprocessingprocessingprocessingprocessing
+				*/
+					.idea_search-others-timeprocessing{
+					          width:75px;
+						 height:75px;
+					                background-color:;
+						    	background-repeat:no-repeat;
+						    		background-size:contain;
+						    	background-size:center center;
+						    opacity:1;
+						
+						    margin:0 auto;
+					          	    position:relative;
+					          z-index:2500;					            	
+					}					
+						.idea_search-others-timeprocessing a{
+							display:block;									
+							     width:75px;
+							        height:15px;
+							background-color:;
+							
+							position:absolute;
+							    right:0;
+							        bottom:0;	
+							
+						                 text-align:right;
+					                        line-height:15px;
+							
+							        color:rgba(255,255,255,1);
+							   font-size:15px;
+							
+							cursor:pointer;	
+						}																											            
+				
+				/*
+				endendendendendendendendend
+				*/
+			            .idea_search-others-timeend{
+					          width:75px;
+						 height:75px;
+					                background-color:;
+						    	background-repeat:no-repeat;
+						    		background-size:contain;
+						    	background-size:center center;
+						    opacity:1;
+						
+						    margin:0 auto;
+					          	    position:relative;
+					          z-index:2500;		            	
+				}
+					.idea_search-others-timeend a{
+						display:block;									
+						     width:75px;
+						        height:15px;
+						background-color:;
+						
+						position:absolute;
+						    right:0;
+						        bottom:0;	
+						
+					                 text-align:right;
+				                        line-height:15px;
+						
+						        color:rgba(255,255,255,1);
+						   font-size:15px;
+						
+						cursor:pointer;	
+					}
+							                                                                                                                                 	                                                                                                                                                       
+	/**************************************************************************
+	 *IdeA:search
+	 *
+	 *
+	 */
+

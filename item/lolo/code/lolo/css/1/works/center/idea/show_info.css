@@ -1,0 +1,470 @@
+#CenteR_contentdisassemble{
+             width:100%;
+	     height:;
+	        background-color:rgba(255,255,255,0.85);
+	       position:absolute;
+	     top:0;
+	 left:0;
+                 bottom:0;		
+	 z-index:2500;	
+}
+#CenteR_contentprocess{
+             width:100%;
+	     height:;
+	        background-color:;
+	       position:absolute;
+	     top:0;
+	 left:0;
+                 bottom:0;		
+	 z-index:2501;	
+}
+	#DisassemblE_title1{
+	             width:97.5%;
+		     height:35px;
+		        background-color:;
+		       position:absolute;
+		     top:0;
+		 left:2.5%;		
+		 z-index:2500;	
+	}
+	#DisassemblE_title2{
+	            width:;
+		     height:35px;
+		              background-color:;
+		
+		            position:absolute;
+		          top:0;
+		    right:2.5%;		
+		 z-index:2500;
+		
+		 overflow:hidden;
+		          text-overflow:ellipsis;
+		     
+		 line-height:35px;
+		 	   text-align:right;
+		
+		 font-size:35px;
+		         color:rgba(0,0,255,0.125);
+	}		
+
+	#DisassemblE_con{
+	             width:100%;
+		     height:;
+		        background-color:;
+		       position:absolute;
+		     top:0;
+		 left:0;
+	                 bottom:0;		
+		 z-index:2501;	
+	}
+				.disassemble{
+				                       float:left;	
+				                 width:200px;
+					 height:200px;
+				                background-color:;
+					           margin:0;
+				             position:relative;		
+				 	          z-index:2500;										
+				}													
+					/**************************************************************************
+					 *top
+					 */
+					.disassemble-top{
+					          width:200px;
+						 height:20px;
+					                background-color:;
+						
+					          position:absolute;
+						            top:0;
+						        left:0;
+					          z-index:2500;	
+					}
+						.disassemble-top span{
+							display:block;
+							width:;
+							     height:;
+							        background-color:;
+							     margin:0 auto;
+							     position:relative;
+							z-index:2500;
+													
+							       text-align:center;
+							       	line-height:20px;
+							
+							    color:rgba(163,208,0,1);
+							font-size:17.5px;	
+						}
+						/**************************************************************************
+						 *right
+						 */
+						.disassemble-right{
+						          width:20px;
+							 height:200px;
+						                background-color:;
+							
+						          position:absolute;
+							            top:0;
+							         right:0;
+						          z-index:2502;	
+						}
+	
+							/**************************************************************************
+							 *center
+							 */
+							.disassemble-center{
+							          width:160px;
+								 height:160px;
+							                background-color:;
+								
+							          margin:20px auto;
+							          	    position:relative;
+							          z-index:2499;	
+							}
+										
+								/*con*/
+								.disassemble-center-con{
+								          width:160px;
+									 height:160px;
+								                background-color:;
+									
+								          margin:0 auto;
+								          	 position:relative;
+									         z-index:2499;
+									
+								          overflow:hidden;	
+								}
+									/*disassemble1*/				
+									/*
+									lanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslans
+									*/																
+									#DisassemblE1_words{
+									          width:100%;
+										 height:100%;
+									                background-color:rgba(255,255,255,1);
+										
+									          margin:0 auto;
+									          	    position:relative;
+											   z-index:2500;
+										
+									          overflow:hidden;									
+									}
+										#DisassemblE1_words span{
+											display:block;									
+											     width:100%;
+											        height:100%;
+												padding:0;
+												        margin:0 auto;
+													overflow:hidden;
+				
+											            white-space:pre-wrap;
+											
+												overflow-wrap:break-word;word-wrap:break-word;			
+											          word-break:break-all;
+																	
+											       text-align:left;
+											       	line-height:15px;
+											
+											    color:rgba(50,25,0,1);
+											font-size:15px;	     	     	
+									     	}				
+									/*
+									ImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagE
+									*/
+									#DisassemblE1_img{
+									          width:100%;
+										 height:100%;
+									                background-color:rgba(255,255,255,1);
+										
+									          margin:0 auto;
+									          	    position:relative;
+											   z-index:2500;
+										
+									          overflow:hidden;									
+									}
+										#DisassemblE1_img span{
+											display:block;
+											        width:100%;
+									             		   height:100%;
+									             	     background-color:;
+											     	   background-repeat:no-repeat;
+											               	background-size:contain;
+											     background-position:top center;				             		      
+									             	margin:0 auto;		             		        
+								             	}
+								             	
+								             	
+								             	
+								             /*disassemble2*/
+								             #DisassemblE2_imagep1{									
+										width:160px;
+										     height:160px;
+										       padding:0;
+										
+										 position:absolute;
+									 	       top:0;
+									 	        left:0;
+								             	z-index:2501;	
+								             }		             	
+										#DisassemblE2_lansprebrowser{
+											display:block;
+											        width:100%;
+									             		   height:100%;
+									             	     background-color:;			             		      
+									             	margin:0 auto;
+									             }
+										#DisassemblE2_imageprechange{
+											display:block;									
+											          width:100%;
+											             height:25px;
+											background-color:rgba(255,255,255,0.5);
+											
+											position:absolute;
+										 	           bottom:12.5px;
+										 	        left:0;
+										 	z-index:2550;
+															
+											text-align:center;
+												line-height:25px;
+											
+											            color:rgba(0,125,0,1);
+											font-size:16px;
+											
+											cursor:default;	
+										}
+										 #DisassemblE2_imagepreclear{
+											display:block;									
+											          width:12.5px;
+											               height:12.5px;
+										 	               opacity:1;
+											          	position:absolute;
+										 	                    bottom:22.5px;
+										 	              right:12.5px;
+										 	          z-index:2551;				
+											cursor:default;	
+										}																		             			             	
+								             #DisassemblE2_imagepre{
+										display:block;
+										        width:100%;
+								             		   height:100%;
+								             	     background-color:;
+										     	   background-repeat:no-repeat;
+										               	background-size:contain;
+										     background-position:top center;				             		      
+								             	margin:0 auto;
+								             	      position:relative;
+								             	z-index:2500;
+								             }									 		             
+								             #DisassemblE2_imagepreadd{
+										display:block;
+										        width:100%;
+								             		   height:100%;
+								             	opacity:0.75;
+								             	     background-color:;
+										     	   background-repeat:no-repeat;
+										               	background-size:35px 35px;
+										     background-position:center center;				             		      
+								             	margin:0 auto;
+								             	      position:relative;
+								             	z-index:2502;
+								             }
+								             #DisassemblE2_imagepreadd:hover{background-size:50px 50px;}
+								             
+								             
+								             #DisassemblE2_lansp1{									
+										width:160px;
+										        height:160px;
+										     margin:0 auto;
+								             	      position:relative;
+								             	z-index:5000;
+											
+								             }
+								             #DisassemblE2_lanspre{
+										display:block;									
+										     width:100%;
+										        height:100%;
+											padding:0;
+											        margin:0 auto;
+												overflow:hidden;
+			
+										            white-space:pre-wrap;
+										
+											overflow-wrap:break-word;word-wrap:break-word;			
+										          word-break:break-all;
+																
+										       text-align:left;
+										       	line-height:15px;
+										
+										    color:rgba(50,25,0,1);
+										font-size:15px;	
+								             }
+									#DisassemblE2_lansprechange{
+										display:block;									
+										          width:100%;
+										             height:25px;
+										background-color:rgba(255,255,255,0.5);
+										
+										position:absolute;
+									 	           bottom:12.5px;
+									 	        left:0;
+									 	z-index:2550;
+														
+										text-align:center;
+											line-height:25px;
+										
+										            color:rgba(0,125,0,1);
+										font-size:16px;
+										
+										cursor:default;	
+									}								             
+								             #DisassemblE2_lanspreadd{
+										display:block;
+										        width:100%;
+								             		   height:100%;
+								             	opacity:0.75;
+								             	     background-color:;
+										     	   background-repeat:no-repeat;
+										               	background-size:35px 35px;
+										     background-position:center center;				             		      
+										     margin:0 auto;
+								             	      position:relative;
+								             	z-index:5000;
+								             }
+								             #DisassemblE2_lanspreadd:hover{background-size:50px 50px;}								             
+								             
+								             /*disassemble3*/
+							             	#DisassemblE3_tag1{									
+									     width:160px;
+									        height:160px;
+									       padding:0;
+									     margin:0 auto;
+											
+								             }								             
+						             		#DisassemblE3_tag{
+										display:block;									
+										     width:100%;
+										        height:100%;
+											padding:0;
+											        margin:0 auto;
+												overflow:hidden;
+			
+										            white-space:pre-wrap;
+										
+											overflow-wrap:break-word;word-wrap:break-word;			
+										          word-break:break-all;
+																
+										       text-align:left;
+										       	line-height:25px;
+										
+										    color:rgba(50,25,0,1);
+										font-size:16px;	
+								             }
+								             #DisassemblE3_tagchange{
+										display:block;									
+										          width:100%;
+										             height:25px;
+										background-color:rgba(255,255,255,0.5);
+										
+										position:absolute;
+									 	           bottom:12.5px;
+									 	        left:0;
+									 	z-index:2550;
+														
+										text-align:center;
+											line-height:25px;
+										
+										            color:rgba(0,125,0,1);
+										font-size:16px;
+										
+										cursor:default;	
+									}								             
+								             #DisassemblE3_tagadd{
+										display:block;
+										        width:100%;
+								             		   height:100%;
+								             	opacity:0.75;
+								             	     background-color:;
+										     	   background-repeat:no-repeat;
+										               	background-size:35px 35px;
+										     background-position:center center;				             		      
+								             	margin:0 auto;
+								             }
+								             #DisassemblE3_tagadd:hover{background-size:50px 50px;}
+								             
+								             
+						             		/*disassemble4*/
+						             		#DisassemblE4_others a{
+										display:block;									
+										     width:100%;
+										        height:;
+											padding:0;
+										     margin:0 auto;
+						             			margin-top:5px;	
+								             }
+										#DisassemblE4_others a span{
+											display:block;									
+											     width:;
+											        height:15px;
+												padding:0;
+												        margin:0;
+													overflow:hidden;
+																	
+											       text-align:left;
+											       	line-height:15px;
+											
+											    color:rgba(50,25,0,1);
+											font-size:15px;	
+									             }
+									             #DisassemblE4_others a .disassemble4-otherscon{
+									             	padding:0;
+									             	text-align:left;
+											color:rgba(0,125,0,1);
+									             }
+										             #DisassemblE4_others a .starttoprocess{
+												color:rgba(0,125,0,1);	
+										             	cursor:default;	
+										             }
+											             #DisassemblE4_others a .starttoprocess:hover{
+													color:rgba(0,0,255,1);		
+											             }								             
+						/**************************************************************************
+						 *bottom
+						 */
+						.disassemble-bottom{
+						          width:200px;
+							 height:20px;
+						                background-color:;
+							
+						          position:absolute;
+							            bottom:0;
+							        left:0;
+						          z-index:2503;	
+						}									
+					/**************************************************************************
+					 *left
+					 */
+					.disassemble-left{
+					          width:20px;
+						 height:200px;
+					                background-color:;
+						
+					          position:absolute;
+						            top:0;
+						        left:0;
+					          z-index:2504;	
+					}
+							
+					.disassemble-div{background-color:rgba(0,0,255,0.0125);}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

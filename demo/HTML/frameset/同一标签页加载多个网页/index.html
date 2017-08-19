@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">	      
+<html>
+<head>
+	<meta http-equiv='content-type' content='text/html;charset=utf-8' />
+	<title>同一标签页加载多个网页</title>
+	<style type="text/css">
+		div,iframe
+		{
+			margin:0;padding:0;
+		}
+		#zhong #H
+		{
+			width:300px;height:300px;
+			border-style:solid;border-width:5px;border-color:purple;
+			background-color:lime;
+		}
+		#zhong #L
+		{
+			width:300px;height:300px;
+			border-style:solid;border-width:5px;border-color:purple;
+			background-color:lime;
+		}
+	</style>
+</head>
+<body>
+<div id='zhong' class=''>
+	<iframe src='one.html' name='one' scrolling='yes' width='250px' height='250px' frameborder="0" id='H'></iframe>
+	<iframe src='two.html' name='two' scrolling='yes' width='250px' height='250px' frameborder="0" id='L'></iframe>	
+</div>
+</body>
+</html>
+

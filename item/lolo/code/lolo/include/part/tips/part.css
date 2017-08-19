@@ -1,0 +1,114 @@
+
+#BrowseR{
+	width:100%;
+	     height:;
+	        background-color:rgba(0,0,0,0.85);
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	          bottom:0;
+	z-index:2147483645;
+}
+#BrowseRback{
+	width:100%;
+	     height:;
+	        background-color:;
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	          bottom:0;
+	z-index:2499;	
+}
+	#BrowseRcenter{
+		width:;
+		     height:;
+		        background-color:;
+		
+		margin:0 auto;
+		   margin-top:50px;
+		     position:relative;
+			z-index:2500;
+	}
+
+		#BrowseR_IE{
+			width:500px;
+			     height:;
+			        background-color:;
+			
+			margin:0 auto;
+			     position:relative;
+				z-index:2500;	
+		}
+
+				#BrowseR_IE a{			
+					 color:white;
+					   font-size:22.5px;			
+					           cursor:text;				
+				}
+									
+			#BrowseR_IE1{
+				width:350px;
+				     height:35px;
+				        background-color:;
+				
+				margin:12.5px auto;
+				     position:relative;
+					z-index:2500;								
+			}
+				#BrowseR_IE11{									
+					              width:;
+					                  height:;
+					position:absolute;
+					          top:0;
+					                left:20px;
+					z-index:2499;
+						
+					       text-align:center;
+					       	line-height:35px;
+				}		
+					#BrowseR_IE11 a:nth-child(2){
+						color:rgba(0,125,255,1);
+					}
+				
+				#BrowseR_IE12{									
+					              width:;
+					                  height:;
+					position:absolute;
+					          top:0;
+					                right:0;
+					z-index:2499;
+											
+					       text-align:center;
+					       	line-height:35px;					
+				}			
+					#BrowseR_IE12 a:nth-child(2){
+						color:rgba(255,100,0,1);
+					}
+				
+			#BrowseR_IE2{
+				width:500px;
+				     height:35px;
+				        background-color:;
+				
+				margin:0 auto;
+				     position:relative;
+					z-index:2500;
+						
+				       text-align:center;
+				       	line-height:35px;											
+			}	
+				#BrowseR_IE2 a:nth-child(2){
+					color:rgba(255,100,0,1);
+					              cursor:pointer;
+				}								
+
+		
+		
+		
+		
+		
+		
+		
+		

@@ -1,0 +1,504 @@
+
+#MenU_worksprocesscenterback{
+
+}
+/*con:ideacon:ideacon:ideacon:ideacon:ideacon:ideacon:ideacon:idea 
+ */
+#MenU_worksprocessleft{
+	
+}
+/*con:timecon:timecon:timecon:timecon:timecon:timecon:timecon:time
+ */
+#MenU_worksprocesscenter{
+	width:100%;
+	   height:;
+	        background-color:rgba(255,255,255,0.75);	
+       	      position:absolute;
+    		   top:0;
+	      bottom:0;
+	   left:0;	
+ 	z-index:2500;	
+}
+
+	/*timeconttimeconttimeconttimeconttimeconttimecont*/
+	#MenU_workstimecont{
+		width: 669px; 
+		    height:;
+	       	      position:absolute;
+	    		 top:0;
+		        	   left:0;
+		         bottom:0;	
+	 	z-index:2500;		
+	}
+	/*TimeborsweRTimeborsweRTimeborsweRTimeborsweRTimeborsweRTimeborsweR*/							      		
+		#TimeborsweR{
+			width:569px; 
+			    height:;
+			        background-color:;			
+			    opacity:1;
+			
+		       	position:absolute;
+			           top:40px;
+			      left: 50px;	
+		 	z-index:2551;	
+		}				      		
+			#TimeborsweR_con1{													
+				width:100%;
+				      height:50px;
+				background-color:;
+				
+				border-width:1.5px 0;
+				        border-style:solid;
+				border-color:rgba(0,255,0,0.35);
+										      			
+				margin:0 auto;				
+			}				      		
+
+			
+			
+		#MenU_workstimecontcon{
+			width: 564px;
+			    height: 564px; 
+			    border-width:2.5px;
+			        border-style:solid;
+			           border-color:rgba(225,225,225,0);			
+		       	    position:absolute;
+			         top:75px; 
+			     left: 50px;	
+		 	z-index:2500;		
+		}
+		/*error tipserror tipserror tipserror tipserror tipserror tips*/
+		#TimeerroR{
+			width:100%;
+			    height:35px;
+			background-color:;
+			opacity:1;
+			
+		       	      position:absolute;
+		    		 top:0;
+			         left:0;	
+		 	z-index:2550;
+	
+			line-height:35px;
+				text-align:center;
+				
+			   	color:rgba(255,255,255,1);
+		            font-size:16px;				
+		}
+			#TimeerroR span{
+		                           display:inline-block;
+		                                    width:250px;
+			                           height:;
+				         padding:;
+			                 background-color:;
+				    border-width:0 0 2.5px 0;
+				        border-style:solid;
+				           border-color:rgba(255,0,0,1);				
+			               margin:0 auto;
+
+				   line-height:35px;
+					text-align:center;
+					
+				   color:rgba(255,255,255,1);
+			                           font-size:16px;
+				
+				   overflow:hidden;		
+			}			
+			
+		#TimeconT{
+			width:100%; 
+			    height:;			
+		       	      position:absolute;
+		    		 top:35px;
+			    left:0;	
+		 	z-index:2500;	
+		}
+		       /*mainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmain*/	
+		      #TimeconT_main{
+			width:310px;
+			   height:310px;
+			    border-width:2.5px;
+			        border-style:solid;
+			           border-color:rgba(0,0,255,0.75);			      				
+		       	      position:relative;	
+		 	z-index:2500;	
+		      }		      
+			      #TimeconT_main2{}
+			      /*frafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafra*/
+				     #TimeconT_main2tips{
+				         display:block;
+				         width:100%;
+					      height:25px;
+					         background-color:;
+				            position:absolute;
+				                 left:0;
+				                      top:0;
+				         z-index:2500;	
+				     }
+					     #TimeconT_main2tipscon{
+						         display:block;
+						                width:;
+							      height:25px;
+							         background-color:;
+					     	                margin:0 auto;
+						            position:relative;
+						         z-index:2500;
+													
+							       text-align:center;
+							       	line-height:25px;
+							
+							    color:rgba(255,255,255,1);
+							  font-size:20px;
+							font-weight:500;
+							
+							cursor:text;		
+					     }
+					     
+				      #TimeconT_main2con{	
+				     }
+				         	#FroM_upload1{
+				     		display:block;
+					     	     width:34px;
+						          height:34px;
+						               background-color:rgba(0, 0, 255, 1);
+						             border-width:3px;
+						          border-style:solid;
+						      border-color:rgba(0, 0, 150, 1);
+					               margin:137.5px auto;
+				                          position:relative;
+				                         z-index:2500;	
+				            }					     
+				     		/*uploaduploaduploaduploaduploaduploadupload*/
+						.timecont-main2conimg{
+							display:block;
+							      width:100%;
+							          height:100%;	
+							margin:0 auto;
+						}
+						#InpuT_upload1{
+							display:block;											display:block;
+							      width:100%;
+							          height:100%;
+							opacity:0;
+						         position:absolute;
+						                     right:0;
+						                   top:0;
+						         z-index:2501;	
+						}
+				     /*browserbrowserbrowserbrowserbrowserbrowser*/
+				     #TimeconT_main2str{
+				     	display: block;
+				     	      height: 310px;
+				     	width: 310px;
+					background-color:;
+					    
+					position: relative;
+						z-index: 2501;	
+				     }	
+						#TimeconT_main2strbro{
+							   display:block;
+							   	width:;
+							                height:;
+							         background-color:;
+							    margin:0 auto;
+							    	position:relative;
+							   z-index:2500;					
+						}
+						/*cancelcancelcancelcancelcancelcancelcancel*/
+						#TimeconT_main2strcancel{
+						         display:block;
+						              width:75px;
+							      height:25px;
+							         background-color:rgba(255,255,255,1);
+							         opacity:0.5;
+						            position:absolute;
+						                 right:0;
+						                      top:50%;
+						        z-index:2502;
+													
+							       text-align:center;
+							       	line-height:25px;
+							
+							    color:rgba(255,125,0,1);
+							  font-size:16px;
+							
+							cursor:default;					
+						}
+						#TimeconT_main2strcancel:hover{opacity:1;}								
+						/*donedonedonedonedonedonedonedonedonedonedone*/
+							#TimeconT_main2strdone{
+								display:block;
+								       width:100%;
+								           height:35px;
+									   background-color:rgba(255,255,255,1);
+									   opacity:0.5;
+								    position:absolute;
+								             left:0;
+								               bottom:25px;
+								    z-index:2501;
+		
+								    line-height:35px;
+								        text-align:center;
+								
+								    color:rgba(125,255,0,1);
+								          font-size:22.5px;
+								cursor:default;
+							}		
+							#TimeconT_main2strdone:hover{opacity:1;}																		     
+				      /*frafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafra*/
+		       /*mainmainmainmainmainmainmainmainmainmainmainmainmainmainmainm*/	
+						
+                              /*formformformformformformformformformformformformformformformfor*/								
+	      	       .timecont-form{
+	      	       		
+		      }
+		      	.timecont-formcon{
+				width:315px;
+				   height:125px;		      				
+			       	      position:absolute;
+			    		 top:25px;
+				         right:0;	
+			 	z-index:2501;	
+			      }
+			      /*frafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafra*/
+			      #TimeconT_form2{}
+				/*ENT*/
+				#TimeconT_form2ent{									
+				     width:;
+				       height:25px;
+					 padding-right:12.5px;
+				     background-color:;
+				
+				     position:absolute;
+					      top:0;
+				                    right:0;
+				          z-index:2550;
+								
+				      text-align:right;
+					line-height:25px;
+				
+				            color:rgba(50,25,0,1);
+				      font-size:16px;
+				
+				      cursor:text;		
+				}
+				#TimeconT_form2entnum{
+					    color:rgba(0,125,0,1);
+					  font-size:16px;	
+				}
+				/*BOX*/
+				#TimeconT_form2con{}
+					/*con*/
+			      		#TimeconT_form2condes{
+						display:block;									
+						          width:300px;
+						               min-height:125px;
+							   height:;
+						               max-height:300px;
+						               resize:vertical;
+							         padding:5px;
+						                        background-color:;
+							    border-width:2.5px;
+							        border-style:solid;
+							           border-color:rgba(0,0,255,0.5);		      			
+							         margin:0;
+					                      overflow:hidden;
+		
+							    white-space:pre-wrap;
+						
+							overflow-wrap:break-word;word-wrap:break-word;			
+						      word-break:break-all;
+												
+						      text-align:left;
+							line-height:25px;
+						
+						    color:rgba(50,25,0,1);
+						font-size:16px;
+						
+						cursor:text;	
+			      		}
+					.timecont-form2condesholder::before{							
+						content:attr(data-placeholder-default);
+					}
+		      		
+			      	/*frafrafrafrafrafrafrafrafrafrafrafrafrafrafrafrafra*/
+			      		      
+                              /*formformformformformformformformformformformformformformformfor*/
+
+	/*timedonetimedonetimedonetimedonetimedonetimedonetimedonetimedonetimedonetimedonetimedonetimedonetimedonetimedonetimedonetimedonetimedone*/							      		
+	#TimedonE{
+		width:100%;
+		    height:;
+		background-color:;
+		opacity:0.75;
+		
+			border-width:0 0 5px 0;
+		      border-color:rgba(0, 0, 225, 0.025);
+		border-style:solid;
+		
+		
+	       	position:absolute;
+	    	       top:57.5%;
+		         left:0;	
+	 	            z-index:2550;	
+	}
+					      		
+		#TimedonE_con{
+			display:block;									
+			          width:75px;
+				   height:25px;
+			background-color:;
+			opacity:0.5;
+				border-width:0 0 2.5px 0;
+			      border-color:rgba(0, 0, 255, 1);
+			border-style:solid;
+								      			
+			margin:35px auto;
+									
+			      text-align:center;
+				line-height:25px;
+			
+			    color:rgba(0,0,255,1);
+			font-size:22.5px;
+			
+			cursor:pointer;		
+		}
+		#TimedonE_con:hover{opacity:1;}
+				      				      		
+		#TimedonE_cancel{
+			display:block;									
+			          width:100px;
+				   height:25px;
+			background-color:;
+			opacity:0.5;
+			
+			   border-width:0 0 2.5px 0;
+		      border-color:rgba(255,75,0, 1);
+		border-style:solid;
+								      			
+		       	      position:absolute;
+		    		 bottom:50px;
+			         right:0;	
+		 	z-index:2550;
+									
+			      text-align:center;
+				line-height:25px;
+			
+			    color:rgba(255,125,0,1);
+			font-size:16px;
+			
+			cursor:default;		
+		}		      				      				
+		#TimedonE_cancel:hover{opacity:1;}
+		
+		#TimedonE_fra1{
+			display:block;									
+			          width:50%;
+				   height:;
+			background-color:;
+			
+			   border-width:0 0 3.5px 0;
+		      border-color:rgba(0, 0, 225, 0.5);
+		border-style:solid;
+								      			
+		       	      position:absolute;
+		    		 bottom:25px;
+			         right:0;	
+		 	z-index:2500;
+			
+			cursor:default;		
+		}
+				      		
+	/*timelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimelinetimeline*/
+	#MenU_workstimeline{
+		width: 262px; 
+		     height:;
+	       	      position:absolute;
+	    		 top:0;
+		        	   right:0;
+		         bottom:0;	
+	 	z-index:2500;	
+	}
+		#MenU_workstimelinenoc{
+			width:;
+			   height:;
+			    border-width:0 0 0 5px;
+			        border-style:solid;
+			           border-color:rgba(0,175,0,1);
+		       	    position:absolute;
+		    	     top: 32.5px;
+		    	right: 46px;
+			     bottom:0;	
+		 	z-index:2500;	
+		}
+		#MenU_workstimelinecon{
+			width:;
+			   height:;
+		       	      position:absolute;
+		    	   top: 32.5px;
+			  right: 40px;	
+		 	z-index:2501;	
+		}
+		
+			#MenU_workstimelineconcon{
+				width:;
+				   height:;
+				    padding:0;
+				         margin:0 auto;
+			       	  position:relative;	
+			 	z-index:2501;	
+			}
+				#TimelinE_begin{
+					   width:;
+					     height:25px;
+					      background-color:;
+					       margin:0;
+					
+					        line-height:25px;
+					            text-align:right;
+					
+					          color:rgba(0,225,0,1);
+					        font-size:22.5px;
+					cursor:text;
+				}
+				/*timeline:contimeline:contimeline:con*/
+				#TimelinE{
+					  margin:0 15px 0 12.5px;					
+				}
+				/*timepoint*/
+				.timepoint{}
+					.timepointfra{
+						width:250px;
+						     height:25px;
+						background-color:;
+						opacity:1;
+						border-width:0 0 12.5px 0;
+						          border-style:solid;
+						border-color:rgba(0,255,0,0.75);
+						     margin:0;
+						cursor:text;	
+					}							
+						.timepointcon{
+						            width:250px;
+							   height:25px;
+							            background-color:;
+							margin:0;
+							
+							        line-height:25px;
+							            text-align:center;
+							
+							          color:rgba(0,255,0,1);
+							        font-size:16px;
+							cursor:text;	
+						}
+							.timepointcon-mdy{
+								display:inline-block;
+								
+							}
+							.timepointcon-his{
+								display:inline-block;	
+							}										
+/*
+ * 
+ */
+/*****************************************************************/

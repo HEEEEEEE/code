@@ -1,0 +1,315 @@
+@charset'utf-8';
+             div,dl,dt,span,ol,li
+{margin:0;padding:0;font-family:'Helvetica'}
+	     ol,li{list-style:outside none none;}
+html,body{overflow-y:hidden;}
+#FileboX_back	
+{display:block;
+width:100%;
+     height:100%;
+          background-color:rgb(0,0,0);
+       opacity:0.85;		
+          position:fixed;
+       left:0px;
+     top:0px;
+z-Index:4999999999999;
+overflow-y:hidden;
+}
+#FileboX_fore
+{display:block;
+ width:100%;
+        height:100%;			
+               background-color:rgb(0,0,0);
+           position:absolute;
+        top:0;
+        bottom:0;
+     left:0;
+ z-index:5000000000000;
+overflow-y:hidden;
+}
+	#FileboX_forecenter{width:100%;height:100%;position:absolute;top:0;bottom:0;left:0;z-index:5;overflow-y:hidden;}
+	/*title title title title title title title title title title title title*/
+	#FileboX_title
+	{width:100%;
+                  height:50px;
+                       background-color:rgb(0,0,0);
+                       opacity:1;
+                          position:fixed;
+	            top:0;
+	        left:0;
+	 z-index:6;
+	}
+		/*name name name name name*/
+		#FileboX_title #FileboX_titlename{width:100%;height:50px;margin:0 auto;}
+			#FileboX_titlename span:nth-child(1){color:rgb(255,125,0);font-size:37px;line-height:50px;}
+			#FileboX_titlename span:nth-child(2){color:rgb(255,255,255);font-size:37px;line-height:50px;}
+		/*close close close close close*/
+		#FileboX_title #FileboX_titleclose
+		{width:40px;
+		       height:40px;
+			   background-color:;
+			   opacity:0.75;
+			   border-width:3px 3px 0 3px;
+				      border-style:solid;	
+			   border-color:rgb(255,125,0);																
+		       position:absolute;
+		               top:5px;
+		        right:5px;
+		 z-index:5;
+		}
+		#FileboX_title #FileboX_titleclose:hover{opacity:1;}		
+			#FileboX_titleclose img{display:block;width:40px;height:40px;opacity:1;margin:0 auto;cursor:pointer;} 
+
+		
+		
+		
+		
+	     /*Filebox:source Filebox:source Filebox:source Filebox:source Filebox:source*/
+	/*Filebox:show Filebox:show Filebox:show Filebox:show Filebox:show*/
+	#FileboxcenteR_projectshow
+	{width:100%;
+	     height:;
+	        background-color:rgb(0,5,5);
+	        opacity:1;
+	               border-width:8px 0 8px 0;
+                           border-style:solid;
+                           border-color:rgb(90,125,0);                        
+	               position:absolute;
+	              top:50px;
+	          left:0;
+	              bottom:0;
+	 z-index:6;
+             overflow:hidden;
+	}	
+		/*Filebox:showstart Filebox:showstart Filebox:showstart Filebox:showstartv Filebox:showstart*/
+		#FileboxcenteR_projectshow_start
+		{width:250px;
+		     height:;
+		        padding:;
+		        background-color:rgb(0,15,0);
+	                    opacity:1;
+		               border-width:0;
+	                           border-style:solid;
+	                           border-color:rgb(25, 35, 0);
+			   position:absolute;
+		              top:0;
+		          right:0;
+		              bottom:0;
+		 z-index:6;
+		 overflow:hidden;	
+		}
+			/*start:class*/
+			.FileboX_filemark{width:200px;height:75px;opacity:1;position:relative;top:0;left:0;z-index:5;}
+				/*name*/
+				.FileboX_filemark_l1
+				{width:200px;
+				     height:30px;
+				     	background-color:rgb(90,125,0);
+		                                    opacity:1;
+					    position:absolute;
+				          left:0px;
+				              bottom:0;
+				 z-index:5;
+				   overflow:hidden;
+				 cursor:default;
+				}
+				.FileboX_filemark_l1{opacity:1;}		
+					.FileboX_filemark_l1 span
+					{display:block;
+				                 width:;
+					         height:;
+				                 padding-right:50px;
+					           background-color:;
+					 margin:0;
+				             		text-align:right;
+				             	line-height:30px;
+				             color:rgb(255,255,255);
+				             	font-size:15px;
+				             overflow:hidden;          
+					}
+					
+				/*box*/
+				.FileboX_filemark_l2
+				{width:50px;
+				     height:50px;
+				     	background-color:;
+						background-repeat:no-repeat;
+							background-size:50px 50px;
+					background-position:center center;
+		                                    opacity:1;
+					    position:absolute;
+				          right:0;
+				              bottom:5px;
+				 z-index:6;
+				   overflow:hidden;
+				 cursor:default;									 
+				}
+				.FileboX_filemark_l2{opacity:1;}
+				
+				/*mark*/
+				.FileboX_filemark_l2 img
+				{display:block;
+				 width:25px;
+				     height:25px;
+				     	background-color:;
+		                                    opacity:1;
+					    position:absolute;
+				          right:0;
+				              bottom:0;
+				 z-index:5;
+				}
+			/*start:id*/																						
+		/*Filebox:showe Filebox:showe Filebox:showe Filebox:showe Filebox:showe*/
+		#FileboxcenteR_projectshow_e
+		{width:100%;
+		     height:;
+		        padding:;
+		        background-color:rgb(0,5,5);
+	                    opacity:1;
+		               border-width:0;
+	                           border-style:solid;
+	                           border-color:rgb(255,255,255);
+			   position:absolute;
+		              top:0;
+		          left:0;
+		              bottom:0;
+		 z-index:5;
+		}		 
+			/*Filebox:showe:top Filebox:showe:top Filebox:showe:top*/
+			#ProjectshowE_top
+			{width:100%;
+			     height:0;
+			        padding:;
+			        background-color:;
+		                    opacity:1;
+			               border-width:0;
+		                           border-style:solid;
+		                           border-color:rgb(25,25,25);
+				   position:absolute;
+			              top:0;
+			          right:0;
+			 z-index:5;
+			 overflow:hidden;
+			}		
+			 /*Filebox:showe:top Filebox:showe:top Filebox:showe:top*/
+
+			/*Filebox:showe:center Filebox:showe:center Filebox:showe:center*/
+			#ProjectshowE_center
+			{width:;
+			     height:;
+			        padding:12.5px 0 12.5px 12.5px;		                        
+			        background-color:;
+		                    opacity:1;
+			               border-width:0;
+		                           border-style:solid;
+		                           border-color:rgb(225,225,225);
+				   position:absolute;
+			        top:0;	
+		                          left:0;	                        
+		                       bottom:0;
+			        right:258px;		                          
+			 z-index:6;
+		             overflow-y:auto;
+			}	
+			 /*Filebox:showe:center Filebox:showe:center Filebox:showe:center*/ 		                        
+
+		     /*source:show source:show source:show*/
+		     .filebox-source
+		     {display: inline-block;
+		     	list-style: outside none none;
+		    		        height:136px;;
+		    		              width:100px;	     
+		     			      background-color:;
+		                                opacity:;
+		            margin:0 25px 25px 0; 
+		     	position:relative;
+		      cursor:pointer;    	
+		     }	     	    
+		     	/*Source:content*/	     
+		 	.filebox-source .filebox-source-content
+		     	{height:100px;
+			     width:100px;
+				background-color:;
+		     		opacity:0.85;
+				          background-repeat:no-repeat;
+				                                background-size:100px 100px;
+				          background-position:center center;
+		     		border:2.5px solid rgb(0,0,0);
+	         	             margin:0 auto;	     	     		  
+			}	     	
+			.filebox-source .filebox-source-content:hover{opacity:1;} 
+			.filebox-source-selected .filebox-source-content{border:2.5px solid rgb(255,112,0);}   	
+		     	/*Source:name*/
+		     	.filebox-source-name{}
+			     	.filebox-source-name-show
+			     	{display:block;
+		     	             height:2.5em;
+			     	      width: 100px;
+					background-color:;
+			     		opacity:;	     	
+			     		overflow: hidden;
+		     		 position: absolute;
+		     	             bottom:0;
+		     	             color:rgb(255,255,255);
+			     	 font-size: 12px;
+			     	 text-overflow: ellipsis;
+				 	overflow-wrap:break-word;word-wrap:break-word;
+				 	     word-break: break-all;
+				 		line-height: 1.25em;    
+				 			text-align: center;	     	     	
+			     	}
+		      /*source:info source:info source:info*/
+	
+			     	
+			     	
+			     	
+	
+		/*inside scroll inside scroll inside scroll inside scroll inside scrollinside scroll*/
+		/*inside scroll inside scroll inside scroll inside scroll inside scrollinside scroll*/		     	
+	     /*Filebox:source Filebox:source Filebox:source*/
+
+	      	     	
+	    /*Filebox:done Filebox:done Filebox:done Filebox:done Filebox:done*/	     	
+	#FileboX_done{display:block;width:100%;height:30px;position:fixed;bottom:8px;left:0;z-index:7;overflow:hidden;}
+			     	
+		#FileboX_done #TofileboX_dl1dt1
+		{			
+		 display:block;
+		     width;height:30px;
+			background-color:;		
+			      opacity:1;
+			position:absolute;
+			top:0;
+			left:0;
+		    text-align:left;
+		line-height:30px;   
+		}
+		            #TofileboX_dl1dt1 span{color:white;font-size:16px;text-align:left;line-height:30px;}			     	
+			#TofileboX_dl1dt1 #FileboX
+			{opacity:0.75;
+			       color:rgb(90,125,0);
+			  font-size:22px; 
+			}
+			#TofileboX_dl1dt1 #FileboX:hover{opacity:1;}
+						     	
+		#FileboX_done input
+		{
+		     width;height:30px;
+			background-color:rgb(90,125,0);		
+			    border-width:0;
+			         border-style:solid;
+				  border-color:white;
+			      opacity:0.85;
+			margin:0 auto;
+			text-align:center;
+			line-height:30px;
+		       color:white;
+		  font-size:25px;
+		 
+		}
+		#FileboX_done #ButtoN{display:block;opacity:0.5;cursor:default;}
+		#FileboX_done #SubmiT{display:none;cursor:pointer;}
+		#FileboX_done #SubmiT:hover{opacity:1;}			     	
+		     	
+		     	
+		     	

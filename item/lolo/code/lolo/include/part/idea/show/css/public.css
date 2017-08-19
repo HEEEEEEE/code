@@ -1,0 +1,589 @@
+
+/**************************************************************************
+ *Idea
+ */
+#RecommenD{
+
+}             
+	/**************************************************************************
+	 *Idea CREATE
+	 */ 
+	#RecommenD_create{
+
+	}
+             	#RecommenD_create_dl1{
+	
+             	}
+	             	#RecommenD_create_dl1dt1{
+				width:100%;
+	             		   height:25px;
+	             		      background-color:;
+	             		
+	             		margin:0 auto;
+	             		
+	             		line-height:25px;
+	             			text-align:center;
+	             				overflow:hidden;
+	             	}
+		             	#RecommenD_create_dl1dt1 span{
+					display:block;
+						width:100%;
+			             		   height:25px;
+			             		      background-color:;
+			             		
+			             		margin:0 auto;
+			             		
+			             		line-height:25px;
+			             			text-align:center;
+			             				overflow:hidden;
+
+		             		color:rgba(50,25,0,0.5);
+		             		    	font-size:15px;
+		             		        
+		             	}
+
+             	#RecommenD_create_dl2{
+	
+             	}
+	             	#RecommenD_create_dl2dt1{
+				width:100%;
+	             		   height:35px;
+	             		      background-color:;
+	             		
+	             		margin:0 auto;
+	             			position:relative;
+	             				overflow:hidden;
+	             	}
+		             	#RecommenD_create_dl2dt1 span{
+					display:block;
+					        width:35px;
+			             		   height:35px;
+			             		      background-color:;
+		             			      opacity:0.75;
+		             		                  background-repeat:no-repeat;
+		             		                  background-size:35px 35px;
+		             		                  background-position:center center;
+			             		      
+			             		margin:0 auto;		             		        
+		             	}
+		             	#RecommenD_create_dl2dt1 span:hover{opacity:1;}	             	
+	/**************************************************************************
+	 *Idea frame
+	 */              
+	#RecommenD_frame{
+
+	}
+
+	
+             
+	/**************************************************************************
+	 *Idea CONTENT
+	 */ 
+	 #RecommenD_content{
+	
+	 }	              
+		/**************************************************************************
+		 *Idea CONTENT top
+		 */  
+		#RecommenD_content_top{
+			width:;
+	            	      height:;
+	            		background-color:;
+	            		
+	            	margin:5px auto;margin-bottom:0;
+	            		position:relative;
+	            			overflow:hidden;
+		}
+			#RecommenD_content_top dl{
+				width:100%;
+		            	      height:25px;
+		            		background-color:;
+		            		
+		            	margin:0 auto;				
+		            		position:relative;
+		            			overflow:hidden;				
+			}		
+				#RecommenD_content_top dl dt{
+					  width:;
+			            	      height:25px;
+			            		background-color:;
+									
+					margin-right:5px;
+					
+						line-height:25px;
+							text-align:center;
+					
+					color:rgba(50,25,0,1);
+						font-size:15px;										
+				}
+					#RecommenD_content_topdl1dt1_explore{color:rgba(50,25,125,0.75);cursor:pointer;}
+					#RecommenD_content_topdl1dt1_explore:hover{			
+						color:rgba(0,0,255,1);										
+					}						
+
+		/**************************************************************************
+		 *Idea CONTENT CENTER
+		 */              
+             	#RecommenD_content_center{
+			width:100%;
+             		   height:;
+             		      background-color:;
+             		
+             		margin:0 auto;margin-top:12.5px;
+             			position:relative;
+             				overflow:hidden;
+	            }
+			/**************************************************************************
+			 *Idea
+			 *
+			 *
+			 */
+			.idea{
+			     float:left;
+			          width:220px;
+				 height:220px;
+			                background-color:rgba(255,255,255,1);
+				
+			            margin:0 0 15px 15px;
+			          		position:relative;
+			     			overflow:hidden;		
+			}		
+				.idea:nth-child(3n+1){margin-left:5px;}
+					.idea:nth-child(3n){margin-right:5px;}			
+				/**************************************************************************
+				 *Idea top
+				 */
+				.idea-top{
+				          width:100%;
+					 height:22.5px;
+				                background-color:rgba(0,0,0,0.05);
+					
+				          position:absolute;
+					            top:0;
+					               left:0;
+						      z-index:2500;
+					
+				          overflow:hidden;	
+				}
+					/**************************************************************************
+					 *Idea right
+					 */
+					.idea-right{
+					          width:22.5px;
+						 height:100%;
+					                background-color:rgba(0,0,0,0.05);
+						
+					          position:absolute;
+						            top:0;
+						               right:0;
+							      z-index:2502;
+						
+					          overflow:hidden;	
+					}
+						.idea-right-tool{
+						          width:20px;
+							 height:20px;
+						                background-color:rgba(0,0,255,0.25);
+							    opacity:0.85;
+						          margin:0;
+						             margin-top:25px;
+						          position:relative;
+								z-index:2500;
+							
+						          overflow:hidden;	
+						}
+						.idea-right-1{margin-top:100px;}
+						.idea-right-tool:hover{background-color:rgba(255,255,255,1);opacity:1;}
+							.idea-right-tool a{
+							          width:100%;
+								 height:100%;
+							          margin:0 auto;	
+							}		
+								.idea-right-tool a span{
+									display:block;
+								          width:100%;
+									 height:100%;
+							                              background-color:;						
+									      background-repeat:no-repeat;
+										    background-size:contain;
+								                                   background-position:center center; 
+								          margin:0 auto;	
+								}			
+							
+						/**************************************************************************
+						 *Idea center
+						 */
+						.idea-center{
+						          width:180px;
+							 height:180px;
+						                background-color:rgba(255,255,255,1);
+							
+						          margin:20px;
+						          	    position:relative;
+								   z-index:2499;
+							
+						          overflow:hidden;	
+						}
+							/*conconconconconconconconconconconconconconconconcon*/
+							.idea-center-con{
+							          width:150px;
+								 height:150px;
+							                background-color:rgba(255,255,255,1);
+								
+							          margin:15px auto;
+							          	    position:relative;
+									   z-index:2499;
+								
+							          overflow:hidden;	
+							}				
+								/*
+								lanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslans
+								*/																
+								.idea-center-con-1{
+								          width:100%;
+									 height:100%;
+								                background-color:rgba(255,255,255,1);
+									
+								          margin:0 auto;
+								          	    position:relative;
+										   z-index:2500;
+									
+								          overflow:hidden;									
+								}
+									.idea-center-con-1 span{
+										display:block;									
+										     width:100%;
+										        height:100%;
+											padding:0;
+											        margin:0 auto;
+												overflow:hidden;
+			
+										            white-space:pre-wrap;
+										
+											overflow-wrap:break-word;word-wrap:break-word;			
+										          word-break:break-all;
+																
+										       text-align:left;
+										       	line-height:15px;
+										
+										    color:rgba(50,25,0,1);
+										font-size:15px;
+										
+										cursor:default;	     	     	
+								     	}				
+								/*
+								ImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagE
+								*/
+								.idea-center-con-2{
+								          width:100%;
+									 height:100%;
+								                background-color:rgba(255,255,255,1);
+									
+								          margin:0 auto;
+								          	    position:relative;
+										   z-index:2500;
+									
+								          overflow:hidden;									
+								}
+									.idea-image{
+										        width:100%;
+								             		   height:100%;
+								             	     background-color:;
+							             		        opacity:1;				             		      
+								             	margin:0 auto;		             		        
+							             	}
+										.idea-image span{
+											display:block;
+											        width:100%;
+									             		   height:100%;
+									             	     background-color:;
+											     background-repeat:no-repeat;
+											     background-size:contain;
+											     background-position:top center;				             		      
+									             	margin:0 auto;		             		        
+								             	}				
+						/*conconconconconconconconconconconconconconconconcon*/
+	
+					/*enterenterenterenterenterenterenterenterenterenterenter
+					*/		
+					.idea-center-enterfra{
+					          width:125px;
+						 height:125px;
+					                background-color:rgba(0, 0, 0, 0);
+						
+					          	    position:absolute;
+						          top:27.5px;
+						            left:27.5px;
+							   z-index:2549;	
+					}
+					.idea-center-enter{
+					          width:125px;
+						 height:125px;
+					                background-color:rgba(0, 0, 255, 0.25);
+						
+					          	    position:absolute;
+						          top:27.5px;
+						            left:27.5px;
+							   z-index:2550;	
+					}				
+						.idea-center-enter a{
+							display:block;
+							        width:50px;
+					             		   height:50px;
+					             	      background-color:;				             		      
+					             	margin:0 auto;
+							margin-top:37.5px;		             		        
+				             	}							
+							.idea-center-enter a span{
+								display:block;
+								        width:50px;
+						             		   height:50px;
+						             	      background-color:;
+								           background-repeat:no-repeat;
+								         background-size:contain;
+								      background-position:top center;				             		      
+						             	margin:0 auto;		             		        
+					             	}									
+					/**************************************************************************
+					 *Idea bottom
+					 */
+					.idea-bottom{
+					          width:100%;
+						 height:22.5px;
+					                background-color:rgba(0,0,0,0.05);
+						
+					          position:absolute;
+						            bottom:0;
+						               left:0;
+							      z-index:2503;
+						
+					          overflow:hidden;	
+					}	
+					
+													
+				/**************************************************************************
+				 *Idea left
+				 */
+				.idea-left{
+				          width:22.5px;
+					 height:100%;
+				                background-color:rgba(0,0,0,0.05);
+					
+				          position:absolute;
+					            top:0;
+					               left:0;
+						      z-index:2504;
+					
+				          overflow:hidden;	
+				}
+		/**************************************************************************
+		 *Idea others
+		 */
+		.idea-others{	
+		}
+		/*1111111111111111111111111111111111111111111111111111111111111111111111111*/
+			.idea-others-1{
+				width:;
+				   height:28px;
+				        opacity:0.25;
+				
+				    position:absolute;
+				           top:6.5px;
+				       left:6.5px;
+				z-index:2505;	
+			}
+			
+		/*2222222222222222222222222222222222222222222222222222222222222222222222222*/
+			.idea-others-2{
+			            width:75px;
+				      height:75px;
+                                                      background-color:;
+				
+				position:absolute;
+				    right:0;
+				        bottom:0;
+				z-index:2506;	
+			}  
+			            /*
+				processprocessprocessprocessprocessprocessprocessprocessprocessprocess
+				*/
+							             	
+			            /*
+				processingprocessingprocessingprocessingprocessingprocessing
+				*/
+					.idea-others-timeprocessing{
+					          width:75px;
+						 height:75px;
+					                background-color:;
+						    	background-repeat:no-repeat;
+						    		background-size:contain;
+						    	background-size:center center;
+						    opacity:1;
+						
+						    margin:0 auto;
+					          	    position:relative;
+					          z-index:2500;					            	
+					}					
+						.idea-others-timeprocessing a{
+							display:block;									
+							     width:75px;
+							        height:15px;
+							background-color:;
+							
+							position:absolute;
+							    right:0;
+							        bottom:0;	
+							
+						                 text-align:right;
+					                        line-height:15px;
+							
+							        color:rgba(255,255,255,1);
+							   font-size:15px;
+							
+							cursor:pointer;	
+						}																											            
+				
+				/*
+				endendendendendendendendend
+				*/
+			            .idea-others-timeend{
+					          width:75px;
+						 height:75px;
+					                background-color:;
+						    	background-repeat:no-repeat;
+						    		background-size:contain;
+						    	background-size:center center;
+						    opacity:1;
+						
+						    margin:0 auto;
+					          	    position:relative;
+					          z-index:2500;		            	
+				}
+					.idea-others-timeend a{
+						display:block;									
+						     width:75px;
+						        height:15px;
+						background-color:;
+						
+						position:absolute;
+						    right:0;
+						        bottom:0;	
+						
+					                 text-align:right;
+				                        line-height:15px;
+						
+						        color:rgba(255,255,255,1);
+						   font-size:15px;
+						
+						cursor:pointer;	
+					}							
+	            
+	            
+	            
+			/**************************************************************************
+			 *Idea
+			 *
+			 *
+			 */
+
+		/**************************************************************************
+		 *RecommenD CONTENT bottom
+		 */              
+             	#RecommenD_content_bottom{
+			width:100%;
+             		   height:50px;
+             		      background-color:;
+             		
+             		margin:0 auto;
+             			position:relative;
+             				overflow:hidden;
+	            }
+
+	             	#RecommenD_content_bottom_dl1{
+                                     }
+                                     	#RecommenD_content_bottom_dl1dt1{
+	
+                                     	}
+			             	#RecommenD_content_bottom_dl1dt1 span{
+						display:block;
+						        width:50px;
+				             		   height:50px;
+			             		
+				             		      background-color:;
+			             			      opacity:0.75;
+			             		                  	background-repeat:no-repeat;
+			             		                  		background-size:50px 50px;
+			             		                  			background-position:center center;
+				             		      
+				             	margin:0 auto;		             		        
+			             	}
+			             	#RecommenD_content_bottom_dl1dt1 span:hover{opacity:1;}		
+
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	
+			             	

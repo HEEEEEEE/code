@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's jsx</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        function UpdateTime(){
+            var time =<div>
+                {new Date().toLocaleTimeString()}
+            </div>;
+            ReactDOM.render(
+                    time,
+                    document.getElementById('container')
+            )
+        }
+        setInterval(UpdateTime,500)
+    </script>
+</body>
+
+</html>

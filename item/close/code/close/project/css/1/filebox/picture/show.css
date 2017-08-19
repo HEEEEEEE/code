@@ -1,0 +1,51 @@
+@charset'utf-8';
+             div,ol,li
+{margin:0;padding:0;font-family:'Helvetica'}
+	     ol,li{list-style:outside none none;}
+	     /*Filebox:source Filebox:source Filebox:source*/
+	     /*source*/
+	     .filebox-source
+	     {display: inline-block;
+	     	list-style: outside none none;
+	    		        height:136px;;
+	    		              width:100px;	     
+	     			      background-color:;
+	                                opacity:;
+	            margin:0 25px 25px 0; 
+	     	position: relative;
+	      cursor:pointer;    	
+	     }	     	    
+	     	/*Source:content*/	     
+	 	.filebox-source .filebox-source-content
+	     	{height:100px;
+		     width:100px;
+			background-color:;
+	     		opacity:0.85;
+			          background-repeat:no-repeat;
+			                                background-size:100px 100px;
+			          background-position:center center;
+	     		border:2.5px solid rgb(0,0,0);
+         	             margin:0 auto;	     	     		  
+		}	     	
+		.filebox-source .filebox-source-content:hover{opacity:1;} 
+		.filebox-source-selected .filebox-source-content{border:2.5px solid rgb(255,255,255);}   	
+	     	/*Source:name*/
+	     	.filebox-source-name{}
+		     	.filebox-source-name-show
+		     	{display:block;
+	     	             height:2.5em;
+		     	      width: 100px;
+				background-color:;
+		     		opacity:;	     	
+		     		overflow: hidden;
+	     		 position: absolute;
+	     	             bottom:0;
+	     	             color:rgb(255,255,255);
+		     	 font-size: 12px;
+		     	 text-overflow: ellipsis;
+			 	overflow-wrap:break-word;word-wrap:break-word;
+			 	     word-break: break-all;
+			 		line-height: 1.25em;    
+			 			text-align: center;	     	     	
+		     	}	     		     	
+	     /*Filebox:source Filebox:source Filebox:source*/                                                               

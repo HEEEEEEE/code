@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's this.props.children</title>
+    <meta charset="UTF-8">
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react-dom.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        var PropsChildren = React.createClass({
+            render: function(){
+                return (
+                        <div>
+                            { React.Children.map(this.props.children,function(child){
+                                return (<a>{child}</a>);
+                            })}
+                        </div>
+                );
+            }
+        });
+        ReactDOM.render(
+            <PropsChildren>
+                <span>Hello </span>
+                <span>Hello</span>
+            </PropsChildren>,
+            document.getElementById('container')
+        );
+        /*
+         this.props.children 与  React.Children配合可获取<PropsChildren>下的所有子元素
+         */
+    </script>
+</body>
+
+</html>

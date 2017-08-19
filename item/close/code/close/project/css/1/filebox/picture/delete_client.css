@@ -1,0 +1,193 @@
+div,form,dl,dt,span,img,input
+{margin:0;padding:0;font-family:'Helvetica'}
+#ClosedMbacK
+{display:none;
+width:100%;
+     height:100%;
+          background-color:rgb(0,0,0);
+       opacity:0.5;		
+          position:fixed;
+       left:0px;
+     top:0px;
+z-Index:4999999;		
+}
+
+#ClosedM
+{display:none;
+ width:100%;
+        height:100%;			
+               background-color:;
+           position:fixed;
+        top:0;
+     left:0;
+ z-index:5000000;
+}
+	.ClosedM
+	{width:425px;
+	        height:525px;			
+	               background-color:;
+	           position:relative;
+	        margin:50px auto;
+	}
+/*******************************************************/
+	#ClosedM_top
+	{display:block;
+	 width:425px;height:40px;
+                  border-width:0;
+	                 border-style:solid;	
+	                      border-color:white;
+	      background-color:rgb(255,255,255);
+	   opacity:1;			
+	 margin:0;	
+	 overflow:hidden;
+	}
+	
+		/*title title title title title*/
+		#ClosedM_top #ClosedM_toptitle
+		{	
+		 width:425px;height:40px;
+	                  border-width:0;
+		                 border-style:solid;	
+		                      border-color:white;
+		      background-color:;
+		   opacity:;			
+		 margin:0 auto;
+	
+		 overflow:hidden;
+		}
+			#ClosedM_top span:nth-child(1)
+			{color:rgb(90,125,0);font-size:37px;}
+			#ClosedM_top span:nth-child(2)
+			{color:rgb(0,0,0);font-size:37px;}
+
+		/*close close close close close*/
+		#ClosedM_top #ClosedM_topclosedt
+		{
+		 width:425px;height:40px;					
+		 	background-color:;
+			opacity:;						
+		 position:absolute;
+		               top:0px;
+		        left:0px;
+		z-index:5000;
+		}		
+			#ClosedM_topclosedt img
+			{display:block;
+		            	width:29px;height:29px;
+			                  border-width:3px 3px 0 3px;
+				                 border-style:solid;	
+				                      border-color:rgb(90,125,0);
+				      background-color:;
+				   opacity:0.75;
+				 position:absolute;
+				               top:9px;
+				        right:12px;
+				z-index:5000;				
+		             cursor:pointer;
+                                    } 
+			#ClosedM_topclosedt img:hover{opacity:1;}
+/*******************************************************/
+#ClosedM_content
+{display:block;
+ width:425px;height:;
+             border-width:0;
+                 border-style:solid;	
+                      border-color:white;
+      background-color:rgb(90,125,0);
+   opacity:;			
+ margin:0;	
+ overflow:hidden;
+}
+		
+	#ClosedM_content dl dt
+	{background-color:rgb(0,0,0);margin:0 auto;}		
+		/*NamENamENamENamENamENamENamENamENamENamENamENamENamE*/
+                        #ClosedM_dname
+		{			
+		 display:block;
+		     width:250px;height:35px;
+			background-color:black;		
+			margin:0 auto;
+			text-align:center;
+		     line-height:35px;
+		}
+		#ClosedM_dname span
+		{display:inline-block;padding:0 5px;color:white;font-size:18px;}			
+		#ClosedM_dname #NuM
+		{color:red;font-size:20px;}																
+/*******************************************************/
+	#ClosedM_bom
+	{display:block;
+	 width:425px;height:40px;
+	        background-color:rgb(255,255,255);
+		      border-width:0;
+			   border-style:solid;
+		      border-color:white;
+		margin:0;
+	 overflow:hidden;	
+	}
+		#ClosedM_bom	#SubmiT
+		{			
+		 display:block;
+		     width;height:;
+			background-color:black;		
+			    border-width:0;
+			         border-style:solid;
+				  border-color:white;
+			      opacity:0.85;
+			margin:0 auto;
+			text-align:center;
+		       color:white;
+		  font-size:25px;
+		cursor:pointer; 
+		}
+		#ClosedM_bom	#SubmiT:hover{opacity:1;}				
+/*******************************************************/		
+#ClosedM_tip
+{display:none;
+       width:425px;height:25px;
+            background-color:black;
+	border-width:0;
+		border-style:solid;
+	border-color:white;
+       position:absolute;top:40px;left:0;	
+    z-index:5250;
+ overflow:hidden;	
+}						
+	#ClosedM_tipspan1	
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:rgb(255,255,255);
+		            font-size:16px; 
+		         font-style:oblique;
+		font-weight:500;	
+		}				
+#ClosedM_tip1
+{display:none;
+       width:425px;height:25px;
+            background-color:black;
+	border-width:0;
+		border-style:solid;
+	border-color:white;
+       position:absolute;top:95px;left:0;	
+    z-index:5250;
+ overflow:hidden;	
+}						
+	#ClosedM_tipspan2	
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:rgb(255,255,255);
+		            font-size:16px; 
+		         font-style:oblique;
+		font-weight:500;	
+		}		
+		
+		
+		
+		
+		
+		
+		
+		

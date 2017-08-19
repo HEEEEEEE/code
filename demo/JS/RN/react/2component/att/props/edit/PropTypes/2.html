@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's ProrTypes</title>
+    <meta charset="UTF-8">
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react-dom.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        var AttrTypes = React.createClass({
+            getDefaultProps: function(){
+                return {
+                    value : 'long long time age...'
+                }
+            },
+            propTypes:{
+                value: React.PropTypes.number.isRequired
+            },
+            render: function (value){
+                return (
+                        <div>{this.props.value}</div>
+                )
+            }
+        });
+        ReactDOM.render(
+                <AttrTypes />,
+                document.getElementById('container')
+        )
+        /*
+         getDefaultProps:设置组件的默认属性
+         PropTypes：检测属性的存在 isRequired 检测属性的类型 number
+         */
+    </script>
+</body>
+
+</html>

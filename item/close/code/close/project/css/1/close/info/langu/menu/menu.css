@@ -1,0 +1,355 @@
+@charset'utf-8';
+	div,span,img,dl,dt,a,form,input
+		{margin:0;padding:0;font-family:Helvetica;}
+
+/*MenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenU*/
+	/*TooL'menu TooL'menuTooL'menuTooL'menuTooL'menuTooL'menu*/
+             /*rightrightrightrightright*/
+		
+		/*Frame Frame Frame Frame Frame Frame Frame Frame Frame*/
+	#MenU_toolframe{display:none;width:290px;height:;background-color:rgba(0, 5, 5, 0.85);position:absolute;top:50px;right:0;bottom:50px;z-index:5000;}
+		#MenU_toolframefram{width:290px;height:100%;position:absolute;top:75px;bottom:0;left:0;z-index:2500;}	
+	/*Frame remove*/
+#MenU_toolframeremove{;width:250px;height:;position:absolute;top:0;left:0;bottom:0;z-index:2500;}
+			/*frame:lefttop*/
+			#MenU_frameremlefttop{
+				width:2.5px;
+				    height:75px;
+				       background-color:rgba(125,255,0,1);
+				position:absolute;top:0;left:0;z-index:2500;
+			}	
+		/*contop*/
+		 #MenU_frameremtop{width:287.5px;height:35px;background-color:rgba(125,255,0,0.75);position:absolute;;left:2.5px;top:0px;z-index:2502;}
+                               #IteM_num{display:block;width:287.5px;height:35px;text-align:center;line-height:35px;}
+			#IteM_numshowdt
+                                    {display:inline;
+                        	        opacity:1;
+                        		color:rgb(255, 255, 255);
+                                     font-size:15px;
+                                    }	 
+				#IteM_numshow{color:rgb(255, 255, 255);font-size:15px;}
+	                                    
+			#ItemselecT_numshowdt
+	                        {display:none;
+	                                color:rgb(255,0,0);
+	                         font-size:15px;
+	                        }                                                 
+		                       #ItemselecT_numshow{color:rgb(255,0,0);font-size:15px; }			                        
+/*concenter*/
+#MenU_frameremcenter{
+	width:287.5px;
+	    height:;
+	       background-color:;
+	position:absolute;top:40px;left:2.5px;bottom:165px;z-index:2501;
+	overflow:auto;
+}
+/*conconconconconconconconconconconconconconconconconconconconconconconcon*/
+	#MenU_frameremcon{
+		width:250px;
+		    height:;
+		       background-color:;
+		    margin:0 auto;
+		position:relative;z-index:2500;
+	}
+		/*con:menu*/
+	    .framemenur
+	    {height:50px;;
+	   	width:100px;	
+	     border-top-width:2.5px;
+	     border-left-width:2.5px;
+		border-style:solid;						
+	                           opacity:0.85;    
+	                    margin:0 auto;
+		margin-bottom:12.5px; 
+	    	  position:relative;
+	     cursor:default;    	
+	    } 
+	.framemenur:nth-child(odd){
+		border-top-color:rgba(125,255,0,0.75);
+		border-left-color:rgba(125,255,0,0.75);
+	}
+		.framemenur:nth-child(even){
+			border-top-color:rgba(0,255,125,0.75);
+			border-left-color:rgba(0,255,125,0.75);
+		}
+		
+	.framemenur:first-child{
+		border-top-color:rgba(125,255,0,0.75);
+		border-left-color:rgba(125,255,0,0.75);		
+	  	   margin-top:40px;
+	}			
+		.framemenur:last-child{
+			border-top-color:rgba(125,255,0,0.75);
+			border-left-color:rgba(125,255,0,0.75);
+		 margin-bottom:40px;
+		}								         	    	     	     	
+	.framemenur:hover{opacity:1;} 
+	.framemenur-selected{
+		border-right-color:rgba(255,0,0,1);
+			border-bottom-color:rgba(255,0,0,1);
+	                        border-right-width:2.5px;
+	            border-bottom-width:2.5px;
+	}	     		     									
+	/*con:page*/
+	.frame-selected{
+	}
+/*conconconconconconconconconconconconconconconconconconconconconconconcon*/								
+				/*conbottom*/		
+				#MenU_framerembottom{width:287.5px;height:35px;background-color:rgba(125,255,0,0.75);position:absolute;;left:2.5px;bottom:125px;z-index:2502;}	
+					#MenU_framerembottom dl dt{width:287.5px;height:35px;text-align:center;line-height:35px;}
+						#FrameremovedonE{color:rgb(255, 255, 255);font-size:22.5px;cursor:pointer;}
+				
+			/*frame:leftbottom*/	
+			#MenU_frameremleftbottom{
+				width:2.5px;
+				    height:75px;
+				       background-color:rgba(125,255,0,1);
+				position:absolute;left:0;bottom:125px;z-index:2500;
+			}		                  
+		/*Frame Frame Frame Frame Frame Frame Frame Frame Frame*/	
+			
+		/*LangLangLangLangLangLangLangLangLangLangLangLangLang*/				
+#MenU_toolfontsize{display:none;width:253px;position:absolute;top:50px;right:0;z-index:5000;}			
+	#FontsizemenU	{	
+		background-color:rgb(0,70,0);		
+			border-width:2.5px 2.5px 2.5px 0;
+					border-style:solid;
+						border-color:rgb(20,37,50);
+		       position:absolute;
+		       	       left:0;
+		       	          top:0;
+	      			z-index:2500;	
+				       overflow:hidden;				
+	}
+	#FontsizemenU	 span{
+		display:block;
+			background-color:rgb(0,0,0);
+				margin:0 0 2.5px 0;
+		color:rgb(255,255,255);
+			font-size:25px;
+				font-weight:400;			
+		cursor:default;				
+	}
+	#FontsizemenU	 span:nth-child(1){margin:5px 0 2.5px 0;}
+	#FontsizemenU	 span:nth-child(5){margin:0 0 5px 0;}			
+			
+			
+			
+			
+		/*LangLangLangLangLangLangLangLangLangLangLangLangLang*/						
+	/*TooL'menu TooL'menuTooL'menuTooL'menuTooL'menuTooL'menu*/
+		                  
+		                  
+	/* PagE'menu PagE'menu PagE'menu PagE'menu PagE'menu PagE'menu*/
+             /*rightrightrightrightright*/
+	 /*frame:browser*/
+	 #MenU_pagebrowserframe{
+		display:none;
+	 	width:;
+	 	     height:;
+			   border-width:2.5px;
+				border-color:rgb(125,255,0);
+			   border-style:solid;	 	
+	 	         background-color:;
+	 	position:absolute;
+	 	top:;
+	 	left:;
+	 	z-index:5000;
+	 }
+
+	 /*source:mouseover*/
+	 #MenU_pagesourcemouseover	 {
+		display:none;
+	 	width:250px;
+	 	     height:35px;	 	
+	 	         background-color:rgba(255,255,255,1);
+	 	     position:absolute;
+	 	    top:0;
+	 	 left:0;
+	 	z-index:5000;
+	 	overflow:hidden;	
+	 }
+	 	.pagesourcemouseovermenu{
+	 		float:left;
+	 		      width:35px;
+	 		             height:35px;
+	 		      background-color:rgba(0,0,0,1);
+	 		margin-left:5px;
+		}
+			
+			#MouseoveR_set{width:35px;height:35px;margin:0 auto;cursor:default;}
+			#MouseoveR_remove{width:35px;height:15px;margin:10px 0;}
+	 /*source:click*/
+	 #MenU_pagesourceclick{
+	 	display:none;
+		width:900px;
+		      height:;
+		         background-color:rgba(0,0,0,1);
+		         position:relative;
+	                  margin:0 auto;
+	            z-index:5000;
+	 }
+		#MenU_pagesourceclickframeleft{
+				border-color: rgba(112, 255, 0, 1);
+		    	border-style: solid;
+		    border-width: 12.5px 0 12.5px 12.5px;
+		    height: 34px;
+		    left: 0;
+		    position: absolute;
+		    top: 0;
+		    width: 200px;
+		    z-index: 2500;
+		}
+		
+		#MenU_pagesourceclickcenter{
+		    		background-color: rgba(255, 255, 255, 1);
+		    	border-color: rgba(255, 255, 255, 1);
+		    border-style: solid;
+		    border-width: 0;
+		    left: 0;
+		    position: absolute;
+		    top: 11px;
+		    	width: 900px;
+		    		z-index: 2501;
+		}
+		#MenU_pagesourceclickcon{
+		    position:relative;
+			margin:0 auto;
+		    	       width: 205px;
+		    height:35px;
+		}					 
+			 #MenU_pagesourceclickcon div{
+			    		float: left;
+			    	height: 35px;
+			    margin:0;
+			    		overflow: hidden;
+			 }
+			 	/*positionpositionpositionpositionposition*/
+			 	#MenU_pagesourceposition dl dt{
+				    		background-color: rgba(255, 112, 0, 1);
+				    	float: left;
+				    height: 35px;
+				    	margin-left: 5px;
+				    		width: 35px;
+				}
+					.sourceposition{display:block;width:35px;height:35px;cursor:default;}
+			 	/*sizesizesizesizesizesizesizesizesizesize*/
+			 	#MenU_pagesourcesize dl dt{
+				    		background-color: rgba(255, 112, 0, 1);
+				    	float: left;
+				    height: 35px;
+				    	margin-left: 5px;
+				    		width: 35px;
+				}
+					.sourcesize{display:block;width:35px;height:35px;cursor:default;}
+					#ClicK_sizesmall{width:25px;height:25px;margin:5px auto;}
+					#ClicK_sizebig{width:30px;height:30px;margin:2.5px auto;}
+		#MenU_pagesourceclickframeright{
+		    		border-color: rgba(112, 255, 0, 1);
+		    	border-style: solid;
+		    border-width: 12.5px 12.5px 12.5px 0;
+		    height: 34px;
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		    	width: 200px;
+		    		z-index: 2500;
+		}
+
+		
+		
+		
+	 /*album:mouseover*/
+	 #MenU_pagealbummouseover	 {
+		display:none;
+	 	width:250px;
+	 	     height:35px;	 	
+	 	         background-color:rgba(255,255,255,1);
+	 	     position:absolute;
+	 	    top:0;
+	 	 left:0;
+	 	z-index:5000;
+	 	overflow:hidden;	
+	 }
+	 	.pagealbummouseovermenu{
+	 		float:left;
+	 		      width:35px;
+	 		             height:35px;
+	 		      background-color:rgba(0,0,0,1);
+	 		margin-left:5px;
+		}
+			
+			#MouseoveR_setalbum{width:35px;height:35px;margin:0 auto;cursor:default;}
+			#MouseoveR_removealbum{width:35px;height:15px;margin:10px 0;}
+	 /*album:click*/
+	 #MenU_pagealbumclick{
+	 	display:none;
+		width:900px;
+		      height:;
+		         background-color:rgba(0,0,0,1);
+		         position:relative;
+	                  margin:0 auto;
+	            z-index:5000;
+	 }
+		#MenU_pagealbumclickframeleft{
+				border-color: rgba(112, 255, 0, 1);
+		    	border-style: solid;
+		    border-width: 12.5px 0 12.5px 12.5px;
+		    height: 34px;
+		    left: 0;
+		    position: absolute;
+		    top: 0;
+		    width: 200px;
+		    z-index: 2500;
+		}
+		
+		#MenU_pagealbumclickcenter{
+		    		background-color: rgba(255, 255, 255, 1);
+		    	border-color: rgba(255, 255, 255, 1);
+		    border-style: solid;
+		    border-width: 0;
+		    left: 0;
+		    position: absolute;
+		    top: 11px;
+		    	width: 900px;
+		    		z-index: 2501;
+		}
+		#MenU_pagealbumclickcon{
+		    position:relative;
+			margin:0 auto;
+		    	       width: 205px;
+		    height:35px;
+		}					 
+			 #MenU_pagealbumclickcon div{
+			    		float: left;
+			    	height: 35px;
+			    margin:0;
+			    		overflow: hidden;
+			 }
+			 	/*positionpositionpositionpositionposition*/
+			 	#MenU_pagealbumposition dl dt{
+				    		background-color: rgba(255, 112, 0, 1);
+				    	float: left;
+				    height: 35px;
+				    	margin-left: 5px;
+				    		width: 35px;
+				}
+					.albumposition{display:block;width:35px;height:35px;cursor:default;}
+		#MenU_pagealbumclickframeright{
+		    		border-color: rgba(112, 255, 0, 1);
+		    	border-style: solid;
+		    border-width: 12.5px 12.5px 12.5px 0;
+		    height: 34px;
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		    	width: 200px;
+		    		z-index: 2500;
+		}		
+	/* PagE'menu PagE'menu PagE'menu PagE'menu PagE'menu PagE'menu*/
+/*MenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenUMenU*/
+
+	 
+	 
+
+	 

@@ -1,0 +1,610 @@
+#LefT_contentmain{
+             width:300px;
+	     height:;
+	        background-color:rgba(255,255,255,0.75);
+	       position:absolute;
+	     top:0;
+	 left:0;
+                 bottom:0;		
+	 z-index:2500;	
+}
+
+	#LefT_contentmain1{
+	          width:250px;
+		 height:;
+	                background-color:;
+		
+	             margin:0 auto;
+	                 margin-top:25px;
+	          	        position:relative;
+		 z-index:2500;
+	          overflow:hidden;		
+	}	
+	/**************************************************************************
+	 *IdeA:own
+	 *
+	 *
+	 */
+	.idea_own{
+	          width:250px;
+		 height:250px;
+	                background-color:rgba(255,255,255,1);
+		
+	             margin:0 auto;
+	          	        position:relative;
+		 z-index:2500;
+	          overflow:hidden;		
+	}					
+		/**************************************************************************
+		 *top
+		 */
+		.idea_own-top{
+		          width:100%;
+			 height:25px;
+		                background-color:rgba(0,0,0,0.05);
+			
+		          position:absolute;
+			            top:0;
+			         left:0;
+		          z-index:2500;
+			
+		          overflow:hidden;	
+		}
+			/**************************************************************************
+			 *right
+			 */
+			.idea_own-right{
+			          width:25px;
+				 height:100%;
+			                background-color:rgba(0,0,0,0.05);
+				
+			          position:absolute;
+				            top:0;
+				        right:0;
+			          z-index:2502;
+				
+			          overflow:hidden;	
+			}							
+				/**************************************************************************
+				 *center
+				 */
+				.idea_own-center{
+				          width:200px;
+					 height:200px;
+				          background-color:rgba(255,255,255,1);
+					
+				          margin:25px;
+				          	    position:relative;
+				          z-index:2499;
+					
+				          overflow:hidden;	
+				}
+					/*conconconconconconconconconconconconconconconconcon*/
+					.idea_own-center-con{
+					          width:180px;
+						 height:180px;
+					                background-color:rgba(255,255,255,1);
+						
+					          margin:10px;
+					          	    position:relative;
+							   z-index:2499;
+						
+					          overflow:hidden;	
+					}				
+						/*
+						lanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslans
+						*/																
+						.idea_own-center-con-1{
+						          width:100%;
+							 height:100%;
+						                background-color:rgba(255,255,255,1);
+							
+						          margin:0 auto;
+						          	    position:relative;
+								   z-index:2500;
+							
+						          overflow:hidden;									
+						}
+							.idea_own-center-con-1 span{
+								display:block;									
+								     width:100%;
+								        height:100%;
+									padding:0;
+									        margin:0 auto;
+										overflow:hidden;
+	
+								            white-space:pre-wrap;
+								
+									overflow-wrap:break-word;word-wrap:break-word;			
+								          word-break:break-all;
+														
+								       text-align:left;
+								       	line-height:18px;
+								
+								    color:rgba(50,25,0,1);
+								font-size:16px;
+								
+								cursor:default;	     	     	
+						     	}				
+						/*
+						ImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagEImagE
+						*/
+						.idea_own-center-con-2{
+						          width:100%;
+							 height:100%;
+						                background-color:rgba(255,255,255,1);
+							
+						          margin:0 auto;
+						          	    position:relative;
+								   z-index:2500;
+							
+						          overflow:hidden;									
+						}
+							.idea_own-image{
+								        width:100%;
+						             		   height:100%;
+						             	     background-color:;
+					             		        opacity:1;				             		      
+						             	margin:0 auto;		             		        
+					             	}
+								.idea_own-image span{
+									display:block;
+									        width:100%;
+							             		   height:100%;
+							             	     background-color:;
+									     	   background-repeat:no-repeat;
+									               	background-size:contain;
+									     background-position:top center;				             		      
+							             	margin:0 auto;		             		        
+						             	}				
+				/*conconconconconconconconconconconconconconconconcon*/
+					/*pre:toolpre:toolpre:toolpre:toolpre:toolpre:toolpre:toolpre:toolpre:toolpre:tool*/	             	
+					.idea_own-center-tool{	
+					}
+						.idea_own-center-tool-1{	
+						}
+							.idea_own-center-tool-processstart{
+							          width:180px;
+								 height:180px;
+							                background-color:rgba(0,0,0,0);
+								                opacity:1;
+								              position:absolute;
+									top:10px;
+									     right:10px;
+								          z-index:2551;					
+								overflow:hidden;	
+							}
+								/*process:markprocess:markprocess:markprocess:markprocess:markprocess:mark*/
+								.idea_own-center-tool-processstart-con{
+								          width:150px;
+									 height:150px;
+								                background-color:rgba(0, 0, 255, 0.5);
+									                opacity:0.75;
+									              position:absolute;
+										top:15px;
+										     right:15px;
+									          z-index:2500;					
+								          overflow:hidden;	
+								}
+								.idea_own-center-tool-processstart-con:hover{}
+									.idea_own-center-tool-processstart-con-img{
+									          display:block;
+									          width:50px;
+										 height:50px;
+									                background-color:;
+										                opacity:;
+										                          margin:50px auto;
+										              position:relative;
+										          z-index:2500;					
+									          overflow:hidden;	
+									}
+								/*
+								not process yet
+								*/								
+								/*processprocessprocessprocessprocessprocessprocessprocessprocessprocess*/
+								.idea_own-center-tool-processstart-con-processtime{
+								          width:150px;
+									 height:25px;
+								               background-color:rgba(0, 0, 255, 0.5);
+								          opacity:1;
+									
+								          position:absolute;
+										top:25px;
+										     left:15px;
+									          z-index:2500;					
+								          overflow:hidden;
+
+								          line-height:25px;
+									      text-align:center;
+									
+								          fontsize:20px;
+								                color:rgba(255,112,0,1);
+									
+								          cursor:text;
+								}
+								.idea_own-center-tool-processstart-con-processtime span{
+									display:inline-block;
+								}
+								.idea_own-center-tool-processstart-con-processtime span:nth-child(2){
+									color:rgba(255,125,0,1);
+								}								
+
+								/*processingprocessingprocessingprocessingprocessingprocessingprocessing*/
+								.idea_own-center-tool-processstart-con-processprocessing{
+								          width:150px;
+									 height:25px;
+								                background-color:rgba(0, 0, 255, 0.5);
+									                opacity:1;
+									              position:absolute;
+										top:25px;
+										     left:15px;
+									          z-index:2500;					
+								          overflow:hidden;
+								}
+									.idea_own-center-tool-processstart-con-processprocessing span{
+										display:block;
+									                 margin:0 auto;
+									                      line-height:25px;
+										                text-align:center;
+										
+									          fontsize:20px;
+									                color:rgba(255,255,255,1);
+										         cursor:text;									
+									}
+
+									
+									
+								/*
+								start to process
+								*/
+								/*processingprocessingprocessingprocessingprocessingprocessingprocessing*/									
+								.idea_own-center-tool-processstart-con-processing{
+								          width:180px;
+									 height:180px;
+								                background-color:;
+									                opacity:1;
+									              position:absolute;
+										top:0;
+										     right:0;
+									          z-index:2550;					
+								          overflow:hidden;	
+								}
+									.idea_own-center-tool-processstart-con-processing span{
+										display:block;
+									          width:90px;
+										 height:25px;
+									                background-color:;
+										                opacity:1;
+										              position:absolute;
+											top:65px;
+											     left:90px;
+										          z-index:2551;
+														
+										          line-height:25px;
+										                text-align:left;
+										
+										                     color:rgba(0,255,0,1);
+										                font-size:12px;
+										          font-weight:500;
+										
+										     cursor:default;
+									          overflow:hidden;
+									}
+									
+									.idea_own-center-tool-processstart-con-processing img{
+										          display:block;
+										          width:50px;
+											 height:50px;
+										                background-color:;
+											                opacity:1;
+											                          margin:65px auto;
+											              position:relative;
+											          z-index:2550;					
+										          overflow:hidden;	
+									}
+								/*stopstopstopstopstopstopstopstopstopstopstopstopstopstopstop*/	
+								.idea_own-center-tool-processstart-con-processstop{
+								          width:180px;
+									 height:180px;
+								                background-color:;
+									                opacity:1;
+									              position:absolute;
+										top:0;
+										     right:0;
+									          z-index:2550;					
+								          overflow:hidden;	
+								}
+									.idea_own-center-tool-processstart-con-processstop span{
+										display:block;
+									          width:90px;
+										 height:25px;
+									                background-color:;
+										                opacity:1;
+										              position:absolute;
+											top:65px;
+											     left:90px;
+										          z-index:2551;
+														
+										          line-height:25px;
+										                text-align:left;
+										
+										                     color:rgba(255,0,0,1);
+										                font-size:12px;
+										          font-weight:500;
+										
+										     cursor:default;
+									          overflow:hidden;
+									}
+									.idea_own-center-tool-processstart-con-processstop .process-cancel{
+										color:rgba(255,255,0,1);			
+									} 
+									.idea_own-center-tool-processstart-con-processstop img{
+										          display:block;
+										          width:50px;
+											 height:50px;
+										                background-color:;
+											                opacity:1;
+											                          margin:65px auto;
+											              position:relative;
+											          z-index:2550;					
+										          overflow:hidden;	
+									}				      		
+			/**************************************************************************
+			 *bottom
+			 */
+			.idea_own-bottom{
+			          width:100%;
+				 height:25px;
+			                background-color:rgba(0,0,0,0.05);
+				
+			          position:absolute;
+				            bottom:0;
+				         left:0;
+			          z-index:2503;
+				
+			          overflow:hidden;	
+			}	
+														
+		/**************************************************************************
+		 *left
+		 */
+		.idea_own-left{
+		          width:25px;
+			 height:100%;
+		                background-color:rgba(0,0,0,0.05);
+			
+		          position:absolute;
+			            top:0;
+			        left:0;
+		          z-index:2504;
+			
+		          overflow:hidden;	
+		}
+		/**************************************************************************
+		 *others
+		 */
+		.idea_own-others{
+		          width:;
+			 height:;
+		                background-color:;
+			
+		          position:absolute;
+			            top:0;
+			      left:0;
+		          z-index:2505;
+			
+		          overflow:hidden;	
+		}					
+	/**************************************************************************
+	 *IdeA:own
+	 *
+	 *
+	 */
+
+		
+		
+		
+		
+	#LefT_contentmain2{
+	          width:250px;
+		 height:;
+	                background-color:;
+		
+	             margin:0 auto;
+	                 margin-top:12.5px;
+	          	        position:relative;
+		 z-index:2500;
+	          overflow:hidden;		
+	}	
+		/*preprepreprepreprepreprepreprepre
+		*				
+		 */
+		#IdeA_pre{
+			width:250px;
+			     height:;
+			        background-color:;
+			     margin:0 auto;
+			     position:relative;
+			z-index:2500;	
+		}
+			/*pre:image
+			*				
+			 */				
+			#IdeA_pre1{
+
+			}
+				#IdeA_pre1guide{
+					width:250px;
+					     height:25px;
+					        background-color:;
+					     margin:0 auto;
+					     position:relative;
+					z-index:2500;	
+				}
+					#IdeA_pre1guidecon{
+						display:block;
+						width:250px;
+						     height:25px;
+						        background-color:;
+						     margin:0 auto;
+						     position:relative;
+						z-index:2500;
+												
+						       text-align:center;
+						       	line-height:25px;
+						
+						    color:rgba(175,255,0,1);
+						font-size:22.5px;
+						
+						cursor:default;										
+					}
+				#IdeA_pre1con{
+					width:180px;
+					     height:180px;
+					        background-color:;
+					     margin:0 auto;
+					     margin-top:5px;
+					     position:relative;
+					z-index:2500;	
+				}
+					#IdeA_pre1concon{
+						display:block;
+						        width:100%;
+				             		   height:100%;
+				             	     background-color:;
+						     	   background-repeat:no-repeat;
+						               	background-size:contain;
+						     background-position:top center;				             		      
+				             	margin:0 auto;		
+					}											
+			/*pre:lans
+			*				
+			 */				
+			#IdeA_pre2{
+
+			}
+				#IdeA_pre2guide{
+					width:250px;
+					     height:25px;
+					        background-color:;
+					     margin:0 auto;
+					     position:relative;
+					z-index:2500;	
+				}
+					#IdeA_pre2guidecon{
+						display:block;
+						width:250px;
+						     height:25px;
+						        background-color:;
+						     margin:0 auto;
+						     position:relative;
+						z-index:2500;
+												
+						       text-align:center;
+						       	line-height:25px;
+						
+						    color:rgba(175,255,0,1);
+						font-size:22.5px;
+						
+						cursor:default;										
+					}
+				#IdeA_pre2con{
+					width:250px;
+					     height:;
+					        background-color:;
+					     margin:0 auto;
+					     margin-top:5px;
+					     position:relative;
+					z-index:2500;	
+				}
+					#IdeA_pre2concon{
+						display:block;									
+						     width:100%;
+						        height:;
+							padding:0;
+							        margin:0 auto;
+								overflow:hidden;
+
+						            white-space:pre-wrap;
+						
+							overflow-wrap:break-word;word-wrap:break-word;			
+						          word-break:break-all;
+												
+						       text-align:left;
+						       	line-height:18px;
+						
+						    color:rgba(50,25,0,1);
+						font-size:16px;
+						
+						cursor:default;	
+					}		
+		/*tagtagtagtagtagtagtagtagtagtagtag
+		*				
+		 */
+		#IdeA_tag{
+			width:250px;
+			     height:;
+			        background-color:;
+			     margin:0 auto;
+			     margin-top:5px;
+			     position:relative;
+			z-index:2500;	
+		}
+			#IdeA_tagcon{
+
+			}
+				#IdeA_tagconguide{
+					width:250px;
+					     height:25px;
+					        background-color:;
+					     margin:0 auto;
+					     position:relative;
+					z-index:2500;	
+				}
+					#IdeA_tagconguidecon{
+						display:block;
+						width:250px;
+						     height:25px;
+						        background-color:;
+						     margin:0 auto;
+						     position:relative;
+						z-index:2500;
+												
+						       text-align:center;
+						       	line-height:25px;
+						
+						    color:rgba(255,255,0,1);
+						font-size:22.5px;
+						
+						cursor:default;										
+					}
+				#IdeA_tagconcon{
+					width:250px;
+					     height:;
+					        background-color:;
+					     margin:0 auto;
+					     margin-top:5px;
+					     position:relative;
+					z-index:2500;	
+				}
+					#IdeA_tagconconcon{
+						display:block;									
+						     width:100%;
+						        height:;
+							padding:0;
+							        margin:0 auto;
+								overflow:hidden;
+
+						            white-space:pre-wrap;
+						
+							overflow-wrap:break-word;word-wrap:break-word;			
+						          word-break:break-all;
+												
+						       text-align:left;
+						       	line-height:18px;
+						
+						    color:rgba(50,25,0,1);
+						font-size:16px;
+						
+						cursor:default;	
+					}

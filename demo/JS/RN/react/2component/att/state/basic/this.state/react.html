@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's StateMachines</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        const Sta =React.createClass({
+            //set the stateDefaultset the stateDefaultset the stateDefault
+            getInitialState:function(){
+                return {date:new Date()}
+            },
+            render:function(){
+           //use the stateuse the stateuse the stateuse the stateuse the s
+                return(<div>{this.state.date.toLocaleTimeString()}</div>)
+            }
+        });
+
+        const element =<Sta />;
+
+        ReactDOM.render(
+                element,
+                document.getElementById('container')
+        )
+    </script>
+</body>
+
+</html>

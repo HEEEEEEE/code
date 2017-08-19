@@ -1,0 +1,171 @@
+	/*PROJECTPROJECTPROJECTPROJECTPROJECTPROJECTPROJECTPROJECTPROJECTPROJECTPROJECTPROJECTPROJECTPROJECT*/
+	#CenteR_projectidea{
+		float:right;
+		      margin-right:0;
+		          position:relative;
+		      z-index:2501;
+		overflow:hidden;
+	}
+		/*createcreatecreatecreatecreatecreatecreatecreatecreate*/
+		/*createcreatecreatecreatecreatecreatecreatecreatecreate*/
+		
+		/*searchsearchsearchsearchsearchsearchsearchsearchsearch*/
+		#ProjectclosE_search{
+			display:none;
+			width:50%;
+			       height:40px;
+			background-color:;
+			 
+			margin:12.5px 0 0 50%;
+		                  margin-top:;
+		                       position:relative;		
+		                                 z-index:2500;					
+		}
+		#ProjectclosE_search:hover{}                                                       
+		#ProjectclosE_searchdiv1{
+		           width:90%;
+			       height:34px;
+		           background-color:rgba(200, 255, 0, 0.75);
+	                       position:absolute;
+		           top:3px;
+		                left:0;		
+	                       z-index:2500;						
+		}
+			#ProjectclosE_searchinput{
+			             display:block;
+					width:98%;
+				     height:34px;
+				 padding:0 0 0 2%;
+				            background-color:rgba(0, 0, 0, 0);
+			             opacity:0.95;
+			
+			                   border-width:0;
+			
+				 margin:0 auto;
+				
+				 text-align:left;
+				 	color:rgba(50,25,0,1);
+				 font-size:16px;
+			}
+			#ProjectclosE_searchinput:hover{ opacity:1;}
+					
+		#ProjectclosE_searchdiv2{
+		           width:10%;
+			       height:34px;
+			            background-color:;
+	                       position:absolute;
+		           top:3px;
+		                right:0;		
+	                                 z-index:2500;			
+		}					
+			#ProjectclosE_searchimg{
+			      display:block;
+				width:30px;
+				       height:30px;
+		
+				 background-repeat:no-repeat;
+					background-position:center center;
+				 background-size:contain;		
+	                                     opacity:0.75;
+				
+				 position:absolute;
+				           top:4px;
+				     right:4px;
+				 z-index:5;
+			     cursor:default;		
+			}
+			#ProjectclosE_searchimg:hover{ opacity:1;}						
+		/*searchsearchsearchsearchsearchsearchsearchsearchsearch*/
+		
+		/*closecloseclosecloseclosecloseclosecloseclosecloseclose*/	
+		 #ProjectclosE_close{}
+			/*toptoptoptoptoptoptoptoptoptoptoptoptoptop*/
+			 #IdeA_showcontop{
+			 	margin-top:12.5px;
+			                  position:relative;
+			                           z-index:2500;
+			                               overflow:hidden;		
+			 }
+			 	#IdeA_showcontopsearchinfo{
+			 			  width:175px;
+			 		          height:25px;
+				 	    margin:0 auto;
+				                  position:relative;
+				                           z-index:2500;
+				                               overflow:hidden;
+	
+				 		    text-align:center;			 				
+			 	}
+				 	#IdeA_showcontopsearchinfo .searchinfo-idea{
+				 		    float:left;
+				 			  width:;
+				 		          height:25px;
+					 	    margin:0;
+					                  position:relative;
+					                           z-index:2500;
+					                               overflow:hidden;
+	
+				 		    text-align:left;
+				 		        line-height:25px;
+				 		
+				 		    font-size:16px;
+				 		       color:rgba(50,25,0,1);
+				 	}
+				 	#IdeA_showcontopsearchinfo #SearchinfO_searchnum{
+					 	    margin-left:5px;	
+				 	}
+				 	#IdeA_showcontopsearchinfo #SearchinfO_back{
+				 		    width:25px;
+				 		                background-color:;
+				 		                opacity:0.75;
+				 		                background-repeat:no-repeat;
+				 		                background-size:contain;
+				 			    background-position:center center;
+					 	    margin-left:5px;
+
+				 		    cursor:default;
+				 	}
+				 	#IdeA_showcontopsearchinfo #SearchinfO_back:hover{opacity:1;}
+				 					 	
+				 		#SearchinfO_ideanumcon{
+							color:rgba(0, 255, 0, 1);
+				 		}
+				 		#SearchinfO_searchnumcon{
+							color:rgba(255, 75, 0, 1);
+				 		}				 					 				 	
+			 /*conconconconconconconconconconconconconcon*/
+			 #IdeA{
+			 	      width:;
+			 	         height:;
+			 	      background:;
+			 	
+			                  position:relative;
+			 	                    margin-bottom:50px;
+			                           z-index:2500;
+			                  overflow:hidden;	
+			 }
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 

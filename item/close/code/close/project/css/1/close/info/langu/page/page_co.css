@@ -1,0 +1,211 @@
+@charset'utf-8';
+	div,span,img,dl,dt,a,form,input,p
+		{margin:0;padding:0;font-family:Helvetica;}
+/*CONTENTCONTENTCONTENTCONTENTCONTENTCONTENTCONTENTCONTENTCONTENTCONTENT*/
+/*#CONTENT{height:100%;margin:0 auto;overflow:auto;}*/
+	/*frameframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframe*/
+	#CONTENT .frame{
+		min-height:125px;
+			padding:5px;padding-bottom:10px;
+                              background-color:rgb(0, 5, 5);
+			   border-top-width:2.5px;
+			   border-left-width:0;
+			   border-right-width:0;
+			   border-bottom-width:2.5px;		
+			   border-style:solid;
+	              position:relative;
+	          margin:0 auto;
+	margin-bottom:12.5px;
+		
+				color:rgba(255,255,255,1);
+										
+				font-size:16px;	
+				          font-family:'Helvetica';
+					
+				white-space:pre-wrap;										
+					overflow-wrap:break-word;word-wrap:break-word;word-break:break-all;
+				overflow:hidden;
+					
+				text-align:left;	   	
+	}
+	#CONTENT .frame:nth-child(odd){
+		border-color:rgba(125,255,0,0.75);
+	}
+		#CONTENT .frame:nth-child(even){
+			border-color:rgba(0,255,125,0.75);
+		}
+		
+	#CONTENT .frame:first-child{
+		border-color:rgba(125,255,0,0.75);		
+   	   margin-top:95px;
+	}			
+		#CONTENT .frame:last-child{
+			border-color:rgba(125,255,0,0.75);
+		   margin-bottom:95px;
+		}			
+	/*frameframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframeframe*/
+		
+		
+		/*framelevel1framelevel1framelevel1framelevel1framelevel1*/		
+			.frame .framelevel1{
+				   border-width:0;
+					padding:5px 5px 0 5px;
+		                              background-color:;
+			               position:relative;	
+			}
+				/*lang*/
+				.frame .framelevel1-lang{
+					color:rgba(255,255,255,1);
+											
+					font-size:16px;	
+					          font-family:'Helvetica';
+						
+					white-space:pre-wrap;										
+						overflow-wrap:break-word;word-wrap:break-word;word-break:break-all;
+					overflow:hidden;
+						
+					text-align:left;	
+				}
+				/*lang*/
+				/*sourcesourcesourcesourcesourcesourcesource*/
+				 .source{display:block;margin:0 12px;position:relative;}
+					.source .sourcecon{display:block;background-color:rgba(25,25,25,0.125);margin:0 auto;overflow:hidden;}
+					
+						.source .sourcecon .con{display:block;margin:0 auto;}
+					
+				
+				
+					.source .sourcedes{
+						display:block;
+						          min-height:25px;
+						              height:25px;	
+							border-width:2.5px 0;
+						            border-color:rgba(112,255,0,0.25);
+						            border-style:solid;
+						margin:0 auto;margin-top:12.5px;
+						
+							overflow-wrap:break-word;
+							word-wrap:break-word;			
+						word-break:break-all;						
+					text-align:center;					
+					}
+						.source .sourcedes .des{					 
+								    color:rgba(255,255,255,1);
+								font-size:16px;
+						             cursor:default;
+						}
+				/*sourcesourcesourcesourcesourcesourcesource*/
+				/**************************************************************************
+				 *ALBUM:
+				 *
+				 *
+				 */
+				      /*album:main face*/	 
+				#CONTENT .album-p
+				     {display: block;
+				    	        height:292.5px;
+				    		 width:250px;	     
+				     		        background-color:rgba(50, 25, 0, 0);
+						                      background-repeat:no-repeat;
+						                              background-size:250px 250px;
+						        background-position:top center;
+					              border:0 solid rgba(50, 50, 50, 0);		 
+				      	        margin:0 12px;
+				           position:relative;
+				     z-index:2500;		                	
+				     }	     	    	     	     	
+				#CONTENT .album-p:hover{opacity:1;}           
+				           /*mark*/
+				#CONTENT .album-p-mark{display:block;height:50px;width:50px;position:absolute;top:5px;right:5px;z-index:2500;}
+				      #CONTENT .album-p-mark dt{display:block;height:50px;width:50px;position:absolute;top:0;right:0;z-index:2500;}
+					#CONTENT .album-p-mark dt a{display:block;height:50px;width:50px;position:absolute;top:0;right:0;z-index:2500;}
+					     	#CONTENT .album-p-mark dt a .album-p-mark-show{
+						     		        display:block;
+						     		               height:50px;
+						     		                    width:50px;
+						                                                opacity:0.65;
+									            background-repeat:no-repeat;
+									                     background-size:50px 50px;
+									  	background-position:right center;					     		
+						     		                         position:absolute;
+						     		                       top:0;
+						     		                  right:0;
+						     		            z-index:2500;
+						                                cursor:pointer;	     	
+				                        }
+				                        #CONTENT .album-p-mark dt a .album-p-mark-show:hover{opacity:1;}
+				                                          
+					     	#CONTENT .album-p-mark-show-noface{
+				                                display:none;
+				                        }                                        		        	
+				     	/*name*/
+				 #CONTENT .album-p-name
+				     	{display:block;
+				    	        height:50px;
+				     	                width:250px;	     	
+		     		                         position:absolute;
+		     		                       top:190px;
+		     		                  left:0;
+		     		                z-index:2500;
+				             cursor:default;	     	     	
+				     	}
+						 #CONTENT .album-p-name dt
+						     	{display:block;
+						    	        height:50px;
+						     	                width:250px;	     	
+				     		                         position:absolute;
+				     		                       top:0;
+				     		                  left:0;
+				     		                z-index:2500;
+						             cursor:default;	     	     	
+						     	}				     	
+							     	 #CONTENT .album-p-name dt .album-p-name-show{
+						     		display:block;
+						     	             	height:50px;
+							     	      	      width:250px;
+						     	                     background-color:rgb(255,255,255);	     	
+								     	      overflow:hidden;
+				     		                         position:absolute;
+				     		                       top:0;
+				     		                  left:0;
+				     		                z-index:2500;
+							     		
+						     	             color:rgb(0,0,0);
+							     	                font-size:22px;
+							     	                   text-overflow: ellipsis;
+								         line-height:50px;    
+								 text-align: center;	     	     	
+							     	}
+				     	/*des*/
+				 #CONTENT .album-p-des{
+					 display:block;
+				 	     width:250px;
+					         min-height:25px;
+						      height:25px;	
+							border-width:2.5px 0;
+						            border-color:rgba(112,255,0,0.25);
+						            border-style:solid;
+						margin:0 auto;margin-top:12.5px;
+				 		position:absolute;left:0;bottom:0;z-index:2500;
+						
+							          overflow-wrap:break-word;
+							word-wrap:break-word;			
+						word-break:break-all;						
+					text-align:center;
+				 	line-height:25px;					
+					}
+					     	#CONTENT .album-p-des-hide{					 
+								    color:rgba(255,255,255,1);
+								font-size:16px;
+						             cursor:default;
+						}						     		     													
+				/*
+				 *
+				 *					  			 			                
+				 *ALBUM:
+				 **************************************************************************/		
+		/*framelevel1framelevel1framelevel1framelevel1framelevel1*/								
+/*CONTENTCONTENTCONTENTCONTENTCONTENTCONTENTCONTENTCONTENTCONTENTCONTENT*/
+
+
+

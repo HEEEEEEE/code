@@ -1,0 +1,105 @@
+@charset'utf-8';
+	    body,div,form,span,img,input,a
+		{margin:0;padding:0;font-family:'Helvetica'}
+/*mainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmain
+* 
+*/
+#GeoLocation{
+	    width:100%;
+	    height:100%;
+	    margin-top:50px;
+	    position:relative;
+	    z-index:2501;
+}
+	    
+	.geoLocation{
+		width:100%;
+	}
+	/*coordinatecoordinatecoordinatecoordinatecoordinate
+	* 
+	*/
+		.coordinates{
+			        width:100%;
+			     height:25px;
+			margin:12.5px auto;
+			
+			        text-align:center;
+			line-height:25px;
+			
+		           color:rgba(0,0,0,1);
+			         font-size:22.5px;
+		}
+		.coordinates:nth-child(2){font-size:16px;}
+			.coordinatesData{
+				color:rgba(0,125,0,1);
+					font-weight:600;
+			}
+			
+			
+	/*LocationLocationLocationLocationLocationLocationLocationLocation
+	 * 
+	 */
+	#Location{
+		margin-top:25px;
+	}
+		.location{
+			        width:100%;
+			     height:;
+			margin:12.5px auto;
+			
+			        text-align:center;
+			line-height:25px;
+			
+		           color:rgba(0,0,0,1);
+			         font-size:22.5px;
+		}
+		.location:first-child{height:25px;}
+		.location:nth-child(2){font-size:16px;}
+			.locationContent{height:25px;margin:5px auto;}
+				.locationContentData{
+					color:rgba(255,125,0,1);
+						font-weight:600;
+				}
+
+			
+			
+			
+			
+			
+/*othersothersothersothersothersothersothersothersothersothersothersothers
+* 
+*/			
+#Tips{
+			width:100%;
+		height:25px;
+	background-color:;
+	
+	position:fixed;
+		top:0;
+		   left:0;
+		       z-index:2500;
+	overflow:hidden;
+}			
+	#Tips span{
+			display:block;
+		        width:100%;
+		     height:25px;
+		margin:0 auto;
+		
+		        text-align:center;
+		line-height:25px;
+		
+	           color:rgba(255,255,255,1);
+		         font-size:22.5px;
+	}			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

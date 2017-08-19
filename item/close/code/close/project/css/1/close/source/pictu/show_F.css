@@ -1,0 +1,30 @@
+/* F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F*/
+
+
+
+/*Hide for ESCexitto fullscreen*/
+/*not in full*/
+	#HideareaforesC{width:5px;height:5px;}
+/*in full*/	
+	:-moz-full-screen #HideareaforesC{width:2.5px;height:2.5px;}
+		:full-screen #HideareaforesC{width:2.5px;height:2.5px;}
+			:-o-full-screen #HideareaforesC{width:2.5px;height:2.5px;}
+		:-webkit-full-screen #HideareaforesC{width:2.5px;height:2.5px;}
+	:-ms-full-screen #HideareaforesC{width:2.5px;height:2.5px;}
+/*Basic*/
+/*not in full*/
+
+/*in full*/
+.full_right{border-width:0;}
+
+	.full_source_v{display:none;}
+	.full_source_vsearchdatashowframe{bottom:0;}
+
+	      		.full_source_emoreinfo{left:0;}
+
+		.full_source_eright{right:0;}
+			.full_source_elexpand{display:block;}
+
+		.full_source_eleft{left:0;}
+			.full_fullorexitscreen{right:0;}
+

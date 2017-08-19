@@ -1,0 +1,176 @@
+@charset'utf-8';
+            body,div,dl,dt,img,span,a
+{margin:0;padding:0;font-family:'Helvetica'}
+
+	body
+{background-color:rgb(0,0,0);}
+		#ClosetoP
+		{}
+#ToP{width:100%;height:;background-color:rgb(255,125,0); position:absolute;top:0;left:0;z-index:500000;}
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+	#ToP_basic{width:;height:50px;position:absolute;top:0;left:125px;z-index:5;}
+	#ToP_basic div{float:left;margin-right:5px;}
+	#ToP_basic div dl{float:left;}
+	#ToP_basic div dl dt{float:left;}
+	/*basic facebasic facebasic facebasic facebasic facebasic face*/
+	/*face*/
+	#ToP_basicdiv1{}
+	#BasiC_face{opacity:0.5;cursor:pointer;}
+	#BasiC_face:hover{opacity:1}
+	#BasicF_dl1dt1
+	{
+	 width:42.5px;
+	     height:50px;
+	     	background-color:rgb(0,0,0);
+	}
+		#BasicF_img
+		     {display:block;
+	                       width:30px;
+	                             height:30px;
+	                          margin:10px auto;
+                             }
+	            
+	/*name*/
+	#BasicF_dl1dt2
+	{
+             max-width:100px;
+	     height:30px;
+	     	background-color:;
+		margin-left:0;
+                        margin-top:10px;     	
+	     overflow:hidden;
+	}		
+		#BasicF_username
+		{display:block;
+	                    width:;
+		             height:;
+	
+	             		text-align:left;
+	             	     line-height:30px;
+	                        color:rgb(0,0,0);
+	                   font-size:15px;
+	                text-overflow:ellipsis;
+	             overflow:hidden;          
+		}
+		#BasicF_username:hover{opacity:1}
+
+	/*closeface closeface closeface closeface closeface*/
+	/*face*/
+	#ToP_basicdiv2{}		
+	#BasiC_close{margin:10px 0;;opacity:1;cursor:default;}
+	#BasicC_dl1dt1
+	{
+	 width:30px;
+	     height:30px;
+	     	background-color:;
+	}
+		#BasicC_img
+		     {display:block;
+	                       width:30px;
+	                             height:30px;
+                             }
+	            
+	/*name*/
+	#BasicC_dl1dt2
+	{
+             max-width:100px;
+	     height:30px;
+	     	background-color:;   	
+	 overflow:hidden;
+	}		
+		#BasicC_name
+		{display:block;
+	                    width:;
+		             height:;
+	
+	             		text-align:left;
+	             	     line-height:30px;
+	                        color:rgb(255,255,255);
+	                   font-size:15px;
+	                text-overflow:ellipsis;
+	             overflow:hidden;          
+		}
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+		
+		
+		
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+#ToP_mark{width:50px;height:50px;margin:0 auto;}
+		#MarK_img{display:block;width:50px;height:50px;cursor:default;}	
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+
+		
+		
+#CloseproC
+{display:block;
+      width:325px;height:100%;
+	     border-width:0;
+		border-style:solid;
+	     border-color:rgb(0,0,0);
+	     background-color:rgb(255,125,0);
+	     opacity:1;
+	     position:absolute;
+	                 left:40%;
+	     top:0px;
+                 overflow:hidden;
+      z-Index:500;}
+
+
+
+	#CloseproC_top{width:325px;height:50px;}
+            	#CloseproC_top span
+		{display:none;
+                          width:325px;height:40px;
+			     border-width:0;
+				border-style:solid;
+			     border-color:rgb(0,0,0);
+	                         background-color:;
+		            opacity:1;
+		          margin:0 auto;
+		       color:rgb(0,0,0);font-size:40px;font-weight:500;
+                            text-align:center;
+                           cursor:default;
+	              overflow:hidden;
+		 }
+
+
+	#CloseproC_center{margin:40px auto;margin-top:0;}	
+		#ClosetooL
+		{width:325px;
+		       height:40px;
+		     background-color:rgb(12,12,12);
+		            opacity:1;		 
+			     border-width:0;
+				border-style:;
+			     border-color:;
+		          margin:0 auto;
+	            overflow:hidden;
+		}
+		        #ClosedeletE
+			{width:25px;height:10px;
+			   position:absolute;left:22.5px;top:65px;
+		              overflow:hidden;
+			 z-Index:5;}
+		       .closedelete{width:25px;height:10px;}
+		       	#ClosedeletE_img{display:none;cursor:pointer;}
+				#ClosedeletenO_img{display:block;opacity:0.5;cursor:default;}
+		
+	                        #CloseadD{width:25px;height:25px;margin:7.5px auto;}
+			.closeadd{width:25px;height:25px;}
+		       	     #CloseadD_img{display:block;cursor:pointer;}
+				#CloseaddnO_img{display:none;opacity:0.5;cursor:default;}		
+	                   #ClosesettingS
+			{width:25px;height:25px;
+			   position:absolute;right:22.5px;top:57.5px;
+		              overflow:hidden;
+			 z-Index:5;}
+ 		       .closesettings{width:25px;height:25px;}
+		       	#ClosesettingS_img{display:none;cursor:pointer;}
+				#ClosesettingsnO_img{display:block;opacity:0.5;cursor:default;}
+		
+		
+		
+		
+
+#ClosebottoM{}	
+		

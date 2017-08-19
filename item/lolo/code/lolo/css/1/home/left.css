@@ -1,0 +1,107 @@
+#LefT{
+             width:;
+	     height:100%;
+	        background-color:;
+	       position:fixed;
+	     top:0;
+	 left:0;
+	 z-index:2500;
+}
+	#LefT_left{
+	             width:100%;
+		     height:100%;
+		        background-color:rgba(25, 25, 25, 0.005);
+		 position:absolute;
+		     top:0;
+		       left:-6.5px;
+		 z-index:2500;		
+	}
+	#LefT_center{
+	             width:100px;
+		     height:100%;
+		        background-color:;
+		 position:absolute;
+		     top:0;
+		       right:15.5px;
+		 z-index:2500;		
+	}
+	#LefT_right{
+	             width:6.5px;
+		     height:100%;
+		        background-color:rgba(25, 25, 25, 0.025);
+		 position:absolute;
+		     top:0;
+		       right:6.5px;
+		 z-index:2501;		
+	}
+
+	#Left_Bottom{
+		 display:none;
+	             width:100px;
+		     height:8px;
+		        background-color:rgba(25, 25, 25, 0.025);
+		 position:absolute;
+		     bottom:50px;
+		       right:15.5px;
+		 z-index:2501;		
+	}	
+	
+		#LefT_centercontent{
+		             width:;
+			     height:;
+			 background-color:;
+			
+			 margin:0 auto;
+			    position:relative;
+			 z-index:2500;		
+		}
+
+/*HomEHomEHomEHomEHomEHomEHomEHomEHomEHomEHomEHomEHomEHomEHomEHomEHomEHomEHomE*/
+#LefT_home{
+             width:100px;
+	        height:;
+	          background-color:;				
+	 margin:0 auto;
+	       margin-top:2.5px;	
+	             overflow:hidden;					
+}
+	#LefT_homedl1{
+	             width:100px;
+		      height:50px;
+		         background-color:;
+		
+		         border-width:0 0 8px 0;
+		        	border-color:rgba(25, 25, 25, 0.05);
+		         border-style:solid;
+		
+		  margin:0 auto;
+	      cursor:pointer;																				
+	}
+						
+		#LefT_homedl1dt1{
+			width:;
+			     height:50px;
+			            margin:0;
+		}
+		     #LefT_homedl1dt1 a{
+
+		     }
+			#LefT_homedl1dt1 a span{
+				display:block;
+				           width:;
+				              height:50px;
+				           padding-left:30px;
+				background-color:;
+				opacity:;
+					background-repeat:no-repeat;
+					        background-size:30px 30px;
+					background-position:left center;																		
+				margin:0 10px;
+					
+				text-align:left;
+				          line-height:50px;
+					     color:rgb(255,75,0);
+				          font-size:18px;		             
+			            overflow:hidden;				
+			}
+			#LefT_homedl1dt1 a span:hover{opacity:1;}

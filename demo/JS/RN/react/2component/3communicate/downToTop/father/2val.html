@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's component communicate</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <!-- <script type='text/babel' src='react.js'> -->
+    <script type='text/babel'>
+                    class Third extends React.Component{
+                        render(){
+                            return(
+                                <div className='third'>{this.props.third}</div>
+                            )
+                        }
+                    }
+                class Second extends React.Component{
+                    handleClick(){
+                        let val="second be clicked";
+                        this.props.secondTrans(val)
+                    }
+                    render(){
+                        return(
+                            <div className='second'>
+                                <Third third={this.props.second} />
+                                <div onClick={this.handleClick.bind(this)}>I'm second</div>
+                             </div>
+                        )
+                    }
+                }
+            class First extends React.Component{
+                constructor(props){
+                    super(props);
+                    this.state={click:''}
+                }
+                handleTrans(val){
+                    this.setState({click:val})
+                }
+                render(){
+                    return(
+                        <div className='first'>
+                            <Second second={this.props.first} secondTrans={this.handleTrans.bind(this)} />
+                            <div>{this.state.click}</div>
+                        </div>
+                    )
+                }
+            }
+            First.defaultProps ={
+                first:'firstInfo'
+            }
+            ReactDOM.render(
+                    <First />,
+                    document.getElementById('container')
+            )
+            /*
+               child to father
+                    1trans this val defined by yourself
+                         process
+                            1child change normal a event:click
+                                onClick={this.handleClick.bind(this)
+                                handleClick(){let val="second be clicked";this.props.secondTrans(val)}
+
+                                this.props.secondTrans(val)
+                            2set handleClick props to component
+                                <Second secondTrans={this..handleTrans.bind(this)} />
+
+                                this.secondTrans.bind(this)
+                            3get the val
+                                handleTrans(val){this.setState({click:val})}
+             */
+    </script>
+</body>
+
+</html>

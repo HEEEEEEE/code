@@ -1,0 +1,28 @@
+ /*
+ :full-screen{}用在CSS代码中，可以控制全屏元素（及其子元素）全屏状态时的样式
+ 兼容
+ :full-screen{}
+ :-moz-full-screen{}
+ :-webkit-full-screen{}
+ :-o-full-screen{}
+ :-ms--full-screen{}
+ 
+ 控制全屏元素的子元素:[目前全屏元素本身尚不可控制
+ :-moz-full-screen #element1{}
+ :-moz-full-screen img{}
+ */
+ :full-screen #FfullscreencenteR
+ {
+width:250px;height:250px;margin:auto;
+
+border-width:5px;border-style:double;border-color:white;
+
+background-color:rgb(255,189,0);
+		
+cursor:pointer;	
+ }
+ :full-screen #FfullscreencenteR{}
+ :-moz-full-screen #FfullscreencenteR{}
+ :-webkit-full-screen #FfullscreencenteR{}
+ :-o-full-screen #FfullscreencenteR{}
+ :-ms--full-screen #FfullscreencenteR{}

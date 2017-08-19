@@ -1,0 +1,9 @@
+         @charset'utf-8';
+#EditortooL img
+          {
+         cursor:pointer
+          }
+#EditorpagE
+         {
+         width:400px;min-height:100px;border:2px dashed #ccc
+         }

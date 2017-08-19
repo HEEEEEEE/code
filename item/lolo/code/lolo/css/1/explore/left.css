@@ -1,0 +1,144 @@
+
+#LefT{
+     width:100%;
+           height:;
+	 background-color:;
+	
+                position:fixed;
+	   top:0;
+	left:0;
+	   bottom:0;		
+     z-index:2502;			
+}
+	#LefT_center{
+		height:100%;
+		     width:;
+		       background-color:;
+				
+		margin:0 auto;
+		margin-top:75px;
+		       position:relative;
+		z-index:2525;	
+	}
+		#LefT_main{
+			width:280px;
+			    height:100%;
+			       background-color:;
+			position:absolute;
+			              top:0;
+			         left:0;
+			z-index:2500;	
+		}
+			/*
+			*petiolepetiolepetiolepetiolepetiolepetiolepetiolepetiolepetiolepetiole
+			 */
+			#CategorY_petiole{
+				display:none;
+				  width:;
+				    height:100%;
+				       background-color:;
+				                border-width:0 7.5px 0 0;
+					 border-style:solid;
+				border-color:rgba(0, 0, 150,1);
+				position:absolute;
+				              top:0;
+				         left:12.5px;
+				z-index:2500;
+			}
+		#LefT_niam{
+			width:280px;
+			    height:;
+			       background-color:;
+			position:absolute;
+			              top:0;
+			         left:0;
+			z-index:2500;	
+		}	
+			/*
+			*leavesleavesleavesleavesleavesleavesleavesleavesleavesleavesleavesleave
+			 */			
+			#CategorY_leaves{
+				width:250px;
+				    height:;
+				       background-color:;
+				position:relative;
+				              top:0;
+				         left:0;
+				z-index:2501;
+			}
+				.category-leaf{
+				               width:225px;
+					        height:30px;
+					            background-color:;
+					            border-radius:2px;
+					       position:relative;
+					          margin-top:25px;
+					             margin-left:0;
+					   z-index:2500;
+					   overflow:hidden;	
+				}
+				.category-leaf:nth-child(1){margin-top:0;}
+				.category-leaf:nth-child(2n+1){}
+				.category-leaf:nth-child(2n){}
+				.category-leaf:nth-child(4){left:;}
+				.category-leaf:nth-child(5){left:;}
+				#CategorY_leaf1{margin-top:25px;}
+					.category-leaf a{
+				                           display:block;
+				                                     width:220px;
+					                             height:28px;
+						         padding:0 5px;
+					                  background-color:rgba(0,0,225,1);
+						   opacity:0.5;
+						
+					               margin:0;
+	
+						   line-height:28px;
+							text-align:center;
+							
+						   color:rgba(255,255,255,1);
+					                        font-size:16px;
+						
+						   cursor:pointer;
+					}
+					.category-leaf a:hover{opacity:1;}
+					#CategorY_leafcon1{opacity:1;}
+					#CategorY_leafcon5{}						
+
+					
+				.category-leafforsearch{
+				               width:225px;
+					        height:30px;
+					            background-color:;
+					       position:relative;
+					          margin-top:0;
+					             margin-left:0;
+					       left:0;
+					   z-index:2500;
+				}			
+					.category-leafforsearch a{
+				                           display:block;
+				                                     width:220px;
+					                             height:28px;
+						         padding:0 5px;
+					                  background-color:rgba(0,0,225,1);
+						   opacity:0.5;
+						
+					               margin:0;
+	
+						   line-height:28px;
+							text-align:center;
+							
+						   color:rgba(255,255,255,1);
+					                        font-size:16px;
+						
+						   cursor:pointer;
+					}	
+					
+					
+					
+					
+					
+					
+					
+					

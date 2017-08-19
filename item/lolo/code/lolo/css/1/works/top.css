@@ -1,0 +1,185 @@
+
+#ToP{width:100%;height:50px;position:fixed;top:0;left:0;z-index:50005;}
+#TopcontenT{width:100%;height:50px;position:relative;margin:0 auto;background-color:rgba(255,255,255,1);z-index:2500;}
+
+	#TopforE{width:100%;height:50px;background-color:; position:absolute;top:0;left:0;z-index:6;}
+	#TopforE div{width:500px;height:50px;background-color:rgba(255, 125, 0, 1);margin:0 auto;position:relative;z-index:5;}
+	
+	#ToplefT{width:100%;height:50px;background-color:;position:absolute;top:0;left:0;z-index:5;}
+	#ToplefT div{width:35%;height:50px;background-color:rgba(25, 25, 0, 0.25);position:absolute;top:0;left:0;z-index:5;}
+	
+	#ToprighT{width:100%;height:50px;background-color:;position:absolute;top:0;right:0;z-index:5;}
+	#ToprighT div{width:35%;height:50px;background-color:rgba(25, 25, 0, 0.25);position:absolute;top:0;right:0;z-index:5;}
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+	#ToP_basic{width:;height:;background-color:rgba(255,255,255,1);position:absolute;top:0;left:50px;z-index:5;}
+	#ToP_basic div{float:left;margin-right:5px;}
+	#ToP_basic div dl{float:left;}
+	#ToP_basic div dl dt{float:left;}
+	/*basic facebasic facebasic facebasic facebasic facebasic face*/
+	/*face*/
+	#ToP_basicdiv1{}
+	#BasiC_face{margin:5px 0;opacity:0.5;cursor:default;}
+	#BasiC_face:hover{opacity:1}
+	#BasicF_dl1dt1{
+		width:40px;
+		     height:40px;
+		     	background-color:rgba(255,112,0,1);
+		border-radius:40px;		
+		margin:0;	
+		    position:relative;
+			 z-index:2500;
+		overflow:hidden;		
+	}
+	#BasicF_dl1dt1 a{display:block;cursor:default;}
+		#BasicF_img{
+		        display:block;
+			 width:40px;
+			      height:40px;
+	     	                     background-color:;
+				 background-repeat:no-repeat;
+				      background-size:40px 40px;
+			         background-position:top center;
+			      margin:0 auto;								
+		           position:relative;
+		        z-index:2500;			
+                             }
+	            
+	/*name*/
+	#BasicF_dl1dt2
+	{
+             max-width:100px;
+	         height:40px;
+	     	background-color:;
+			margin-left:0;    	
+	     			overflow:hidden;
+	}		
+		#BasicF_username
+		{display:block;
+	                    width:;
+		             height:;
+	
+	             		text-align:left;
+	             	     line-height:40px;
+	                        color:rgba(255,75,0,1);
+	                   font-size:18px;
+	                text-overflow:ellipsis;
+	             overflow:hidden;          
+		}
+	/*BasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasic*/
+	#ToP_basicdiv1menu{
+		     width:120px;
+		            height:175px;
+		     	   background-color:;			
+		               position:fixed;
+		       	top:0;
+		     left:0;
+		 z-index:99999999999999999;
+		}
+			#ToP_basicdiv1menu #ToP_basicdiv1menudl1{
+			 width:100px;
+			         height:;
+			     	background-color:rgba(0,0,0,0.75);
+			      margin:0 auto;
+			 overflow:hidden;		
+			}
+			
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt{
+				 width:95px;
+				     height:25px;
+				          background-color:rgb(255,255,255);
+					         opacity:0.5;
+					    padding:0 2.5px;	
+				          margin:0 auto;
+				      margin-top:5px;
+				   overflow:hidden;
+				 cursor:pointer;
+				}
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt a{}
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt:nth-child(1){margin-top:0;}
+			
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt:hover{opacity:1;}
+					#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt span{
+				             display:block;				
+				                    margin:0 auto;				
+					               text-align:center;
+				                                    line-height:25px;
+					                               font-size:12.5px;						
+                                                            }
+					#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt .basicusermenuconfl{color:rgb(255,75,0);}
+			#ToP_basicdiv1menu #ToP_basicdiv1menudl2{
+				 width:40px;
+			                   height:40px;
+			     	          background-color:;			
+			               position:absolute;
+			       		right:0px;
+			     	         bottom:0px;
+			 	z-index:2500;		
+			}
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl2 img{
+					 display:block;
+					 width:40px;
+				                   height:40px;
+				     	          background-color:;
+		    				border-radius:40px;					 
+				     	          opacity:0.5;
+					         margin:0 auto;
+					 overflow:hidden;					
+				}
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl2 img:hover{opacity:1;}				                                              
+ 	/*BasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasic*/                                   
+	/*info infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo*/
+	/*face*/
+	#BasiC_info{margin-top:10px;opacity:1;cursor:text;}
+	#BasicI_dl1dt1
+	{
+	 width:40px;
+	     height:40px;
+	     	background-color:;
+	                    background-repeat:no-repeat;
+		              background-size:40px 40px;
+				background-position:center center;
+	}
+
+	/*name*/
+	#BasicI_dl1dt2
+	{
+             width:;
+	     height:40px;
+	     	background-color:;   	
+	     overflow:hidden;
+	}		
+		#BasicI_name
+		{display:block;
+	                    width:;
+		             height:;
+	
+	             		text-align:left;
+	             	     line-height:40px;
+	                        color:rgba(50,25,0,1);
+	                   font-size:18px;         
+		}   		
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+		
+		
+		
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+#ToP_mark{width:50px;height:50px;margin:0 auto;}
+		#MarK_img{display:block;width:50px;height:50px;cursor:text;}	
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	

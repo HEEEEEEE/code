@@ -1,0 +1,11 @@
+         @charset'utf-8';
+#EditortooL img
+          {
+         cursor:pointer
+          }
+#EditorpagE
+         {
+         width:400px;height:125px;border:2px dashed gray;
+                        overflow-x:hidden;
+                                        overflow-y:auto;	
+         }

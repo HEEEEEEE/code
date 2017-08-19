@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's component</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        //component
+                //create
+                    //object
+                    class Com extends React.Component{
+                        render(){
+                            return(<div>{this.props.name}</div>)
+                        }
+                    };
+                    //object to tag
+                    const element =<Com name='component' />;
+        //insert
+        ReactDOM.render(
+                //tag to html
+                element,
+                document.getElementById('container')
+        )
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>daigo</title>
+		<meta charset="utf-8" />
+		<link type='text/css' rel='stylesheet' href='daigo.css'>				
+		<script src='react.js'></script>
+		<script src='react-dom.js'></script>
+		<script src='browser.min.js'></script>
+	</head>
+	
+	<body>
+		<div class='container' id='Container'>
+						
+		</div>
+		<script type='text/babel'>
+ 			//ui component create
+				var Container = React.createClass({
+					getInitialState: function(){
+						return {navigation:0,num:0}
+					},
+					navigatiClick:function(val){
+						this.setState({navigation:val})
+					},
+					handleClick:function(val){
+						this.setState({num:(this.state.num)+ 1})
+					},
+					render:function(){
+						return (
+							<div>
+								<div className='container-header'>
+									<img className='container-headerMore' src='more.jpg' alt='more' />
+									<span className='container-headerTitle'>代go</span>
+								</div>
+								<div  className='container-navigation'>
+									<a tabindex='1' className='container-navigationTitle' onClick={this.navigatiClick.bind(this,0)}><span>预购清单</span></a>
+									<a tabindex='2' className='container-navigationTitle' onClick={this.navigatiClick.bind(this,1)}><span>收款发货</span></a>
+									<a tabindex='3' className='container-navigationTitle' onClick={this.navigatiClick.bind(this,2)}><span>记录统计</span></a>
+								</div>
+								<div className='container-search'>
+									<div className='container-searchMain'>
+										<img src='search.jpg' alt='search' />
+									</div>
+								</div>
+								<div  className='container-content'>
+									{this.state.navigation == 0?(
+										<div data-order='1' className='container-contentItem'>
+											<div className='container-contentList'>
+												<div className='container-contentListShow'>
+													<div className='container-contentListShowContent1'><img src='triangle.jpg' alt='     ' /></div>
+													<div className='container-contentListShowContent2'>
+															<span>买家:</span>
+															<span>凹凸曼</span>
+															<span>商品:</span>
+															<span id='goodsNum1'>{this.state.num}</span>
+															<span>件</span>
+													</div>
+													<div className='container-contentListShowContent3'><img src='arrow.jpg' alt='     ' /></div>
+												</div>
+												<div className='container-contentListAdd'>
+													<span className='goodsNumadd' onClick={this.handleClick}>加单</span>
+												</div>
+											</div>
+											<div className='container-contentList'>
+												<div className='container-contentListShow'>
+													<div className='container-contentListShowContent1'><img src='triangle.jpg' alt='     ' /></div>
+													<div className='container-contentListShowContent2'>
+															<span>买家:</span>
+															<span>卖火柴的小女孩</span>
+															<span>商品:</span>
+															<span id='goodsNum2'>0</span>
+															<span>件</span>
+													</div>
+													<div className='container-contentListShowContent3'></div>
+												</div>
+												<div className='container-contentListAdd'>
+													<span className='goodsNumadd'>加单</span>
+												</div>
+											</div>
+										</div>
+									):this.state.navigation == 1?(
+										<div data-order='2' className='container-contentItem' id='Container-ContentItem2'>
+											<div className='container-contentList'></div>
+											<div className='container-contentList'></div>
+											<div className='container-contentList3'><span style={{backgroundColor:'rgba(175,250,0,1)',backgroundImage:"url('paperfly.jpg')"}}></span></div>
+										</div>
+									):(
+										<div data-order='3' className='container-contentItem' id='Container-ContentItem3'>
+											<div className='container-contentList'></div>
+											<div className='container-contentList'></div>
+											<div className='container-contentList3'><span style={{backgroundColor:'rgba(0,0,255,0.75)',backgroundImage:"url('model.jpg')"}}></span></div>
+										</div>
+									)}
+								</div>
+							</div>
+						)
+					}
+				});
+			//ui component assemble
+				ReactDOM.render(
+					<Container />,
+					document.getElementById('Container')
+				);
+		</script>
+	</body>
+	
+</html>

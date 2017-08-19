@@ -1,0 +1,287 @@
+@charset'utf-8';
+	    body,div,span,dl,dt,a
+		{margin:0;padding:0;font-family:'Helvetica'}
+body{background-color:rgb(0, 5, 5);}
+		/*toptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptop*/
+
+#ToP{width:100%;height:;background-color:rgb(255,125,0); position:absolute;top:0;left:0;z-index:6;}
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+	#ToP_basic{width:;height:50px;position:absolute;top:0;left:125px;z-index:5;}
+	#ToP_basic div{float:left;margin-right:5px;}
+	#ToP_basic div dl{float:left;}
+	#ToP_basic div dl dt{float:left;}
+	/*basic facebasic facebasic facebasic facebasic facebasic face*/
+	/*face*/
+	#ToP_basicdiv1{}
+	#BasiC_face{opacity:0.5;cursor:pointer;}
+	#BasiC_face:hover{opacity:1}
+	#BasicF_dl1dt1
+	{
+	 width:42.5px;
+	     height:50px;
+	     	background-color:rgb(0,0,0);
+	}
+		#BasicF_img
+		     {display:block;
+	                       width:30px;
+	                             height:30px;
+	                          margin:10px auto;
+                             }
+	            
+	/*name*/
+	#BasicF_dl1dt2
+	{
+             max-width:100px;
+	     height:30px;
+	     	background-color:;
+		margin-left:0;
+                        margin-top:10px;     	
+	     overflow:hidden;
+	}		
+		#BasicF_username
+		{display:block;
+	                    width:;
+		             height:;
+	
+	             		text-align:left;
+	             	     line-height:30px;
+	                        color:rgb(0,0,0);
+	                   font-size:15px;
+	                text-overflow:ellipsis;
+	             overflow:hidden;          
+		}
+		#BasicF_username:hover{opacity:1}
+
+	/*closeface closeface closeface closeface closeface*/
+	/*face*/
+	#ToP_basicdiv2{}		
+	#BasiC_close{margin:10px 0;;opacity:1;cursor:default;}
+	#BasiC_close:hover{}
+	#BasicC_dl1dt1
+	{
+	 width:30px;
+	     height:30px;
+	     	background-color:;
+	}
+		#BasicC_img
+		     {display:block;
+	                       width:30px;
+	                             height:30px;
+                             }
+	            
+	/*name*/
+	#BasicC_dl1dt2
+	{
+             max-width:100px;
+	     height:30px;
+	     	background-color:;   	
+	     overflow:hidden;
+	}		
+		#BasicC_name
+		{display:block;
+	                    width:;
+		             height:;
+	
+	             		text-align:left;
+	             	     line-height:30px;
+	                        color:rgb(255,255,255);
+	                   font-size:15px;
+	                text-overflow:ellipsis;
+	             overflow:hidden;          
+		}
+
+	/*albumface albumface albumface albumface albumface*/
+	/*face*/
+	#BasiC_album{margin:10px 0;opacity:1;cursor:default;}
+	#BasicA_dl1dt1
+	{
+	 width:30px;
+	     height:30px;
+	     	background-color:;
+	background-repeat:no-repeat;
+		background-size:30px 30px;
+	background-position:center center;
+	}
+		#BasicA_img
+		     {display:block;
+	                       width:20px;
+	                             height:20px;
+	                  margin:8px 0 0 5px;
+                             }
+	/*name*/
+	#BasicA_dl1dt2
+	{
+             width:;
+	     height:30px;
+	     	background-color:;   	
+	     overflow:hidden;
+	}		
+		#BasicA_name
+		{display:block;
+	                    width:;
+		             height:;
+	
+	             		text-align:left;
+	             	     line-height:30px;
+	                        color:rgb(255,255,255);
+	                   font-size:15px;         
+		}                            		
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+		
+		
+		
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+#ToP_mark{width:50px;height:50px;margin:0 auto;}
+		#MarK_img{display:block;width:50px;height:50px;cursor:default;}	
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+				
+		/*toptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptop*/		
+		
+		/*centercentercentercentercentercentercentercentercentercentercentercenter*/		
+#CenteR{width:100%;position:absolute;top:0;left:0;bottom:0;z-index:5;}
+
+		/*AlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:five*/
+		#AlbuM_frame
+		{width:250px;height:;
+			background-color:rgba(50,25,0,0.25);
+		               border-width:0;
+	                           border-style:solid;
+	                           border-color:rgb(50, 25, 0);
+	
+			   position:absolute;
+		              top:100px;
+		          left:0;
+		              bottom:8px;
+		              z-index:7;
+		 overflow:hidden;	
+		}
+			/*start:class*/
+			.AlbuM_filemark{width:250px;height:75px;opacity:1;position:relative;top:0;left:0;z-index:5;}
+				/*name*/
+				.AlbuM_filemark_l1
+				{width:250px;
+				     height:30px;
+				     	background-color:rgb(255, 125, 0);
+		                                    opacity:1;
+					    position:absolute;
+				          left:50px;
+				              bottom:0;
+				 z-index:5;
+				   overflow:hidden;
+				 cursor:default;
+				}
+				.AlbuM_filemark_l1{opacity:0.5;}		
+					.AlbuM_filemark_l1 span
+					{display:block;
+				                 width:;
+					         height:;
+				                 padding-left:50px;
+					           background-color:;
+					 margin:0;
+				             		text-align:left;
+				             	line-height:30px;
+				             color:rgb(255,255,255);
+				             	font-size:15px;
+				             overflow:hidden;          
+					}
+					
+				/*box*/
+				.AlbuM_filemark_l2
+				{width:50px;
+				     height:50px;
+				     	background-color:;
+						background-repeat:no-repeat;
+							background-size:50px 50px;
+					background-position:center center;
+		                                    opacity:1;
+					    position:absolute;
+				          left:50px;
+				              bottom:5px;
+				 z-index:6;
+				   overflow:hidden;
+				 cursor:pointer;									 
+				}
+				.AlbuM_filemark_l2{opacity:0.5;}
+				
+				/*mark*/
+				.AlbuM_filemark_l2 img
+				{display:block;
+				 width:25px;
+				     height:25px;
+				     	background-color:;
+		                                    opacity:1;
+					    position:absolute;
+				          left:5px;
+				              bottom:0;
+				 z-index:5;
+				}
+			/*start:id*/	
+		/*AlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:fiveAlbuM:five*/		
+
+/*Album:cdes Album:cdes Album:cdes Album:cdes Album:cdes*/	 
+	#AlbuM_cdes{display:none;position:absolute;top:100px;left:258px;width:250px;z-index:6;}
+	            #ClosedeS_top{margin:0 auto;}
+	                                 #ClosedeS_top dt{padding:0 5px;height:35px;margin:0 auto;}
+	                                 #ClosedeS_top dt span{line-height:35px;text-align:left;color:rgb(125,255,0);font-size:20px;cursor:default;}
+	                                            #ClosedeS_top dt span:nth-child(2){color:rgba(255,125,0,0.5);font-size:14px;}
+			         #ClosedeS_top dt span:nth-child(2):hover{color:rgba(255,125,0,1);}
+	
+		#ClosedeS_content #DeS
+		{display:block;
+                                         width:385px;
+		              min-height:500px;
+			padding:0 5px;
+			background-color:rgba(0,5,5,0);
+			border-width:0;
+			margin-top:5px;
+                                               overflow-x:hidden;
+			overflow-wrap:break-word;word-wrap:break-word;			
+		          word-break:break-all;						
+		       text-align:left;
+		    color:rgba(255,255,255,0.5);
+		font-size:16px;
+
+                                   cursor:default;
+		}
+		#ClosedeS_content #DeS:hover{color:rgba(255,255,255,1);}	
+/*Album:cdes Album:cdes Album:cdes Album:cdes Album:cdes*/
+                        	
+	/*Album:conAlbum:conAlbum:conAlbum:conAlbum:conAlbum:conAlbum:conAlbum:con*/
+	#AlbuM_con
+	{width:100%;
+	        border-width:0 0 8px 0;
+                        border-style:solid;
+                            border-color:rgb(255, 125, 0);                        
+	                    position:absolute;
+	                       top:0;
+	                    left:0;
+	               bottom:0;
+	         z-index:5;
+             overflow:hidden;
+	}																												
+	/*Album:conAlbum:conAlbum:conAlbum:conAlbum:conAlbum:conAlbum:conAlbum:con*/		
+		/*centercentercentercentercentercentercentercentercentercentercentercenter*/	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+

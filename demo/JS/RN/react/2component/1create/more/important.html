@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's component</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        //component
+            //functional functional functional functional functional
+                //create
+                    //object
+                    function Com(props){
+                        //Com(props)
+                            // name:the first letter should be uppercase
+                            // arg:props
+                        return (<div> a component name:{props.name}</div>);
+                        //props.name
+                            //get the component name value
+                    }
+                    //object to tag
+                    const element =<Com name='functional' />;
+                    //<Com name='functional' />
+                        // Com:same with function
+                        // name:props.name will get this name
+            //class:extends
+                class Com1 extends React.Component{
+                    render(){
+                        return (<div>a component name:{this.props.name}</div>)
+                    }
+                };
+                const element1 =<Com1 name='extends' />;
+            //class:createClass class:createClass class:createClass
+                const Com2 =React.createClass({
+                    render:function(){
+                        return (<div>a component name:{this.props.name}</div>)
+                    }
+                });
+                const element2 =<Com2 name='createClass' />;
+        //insert
+        ReactDOM.render(
+                //tag to html
+                element2,
+                document.getElementById('container')
+        )
+        /*
+            EFFORT
+                Components let you split the UI ,a UI including html css js that can be used in any web page
+            WORK
+                components are like JavaScript functions. They accept arbitrary inputs (called "props") and
+                return React elements describing what should appear on the screen
+            FORM
+                props + return react element
+            TYPE
+                functional class:extends createClass
+            warning
+                Components must return a single root element
+         */
+    </script>
+</body>
+
+</html>

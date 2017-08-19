@@ -1,0 +1,86 @@
+ #MenU_ideatoolmore{
+	     display:none;
+	     width:125px;
+	            height:;
+	     	   background-color:;			
+	               position:fixed;
+	       	  top:0;
+	           left:0;
+	     z-index:5000;			
+ }
+	.menu_ideatoolmore-kind{
+		 width:100%;
+		         height:;
+		     	background-color:;
+		      margin:0 auto;
+		 overflow:hidden;		
+	}
+	
+		.menu_ideatoolmore-kind-1{
+			 width:125px;
+			     height:35px;
+			 background-color:rgba(0, 0, 0, 0.05);
+					
+			 margin:0 auto;
+			      margin-top:5px;
+				
+			 cursor:default;
+		}
+		.menu_ideatoolmore-kind-1:nth-child(2n+1){opacity:1;}
+		.menu_ideatoolmore-kind-1:nth-child(2n){opacity:0.85;}				
+		.menu_ideatoolmore-kind-1:nth-child(1){margin-top:0;}
+		
+			.menu_ideatoolmore-kind-1-1{
+		                           display:block;				
+		                    margin:0 auto;
+								
+			               text-align:center;
+		                        line-height:35px;
+				
+			              color:rgba(50,25,0,1);
+			        font-size:15px;						
+                                    }
+			.menu_ideatoolmore-kind-1-1:hover{font-size:20px;} 
+                                                          
+                                                          
+                                                          
+
+ #MenU_ideatoolmorenotmine{
+	     display:none;
+	     width:125px;
+	            height:;
+	     	   background-color:;			
+	               position:fixed;
+	       	  top:0;
+	           left:0;
+	     z-index:5000;			
+ }
+	.menu_ideatoolmore-kindnotmine{
+		 width:100%;
+		         height:;
+		     	background-color:rgba(0, 0, 0, 0.05);
+		      margin:0 auto;
+		 overflow:hidden;		
+	}
+	
+		.menu_ideatoolmore-kind-1notmine{
+			 width:125px;
+			     height:35px;	
+			          margin:0 auto;
+			      margin-top:5px;
+			 cursor:default;
+		}
+		.menu_ideatoolmore-kind-1notmine:nth-child(2n+1){opacity:1;}
+		.menu_ideatoolmore-kind-1notmine:nth-child(2n){opacity:0.85;}
+		.menu_ideatoolmore-kind-1notmine:nth-child(1){margin-top:0;}
+			
+			.menu_ideatoolmore-kind-1-1notmine{
+		                        display:block;				
+		                    margin:0 auto;
+							
+			               text-align:center;
+		                    line-height:35px;
+
+			        font-size:16px;						
+                                                }
+			 .menu_ideatoolmore-kind-1-1notmine:hover{font-size:20px;}	                                                          

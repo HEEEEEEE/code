@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's jsx</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        //modelmodelmodelmodelmodelmodelmodelmodelmodelmodelmodel
+            //purepurepurepurepurepurepurepurepure
+                    //html wayhtml wayhtml wayhtml wayhtml wayhtml wayhtml wayhtml way
+                        //var
+                            const e1 =<div>no '' around html echo</div>;
+                        //array
+                            const arr=[<div>array1</div>,<div>array2</div>];
+                        //function
+                            function HasArguments(){
+                                if(arguments.length >0){
+                                    return <div>yes</div>;
+                                }else{
+                                    return <div>no</div>;
+                                }
+                            }
+                        //object
+                            const obj={obj1:<div>obj1</div>,obj2:<div>obj2</div>};
+                        //component(class)
+                    //code waycode waycode waycode waycode waycode waycode waycode way
+                        const createE =React.createElement(
+                                'div',
+                                {className:'createE',width:'250px',height:'25px'},
+                                'createElement'
+                        );
+//                        const createE = {
+//                            type: 'div',
+//                            props: {
+//                                className: 'createE',
+//                                children: 'createElement'
+//                            }
+//                        };
+            //jsxjsxjsxjsxjsxjsxjsxjsxjsxjsxjsxjsx
+                        function HasArguments1(){
+                            if(arguments.length >0){
+                                return <div>{obj.obj1}</div>;
+                            }else{
+                                return <div>{obj.obj2}</div>;
+                            }
+                        }
+        //insertinsertinsertinsertinsertinsertinsertinsertinsertins
+            ReactDOM.render(
+                    createE,
+                    document.getElementById('container')
+            )
+
+    </script>
+</body>
+
+</html>

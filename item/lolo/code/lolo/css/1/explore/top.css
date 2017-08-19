@@ -1,0 +1,559 @@
+
+#ToP{
+	width:100%;
+	    height:;
+	      background-color:;
+	position:fixed;
+	          top:0;
+	           left:0;
+	z-index:3000;
+}
+
+      /*
+      *mainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmain
+      */
+     #ToP_main{
+	width:;
+	    height:75px;
+	      background-color:rgba(255,255,255,1);
+     	      margin:0 auto;
+	    position:relative;
+	z-index:5000;
+     }
+	/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+	#ToP_mark{
+		width:65px;
+		       height:65px;
+		         position:absolute;
+		       top:10px;
+		    left:0;
+		z-index:2501;
+	}
+			#MarK_img{
+	                               display:block;
+	                                        width:65px;
+	                                             height:65px;
+					background-repeat:no-repeat;
+					  background-position:center center;
+				            background-size:contain;
+				         margin:0;
+				    position:relative;
+			          z-index:2501;							
+	             	       cursor:text;
+	                        }	
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+
+	                        
+	                        
+	/*guideguideguideguideguideguideguideguideguideguideguideguide*/
+	#ToP_guide{
+		width:100%;
+		      height:;
+		          background-color:;
+		
+		position:absolute;
+		          top:0;
+		           	left:0;
+		z-index:2500;	
+	}
+		#ToP_guidedl1 dt{
+			width:100%;
+			      height:;
+			          background-color:;			
+		}
+		#ToP_guidedl1dt1{}
+		    #ToP_guidedl1 dt a{display:block;}
+			#ToP_guidestr{
+				display:block;
+				       width:100%;
+				            height:25px;
+				       background-color:;
+				margin:0 auto;
+				         margin-top:22.5px;
+				
+				text-align:center;
+					line-height:25px;
+				
+				color:rgba(0,0,255,1);
+					font-size:20px;
+			}
+			#ToP_guideimg{
+				display:block;
+				       width:50px;
+				            height:50px;
+				
+				       background-color:;
+				       opacity:0.75;
+				       background-repeat:no-repeat;
+				       background-size:contain;
+				       background-position:center center;
+				
+				margin:0 auto;
+				       margin-top:12.5px;
+			}
+			#ToP_guideimg:hover{opacity:1;}							
+/*guideguideguideguideguideguideguideguideguideguideguideguide*/	                        
+
+			
+			
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+	/*loginloginloginloginloginloginloginloginloginloginloginloginloginlo*/
+	#ToP_basic{
+		width:;
+		    height:;
+		      background-color:;		
+		position:absolute;
+		     top:0;
+		       right:0;
+		             z-index:2500;
+            }
+		#ToP_basic .basic-block{
+                                   float:right;
+                                        margin-left:5px;
+                        }
+	/*basic facebasic facebasic facebasic facebasic facebasic face*/
+	/*face*/
+	#BasicF_dl1dt1{
+	            width:50px;
+		     height:50px;
+			background-color:;
+		                position:absolute;
+		              top:0;
+		       right:0;
+		 z-index:5;
+	             cursor:default;
+	}
+	
+		#BasicF_dl1dt1span1{
+			display:block;
+				width:50px;
+				      height:50px;
+	     	            background-color:rgba(255,112,0,1);
+			
+			border-radius:50px;
+			
+		            position:absolute;
+		                          top:0;
+		                    left:0;
+		            z-index:5;	
+
+			overflow:hidden;
+		}
+			#BasicF_dl1dt1span1 a:{display:block;}
+				#BasicF_img{
+			                             display:block;
+			                                     width:50px;
+			                                 height:40px;				
+			                             margin:0 auto;
+	                                              }  		
+		#BasicF_dl1dt1span2{
+			display:none;
+				width:50px;
+				      height:50px;
+			background-color:rgba(255,112,0,1);
+
+		            position:absolute;
+		                          top:0;
+		                      left:0;
+		            z-index:5;				
+		}		                              
+	/*BasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasic*/
+	#ToP_basicdiv1menu{
+		     width:250px;
+		            height:190px;
+		     	   background-color:;			
+		               position:fixed;
+		       	top:0;
+		         left:0;
+		     z-index:99999999999999999;
+		}
+			#ToP_basicdiv1menu #ToP_basicdiv1menudl1{
+				 width:100px;
+				         height:;
+				     	background-color:rgba(0,0,0,0.75);
+				      margin:0 auto;
+				 overflow:hidden;		
+			}
+			
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt{
+					 width:95px;
+					     height:25px;
+					          background-color:rgb(255,255,255);
+						         opacity:0.5;
+						    padding:0 2.5px;	
+					          margin:0 auto;
+					      margin-top:5px;
+					   overflow:hidden;
+					 cursor:pointer;
+				}
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt a{}
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt:nth-child(1){margin-top:0;}
+			
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt:hover{opacity:1;}
+					#ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt span{
+					             display:block;
+						 width:90px;
+						     height:25px;										
+					                    margin:0 auto;
+							overflow:hidden;		
+							    text-overflow:ellipsis;
+											
+						               text-align:center;
+					                 line-height:25px;
+							
+						 color:rgb(50,25,0);	
+						 	font-size:12.5px;						
+                                                            }
+                                                            #ToP_basicdiv1menu #ToP_basicdiv1menudl1 dt .basicusermenuconfl{color:rgb(255,75,0);}
+			#ToP_basicdiv1menu #ToP_basicdiv1menudl2{
+				 width:50px;
+			                   height:50px;
+			     	          background-color:;			
+			               position:absolute;
+			       		left:37.5px;
+			     	         bottom:12.5px;
+			 	z-index:2500;		
+			}
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl2 img{
+					 display:block;
+					    width:50px;
+				                   height:50px;
+				     	          background-color:;
+					       opacity:0.5;
+					
+					 border-radius:50px;
+					
+					 margin:0 auto;
+
+					 overflow:hidden;
+				}
+				#ToP_basicdiv1menu #ToP_basicdiv1menudl2 img:hover{opacity:1;}				                                              
+ 	/*BasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicBasicFmenuBasicFmenuBasicFmenuBasicFmen
+ 	/*BasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasicFmenuBasic*/                                             
+	/*frameframeframeframeframeframeframeframeframeframeframe*/
+	#BasicF_dl1dt2
+	{width:50px;
+	     	height:30px;
+	     	     background-color:;
+	     	margin:5px auto;
+	        overflow:hidden;
+	 cursor:default;
+	}		
+		#BasicF_username
+		{display:block;
+	                 min-width:103.75px;
+		         height:30px;
+	                 padding-left:146.25px;
+		           background-color;
+		 margin:0 auto;
+	             		text-align:left;
+	             	        line-height:30px;
+	                  text-overflow:ellipsis;
+	             overflow:hidden;
+	 	
+	             color:rgba(255,112,0,1);
+	             	font-size:15px;         
+		}
+
+		
+		
+	/*basic closec basic closec basic closec basic closec basic closec*/	
+	/*closec*/
+	#BasicI_dl1dt1{
+		height:32.5px;
+		      width:50px;
+		background-color:rgba();
+		
+	border-width:0 0 2.5px 0;
+		border-style:solid;
+	                     border-color:rgba(255,112,0,0.25);
+				
+		margin:12px auto;margin-left:32px;
+            }
+	#BasicI_dl1dt1:hover{border-color:rgba(255,112,0,1);}
+		#BasicI_img{
+		     display:block;
+		             width:30px;
+		                  height:30px;
+				background-repeat:no-repeat;
+					background-position:center center;
+				background-size:30px 30px;			
+		             margin:0 auto;
+		     opacity:1;
+                        }			
+	/*loginloginloginloginloginloginloginloginloginloginloginloginloginlo*/
+	/*nononononononononononononononononononononononononononononononononono*/
+	/*signsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsign*/
+	#SigN{
+		width:;
+		       height:;
+		   position:absolute;
+		top:0;
+		   right:0;
+		z-index:2502;	
+	}
+		.signconcon{
+			display:block;
+			            width:125px;
+			               height:25px;
+			background-color:rgba(0,0,255,1);
+			margin:0 auto;
+		
+			text-align:center;
+				line-height:25px;
+			    color:rgba(50,25,0,1);
+			font-size:15px;
+			
+			cursor:default;
+		}
+		.signconcon:hover{color:rgba(255,255,255,1);}								
+	/*signsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsign*/			                                                	
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+
+
+				
+				
+      /*
+      *scrollforexplorescrollforexplorescrollforexplorescrollforexplorescrollforexplore
+      */
+     #ToP_scroll{
+	width:;
+	    height:;
+	      background-color:rgba(255,255,255,1);
+     	      margin:0 auto;
+	    position:relative;
+	z-index:2500;
+     }
+     		/*CATEGORYCATEGORYCATEGORYCATEGORYCATEGORYCATEGORYCATEGORYCATE*/
+		#ToP_scrollcategory{
+			width:;
+			    height:;
+			      background-color:;
+			position:absolute;
+			          top:0;
+			           left:0;
+			z-index:2500;		
+		}
+			#ScrolL_categoryfra1{
+			     height:;
+			        width:;
+			           background-color:;
+				
+				    margin-left:0;
+			           position:relative;
+			     z-index:2500;
+				
+			     line-height:35px;
+				text-align:left;						
+			}
+			     #ScrolL_categoryfra1 a{display:block;
+				           float:left;
+					margin-top:5px;					
+				     margin-right:5px;
+				           position:relative;
+				     z-index:2500;						
+			     }
+				.scrollcategory_topfracon{
+				                display:block;
+				     height:25px;
+					margin:0 auto;
+					
+				     line-height:25px;
+					text-align:left;
+					
+				     color:rgba(50,25,0,1);
+			                           font-size:25px;
+
+				     cursor:text;
+				}
+				#ScrolL_categoryfra1con2{	
+					border-width:0 0 2.5px 0;
+					    border-style:solid;	
+					border-color:rgba(0,0,255,0.5);			
+				     color:rgba(0,0,255,1);
+			                           font-size:25px;
+
+				     cursor:pointer;
+				}
+				#ScrolL_categoryfra1con2:hover{border-color:rgba(0,0,255,1);}     
+     		/*SEARCHSEARCHSEARCHSEARCHSEARCHSEARCHSEARCHSEARCHSEARCHSEARCH*/
+		#ToP_scrollsearch{
+			width:250px;
+			    height:;
+			       background-color:;
+			position:absolute;
+			              top:0;
+			         right:0;
+			z-index:2500;	
+		}
+			#SearcH2{
+				width:99.5%;
+				       height:25px;
+				     background-color:;
+				opacity:0.5;
+				
+				border-width:2.5px 0;
+				        border-style:solid;
+				border-color:rgba(0,0,255,1); 
+				 
+				margin:0 auto;
+				       margin-top:0;
+				            position:relative;		
+				z-index:2500;					
+			}
+			#SearcH2:hover{opacity:1;}
+			                                                         
+				#SearcH2_tool{
+				              width:94%;
+					       height:25px;
+						padding-right:6%;
+					       background-color:;
+					  margin:0 auto;		
+				}
+					#SearcH2_toolenter{}
+						#SearcH2_toolentercon{
+				                                     display:block;
+								width:90.5%;
+							                height:20px;
+								           padding:0 4.25%;
+							            background-color:rgba(255,255,255,1);
+						             opacity:0.95;
+						
+						             border-width:0;
+						
+							 margin:0 auto;margin-top:2.5px;
+							
+							 text-align:left;
+							 	color:rgb(0,0,0);
+							 		font-size:16px;
+						}
+					#SearcH1_too2do{}
+						#SearcH2_tooldocon{
+						      display:block;
+							width:22.5px;
+							       height:22.5px;
+					
+						      background-repeat:no-repeat;
+							 background-position:center center;
+						      background-size:22.5px 22.5px;		
+					                                                                              opacity:0.85;
+						      position:absolute;
+							        top:2.5px;
+							    right:2.5px;
+						      z-index:2500;
+							
+						      cursor:pointer;		
+						}
+						#SearcH2_tooldocon:hover{ opacity:1;}	
+
+						
+						
+						
+						
+						
+						
+						
+						
+						
+      /*
+      *searchforsearchsearchforsearchsearchforsearchsearchforsearchsearchforsearchsearchforsearchsearchforsearch
+      */
+     #ToP_search{
+	width:;
+	    height:;
+	      background-color:;
+     	margin:0 auto;
+	position:relative;
+	          top:0;
+	z-index:2525;
+     }
+	#ToP_searchtool{
+	     height:35px;
+	           width:500px;
+		    background-color:rgba(255,255,255,1);
+			   margin:0 auto;
+	                margin-top:37.5px;
+	           position:relative;
+	     z-index:2500;		
+	}
+			#SearcH3{
+				width:99.5%;
+				       height:35px;
+				     background-color:;
+				border-radius:5px;
+				opacity:1;
+				
+				border-width:2.5px 0;
+				        border-style:solid;
+				border-color:rgba(0,0,255,1); 
+				 
+				margin:0 auto;
+				       margin-top:0;
+				            position:relative;		
+				z-index:2500;					
+			}
+			#SearcH3:hover{}
+			                                                         
+				#SearcH3_tool{
+				              width:94%;
+					       height:35px;
+						padding-right:6%;
+					       background-color:;
+					  margin:0 auto;		
+				}
+					#SearcH3_toolenter{}
+						#SearcH3_toolentercon{
+				                                     display:block;
+								width:90.5%;
+							                height:30px;
+								           padding:0 4.25%;
+							            background-color:rgba(255,255,255,1);
+						             opacity:0.95;
+						
+						             border-width:0;
+						
+							 margin:0 auto;margin-top:2.5px;
+							
+							 text-align:left;
+							 	color:rgb(0,0,0);
+							 		font-size:16px;
+						}
+					#SearcH3_tooldo{}
+						#SearcH3_tooldocon{
+						      display:block;
+							width:32.5px;
+							       height:32.5px;
+					
+						      background-repeat:no-repeat;
+							 background-position:center center;
+						      background-size:32.5px 32.5px;		
+					                  opacity:0.85;
+						      position:absolute;
+							        top:2.5px;
+							    right:2.5px;
+						      z-index:2500;
+							
+						      cursor:pointer;		
+						}
+						#SearcH3_tooldocon:hover{ opacity:1;}
+
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						

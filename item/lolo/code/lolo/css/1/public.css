@@ -1,0 +1,62 @@
+	@charset'utf-8';
+		/*
+		*set the charsetset
+		 */	
+	
+/*
+*set the font-familyset the font-familyset the font-familyset the font-family 
+ */
+/*EN
+*/	
+@font-face{
+	font-family:'Helvetica';
+		src:url('../../data/ttf/Helvetica.ttf')format('truetype');
+}
+	@font-face{
+		font-family:'Georgia';
+			src:url('../../data/ttf/Georgia.ttf')format('truetype');
+	}
+		@font-face{
+			font-family:'Impact';
+				src:url('../../data/ttf/Impact.ttf')format('truetype');
+		}
+			@font-face{
+				font-family:'Allura';
+					src:url('../../data/ttf/Allura.ttf')format('truetype');
+			}
+				@font-face{
+					font-family:'Bruss';
+						src:url('../../data/ttf/Bruss.ttf')format('truetype');
+				}
+/*CH
+*/				
+@font-face{
+	font-family:'Simfang';
+		src:url('../../data/ttf/Simfang.ttf')format('truetype');
+}
+/*
+*basicbasicbasicbasicbasicbasicbasicbasicbasicbasic
+ */	
+	body,div,dl,dt,form,a,span,input,img{margin:0;padding:0;font-family:'Simfang'}
+           								
+/*
+*set the aset the aset the aset the aset the aset the aset the aset the aset th
+ */				
+a{text-decoration:none;}
+	 a:link{color:black;}
+	       a:visited{color:black;}
+	               a:hover{color:black;}
+	                           a:active{color:black;}
+	                           
+/*
+*set the inputset the inputset the inputset the inputset the input
+ */	                           
+      div,dl,dt,form,a,span,input,img{border:0;outline:none;}	                           	                           	                           	                           
+	                           
+	                           
+	                           
+	                           
+	                           
+	                           
+	                           
+	                           

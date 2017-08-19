@@ -1,0 +1,644 @@
+#MenU_ideaentercomment{
+	
+}
+#CommenT{
+	width:100%;
+	     height:;
+	        background-color:;
+	
+	position:absolute;
+	          top:0;
+	        left:0;
+	          bottom:0;
+	z-index:50002;		
+}
+#CommenT_main{
+	width:100%;
+	     height:;
+	        background-color:;
+	
+	position:absolute;
+	          top:100px;
+	        left:0;
+	          bottom:0;
+	z-index:2500;		
+}
+	/*centercentercentercentercentercentercentercentercentercenter*/
+	#CommenT_maincenter{
+		width:100%;
+		     height:;
+		        background-color:;
+		
+		position:absolute;
+	          top:0;
+	        left:0;
+	          bottom:0;
+		z-index:2500;	
+	}
+		#CommenT_con{
+			width:100%;
+			    height:;
+			      background-color:rgba(255,255,255,0.75);
+			
+			position:absolute;
+			          top:0;
+			        left:0;
+			          bottom:0;		
+			z-index:2501;
+		}
+			/*titletitletitletitletitletitletitletitletitletitle*/
+			#CommenT_confra{
+				width:100%;
+				    height:35px;
+				      background-color:;
+				
+				position:absolute;
+				      top:0;
+				           left:0;		
+				z-index:2500;
+			}
+				#CommenT_confracenter{
+					                          width:;
+					                height:35px;
+					      background-color:;
+					
+					margin:0 auto;
+					     position:relative;   		
+				            	z-index:2500;
+					
+				                 text-align:center;
+			                        line-height:35px;
+					
+					        color:rgba(0,0,0,1);
+					   font-size:22.5px;					
+				}
+				
+					.comment-basic{display:inline-block;}
+				
+					#CommenT_basicnum{
+					        color:rgba(200,200,200,1);
+					   font-size:16px;	
+					}
+					#CommenT_basicnum:hover{
+					        color:rgba(0,0,0,1);	
+					}
+
+					
+					
+			/*conconconconconconconconconconconconconconconconcon*/			
+			#CommenT_concon{
+				width:100%;
+				    height:100%;
+				      background-color:;
+				
+				position:absolute;
+				      top:35px;
+				        left:0;
+				          bottom:0;	
+				z-index:2500;
+			}
+				/*conconconconconconconconconconconconconconconcon*/
+				#CommenT_conconcenter{
+					width:375px;
+					    height:;
+					      background-color:;
+					
+					margin:0 auto;
+					     position:relative;   		
+				            	z-index:2500;
+					
+				}
+					/*WRITEWRITEWRITEWRITEWRITEWRITEWRITE*/
+					#CommenT_write{
+						width:375px;
+						    height:;
+						      background-color:;
+						
+						margin:12.5px auto;
+						margin-bottom:25px;
+						     position:relative;   		
+					            	z-index:2500;	
+					}
+						/*signinyesigninyesigninyesigninyesigninyesigninyesigninyesigninyesigninyesigninyesigninye*/
+						/*lanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslanslans*/
+						/*toptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptop*/
+						.comment-writesignyetop{
+							   display:none;	
+							   width:375px;
+							      height:25px;
+							         background-color:;
+								
+							   margin:0 auto;
+							     position:relative;   		
+						            	z-index:2500;	
+						}
+							/*tips:forcon*/
+							#CommenT_writesignye_enteralbetips{
+						                          display:none;
+							            width:;
+							      height:25px;
+							         background-color:;
+								
+							    position:absolute;
+							                 left:0;
+							                   top:0;
+							         z-index:2500;	
+							}
+								#CommenT_writesignye_enteralbetips span{
+									          display:block;
+								     	             width:;
+									    height:25px;
+								      padding-left:5px;
+
+									    margin:0;
+															
+									       text-align:left;
+									       	line-height:25px;
+									
+									    color:rgba(0,0,0,1);
+									font-size:16px;
+								}																						
+								
+							/*cont*/
+							#CommenT_writesignye_enteralbecont{
+							                       width:;
+							                height:25px;
+								padding-right:5px;
+							    background-color:;
+								
+							    position:absolute;
+							                 right:0;
+							                   top:0;
+							         z-index:2501;	
+							}
+								#CommenT_writesignye_enteralbecont span{
+								     	width:;
+									    height:25px;
+															
+									       text-align:left;
+									       	line-height:25px;
+									
+									    color:rgba(0,0,0,0.85);
+									font-size:16px;
+								}
+								#CommenT_writesignye_enteralbecont #CommenT_writesignye_enteralbenum{
+									color:rgba(0,125,0,1);
+								}
+																																	
+						/*boxboxboxboxboxboxboxboxboxboxboxboxboxboxboxboxboxboxbox*/
+						#comment-writesignyecenter{	
+							   width:375px;
+							      height:;
+							         background-color:;
+								
+							   margin:0 auto;
+							     position:relative;   		
+						            	z-index:2500;	
+						}
+							#comment-writesignyecentercon{	
+								   width:375px;
+								      height:;
+								         background-color:;
+									
+								   margin:0 auto;
+								     position:relative;   		
+							            	z-index:2500;	
+							}						
+								#CommenT_writesignyebox{	
+									display:block;									
+									     width:365px;
+									        min-height:25px;
+									  max-height:282.5px;
+										padding:5px;
+									background-color:rgba(0,0,0,0.5);
+									
+									margin:0 auto;
+									
+									overflow:hidden;
+									         resize:vertical;
+		
+									white-space:pre-wrap;
+									     overflow-wrap:break-word;
+									             word-wrap:break-word;			
+									                   word-break:break-all;
+															
+									text-align:left;
+									       line-height:25px;
+									
+									    color:rgba(255,255,255,1);
+									font-size:16px;
+									
+									cursor:text;
+								}
+								.comment-placeholder::before{							
+									content:attr(data-placeholder-default);
+								}								
+				/*bottombottombottombottombottombottombottombottom*/
+						.comment-writesignyebottom{
+							     display:none;
+							   width:375px;
+							      height:25px;
+							         background-color:rgba(0,0,0,0.5);
+							         
+							   margin:0 auto;
+							     position:relative;   		
+						            	z-index:2500;		
+						}
+							/*DONEDONEDONEDONEDONEDONEDONEDONEDONEDONEDONE*/		
+							.comment-writesignyedone{
+								   width:65px;
+								      height:100%;										
+									background-color:rgba(255,255,255,1);
+									opacity:0.75;
+								   margin:0 auto;						
+							}
+							.comment-writesignyedone:hover{opacity:1;}
+								.comment-writesignyedone span{
+									     display:block;									
+									             width:100%;
+									                  height:100%;
+									     margin:0 auto;
+															
+									     text-align:center;
+									       	line-height:25px;
+									
+									            color:rgba(0,0,255,1);
+									     font-size:16px;
+									
+									     cursor:pointer;											
+								}
+						/*signinnosigninnosigninnosigninnosigninnosigninnosigninnosigninnosigninnosigninnosigninno*/
+						#CommenT_writesignno{
+							width:;
+							    height:25px;
+							         padding-left:25px;
+							background-color:;
+							
+							margin:12.5px auto;
+							     position:relative;   		
+						            	z-index:2500;
+							
+						            text-align:left;
+						       	        line-height:25px;
+						
+						                    color:rgba(255,0,0,1);
+						            font-size:16px;	
+						}								
+								
+					/*READREADREADREADREADREADREADREADREAD*/
+					#CommenT_read{
+						width:375px;
+						    height:;
+						      background-color:;
+						
+						margin:0 auto;
+							margin-bottom:150px;
+						       position:relative;   		
+					            z-index:2500;	
+					}
+						/*nononononononononononononononononono*/
+						#CommenT_readno{
+							width:375px;
+							    height:25px;
+							      background-color:;
+							
+							margin:0 auto;
+							     position:relative;   		
+						            	z-index:2500;
+							
+								
+						}
+							#CommenT_readnocon{
+								width:375px;
+								    height:25px;
+								      background-color:;
+								
+								margin:0 auto;
+								     position:relative;   		
+							            	z-index:2500;
+								
+							            text-align:center;
+							       	        line-height:25px;
+							
+							                    color:rgba(0,0,0,1);
+							            font-size:16px;									
+							}						
+						/*yeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeye*/
+						#CommenT_readtype{
+							width:375px;
+							    height:25px;
+							      background-color:;
+							
+							margin:0 auto;
+							     position:relative;   		
+						            	z-index:2500;
+							
+						            text-align:left;
+						       	        line-height:25px;
+						
+						                    color:rgba(0,125,0,1);
+						            font-size:20px;	
+						}
+						
+						#CommenT_readye{}
+							.idea_comment{
+							          width:375px;
+								      min-height:50px;
+							                background-color:;
+								
+							               margin:0 auto;
+								          margin-top:12%;
+							          	     position:relative;
+							          z-index:2500;		
+							}
+							.idea_comment:nth-child(1){margin-top:12.5px;}
+							.idea_comment:last-child{margin-bottom:50px;}
+								/**************************************************************************
+								 *top
+								 */
+								.idea_comment-top{
+									width:;
+									   height:33px;
+									        opacity:0.75;
+									
+									    position:absolute;
+									           top:0;
+									       left:0;
+									z-index:2505;
+
+									cursor:pointer;
+								}
+								.idea_comment-top:hover{opacity:1;}							
+									.idea_comment-top-div{
+										float:left;
+										    width:;
+										      height:;
+										
+										       margin-right:12px;
+										     position:relative;
+										z-index:2500;
+									}
+									            /*avatar*/
+										.idea_comment-top-1{
+										          width:33px;
+											 height:33px;
+										          background-color:rgba(255,112,0,1);
+											
+										          margin:;
+										             position:relative;
+												z-index:2500;	
+										}
+											.idea_comment-top-1 a{
+												                   display:block;
+											                          width:100%;
+												         height:33px;
+											               background-color:rgba(0,0,0,0);						
+											          margin:0 auto;	
+											                    position:relative;
+													        z-index:2500;
+												
+											          overflow:hidden;
+											                    cursor:default;	
+											}
+												.idea_comment-top-1 a img{
+													           display:block;
+												                  width:100%;
+													 height:33px;
+												           background-color:rgba(0,0,0,0);
+																			
+												          margin:0 auto;	
+												               position:relative;
+													            z-index:2500;
+												}						
+										/*name*/
+										.idea_comment-top-2{
+										                              width:;
+											          height:33px;
+										          background-color:;
+											
+										          margin:;
+										               position:relative;
+												z-index:2500;	
+										}
+											.idea_comment-top-2 a{
+												display:block;									
+												      width:100%;
+												            height:16.5px;
+												
+												margin:0;	
+										                           position:relative;
+												           z-index:2500;
+											}
+												.idea_comment-top-2 a span{
+													display:block;									
+													     width:100%;
+													        height:16.5px;
+													padding:0;
+													
+													margin:0;
+													    overflow:hidden;
+														 text-overflow:ellipsis;	
+																
+													       text-align:left;
+													       	line-height:16.5px;
+													
+													    color:rgba(125,125,125,1);
+													font-size:16px;	
+												}
+									/**************************************************************************
+									 *center
+									 */
+									.idea_comment-center{
+									          width:330px;
+										 min-height:;
+									                background-color:;
+										
+									          margin:0 0 0 45px;
+									          	    position:relative;
+									          z-index:2500;	
+									}	.idea_comment-wordsfra{
+											display:block;									
+											     width:100%;
+											          min-height:;
+											     padding-top:22.5px;
+											background-color:;
+											
+											margin:0;
+											   position:relative;
+											      z-index:2500;
+												     	     	
+									     	}
+										/*conconconconconconconconconconconconconconconconcon*/							
+										.idea_comment-words{
+											display:block;									
+											     width:100%;
+											          min-height:25px;
+											     padding-top:;
+											background-color:rgba(255,255,255,0.5);
+											
+											margin:0;
+											   position:relative;
+											      z-index:2500;
+											
+				                                                                                           white-space:pre-wrap;
+												overflow-wrap:break-word;
+											       word-wrap:break-word;
+											word-break:break-all;
+																	
+											       text-align:left;
+											       	line-height:25px;
+											
+											    color:rgba(50,25,0,1);
+											font-size:15px;
+											
+											cursor:default;	     	     	
+									     	}	
+
+										     	
+									/*othersothersothersothersothersothersothersothersothersothersothers*/
+									.idea_comment-others{
+										width:25px;
+										   height:25px;
+										        opacity:1;
+										
+										    position:absolute;
+										           top:25px;
+										       left:16.5px;
+										z-index:25000;	
+									}
+										.idea_comment-others-1{
+										          width:25px;
+											 height:25px;
+										                background-color:;
+											    	background-repeat:no-repeat;
+											    		background-size:contain;
+										    		background-position:center center;
+											    opacity:1;
+											
+											    margin:0 auto;
+										          	    position:relative;
+										          z-index:2500;	
+										}		     	
+						/*yeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeyeye*/										
+				/*scrollscrollscrollscrollscrollscrollscrollscroll*/
+/*._mCS_1 is the class of the frame that custom scroll*/
+#CommenT_concon{overflow:auto;}
+	/*hidden system default scroll and show jq scroll*/
+	#CommenT_concon  .mCustomScrollBox{overflow:;position:relative;}/**/		
+		/*content area content area content area content area content area*/
+	           #CommenT_concon  .mCSB_container{width:100%;overflow:;position:relative;z-index:2500;}/*top:;动态变化*/
+		           		
+	          /*scroll area scroll area scroll area scroll area scroll area*/		
+		#CommenT_concon .mCSB_scrollTools
+		{width:35px;
+                             background-color:;
+                             opacity:1;
+                                        position:absolute;
+                                     top:0;
+                                 right:5px;
+                           bottom:0;
+	             z-index:2501;
+                        }
+                        /*position:absolute;top:0;right:0;指定滚动条浮于内容之上 且在右 */
+			/*scroll area:Upbutton*/
+			#CommenT_concon .mCSB_scrollTools .mCSB_buttonUp{}
+			#CommenT_concon .mCSB_scrollTools a + .mCSB_draggerContainer{margin:0;}Delete the buttonUp and Down
+			
+			/*scroll area:dragarea*/
+		            #CommenT_concon .mCSB_scrollTools .mCSB_draggerContainer
+			{width:35px;
+	                             background-color:;
+	                             opacity:1;
+	                                        position:absolute;
+	                                     top:0;
+	                                 right:0;
+	                         bottom:0;
+	                        }
+				/*dragarea:dragblockout*/
+				#CommenT_concon .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger
+				{width:35px;background-color:;opacity:1;position:absolute;right:0;}/*top:;动态变化*/
+					/*dragarea:dragblockin*/
+					#CommenT_concon .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger .mCSB_dragger_bar
+					{width:9px;
+	                                                      background-color:rgb(0,0,0);
+	                                                   opacity:0.25;
+	                                                      margin:0 auto;
+				 	border-radius:0;
+					    border-shadow:none;
+						border-width:0;
+	                        		
+					}	
+				#CommenT_concon .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger .mCSB_dragger_bar:hover{opacity:1;}
+				
+				/*dragarea:scrolllineunderdragblock*/
+				#CommenT_concon .mCSB_scrollTools .mCSB_draggerContainer .mCSB_draggerRail
+				{width:4.5px;
+                                                      background-color:rgba(0,0,0,0);
+                                                        opacity:0;
+                                                 margin:0 auto;
+			 	border-radius:0;
+				    border-shadow:none;
+					border-width:0;
+                        		
+				}
+				
+			/*scroll area:Downbutton*/
+			#CommenT_concon .mCSB_scrollTools .mCSB_buttonDown{}
+
+				
+				
+				
+				
+		#CommenT_fra{
+			height:125px;
+			     width:100%;
+			       background-color:;
+			
+			position:absolute;
+			           left:0;
+		                  bottom:0;		
+			z-index:2500;
+		}
+			#CommenT_fracenter{
+				height:125px;
+				     width:375px;
+				       background-color:rgba(0,0,0,0.35);
+				
+				margin:0 auto;
+				     position:relative;   		
+			            	z-index:2500;	
+			}
+		
+	/*rightrightrightrightrightrightrightrightrightrightrightright*/	
+	#CommenT_mainright{
+		width:25px;
+		     height:25px;
+		        background-color:;
+		
+		position:absolute;
+		             right:5px;
+		          top:5px;
+		z-index:2501;	
+	}		
+		#CommenT_mainrightclose{
+		          width:25px;
+			 height:25px;
+		                background-color:;
+			    	background-repeat:no-repeat;
+			    		background-size:contain;
+			    	background-position:center center;
+			    opacity:0.25;
+			
+			           margin:0 auto;
+		          	    position:relative;
+		          z-index:2500;					            	
+		}		
+		#CommenT_mainrightclose:hover{
+			    opacity:1;				            	
+		}		
+		
+		
+		
+		
+		
+		

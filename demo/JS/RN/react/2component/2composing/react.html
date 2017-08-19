@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's component</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <!-- <script type='text/babel' src='react.js'> -->
+    <script type='text/babel'>
+                    function Sepals(props){
+                        return (
+                                <div className={props.info}>{props.info}</div>
+                        )
+                    }
+                    function Produce(props){
+                        return (
+                                <div className='produce'>
+                                    {props.infocarpels ?(
+                                                <div className={props.infocarpels.class}>{props.infocarpels.type.one+' '+props.infocarpels.type.two}</div>
+                                            ):(
+                                                <div className={props.infostamens}>{props.infostamens}</div>
+                                            )
+                                    }
+                                </div>
+                        )
+                    }
+                function Flower(props){
+                    return (
+                            <div className='flower'>
+                            {//all contained in a single root element}
+                                    <Produce infocarpels={props.carpels} />
+                                    {//use the same component }
+                                    <Produce infostamens={props.stamens} />
+                                    <div className='petals'>petals</div>
+                                    {//composing with DOM tag }
+                                    <Sepals info={props.sepals} />
+                                    {//composing with others component }
+                            </div>
+                    )
+                }
+                //naming props from the component's own point of view rather than the context in which it is being used.
+                const obj ={
+                    carpels:{
+                        class:'carpels',
+                        type:{
+                            one:'ovules',
+                            two:'femals'
+                        }
+                    },
+                    stamens:'pollen',
+                    sepals:'calyx'
+                };
+                const element =<Flower
+                    carpels={obj.carpels}
+                    stamens={obj.stamens}
+                    sepals={obj.sepals}
+                />;
+
+                ReactDOM.render(
+                        element,
+                        document.getElementById('container')
+                )
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+div,form,dl,dt,span,img,input
+{margin:0;padding:0;font-family:'Helvetica'}
+#ClosecMbacK
+{display:none;
+width:100%;
+     height:100%;
+          background-color:rgb(0,0,0);
+       opacity:0.5;		
+          position:fixed;
+       left:0px;
+     top:0px;
+z-Index:4999999;		
+}
+
+#ClosecM
+{display:none;
+ width:100%;
+        height:100%;			
+               background-color:;
+           position:fixed;
+        top:0;
+     left:0;
+ z-index:5000000;
+}
+	.ClosecM
+	{width:425px;
+	        height:525px;			
+	               background-color:;
+	           position:relative;
+	        margin:50px auto;
+	}
+/*******************************************************/
+	#ClosecM_top
+	{display:block;
+	 width:425px;height:40px;
+                  border-width:0;
+	                 border-style:solid;	
+	                      border-color:white;
+	      background-color:rgb(255,255,255);
+	   opacity:1;			
+	 margin:0;	
+	 overflow:hidden;
+	}
+	
+		#ClosecM_top #ClosecM_toptitle
+		{	
+		 width:425px;height:40px;
+	                  border-width:0;
+		                 border-style:solid;	
+		                      border-color:white;
+		      background-color:;
+		   opacity:;			
+		 margin:0 auto;
+	
+		 overflow:hidden;
+		}
+			#ClosecM_top span:nth-child(1)
+			{color:rgb(90,125,0);font-size:37px;}
+			#ClosecM_top span:nth-child(2)
+			{color:rgb(0,0,0);font-size:37px;}
+		/*close close close close close*/
+		#ClosecM_top #ClosecM_topclosedt
+		{
+		 width:425px;height:40px;					
+		 	background-color:;
+			opacity:;						
+		 position:absolute;
+		               top:0px;
+		        left:0px;
+		z-index:5000;
+		}		
+			#ClosecM_topclosedt img
+			{display:block;
+		            	width:29px;height:29px;
+			                  border-width:3px 3px 0 3px;
+				                 border-style:solid;	
+				                      border-color:rgb(90,125,0);
+				      background-color:;
+				   opacity:0.75;
+				 position:absolute;
+				               top:9px;
+				        right:12px;
+				z-index:5000;				
+		             cursor:pointer;
+                                    } 
+			#ClosecM_topclosedt img:hover{opacity:1;}		
+/*******************************************************/
+#ClosecM_content
+{display:block;
+ width:425px;height:;
+             border-width:0;
+                 border-style:solid;	
+                      border-color:white;
+      background-color:;
+   opacity:;			
+ margin:0;	
+ overflow:hidden;
+}
+		
+	#ClosecM_content dl dt
+	{background-color:rgb(90,125,0);margin:0 auto;}
+		/*UPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUPUP*/
+		/*up up up up up*/			
+		#ClosecM_cup
+		{width:425px;height:25px;
+		      opacity:0;
+		            position:absolute;
+		                         top:40px;
+		                    left:0;	
+		          z-index:5249;
+		 overflow:hidden;	
+		}
+			#ClosecM_cup #UP
+			{			
+			 display:block;
+			     width:175px;
+			         height:25px;
+			 margin:0 auto;
+		             cursor:pointer;				
+			}									
+		/*add:be covered by up*/			
+			#ClosecM_cupcover span:nth-child(1)
+			{display:block;
+			     width:175px;height:25px;
+			           background-color:rgb(0,0,0);
+		                       opacity:1;				
+			           margin:0 auto;
+			
+		                       text-align:center;
+			           line-height:25px;
+				    color:rgb(255,255,255);
+			            font-size:16px; 
+			 font-weight:500;	
+			}		
+		/*upname upname upname upname upname*/
+		#ClosecM_cupname
+		{display:none;
+		 width:425px;height:25px;
+		      opacity:1;
+		            position:absolute;
+		                         top:40px;
+		                    left:0;	
+		          z-index:5250;
+		 overflow:hidden;	
+		}
+			#ClosecM_cupname #ClosecM_cupnamespan1
+			{display:block;
+		                width:;height:;
+			            position:absolute;
+			                         top:0;
+			                            left:85px;	
+			                      z-index:5250;
+				
+				      color:rgb(0,0,0);
+			            font-size:15px; 
+			         font-style:;
+			 font-weight:500;	
+			}
+			#ClosecM_cupname #ClosecM_cupnameshow
+			{display:block;
+				 width:0;
+			 	       height:0;
+			                        background-color:rgb(0,0,0);
+			             margin:0 auto;
+			             position:relative;			
+			cursor:default;
+			}
+			#ClosecM_cupname #ClosecM_cupcancel
+			{display:block;
+			         width:25px;height:12.5px;
+			                background-color:;
+			                        opacity:0.75;
+			                          border-width:1px 1px 0 1px;
+			                            border-style:solid;
+			                          border-color:rgb(0,0,0);
+			            position:absolute;
+			           top:0;
+			      right:92px;	
+			z-index:5250;
+			cursor:pointer;									
+			}			
+				#ClosecM_cupcancel img
+				{display:block;
+				 width:25px;height:10px;
+                                                }
+			#ClosecM_cupname #ClosecM_cupcancel:hover{opacity:1;}														
+/*******************************************************/
+	#ClosecM_bom
+	{display:block;
+	 width:425px;height:40px;
+	        background-color:rgb(255,255,255);
+		      border-width:0;
+			   border-style:solid;
+		      border-color:white;
+		margin:0;	
+	}
+		#ClosecM_bom	#SubmiT
+		{			
+		 display:block;
+		     width;height:;
+			background-color:black;		
+			    border-width:0;
+			         border-style:solid;
+				  border-color:white;
+			      opacity:0.85;
+			margin:0 auto;
+			text-align:center;
+		       color:white;
+		  font-size:25px;
+		cursor:pointer; 
+		}
+		#ClosecM_bom	#SubmiT:hover{opacity:1;}				
+/*******************************************************/		
+#ClosecM_tip
+{display:none;
+       width:425px;height:25px;
+            background-color:;
+	border-width:0;
+		border-style:solid;
+	border-color:white;
+       position:absolute;top:105px;left:0;	
+    z-index:5250;
+ overflow:hidden;	
+}						
+	#ClosecM_tipspan1	
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:rgb(255,255,255);
+		            font-size:16px; 
+		font-weight:500;	
+		}				
+#ClosecM_tip1
+{display:none;
+       width:425px;
+            height:25px;
+            background-color:;
+	   border-width:0;
+		border-style:solid;
+	border-color:white;
+       position:absolute;top:105px;left:0;	
+    z-index:5250;
+ overflow:hidden;	
+}						
+	#ClosecM_tipspan2	
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:rgb(255,255,255);
+		            font-size:16px; 
+		font-weight:500;	
+		}		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+

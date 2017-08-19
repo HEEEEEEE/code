@@ -1,0 +1,215 @@
+	.mime-following{
+	          float:left;
+	          width:;
+		 height:125px;
+	          background-color:rgba(0,0,0,0.0125);
+		
+	          border-radius:12.5px;
+			
+	          margin:0;
+	          margin-top:12.5px;
+	               position:relative;
+	          z-index:2500;
+		
+	          overflow:hidden;	
+	}
+	.mime-follower{
+	          width:100%;
+		 height:125px;
+	          background-color:rgba(0,0,0,0.0125);
+		
+	          border-radius:12.5px;
+			
+	          margin:0;
+	          margin-top:12.5px;
+	               position:relative;
+	          z-index:2500;
+		
+	          overflow:hidden;	
+	}	
+		.mime-left{
+		          float:left;
+		                  width:100px;
+			 height:100px;
+		          background-color:rgba(255,112,0,1);
+			
+		          border-radius:100px;
+			
+		          margin:0 auto;
+		            margin-top:12.5px;
+		               position:relative;
+		          z-index:2500;
+			
+		          overflow:hidden;	
+		}
+			.mime-left a{
+				display:block;
+			                   width:100%;
+				      height:100px;
+			            background-color:rgba(0,0,0,0);
+										
+			            margin:0 auto;	
+			                    position:relative;
+				z-index:2500;
+				
+			            overflow:hidden;
+
+				cursor:default;
+			}
+				.mime-left a img{
+					       display:block;
+				                 width:100%;
+					 height:80px;
+				                background-color:rgba(0,0,0,0);						
+				             margin:0 auto;	
+				                  position:relative;
+				                     z-index:2500;
+					
+				             overflow:hidden;	
+				}		
+		.mime-center{
+		          float:left;
+		          	   width:;
+			     height:100px;
+		          background-color:;
+			
+		          margin:12.5px 0 0 12.5px;
+		                position:relative;
+		          z-index:2500;
+			
+		          overflow:hidden;	
+		}
+		
+			.mime-name{									
+				width:;
+				        height:25px;
+					  margin:0;
+				        overflow:hidden;
+				text-overflow:ellipsis;	
+							
+				text-align:left;
+				       line-height:25px;
+				
+				    color:rgba(50,25,0,1);
+				font-size:20px;	
+			}
+			.mime-bio{									
+				width:;
+				       height:75px;
+					 padding:0;
+				                 background-color:;		      			
+					         margin:0;
+			                      overflow:hidden;
+
+					    white-space:pre-wrap;
+				
+					overflow-wrap:break-word;word-wrap:break-word;			
+				      word-break:break-all;
+										
+				      text-align:left;
+					line-height:25px;
+				
+				    color:rgba(0,0,0,0.75);
+				font-size:15px;
+				
+				cursor:text;		
+			}			
+
+
+					
+		.mime-right{
+		          width:50px;
+			     height:50px;
+		          background-color:;
+			
+		          position:absolute;			
+		          		top:5px;
+			    right:5px;
+		          z-index:2501;
+			
+		          overflow:hidden;	
+		}				
+			.mime-follow{									
+			          width:100%;
+				     height:100%;
+			          background-color:rgba(255,255,255,1);
+
+		         	          border-radius:100%;
+								
+			          margin:0;
+			                position:relative;
+			          z-index:2500;
+				
+			          overflow:hidden;
+			       
+			          cursor:pointer;
+	
+			}
+			
+				.mime-follow .follow{
+				          display:block;								
+				          	   width:100%;
+					     height:100%;
+				          background-color:;
+					
+				          margin:0 auto;
+				                position:relative;
+					z-index:2500;
+					
+				          overflow:hidden;
+					
+				          text-align:center;
+					   line-height:50px;
+					
+					    color:;
+				          font-size:15px;		
+				}
+					.mime-follow .following{									
+					          color:rgba(0,0,255,1);	
+					}
+					.mime-follow .unfollow{														
+					          color:rgba(255,0,0,1);		
+					}
+
+					
+				.startToFollow:hover{background-color:;}
+				.startToFollow a{display:block;}	
+				.startToFollow span{
+					display:block;
+					float:left;									
+				          	   width:;
+					     height:;
+				            background-color:;
+					
+				            margin:0;
+				                position:relative;
+					z-index:2500;
+				}
+					.startToFollow span:nth-child(1){
+					          width:10px;
+					          paddding-left:2.5px;
+						
+					          font-size:20px;
+					          color:rgba(255,112,0,1);
+
+					          text-align:left;
+					}
+					.startToFollow span:nth-child(2){
+					          width:35px;	
+					          paddding-right:2.5px;
+																				
+					          color:rgba(0,0,0,1);
+					          
+					          text-align:right;
+					}
+					
+			         .mime-follow .haveBeenFollow{
+				color:rgba(0,0,255,1);
+			         }
+					
+					
+					
+					
+					
+					
+					

@@ -1,0 +1,271 @@
+#MenU_signin{
+	width:100%;
+	     height:;
+	        background-color:rgba(0,0,0,0.5);
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	          bottom:0;
+	z-index:5000;
+}
+#MenU_signincenterback{
+	width:100%;
+	     height:;
+	        background-color:;
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	          bottom:0;
+	z-index:2499;	
+}
+	/*conconconconconconconconconconconconconconconconconconconconconconconcon*/	
+	#MenU_signincenter{
+		height:100%;
+		     width:315px;
+		background-color:rgba(255, 255, 255, 0.25);
+		margin:0 auto;
+		     position:relative;
+	            z-index:2500;
+	}
+	
+	      #SigniN_end{
+		width:;
+		    height:100%;
+		       background-color:;
+		                border-width:0;
+		margin:0 auto;
+		     position:relative;
+	      	top:62.5px;
+			z-index:2500;
+	      	overflow:hidden;	
+	      }
+		#SigniN_endtop{
+			width:275px;
+			    height:30px;
+			background-color:rgba(255,75,0,0.95);
+			                border-width:0;
+			margin:0 auto;
+			     position:relative;
+				z-index:2500;
+		      	overflow:hidden;
+
+			            				            			            	
+			line-height:30px;
+				text-align:center;
+				
+			color:rgba(0, 50, 0 ,1);
+		                        font-size:22.5px;			
+		}	      	
+		/*centercentercentercentercentercentercentercentercentercenter*/
+		#SigniN_endcenter{
+			width:;
+			    height:100%;
+			       background-color:;
+			margin:0 auto;
+			     position:relative;
+				z-index:2500;
+			overflow:hidden;
+		}
+			#SigniN_endcentercon{
+				     margin:0 auto;
+				     position:relative;
+					z-index:2500;
+				     overflow:hidden;					
+			}
+				.signin-endcentercon{
+				               width:275px;
+					        height:30px;
+					            background-color:;
+					   border-radius:2px;
+				               margin:0 auto;
+					             margin-top:25px;
+					       position:relative;
+					   z-index:2500;
+
+					   overflow:hidden;
+			            }
+			            .signin-endcentercon:nth-child(1){margin-top:12.5px;}
+			            #SigniN_endcentercon3{	
+				               width:275px;
+					        height:30px;
+					            background-color:rgba(255,112,0,1);
+				               margin:0 auto;
+					             margin-top:25px;
+					       position:relative;
+					   z-index:2500;
+			            				            			            	
+					   line-height:25px;
+						text-align:left;
+						
+					   color:rgba(255,255,255,1);
+				                        font-size:16px;
+					
+					   overflow:hidden;
+				}					            
+					.signin-endcentercon .signin-endcenterconenter{
+				                           display:block;
+				                                 width:265px;
+					                             height:100%;
+						         padding:0 5px;
+					               background-color:;
+						   border-width:0;
+					               margin:0 auto;
+	
+						   line-height:25px;
+							text-align:left;
+							
+						   color:rgba(255,255,255,1);
+					                        font-size:16px;
+						
+						   overflow:hidden;
+					}
+					.signin-endcentercon:nth-child(2n+1) .signin-endcenterconenter{background-color:rgba(255,112,0,1);}	
+					.signin-endcentercon:nth-child(2n) .signin-endcenterconenter{background-color:rgba(255,100,0,1);}
+					/*rememberrememberrememberrememberrememberrememberrememberremember*/
+					.remember{
+						float:left;
+					     display:block;
+					            width:15px;
+					                  height:15px;
+					            padding:0;
+						opacity:0.75;
+					         margin-top:7.5px;
+					     margin-left:5px;						
+                                                            }
+                                                            #RemembeR{opacity:1;}
+					.remember:hover{opacity:1;}                                                            
+					#RemembeR_tip{
+						float:left;						
+					     display:block;
+					            width:;
+					                  height:15px;
+					                 padding:0;
+						opacity:0.75;
+					         margin-top:7.5px;
+					     margin-left:5px;
+
+						text-align:left;
+						      line-height:15px;
+						
+					            font-size:16px;
+					     color:rgba(50,25,0,1);
+			                        }						
+					/*codecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecode*/
+					#SigniN_endcenterconenter4{
+					        position:absolute;
+					                   left:0;
+						  top:0;
+					     z-index:2500;
+                                                            }
+					#SigniN_endcenterconenter41{
+                                                                 display:block;
+					         width:125px;
+						height:30px;
+						 position:absolute;
+						             right:0;
+						           top:0;
+						   z-index:2500;
+					             opacity:0.75;
+					     cursor:pointer;
+			                        }
+					#SigniN_endcenterconenter41:hover{opacity:1;}
+			                        /*donedonedonedonedonedonedonedonedonedonedonedonedonedonedonedonedonedonedonedone*/
+					#SigniN_endcenterconenter5{
+					        width:275px;
+					        padding:0;		
+					        background-color:rgba(255,125,0,1);
+			                                   opacity:0.75;						
+			                                        text-align:center;
+						line-height:30px;		
+					                   color:rgb(50,25,0);
+					           font-size:21px;
+					        cursor:pointer;
+					}
+					#SigniN_endcenterconenter5:hover{color:rgb(255,255,255);opacity:1;}	
+	/*conconconconconconconconconconconconconconconconconconconconconconconcon*/		
+	
+	
+	/*tipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstips*/
+	#MenU_signintips{
+		height:100%;
+		     width:337.5px;
+		       background-color:;
+		     position:absolute;
+		   top:;
+		 left:;
+	            z-index:2525;
+	}
+	
+	      #SigniN_endtips{
+		width:;
+		    height:100%;
+		       background-color:;
+		                border-width:0;
+		margin:0 auto;
+		     position:relative;
+			z-index:2500;
+	      	overflow:hidden;	
+	      }
+	      	
+		/*centercentercentercentercentercentercentercentercentercenter*/
+		#SigniN_endtipscenter{
+			width:;
+			    height:100%;
+			       background-color:;
+			margin:0 auto;
+			     position:relative;
+				z-index:2500;
+			overflow:hidden;
+		}
+			#SigniN_endtipscentercon{
+				     position:relative;
+					z-index:2500;
+				     overflow:hidden;					
+			}
+				.signin-endtipscentercon{
+				               width:327.5px;
+					        height:35px;
+					            background-color:;
+				               margin:0 auto;
+					             margin-top:35px;
+					       position:relative;
+					             right:2.5px;
+					   z-index:2500;
+	
+					   line-height:25px;
+						text-align:center;
+						
+					   color:rgba(255,255,255,1);
+				                           font-size:16px;
+					
+					   overflow:hidden;
+			            }
+				.signin-endtipscentercon:nth-child(1){margin-top:42.5px;}
+			           		.signin-endtipscentercon span{
+				                           display:inline-block;
+				                                    width:;
+					                           height:;
+						         padding:;
+					                 background-color:;
+					               margin:0 auto;
+	
+						   line-height:25px;
+							text-align:center;
+							
+						   color:rgba(255,255,255,1);
+					                           font-size:16px;
+						
+						   overflow:hidden;
+					}			            					
+	/*tipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstipstips*/
+					
+					
+					
+					
+					
+					
+					
+					
+					

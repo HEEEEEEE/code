@@ -1,0 +1,259 @@
+﻿		body,div,img,pre
+		{
+			margin:0;padding:0;
+		}
+/*
+ *无止境的 无限的 纯粹的 自然的 平静的 
+ */
+body
+{
+background-color:rgb(255,189,0);	
+}
+pre
+{
+	white-space:;
+	color:;font-size:15px;font-family:'ADOBEFANHEITISTD-BOLD';
+	font-weight:600;font-style:;direction:;
+}
+
+
+
+/*包围在无止境的 无限的 纯粹的 自然的 平静的中完美的那部分 即作品的最外层:可有形 无形
+ *
+ *
+ *
+ * 
+*/
+
+				/*
+				 *包围在作品的最外层中的作品的全部内容 
+				 */
+#VideO
+				{
+	                                                 width:1189px;height:740px;
+	border-width:5px;border-style:double;border-color:rgb(255,255,255);
+	                      position:absolute;top:25px;left:25px;
+	
+	                                           background-color:rgb(255,189,0);
+				}
+
+
+
+
+
+
+                        #VideocontrolcenteR
+	                        {
+		width:559px;height:335px;margin:67.5px 0 0 55px;
+		padding:;
+		border-width:3.8px 3.8px 0 3.8px;border-style:double;border-color:black white;
+	
+		             }
+		             
+                                   #VideocontenT
+		                        {		                       	
+		         width:559px;height:310px;margin:;
+		padding:;
+		
+		border-width:;border-style:;border-color:;
+	                                             background-color:rgb(255,189,0);
+
+                                      background-image:url('../IMAGE/videobackground');
+                                      background-repeat:no-repeat;background-size:contain;        	
+	                          background-position:;
+                                      background-attachment:;		                        	                        	                        	
+			             }			             
+			             
+	                        #VideotimecontroL
+			    	{
+			width:557px;height:20px;margin:;
+			padding:;
+	
+			border-width:1px 0px;border-style:solid;border-color:black white;
+
+			background-color:rgb(255,185,0);
+			    	}                                                            			    		
+                                                             #timehh
+				    		{
+		                                       background-color: black;
+					   cursor: pointer;
+					   height: 12px;
+					   left: 69px;
+					   position: absolute;
+					  top: 390px;
+					   width: 370px;
+				    		}
+                                                             #hhtime
+				    		{				    			
+					    background-color: white;
+					    cursor: pointer;
+					    height: 12px;
+					    left: 69px;
+					    position: absolute;
+					    top: 390px;		
+				    		} 
+
+				    		
+				    						    					    		
+                                                            #timefhy
+				    		{
+					    background-color: black;
+					    display: inline-block;
+					    height: 18px;
+					    left: 449px;
+					    position: absolute;
+					    top: 387px;
+					    width: 8px;
+				    		}	
+                                                            #timeyy
+				    		{
+					    display: inline-block;
+					    left: 468px;
+					    position: absolute;
+					    top: 387px;
+				    		}
+		#videocontrolbottom
+			{
+		width:559px;height:40px;margin:0 0 0 55px;
+		padding:0;
+				
+		border-width:1px 3.8px 3.8px;border-style:solid double;border-color:white white black white;
+		overflow-y:hidden;
+		background-color:rgb(255,189,0);		
+			}
+#PlaylooP
+	{
+		position: absolute;
+		    left: 68px;
+		        top: 398px;
+	}
+#PlaylooP dl dt
+{float:left;margin-left:1.25px;}			
+	#PlaylooP dl dt img
+		{cursor: pointer;
+	             width:39px;height:28.5px;
+	             border-width:0px;border-style:solid;border-color:;
+		}
+	                   #UponE
+			{
+    cursor: pointer;
+    height: 35px;
+    left: 275px;
+    position: absolute;
+    top: 410px;
+    width: 25px;border-width:0px;border-style:solid;border-color:;	
+			}			
+#buttonplay
+{		
+margin:0 0 0 229.5px;
+border-width:0px;border-style:solid;border-color:;
+                   cursor:pointer;				
+}
+		      #DownonE
+			{
+    cursor: pointer;
+    height: 35px;
+    left: 375px;
+    position: absolute;
+    top: 410px;
+    width: 25px;border-width:0px;border-style:solid;border-color:;
+			}
+#STOP
+{
+  cursor: pointer;
+    height: 28px;
+    left: 410px;
+    position: absolute;
+    top: 414px;
+    width: 28px;border-width:0px;border-style:solid;border-color:;	
+}			
+			
+
+
+			#VoicecontroL
+				{
+                                     display: inline-block;
+                                     margin: 0 0 0 67px;
+		  		}
+				#VoicestarT
+						{
+					display:inline-block;
+					border-width:0px;border-style:solid;border-color:;		
+						       cursor:pointer;
+						}
+				#VolumecontroL
+						{
+						    cursor: pointer;
+						    left: 497px;
+						    position: absolute;
+						    top: 401px;
+						    border-width:0px;border-style:solid;border-color:;	
+						}		
+				#VolumecontroL dl dt
+						{
+					display:inline-block;
+						       
+						}
+						
+						
+						
+				#FullscreeN
+		                                                {
+		                         display:block;                       	
+			             position:absolute;top:411px;left:562px;
+		                         cursor:pointer;
+		                         border-width:0px;border-style:solid;border-color:;                       	                       	                                  
+		                                                }
+
+		                                                
+		                                                
+		                                                
+		                                                
+	#PlaylisT
+	{
+		width:353px;height:490px;position:absolute;left:650px;top:70px;
+		border:;
+		background-color:;background-image:url('../IMAGE/PLAYLISTbackg.png');	
+	}		                                                
+		#PlisT
+		{
+			width:250px;height:425px;margin:45px 35px;
+			border:2.5px dashed white;
+			background-color:;background-image:;	
+		}	                                                
+			.list
+			{
+				display:block;
+				width:;height:;margin:2.5px;
+				border-width:1px;border-style:solid;border-color:white;
+				padding:;
+				
+				background-color:;background-image:;
+				
+				white-space:;
+	                                    color:;font-size:20px;font-family:'ADOBEFANHEITISTD-BOLD';
+	                                    font-weight:500;font-style:;direction:;
+				cursor:pointer;
+			}                                                
+		                                                
+		                                                
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    

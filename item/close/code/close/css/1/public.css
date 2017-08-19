@@ -1,0 +1,31 @@
+	@charset'utf-8';
+@font-face
+{
+font-family:'Helvetica';
+src:url('../../data/public/ttf/Helvetica.ttf')format('truetype');
+}
+	@font-face
+	{
+	font-family:'Georgia';
+	src:url('../../data/public/ttf/Georgia.ttf')format('truetype');
+	}
+		@font-face
+		{
+		font-family:'Impact';
+		src:url('../../data/public/ttf/Impact.ttf')format('truetype');
+		}
+	@font-face
+	{
+	font-family:'Allura';
+	src:url('../../data/public/ttf/Allura.ttf')format('truetype');
+	}
+@font-face
+{
+font-family:'Bruss';
+src:url('../../data/public/ttf/Bruss.ttf')format('truetype');
+}
+a{text-decoration:none;}
+	 a:link{color:black;}
+	       a:visited{color:black;}
+	               a:hover{color:black;}
+	                           a:active{color:black;}

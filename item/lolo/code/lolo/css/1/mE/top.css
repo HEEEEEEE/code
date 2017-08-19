@@ -1,0 +1,159 @@
+#ToP{
+     width:100%;
+           height:;
+	 background-color:;
+	
+      position:fixed;
+	top:0;
+	left:0;		
+     z-index:2505;
+}
+
+	#ToP_content{
+	     width:;
+	           height:;
+		 background-color:rgba(255,255,255,1);
+		  margin:0 auto;
+	           position:relative;	
+	     z-index:2500;
+	}
+	
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+	#ToP_basic{
+		     width:;
+		 height:;
+		position:absolute;
+		      top:0;
+		       left:12.5px;
+		z-index:5;
+	}
+		#ToP_basic div{
+		      float:left;
+		          width:;
+			 height:;		
+		         margin-right:5px;
+		      z-index:2500;
+		}
+	/*signsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsign*/
+	#SigN{
+		width:;
+		       height:;
+		margin:0;	
+	}
+		.signconcon{
+			display:block;
+			            width:125px;
+			               height:25px;
+			background-color:rgba(0,0,255,1);
+			margin:0 auto;
+		
+			text-align:center;
+				line-height:25px;
+			    color:rgba(50,25,0,1);
+			font-size:15px;
+			
+			cursor:default;
+		}
+		.signconcon:hover{color:rgba(255,255,255,1);}								
+	/*signsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsignsign*/
+
+	#ToP_basicdiv3{
+	                    width:;
+		 height:;
+		margin:12px 0;		
+	                 margin-left:75px;
+            }
+	            #ToP_basicdiv3 a{
+		      float:left;
+		          width:;
+			 height:;		
+		              margin:0;
+		          position:relative;
+		      z-index:2500;
+		}
+		#ToP_basicdiv3 a:first-child{margin-right:25px;}
+		#ToP_basicdiv3 a:last-child{margin-left:25px;}
+			.topBasic3 img{
+				display:block;
+				     float:left;
+				            width:25px;
+				       height:25px;
+				     opacity:1;
+				    margin:2.5px 0;					
+				
+				cursor:cursor;
+			}
+			.topBasic3 #TopBasic3_3_Explore{width:23px;height:23px;margin:4.5px 0;}
+			.topBasic3 span{
+				display:block;
+				       float:left;
+				            width:25px;
+				       height:25px;				
+				     text-align:left;
+				line-height:25px;
+				    margin:2.5px 0;									
+				color:rgba(255,125,0,1);
+					font-size:12px;
+				
+				cursor:default;
+			}   		
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+#ToP_mark{width:50px;height:50px;margin:0 auto;}
+		#MarK_img{
+                               display:block;
+                                        width:50px;
+                                             height:50px;
+				background-repeat:no-repeat;
+			 background-position:center center;
+	                   background-size:50px 50px;			
+                        }	
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+
+		
+		
+/*searchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearch*/
+	#ToP_search{position:absolute;top:0;right:0;z-index:2500;}
+	#ToP_search div{float:right;margin-left:5px;}                                                          
+	#ToP_searchdiv1{
+              width:250px;
+	       height:30px;
+		background-color:rgb(0,0,0);
+	                            margin-top:10px;		
+	}
+	
+	#ToP_search input
+		{display:block;
+			width:202.5px;
+		                height:28px;
+			padding:0 40px 0 7.5px;
+		            background-color:rgb(0,0,0);
+	                   opacity:0.75;
+	
+	                   border-width:0;
+	
+		 margin:0 auto;
+		
+		 text-align:left;
+		 	color:rgb(255,255,255);
+		 		font-size:12.5px;
+		}
+	#ToP_search input:hover{ opacity:1;}
+
+	#SearcH_img{
+	      display:block;
+		width:30px;
+		       height:30px;
+
+			background-repeat:no-repeat;
+				background-position:center center;
+					background-size:30px 30px;		
+                                    opacity:0.75;
+		
+		 position:absolute;
+		           top:12.5px;
+		              right:2.5px;
+		                   z-index:5;
+	     cursor:pointer;		
+	}
+	#SearcH_img:hover{ opacity:1;}		
+/*searchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearch*/

@@ -1,0 +1,258 @@
+
+
+
+
+			          		          
+/* E E E E E E E E E E E E E E E E E E E E E E E E E E E E E E E E*/	
+#SourcE_E
+{width:100%;
+      background-color:rgba(50, 50, 50, 0.25);
+         position:absolute;
+              top:0;
+                 right:0;
+              bottom:0;
+         z-index:4;
+ overflow:hidden;
+}
+  	/*top:moreinfotop:moreinfotop:moreinfotop:moreinfotop:moreinfotop:moreinfotop:moreinfotop:moreinfotop:moreinfo*/
+			.source_emoreinfo{width:125px;height:42px;position:absolute;top:0;left:325px;z-index:8;}
+				.source_emoreinfo dl dt span
+				{width:42px;
+	                                                 height:42px;
+	
+	                                                 background-color:rgba();
+					 opacity:0.75;
+	                                                                      background-repeat:no-repeat;
+					       background-position:center center;
+	                                                 background-size:42px 42px;
+				      margin:0;
+                                                 cursor:default;
+				}
+				.source_emoreinfo dl dt span:hover{opacity:1;}
+				#MoreinfO{display:block}
+				#MoreinfO_full{display:none}
+            /*top:picture maintooltop:picture maintooltop:picture maintooltop:picture maintooltop:picture maintool*/
+		.source_etop{width:100%;height:42px;background-color:;position:absolute;lef:0;top:0;z-index:7;}
+			#SourcE_Etopf{display:none;width:100%;height:42px;position:absolute;lef:0;top:0;z-index:5;}				
+
+			#SourcE_Ename{width:250px;height:42px;padding:0;margin:0 auto;position:relative;z-index:6;text-align:center;}
+				#SourcE_Ename dl dt span
+				{display:none;
+				        margin:0 auto;
+					     text-align:center;
+                                                            line-height:42px;
+                                                                 overflow:hidden;
+				          text-overflow:ellipsis;
+
+				                      color:rgba(255,255,255,0.75);
+                                                               font-size:22.5px;
+                                                      font-weight:500;
+
+                                                 cursor:default;
+				}
+				#SourcE_Ename dl dt span:hover{color:rgba(255,255,255,1);}
+
+	/*center:picture show areacenter:picture show areacenter:picture show area*/
+		#SourcE_Ec{width:100%;height:100%;position:absolute;right:0;bottom:0;z-index:5;}
+		#SourcE_Ecenter{width:500px;height:500px;margin:42px auto;margin-bottom:42px;position:relative;z-index:5;}
+	            #SourcE_Esourcesshow dl
+	            {}
+			#SourcE_Esourcesshow dl dt
+			{} 
+				#SourcE_Esourcesshow dl dt span
+				{} 	
+					#SourcE_Esourcesshow dl dt span img{display:block;margin:0 auto;}
+
+	/*source_efsource_efsource_efsource_efsource_efsource_efsource_efsource_ef*/
+		.source_ef{width:100%;height:100%;position:absolute;right:0;bottom:0;z-index:6;}
+	/*left:picture uponeleft:picture uponeleft:picture uponeleft:picture upone*/
+		.source_eleft{width:42px;height:100%;position:absolute;left:325px;top:0;z-index:5;}
+			#SourcE_Eupone{position:absolute;left:0;top:40%;z-index:5;}
+
+				#SourcE_Eupone dl{}
+
+				      #SourcE_Eupone dl dt{}
+
+					#SourcE_Eupone dl dt span
+					{display:block;
+		                                              width:40px;
+		                                                     height:40px;
+		
+		                                                 background-color:rgba();
+		                                                            background-repeat:no-repeat;
+						       background-position:center center;
+		                                                 background-size:40px 40px;
+		
+						           border-width:2.5px 0 2.5px 2.5px;
+						    border-style:dashed;
+					      border-color:rgb(0,75,35);
+		
+		                                     margin:0 auto;
+		                                     } 
+		                                    #SourcE_Eupone dl dt span:hover{border-color:rgb(0,255,125);}
+             	/*othersothersothersothersothersothersothersothersothersothersothersothers*/
+		 #SourcE_Euponeothers{display:none;width:250px;position:absolute;left:0;top:40%;z-index:6;}
+                         #SourcE_Euponeothers dl
+	            {}
+			 #SourcE_Euponeothers dl dt
+			{} 
+				 #SourcE_Euponeothers dl dt span
+				{display:block;
+                                                        height:40px;                                                           
+                                                 margin:0 auto;
+                                                
+                                                 text-align:left;
+                                                            line-height:40px;
+                                                 
+                                                          color:rgba(0,255,125,1);
+                                                 font-size:22.5px;
+
+                                                 cursor:default;
+                                                }                                                	
+	/*right:picture uponeright:picture uponeright:picture uponeright:picture upone*/
+		.source_eright{width:42px;height:100%;position:absolute;right:325px;top:0;z-index:5;}
+	                 #SourcE_Emaintool{position:absolute;right:0;top:40%;z-index:5;}
+			#SourcE_Emaintool dl{margin-bottom:12px;} 
+                                                
+					#SourcE_Enextone dt span
+					{display:block;
+	                                                           width:40px;
+	                                                              height:40px;
+	                                                
+		                                                 background-color:rgba();
+		                                                            background-repeat:no-repeat;
+						       background-position:center center;
+		                                                 background-size:40px 40px;
+	                                                
+	                                                	 border-width:2.5px 2.5px 2.5px 0;
+	                                                	 	border-style:dashed;
+	                                                	 border-color:rgb(0,75,35);
+	
+	                                                 margin:0 auto;                                                
+	                                                } 
+					#SourcE_Enextone dt span:hover{border-color:rgb(0,255,125);}  
+	                                                
+		                                    .source_elexpand{display:none;}
+					.source_elexpand dt
+	                                                	{width:42px;
+	                                                                   height:60px;
+	      	                                                	 border-width:2.5px 0;
+	                                                	 	border-style:solid;
+	                                                	             border-color:rgb(0,75,35);                                          
+	                                                                   position:relative;
+	                                                            margin:0 auto;
+						}
+					.source_elexpand dt span
+					{
+		                                              width:30px;
+		                                                     height:30px;
+	                                                
+						 background-color:;
+	                                                             opacity:0.75;
+		                                                            background-repeat:no-repeat;
+						       background-position:center center;
+		                                                 background-size:30px 30px;
+		
+		                                                margin:0 auto;
+	                                                     position:relative;
+	                                                 top:15px;
+		                                     } 
+		                                  .source_elexpand dt span:hover{opacity:1;}
+		                                     
+		                                  #LexpanD{display:block;}
+					#LshrinK{display:none;}
+                	/*othersothersothersothersothersothersothersothersothersothersothersothers*/
+		#SourcE_Enextoneothers{display:none;width:250px;position:absolute;right:0;top:40%;z-index:6;}
+                        #SourcE_Enextoneothers dl
+	            {}
+			#SourcE_Enextoneothers dl dt
+			{} 
+				#SourcE_Enextoneothers dl dt span
+				{display:block;
+                                                        height:40px;                                                           
+                                                 margin:0 auto;
+                                                
+                                                 text-align:left;
+                                                            line-height:40px;
+                                                 
+                                                          color:rgba(0,255,125,1);
+                                                 font-size:22.5px;
+
+                                                 cursor:default;
+                                                }   
+
+             /*bottom:picture maintoolbottom:picture maintoolbottom:picture maintoolbottom:picture maintool*/
+		.source_ebottom{width:100%;height:42px;background-color:rgba(25,25,25,0.0999);position:absolute;right:0;bottom:0;z-index:6;}
+                                    #E_centertool{width:42px;height:42px;margin:0 auto;position:relative;z-index:4;}
+			/*seeseeseeseeseeseeseeseeseeseeseeseeseeseeseesee*/
+                                    #E_see{display:none;}            
+                                    #E_see dt
+			{width:42px;
+			       height:42px;
+			             background-color:;
+	                                           background-repeat:no-repeat;
+	                        	            background-size:30px 30px;
+	                        	 background-position:center center;
+	                        
+	                               margin:6px auto;
+			 cursor:pointer;		            
+	                        }
+		                        .see{display:block;opacity:0.75;}
+				.see:hover{opacity:1;}                        
+				.seeno{display:none;} 
+	                        /*fullscreenfullscreenfullscreenfullscreenfullscreen*/                           
+	            	.fullorexitscreen{width:42px;height:42px;position:absolute;right:325px;bottom:0;z-index:5;}
+				#FullorexitscreeN .screen
+			            {width:32px;
+			                    height:37px;	
+                                                			                
+	                                                 background-color:rgba();
+	                                                            background-repeat:no-repeat;
+					       background-position:center center;
+	                                                 background-size:32px 32px;
+                                                	                                                
+					border-width:5px 5px 0 5px;
+					        border-style:double;
+					border-color:rgb(0,50,25);
+                                                
+			                        margin:0 auto;                                    
+				cursor:pointer;	
+				}
+				#FullorexitscreeN .screen:hover{border-color:rgb(0,255,125);}
+				#FullorexitscreeN #FullscreeN{display:block;}
+				#FullorexitscreeN #ExitscreeN{display:none;}	
+	/*source_efsource_efsource_efsource_efsource_efsource_efsource_efsource_ef*/
+
+/*noanysource:backnoanysource:backnoanysource:backnoanysource:backnoanysource:backnoanysource:backnoanysource:back*/
+#SourcE_Enosourceback
+	{display:none;
+	        width:100%;
+	           height:100%;
+	                  background-color:rgba(0,0,0,0.5);
+	                    position:absolute;
+	              right:0;
+	        top:0;
+	 z-index:5;
+             }
+	#SeforE{width:500px;height:500px;margin:35px auto;position:relative;z-index:5;}
+            #SeforE dl{}
+		#SeforE dl dt
+		{width:500px;
+		     height:500px;
+		     	background-color:;
+		                    background-repeat:no-repeat;
+			              background-size:500px 500px;
+		background-position:center center;
+		} 
+			#SeforE dl dt span
+			{display:block;
+			 width:500px;
+			     height:500px;
+			     	background-color:;
+			                    background-repeat:no-repeat;
+				background-size:500px 500px;
+			background-position:center center;
+		            
+		            cursor:pointer;
+			} 	
+/*noanysource:backnoanysource:backnoanysource:backnoanysource:backnoanysource:backnoanysource:backnoanysource:back*/            				 

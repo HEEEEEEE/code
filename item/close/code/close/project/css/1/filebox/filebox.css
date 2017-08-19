@@ -1,0 +1,431 @@
+@charset'utf-8';
+	    body,div,span,dl,dt
+		{margin:0;padding:0;font-family:'Helvetica'}
+body{background-color:rgb(0, 5, 5);}
+
+#FileboxtoP{}
+#ToP{width:100%;height:;background-color:rgb(90,125,0); position:absolute;top:0;left:0;z-index:500000;}
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+	#ToP_basic{width:;height:50px;position:absolute;top:0;left:125px;z-index:5;}
+	#ToP_basic div{float:left;margin-right:5px;}
+	#ToP_basic div dl{float:left;}
+	#ToP_basic div dl dt{float:left;}
+	/*basic facebasic facebasic facebasic facebasic facebasic face*/
+	/*face*/
+	#ToP_basicdiv1{}
+	#BasiC_face{opacity:0.5;cursor:pointer;}
+	#BasiC_face:hover{opacity:1}
+	#BasicF_dl1dt1
+	{
+	 width:42.5px;
+	     height:50px;
+	     	background-color:rgb(0,0,0);
+	}
+		#BasicF_img
+		     {display:block;
+	                       width:30px;
+	                             height:30px;
+	                          margin:10px auto;
+                             }
+	            
+	/*name*/
+	#BasicF_dl1dt2
+	{
+             max-width:100px;
+	     height:30px;
+	     	background-color:;
+		margin-left:0;
+                        margin-top:10px;     	
+	     overflow:hidden;
+	}		
+		#BasicF_username
+		{display:block;
+	                    width:;
+		             height:;
+	
+	             		text-align:left;
+	             	     line-height:30px;
+	                        color:rgb(0,0,0);
+	                   font-size:15px;
+	                text-overflow:ellipsis;
+	             overflow:hidden;          
+		}
+		#BasicF_username:hover{opacity:1}
+
+	/*albumface albumface albumface albumface albumface*/
+	/*face*/
+	#BasiC_filebox{margin:10px 0;opacity:1;cursor:default;}
+	#BasicfI_dl1dt1
+	{
+	 width:30px;
+	     height:30px;
+	     	background-color:;
+	background-repeat:no-repeat;
+		background-size:30px 30px;
+	background-position:center center;
+	}
+		#BasicfI_img
+		     {display:block;
+	                       width:18px;
+	                             height:18px;
+	                  margin:10px 0 0;
+                             }
+	/*name*/
+	#BasicfI_dl1dt2
+	{
+             width:;
+	     height:30px;
+	     	background-color:;   	
+	     overflow:hidden;
+	}		
+		#BasicfI_name
+		{display:block;
+	                    width:;
+		             height:;
+	
+	             		text-align:left;
+	             	     line-height:30px;
+	                        color:rgb(255,255,255);
+	                   font-size:15px;         
+		}                            		
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+		
+		
+		
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+#ToP_mark{width:50px;height:50px;margin:0 auto;}
+		#MarK_img{display:block;width:50px;height:50px;cursor:default;}	
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+#FileboxcenteR
+{width:100%;background-color:rgb(0, 5, 5);;position:absolute;top:50px;left:0;bottom:0;z-index:400000;}
+	/*Filebox:tool Filebox:tool Filebox:tool Filebox:tool Filebox:tool*/
+	#FileboxcenteR_projecttool
+	{width:100%;
+	     height:50px;
+	        background-color:;
+	               position:absolute;
+	              top:0;
+	          left:0;
+	 z-index:5;
+	}
+	#FileboxcenteR_projecttool_t
+	{width:100%;
+	     height:42px;
+	        background-color:;
+	               border-width:0 0 8px 0;
+	               border-style:solid;
+	               border-color:rgb(90, 125, 0);	
+	               position:absolute;
+	              top:0;
+	          left:0;
+	 z-index:5;
+	}
+		#FileboxcenteR_projecttool_tmain
+		{width:22%;
+		     height:42px;
+		        background-color:;
+		               border-width:0;
+		               border-style:solid;
+		               border-color:rgb(90, 125, 0);	
+		               position:absolute;
+		              top:0;
+		          left:39.5%;
+		 z-index:5;
+	             overflow:hidden;
+		}
+		
+		/*deletedeletedeletedeletedelete*/
+		#FileboX_delete 
+		{width:;
+		       height:;
+		             background-color:;
+		               background-color:;				
+		               position:absolute;
+		              top:3.5px;
+		          left:25px;
+		 z-index:5;
+	             overflow:hidden;
+                        }
+		#FileboX_delete span
+		{display:block;
+                         width:75px;
+		       height:35px;
+		             background-color:;
+                                     padding-left:25px;
+		               background-color:;
+                                           background-repeat:no-repeat;
+                        	            background-size:25px 10px;
+                        	 background-position:left center;                        
+                         margin:0 auto;line-height:35px;text-align:left;color:rgb(90, 125, 0);font-size:15px;
+                         overflow:hidden;
+                        }
+                        #FileboX_delete #DeletE{display:none;cursor:pointer;opacity:1;}
+		#FileboX_delete #DeletenO{display:block;cursor:default;opacity:0.5;}
+                        
+                        /*uploaduploaduploaduploadupload*/
+		#FileboX_upload
+		{width:70px;
+		     height:35px;
+                                     padding-right:15px;
+		               background-color:;
+                                           background-repeat:no-repeat;
+                        	            background-size:15px 15px;
+                        	 background-position:right top;
+		         opacity:0.75;
+		               border-width:0;
+		               border-style:solid;
+		               border-color:rgb(90, 125, 0);                        
+		     margin:3.5px auto;
+                           overflow:hidden;
+                         cursor:pointer;		
+                        }
+                        #FileboX_upload:hover{opacity:1;}
+                        
+                        #FileboX_upload span{display:block;margin:0 auto;line-height:35px;text-align:left;color:rgb(150,255,0);font-size:22.5px;}
+
+		/*selectselectselectselectselect*/
+		#FileboX_select 
+		{width:;
+		       height:;
+		             background-color:;
+			 opacity:1;			
+		               position:absolute;
+		              top:3.5px;
+		          right:0;
+		 z-index:5;
+	             overflow:hidden;
+                         cursor:pointer;                        
+                        }
+		#FileboX_select span
+		{display:block;
+                         width:75px;
+		       height:35px;
+		             background-color:;
+                                     padding-right:22px;
+		               background-color:;
+                                           background-repeat:no-repeat;
+                        	            background-size:22px 22px;
+                        	 background-position:right center;
+                        
+                         margin:0 auto;line-height:35px;text-align:right;color:rgb(90, 125, 0);font-size:15px;
+                         overflow:hidden;
+                        }
+                        #FileboX_select #SelecT{display:block;opacity:0.5;}
+		#FileboX_select #SelecT:hover{opacity:1;}                        
+		#FileboX_select #SelectnO{display:none;}                     
+	/*Filebox:tool Filebox:tool Filebox:tool Filebox:tool Filebox:tool*/
+
+
+
+
+	
+	/*Filebox:show Filebox:show Filebox:show Filebox:show Filebox:show*/
+	#FileboxcenteR_projectshow
+	{width:100%;
+	     height:;
+	        background-color:rgb(0,5,5);
+	        opacity:1;
+	               border-width:0 0 8px 0;
+                           border-style:solid;
+                           border-color:rgb(90,125,0);                        
+	               position:absolute;
+	              top:50px;
+	          left:0;
+	              bottom:0;
+	 z-index:5;
+             overflow:hidden;
+	}	
+		/*Filebox:showstart Filebox:showstart Filebox:showstart Filebox:showstartv Filebox:showstart*/
+		#FileboxcenteR_projectshow_start
+		{width:250px;
+		     height:;
+		        padding:;
+		        background-color:rgb(0,15,0);
+	                    opacity:1;
+		               border-width:0;
+	                           border-style:solid;
+	                           border-color:rgb(25, 35, 0);
+			   position:absolute;
+		              top:0;
+		          left:0;
+		              bottom:0;
+		 z-index:6;
+		 overflow:hidden;	
+		}
+			/*start:class*/
+			.FileboX_filemark{width:250px;height:75px;opacity:1;position:relative;top:0;left:0;z-index:5;}
+				/*name*/
+				.FileboX_filemark_l1
+				{width:250px;
+				     height:30px;
+				     	background-color:rgb(90,125,0);
+		                                    opacity:1;
+					    position:absolute;
+				          left:50px;
+				              bottom:0;
+				 z-index:5;
+				   overflow:hidden;
+				 cursor:default;
+				}
+				.FileboX_filemark_l1{opacity:0.5;}		
+					.FileboX_filemark_l1 span
+					{display:block;
+				                 width:;
+					         height:;
+				                 padding-left:50px;
+					           background-color:;
+					 margin:0;
+				             		text-align:left;
+				             	line-height:30px;
+				             color:rgb(255,255,255);
+				             	font-size:15px;
+				             overflow:hidden;          
+					}
+					
+				/*box*/
+				.FileboX_filemark_l2
+				{width:50px;
+				     height:50px;
+				     	background-color:;
+						background-repeat:no-repeat;
+							background-size:50px 50px;
+					background-position:center center;
+		                                    opacity:1;
+					    position:absolute;
+				          left:50px;
+				              bottom:5px;
+				 z-index:6;
+				   overflow:hidden;
+				 cursor:pointer;									 
+				}
+				.FileboX_filemark_l2{opacity:0.5;}
+				
+				/*mark*/
+				.FileboX_filemark_l2 img
+				{display:block;
+				 width:25px;
+				     height:25px;
+				     	background-color:;
+		                                    opacity:1;
+					    position:absolute;
+				          left:0;
+				              bottom:0;
+				 z-index:5;
+				}
+			/*start:id*/																						
+		/*Filebox:showe Filebox:showe Filebox:showe Filebox:showe Filebox:showe*/
+		#FileboxcenteR_projectshow_e
+		{width:100%;
+		     height:;
+		        padding:;
+		        background-color:rgb(0,5,5);
+	                    opacity:1;
+		               border-width:0;
+	                           border-style:solid;
+	                           border-color:rgb(255,255,255);
+			   position:absolute;
+		              top:0;
+		          left:0;
+		              bottom:0;
+		 z-index:5;
+		}		 
+			/*Filebox:showe:top Filebox:showe:top Filebox:showe:top*/
+			#ProjectshowE_top
+			{width:100%;
+			     height:45px;
+			        padding:;
+			        background-color:;
+		                    opacity:1;
+			               border-width:0 0 1px 0;
+		                           border-style:solid;
+		                           border-color:rgb(25,25,25);
+				   position:absolute;
+			              top:0;
+			          left:0;
+			 z-index:5;
+			 overflow:hidden;
+			}
+			/*filebox selected number*/		
+			 	 #FileboX_itemsnum
+				{width:250px;
+				          height:;
+				                background-color:;
+						opacity:1;
+						border-width:0;
+					border-style:solid;
+				      border-color:rgb(0,0,0);
+			             margin:2.5px auto;
+				 }					 
+				 #FileboX_itemsnum #IteM_num
+			 	{display:block;
+			                     width:250px;
+			                         height:;
+			 		       background-color:;
+			                     text-align:center;
+			             line-height:45px;
+		                        }
+					#FileboX_itemsnum #IteM_numshowdt
+		                                    {display:inline;
+		                        	        opacity:0.75;
+		                                            color:rgb(255,255,255);
+		                                     font-size:15px;
+		                                    }	 
+						#FileboX_itemsnum #IteM_numshow{color:rgb(225,225,225);font-size:15px; }
+		                                    
+				#FileboX_itemsnum #ItemselecT_numshowdt
+		                        {display:none;
+		                                color:rgb(255,255,255);
+		                         font-size:15px;
+		                        }                                                 
+			                        #FileboX_itemsnum #ItemselecT_numshow{color:rgb(255,112,0);font-size:15px; }
+			 /*Filebox:showe:top Filebox:showe:top Filebox:showe:top*/
+
+			/*Filebox:showe:center Filebox:showe:center Filebox:showe:center*/
+			#ProjectshowE_center
+			{width:;
+			     height:;
+			        padding:12.5px 0 12.5px 12.5px;		                        
+			        background-color:;
+		                    opacity:1;
+			               border-width:0;
+		                           border-style:solid;
+		                           border-color:rgb(225,225,225);
+				   position:absolute;
+			        top:46px;	
+		                          right:0;	                        
+		                       bottom:0;
+			        left:258px;		                          
+			 z-index:6;
+		             overflow-y:auto;
+			}	
+			 /*Filebox:showe:center Filebox:showe:center Filebox:showe:center*/ 		                        
+	/*Filebox:show Filebox:show Filebox:show Filebox:show Filebox:show*/	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

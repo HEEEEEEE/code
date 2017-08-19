@@ -1,0 +1,85 @@
+@charset'utf-8';
+	div,dl,dt,form,input
+{margin:0;padding:0;font-family:'Helvetica'}
+#SignuP_back{display:none;width:250px;height:195px;background-color:gray;opacity:1;position:absolute;top:50px;left:25px;z-index:4;}	
+	#SignuP_backframe{display:block;width:42.5px;height:25px;background-color:rgb(255,255,255);margin-left:100px;}	
+
+	
+	
+#SignuP{display:none;width:250px;height:;overflow:hidden;position:absolute;top:50px;left:25px;z-index:5;}
+	#SignuP_top{}
+
+	#SignuP_outside{width:250px;height:;margin:0 auto;}
+	#SignuP_outside dl dt:nth-child(1){margin-top:25px;}
+	#SignuP_outside dl dt
+	{width:250px;
+	        height:25px;
+	            background-color:rgb(0,0,0);
+                           margin:0 auto;
+	margin-top:5px;
+            }
+
+		#SignuP_outside dl dt input
+		{display:block;
+                                 width:200px;
+	                             height:25px;
+	                                background-color:rgb(255,255,255);
+	                       margin:0 auto;			
+		 padding:0 5px;
+		
+		 border-width:0;	
+	                       color:rgb(0,0,0);
+	                                 font-size:19px;
+		}
+		
+		#SignuP_outside dl dt #RemembeR{display:inline-block;width:12.5px;height:12.5px;border-width:0;padding:0;margin-left:20px;}
+		#SignuP_outside dl dt span{display:inline-block;color:gray;font-size:19px;}
+		
+		#SignuP_outside dl dt #VercodE{display:block;float:left;width:100px;height:25px;padding:0 5px;margin-left:20px;}
+		#SignuP_outside dl dt img
+			{display:block;
+		                  float:left;
+		                       width:100px;
+		                       height:25px;
+		                       opacity:0.75;
+		             cursor:pointer;
+                                     }
+		#SignuP_outside dl dt img:hover{opacity:1;}
+		#SignuP_outside dl dt .SubmiT
+		{
+                                width:210px;
+                                  height:25px;
+                                        margin-left:20px;		
+		border-width:0;		
+		background-color:rgb(255,255,255);
+                        opacity:0.75;		
+		                   color:rgb(0,112,255);
+		           font-size:21px;
+		cursor:pointer;
+		}
+		#SignuP_outside dl dt .SubmiT:hover{opacity:1;}
+		#SignuP_outside dl dt #SubmiT{display:block;}
+	
+#SignuP_tips{display:none;width:;height:;position:absolute;top:50px;left:275px;z-index:6;}
+	#SignuP_tips dl dt:nth-child(1){margin-top:25px;}
+	#SignuP_tips dl dt
+		{display:block;		         		
+		          width:250px;
+		             height:25px;
+		          background-color:rgb(255,255,255);
+		 margin-top:5px;
+		}	
+						
+	#SignuP_tips dl dt span	
+		{display:inline-block;
+		          width:;
+		             height:25px;		
+			   text-align:left;
+		                      line-height:25px;			          
+		               color:rgb(0,0,0);
+		 font-size:16px;	
+		}	
+	
+	
+	
+	

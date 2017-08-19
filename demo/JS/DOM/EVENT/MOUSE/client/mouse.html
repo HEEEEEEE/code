@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html><head><meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+<style type="text/css">
+#CmrmousE
+{
+                           width:500px;height:500px;
+border-width:5px;border-style:dashed;border-color:blue;
+                    background-color:rgb(255,198,0);
+	        cursor:pointer;	
+}
+</style>
+</head>
+
+<body>
+	<div id='CmrmousE'>
+	
+	</div>
+</body>
+<script>
+document.oncontextmenu = function(){ return false;};   //禁用默认的右键MENU
+                                                       //自定义右键MENU
+            var R=document.getElementById('CmrmousE');
+R.onmousedown=function whichButton(event)
+{
+	              var buttonr = event.button;
+	if (buttonr==2)
+	  	{
+	  	this.style.background='green';
+	  	};
+};
+R.onclick=function cx(event)
+{
+		  alert(event.clientX);
+};
+</script></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

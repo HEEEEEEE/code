@@ -1,0 +1,419 @@
+	/*meinhomemeinhomemeinhomemeinhomemeinhomemeinhomemeinhomemeinhomemeinhomemeinhomemeinhome:me*/	
+		.homeMe_avatar{
+			width:;
+		                  height:;
+			margin:0;
+		                    position:relative;
+			z-index:2500;	
+		}
+		.homeMe_avatarByScroll{
+			width:;
+		                  height:;
+		                    position:fixed;
+			           top:;
+			        left:;
+			z-index:5000;	
+		}	
+	/*PROJECTSTARTPROJECTSTARTPROJECTSTARTPROJECTSTARTPROJECTSTART*/
+	#CenteR_projectstart{
+		float:right;
+		          width:330px;
+		     height:100px;
+		    background-color:;
+			margin-left:50px;
+		     position:relative;
+		z-index:2500;
+	}
+		
+		/*HOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOMEHOME*/
+
+			/*homebackhomebackhomebackhomebackhomebackhomeb*/
+			#ProjectstarT_homeback{width:0;height:0;margin:0 auto;}
+					
+			/*homeheadhomeheadhomeheadhomeheadhomeheadhomehe*/
+			#ProjectstarT_homehead{
+				width:330px;
+			                  height:100px;
+				margin:0;
+			                    position:relative;
+				     z-index:2500;
+			            overflow:hidden;
+			}
+				/*contentcontentcontentcontentcontentcontentcontent*/
+				#HomeheaD_dl1{
+	
+				}
+					#HomeheaD_dl1 dt{float:left;}					
+						#HomeheaD_dl1dt1{
+							width:100px;
+							     height:100px;
+							background-color:;
+							background-repeat:no-repeat;
+								  background-size:cover;
+							background-position:center center;
+							margin:0;
+						}						
+						
+						#HomeheaD_dl1dt2{
+							width:225px;
+							     height:50px;
+								background-color:;
+							    margin:25px 0;
+							margin-left:5px;
+						}						
+							#HomeheaD_dl1dt2 a{}
+								#HomeheaD_username{
+									display:block;
+									       width:230px;;
+									height:50px;
+									background-color:;	
+									opacity:1; 
+									
+									border-width:0;
+									      border-style:solid;
+										 border-color:rgb(0,0,0);	   
+
+									margin:0 auto;
+										
+								            text-align:left;
+									     line-height:50px;
+									        	color:rgb(255,112,0);
+									                  font-size:25px;		             
+									     text-overflow:ellipsis;
+								            overflow:hidden;
+								}
+				/*No avatar showNo avatar showNo avatar showNo avatar showNo avatar show*/
+				#HomeheaD_dl2{
+					width:100px;
+					     height:100px;
+						background-color:;					
+					                 position:absolute;
+						   top:0;
+					          left:0;
+					z-index:2500;
+					overflow:hidden;
+				}
+					/**************************************************************************
+					 *top
+					 */
+					#HomeheaD_dl2dt1{
+					          width:100%;
+						 height:12.5px;
+					                background-color:rgba(0,0,0,0.05);
+						
+					          position:absolute;
+						            top:0;
+						       left:0;
+						z-index:2500;
+						
+					          overflow:hidden;	
+					}
+						/**************************************************************************
+						 *right
+						 */
+						#HomeheaD_dl2dt2{
+						          width:12.5px;
+							 height:100%;
+						                background-color:rgba(0,0,0,0.05);
+							
+						          position:absolute;
+							            top:0;
+							        right:0;
+							z-index:2502;
+							
+						          overflow:hidden;	
+						}								
+							/**************************************************************************
+							 *center
+							 */
+							#HomeheaD_dl2dt3{
+							          width:100px;
+								 height:100px;
+							                background-color:;
+								
+							          margin:0;
+							          	    position:relative;
+							          z-index:2550;
+								
+							          overflow:hidden;	
+							}						
+							#HomeheaD_dl2dt31{
+							          width:75px;
+								 height:75px;
+							                background-color:;
+								
+							          	 margin:12.5px;
+								
+							          overflow:hidden;	
+							}
+							/*avataradd*/
+								#ForM_uploadavatar #HomeheaD_avataradd{
+									display:block;
+									width:50px;
+									     height:50px;
+									
+									margin:12.5px auto;								
+								}
+								#ForM_uploadavatar #HomeheaD_avataradd:hover{
+									width:62.5px;
+									     height:62.5px;
+									
+									margin:6.25px auto;	
+								}
+							/*avatar*/
+								#ForM_uploadavatarchange #HomeheaD_avatar{
+									display:block;
+									width:75px;
+									     height:75px;
+									background-color:;
+									margin:0 auto;								
+								}
+								#AvataR_imageuploadchange{
+									width:100px;
+									      height:12.5px;
+							          	            	position:absolute;
+									         bottom:0;
+									     right:0;
+									z-index:2501;								
+								}
+									#AvataR_imageuploadchange span{
+										display:block;
+										width:100%;
+										      height:12.5px;
+								          	            	
+										margin:0 auto;
+										      position:relative;
+										z-index:2500;
+
+										text-align:center;
+											line-height:12.5px;
+										
+										font-size:12px;
+										            color:rgba(0,125,0,1);
+										
+										cursor:default;
+									}
+							/*avatarclear*/
+								#AvataR_imageuploadclear{
+									display:block;
+									width:7.5px;
+									     height:7.5px;
+									background-color:;
+									
+							          	            position:absolute;
+									      top:0px;
+									        right:5px;
+									z-index:2500;								
+								}
+									#AvataR_imageuploadclear img{
+										display:block;
+										width:12.5px;
+										     height:12.5px;
+										background-color:;
+										
+										margin:0 auto;								
+									}																																										
+						/**************************************************************************
+						 *bottom
+						 */
+						#HomeheaD_dl2dt4{
+						          width:100%;
+							 height:12.5px;
+						          background-color:rgba(0,0,0,0.05);
+							
+						          position:absolute;
+							            bottom:0;
+							       left:0;
+						          z-index:2503;
+							
+						          overflow:hidden;	
+						}									
+					/**************************************************************************
+					 *left
+					 */
+					#HomeheaD_dl2dt5{
+					          width:12.5px;
+						 height:100%;
+					                background-color:rgba(0,0,0,0.05);
+						
+					          position:absolute;
+						            top:0;
+						        left:0;
+					          z-index:2504;
+						
+					          overflow:hidden;	
+					}					
+
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+			/*homestarthomestarthomestarthomestarthomestarthomestarthomestarthomestarthomestarthomestarthomestarthomestarthomestarthomestarthomestart*/
+			#ProjectstarT_homestart{	
+				margin-top:5px;				
+			}
+				/*homehomehomehomehomehomehome*/
+				#HomestarT_dl1{
+					width:;
+					     height:;
+					background-color:;
+						
+				            margin:0 auto;
+				}
+					#ProjectstarT_homestart a{cursor:default;}
+					/*homestart_backimg*/
+					#ProjectstarT_homestart #HomestarT_dl1dt1{background-repeat:no-repeat;background-size:50px 50px;background-position:left center;}	
+					/*homestart_nam*/
+					#ProjectstarT_homestart #HomestarT_username
+					{display:block;
+					       width:280px;;height:50px;
+						 background-color:;	
+						 opacity:1; 
+					             border-width:0;
+						          border-style:solid;
+						 border-color:rgb(0,0,0);	   
+					         margin-left:50px;
+						
+				            text-align:left;
+					     line-height:50px;
+					        	color:rgb(255,112,0);
+					                	font-size:25px;		             
+						text-overflow:ellipsis;
+				                 overflow:hidden;
+					}
+			/*closeclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclosecloseclose*/
+			#HomestarT_dl2{
+				width:330px;
+				     height:40px;
+				     	background-color:;					
+				        margin:0 auto;
+				     position:relative;
+				z-index:2500;
+			}
+				#HomestarT_dl2 dt{
+					float:left;
+					    width:100px;
+					        height:40px;
+					   background-color:rgba(255,255,255,0.05);
+					opacity:1;
+					
+					margin:0;
+					     position:relative;
+					z-index:2500;												
+				}
+				#HomestarT_dl2 dt:hover{background-color:rgba(0,0,0,0.05);}
+			
+					#HomestarT_dl2 dt span{
+						              display:block;
+						           width:;
+						    height:20px;
+						margin:0 auto;
+						
+					            text-align:center;
+						           line-height:20px;
+						
+						     font-size:16px;
+						cursor:pointer;								
+					}
+					
+					
+					
+			#HomestarT_dl2 #HomestarT_dl2dt1{color:rgba(50,25,0,1);					
+			}
+				#HomestarT_dl2 dt #HomestarT_closeallnum{color:rgba(255,112,0,1);
+				}					
+					
+			#HomestarT_dl2 #HomestarT_dl2dt2{color:rgba(50,25,0,1);
+				 border-width:0 15px;
+				          border-style:solid;
+				 border-color:rgba(255,255,255,1);					
+			}
+				#HomestarT_dl2 dt #HomestarT_closeprinum{color:rgba(0,0,255,1);				
+				}
+			
+
+						
+			#HomestarT_dl2 #HomestarT_dl2dt3{color:rgba(50,25,0,1);										
+			}		
+				#HomestarT_dl2 dt #HomestarT_closepubnum{color:rgba(0,0,255,1);
+				}
+				
+				
+		/*ProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecTProjecT*/
+		#ProjectstarT_project{
+			width:330px;
+			       height:;
+			          background-color:;
+			
+			              margin:0 auto;
+			        margin-top:5px;
+			    position:relative;
+			z-index:2500;
+                        }
+                        
+			.recommendUser_top{
+				width:100%;
+				       height:25px;
+				          background-color:;
+				       margin:0 auto;
+				    position:relative;
+				z-index:2500;
+	                        }
+				.recommendUser_top span{
+					display:block;
+					width:100%;
+					       height:25px;
+					          background-color:;
+					       margin:0 auto;
+					    position:relative;
+					z-index:2500;
+					
+					text-align:left;
+						line-height:25px;
+					
+					color:rgba(50,25,0,0.75);
+					font-size:15px;
+					
+					cursor:default;
+		                        }		
+		                        			
+			.recommendUser_center{
+				width:100%;
+				       height:;
+				          background-color:;
+				       margin:0 auto;
+				    position:relative;
+				z-index:2500;
+	                        }					
+				.user_recommend{
+					width:100%;
+					       height:;
+					          background-color:;
+					       margin:0 auto;
+					    position:relative;
+					z-index:2500;
+		                        }		
+					
+	/*home to worldhome to worldhome to worldhome to worldhome to worldhome to worldhome to worldhome to world*/
+	
+	
+	
+	
+	
+	
+				

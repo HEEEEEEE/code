@@ -1,0 +1,66 @@
+
+
+
+	     /*SourcE SourcE SourcE SourcE SourcE SourcE SourcE SourcE SourcE SourcE*/
+	     /*source*/
+	     .source
+	     {height:136px;;
+	    	width:100px;	     
+	                     margin:0 auto; 
+	     	  position:relative;
+	      cursor:pointer;    	
+	     }
+	     .source:first-child{margin-top:18px;}
+		.source:last-child{margin-bottom:;}	     	    
+	     	/*Source:content*/	     
+	 	.source .source-content
+	     	{height:100px;
+		     width:100px;
+			background-color:rgba(50,50,50,0.25);
+	     		opacity:0.85;
+			          background-repeat:no-repeat;
+			                                background-size:contain;
+			          background-position:center center;
+	     		border:2.5px solid rgba(25,25,25,1);
+         	             margin:0 auto;	     	     		  
+		}	     	
+		.source .source-content:hover{background-color:rgba(50,50,50,1);opacity:1;} 
+		.source-selected .source-content{border:2.5px solid rgb(255,255,255);}   	
+	     	/*Source:name*/
+	     	.source-name{}
+		     	.source-name-show
+		     	{display:none;
+	     	             height:2.5em;
+		     	      width: 100px;
+				background-color:;
+		     		opacity:;	     	
+		     		overflow: hidden;
+	     		 position: absolute;
+	     	             bottom:0;
+	     	             color:rgb(255,255,255);
+		     	 font-size: 12px;
+		     	 text-overflow: ellipsis;
+			 	overflow-wrap:break-word;word-wrap:break-word;
+			 	     word-break: break-all;
+			 		line-height: 1.25em;    
+			 			text-align: center;	     	     	
+		     	}	     		     	
+	     /*SourcE SourcE SourcE SourcE SourcE SourcE SourcE SourcE SourcE SourcE*/ 
+
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+			 
+		     	

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's component lifecycle</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <!-- <script type='text/babel' src='react.js'> -->
+    <script type='text/babel'>
+            class Lifecycle extends React.Component{
+                constructor(){
+                    super();
+                    this.state={lifeCycle:25}
+                }
+    //            componentWillMount(){
+    //                this.setState({lifeCycle:25})
+    //            }
+                //Mounting
+                    componentDidMount(){
+                        this.timeID = setInterval(
+                            () => {
+                                //this.plusOne();//better
+                                this.setState({lifeCycle:this.state.lifeCycle +1});
+                            },
+                            1000
+                        )
+                    }
+
+
+                //Updating
+                    //componentWillReceiveProps()
+                    componentWillReceiveProps(){
+//                        console.log('componentWillReceiveProps:'+this.props.Change);//the first click return 0
+//                        if(this.props.Change == 1){
+//                            clearInterval(this.timeID);
+//                            console.log('componentWillReceiveProps:'+this.props.Change);
+//                        }
+                    }
+
+                    //shouldComponentUpdate()
+                    shouldComponentUpdate(nextProps, nextState){
+                        return true;
+    //                    return this.props.Change !== nextProps.Change;
+                            //after the first render this.props.Change ==nextProps.Change==0 return false
+                                //onClick let nextProps.Change==1 return true
+                                    //twoClick let nextProps.Change==1 return false
+    //                    return this.state.lifeCycle === nextState.lifeCycle;//**
+                    }
+
+                    //componentWillUpdate()
+                    componentWillUpdate(){
+//                        console.log('componentWillUpdate:'+this.props.Change);//the first click return 1
+//                        if(this.props.Change == 1){
+//                            clearInterval(this.timeID);
+//                            console.log('componentWillUpdate:'+this.props.Change);
+//                        }
+//                        console.log(this.state.lifeCycle)
+                        if(this.state.lifeCycle >= 30){
+                            console.log(this.state.lifeCycle);
+                            clearInterval(this.timeID);
+//                            this.setState({lifeCycle:25})
+                        }
+                    }
+
+                    //componentDidUpdate()
+                    componentDidUpdate(){
+                        let v = this.name.id;
+                        console.log(v);
+                    }
+
+                //Unmounting
+                    componentWillUnmount(){
+                            clearInterval(this.timeID);
+                            console.log('the timeID has been removed');
+                    }
+
+
+
+                plusOne() {
+                    this.setState({lifeCycle:this.state.lifeCycle +1})
+                }
+                ChangeProps() {
+                    this.props.ChangeProps(1)
+                }
+                render(){
+                    return(
+                            <div id='componentWillUnmount' ref={arg => this.name = arg} onClick={this.ChangeProps.bind(this)}>state:{this.state.lifeCycle}props:{this.props.Change}</div>
+                    )
+                }
+            }
+
+
+
+
+
+        class Life extends React.Component{
+            constructor(props){
+                super(props);
+                this.state={click:false,change:0}
+            }
+
+            lifeClick(){
+                this.setState({click:!this.state.click})
+            }
+
+            PropsChange(v){
+                this.setState({change:v})
+            }
+            render(){
+                return(
+                        <div>
+                            <div onClick={this.lifeClick.bind(this)}>CLICK ME</div>
+                            {this.state.click?(<Lifecycle Change={this.state.change} ChangeProps={this.PropsChange.bind(this)} />):(<div>0</div>)}
+                        </div>
+                )
+            }
+        }
+        ReactDOM.render(
+                <Life />,
+                document.getElementById('container')
+        )
+        /*
+         Mounting
+            componentWillMount() It is called before render() Generally, we recommend using the constructor() instead
+            componentDidMount() It is called after first render()
+
+
+         Updating These methods are called when a component is being re-rendered
+            componentWillReceiveProps()//any props change then componentWillReceiveProps
+
+            shouldComponentUpdate()//any state or props change[even if the value no any change] return false or true
+                                    //false will stop componentWillUpdate() componentDidUpdate() also render()
+                                    //use when lots of components
+
+            componentWillUpdate()//any state or props change[even if the value no any change] then componentWillUpdate
+
+            componentDidUpdate()//start when the component has been updated
+
+
+         Unmounting This method is called when a component is being removed from the DOM
+            componentWillUnmount()
+         */
+    </script>
+
+</body>
+
+</html>

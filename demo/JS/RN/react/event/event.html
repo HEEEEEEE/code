@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's component lifecycle</title>
+    <meta charset="UTF-8">
+    <script src='http://localhost:63342/react/tech/JS/SJ/react/corks/react/3applied/lib/react.js'></script>
+    <script src='http://localhost:63342/react/tech/JS/SJ/react/corks/react/3applied/lib/react-dom.js'></script>
+    <script src='http://localhost:63342/react/tech/JS/SJ/react/corks/react/3applied/lib/browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <!-- <script type='text/babel' src='react.js'> -->
+    <script type='text/babel'>
+        class Event extends React.Component{
+            constructor(props){
+                super(props);
+                this.state={
+                    one:{
+                        a:1,
+                    },
+                    two:{
+                        b:2,
+                    }
+                };
+            }
+            doubleClick(){
+                this.setState({
+                    one:{
+                        a:2,
+                    },
+                    two:{
+                        b:1,
+                    }
+                });
+            }
+            render(){
+                return(
+                        <div>
+                            <div onDoubleClick={this.doubleClick.bind(this)}>event me</div>
+                            {this.state.one.a == 1 ?(<div>hate me</div>):(<div>like me</div>)}
+                        </div>
+                )
+            }
+        }
+
+        ReactDOM.render(
+                <Event />,
+                document.getElementById('container')
+        )
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+#CenteR{
+      margin:62.5px auto;
+       	position:relative;
+      		z-index:2502;
+}
+	#CenteR_content{
+	          margin:0 auto;
+	             position:relative;
+	          z-index:2500;	
+	}
+		#CenteR_content div{}
+
+

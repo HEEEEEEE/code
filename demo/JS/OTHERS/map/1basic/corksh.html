@@ -1,0 +1,49 @@
+<?php 
+header('Content-Type:text/html;charset=utf-8');
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+   	<meta charset='utf-8' />
+	
+   	<link rel='shortcut icon' href='title.ico' />
+   	<title>MaP:string</title>	
+		
+   	<link type='text/css' rel='stylesheet' href='corks.css' />
+   	
+	<script src='jquery-2.1.3.min.js' charset='utf-8'></script>   
+</head>
+
+<body>
+	<div id='GeoLocation'>
+		<div id='Coordinates' class='geoLocation'>
+			<div class='coordinates'>Coordinates</div>
+			<div class='coordinates'>
+				lonWE:<span id='LongitudeData' class='coordinatesData'></span>
+				latNS:<span id='LatitudeData' class='coordinatesData'></span>			
+			</div>
+
+		</div>
+		<div id='Location' class='geoLocation'>
+			<div class='location'>Location</div>
+			<div class='location'>
+				<div class='locationContent'>Location by Google:<span id='LocationByGoogleData' class='locationContentData'></span></div>
+				<div class='locationContent'>百度地图上的位置:<span id='LocationByBaiduData' class='locationContentData'></span></div>			
+			</div>
+		
+		</div>
+	
+	</div>
+	<div id='Tips'>
+		<span id='TipsContent'></span>
+	</div>
+	<script charset='utf-8'>
+		$('html').mouseup(function(){
+			$('#TipsContent').css({color:'rgba(255,255,255,1)'});
+		});
+	</script>
+   	<script src='corks.js' charset='utf-8'></script>
+</body>
+	
+</html>

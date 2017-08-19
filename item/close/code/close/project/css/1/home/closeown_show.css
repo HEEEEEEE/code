@@ -1,0 +1,150 @@
+@charset'utf-8';
+             div,img,span,dl,dt,a,form,input
+{margin:0;padding:0;font-family:'Helvetica'}
+/*design the closeproc_show outside frame:*/  
+#CloseprocoutsidE{}             
+             /**************************************************************************
+	  *design the closeproc_show inside frame:
+	  */  
+	#CloseprocinsidE{
+             	display:block;
+	                      opacity:1;             
+		             width:325px;
+		                    height:;
+		                        background-color:rgb(255,125,0);
+			 border-width:0;
+		    border-style:solid;
+		border-color:rgb(0,0,0);
+	            margin:0 auto;
+	}	                                                                      
+	/**************************************************************************
+	 *CLOSE:
+	 *
+	 *
+	 */
+	#CloseprocinsidE div[class='closediv']:first-child{margin-top:0;}
+	#CloseprocinsidE div[class='closediv'] 
+		{display:block;
+		 opacity:0.85;
+			 width:275px;
+			 height:125px;
+		             background-color:rgb(0,0,0);
+		 overflow:hidden;
+		   	              border-width:0;
+			              border-style:solid;
+				  border-color:rgb(255,255,255);
+		            	  		margin:5px auto;
+		}
+	#CloseprocinsidE div[class='closediv']:last-child{margin-bottom:0;}
+	#CloseprocinsidE div[class='closediv']:hover{opacity:1;}
+	
+	
+			#CloseprocinsidE div[class='closediv'] .closediv_div1{width:225px;height:0;background-color:;opacity:;margin:25px auto;margin-bottom:0;cursor:;}
+			#CloseprocinsidE div[class='closediv'] .closediv_div1 dl{float:left;}
+	
+	/*closefaceclosefaceclosefaceclosefacecloseface*/
+			#CloseprocinsidE div[class='closediv'] .closediv_dl1{}
+			#CloseprocinsidE div[class='closediv'] .closediv_dl1dt1{width:75px;height:75px;background-color:rgb(0,0,0);opacity:1;margin:0;cursor:default;}
+			#CloseprocinsidE div[class='closediv'] .closeface{display:block;width:100%;height:100%;	}
+	/*closefaceclosefaceclosefaceclosefacecloseface*/
+	
+	/*closenameclosenameclosenameclosenameclosename*/		
+			#CloseprocinsidE div[class='closediv'] .closediv_dl2
+				{width:125px;height:75px;margin:0;margin-left:25px;}
+			#CloseprocinsidE div[class='closediv'] .closename
+			{display:block;
+			       width:125px;height:25px;
+			 background-color:black;	 
+			             border-width:0;
+				          border-style:solid;
+				 border-color:rgb(0,0,0);	   
+			         margin:0 auto;
+			         margin-bottom:0;	
+		            text-align:center;
+			        color:white;
+			                font-size:15px;
+			                  font-family:'Helvetica';
+			             opacity:1;
+			white-space:nowrap;
+			text-overflow:ellipsis;
+		                 overflow-x:hidden;overflow-y:hidden;
+			cursor:default;
+			}
+	/*closenameclosenameclosenameclosenameclosename*/
+			
+	/*closemark=closemark+sourcemark+informationmarkclosemarkclosemarkclosemarkclosemark*/		
+			#CloseprocinsidE div[class='closediv'] .closemark
+			{
+		       	width:125px;height:50px;
+			        background-color:;
+			                     background-repeat:no-repeat;
+			                                background-size:50px 50px;
+			        background-position:center center;			
+		 
+			                  border-width:0;
+				          border-style:solid;
+				 border-color:white;	   
+		         	     margin:0 auto;				
+			}		
+				#CloseprocinsidE div[class='closediv'] .close_part
+				{display:block;
+			                width:125px;height:25px;
+				            background-color:rgb(255,255,255);
+				 background-repeat:no-repeat;
+			                                   background-size:25px 25px;
+			             background-position:center center;							 
+				                  border-width:0;
+					          border-style:solid;
+					      border-color:white;
+				         opacity:0.725;				   
+			         	    margin:0 auto;
+			              overflow:hidden;
+				cursor:pointer;		                				
+				}
+			            #CloseprocinsidE div[class='closediv'] #ClosE_sourc{}
+				#CloseprocinsidE div[class='closediv'] #ClosE_sourc:hover{opacity:1;}
+			            #CloseprocinsidE div[class='closediv'] #ClosE_infor{}
+				#CloseprocinsidE div[class='closediv'] #ClosE_infor:hover{opacity:1;}
+	/*closemark=closemark+sourcemark+informationmarkclosemarkclosemarkclosemarkclosemark*/
+
+	/*closetoolclosetoolclosetoolclosetoolclosetoolclosetoolclosetoolclosetoolclosetool*/		
+	#CloseprocinsidE div[class='closediv'] .closediv_div2
+	{display:block;
+                width:275px;height:;
+	            background-color:;
+	         opacity:1;
+                  border-width:0;
+	          border-style:solid;
+	      border-color:rgb(0,0,0);								   
+         	    margin:0 auto;
+              overflow:hidden;
+	cursor:default;		                				
+	}
+		#CloseprocinsidE div[class='closediv'] .closediv_div2dl1{width:25px;height:;background-color:;opacity:;margin:0 auto;cursor:;}
+			#CloseprocinsidE div[class='closediv'] .closesettings
+			{display:inline-block;
+		                width:25px;height:25px;
+			            background-color:;
+			 background-repeat:no-repeat;
+		                                   background-size:25px 25px;
+		             background-position:center center;							 
+			                  border-width:0;
+				          border-style:solid;
+				      border-color:white;
+			         opacity:0.725;				   
+		         	    margin:0 auto;
+		              overflow:hidden;
+			cursor:pointer;		                				
+			}
+			#CloseprocinsidE div[class='closediv'] .closesettings:hover{opacity:1;}	
+	/*closetoolclosetoolclosetoolclosetoolclosetoolclosetoolclosetoolclosetoolclosetool*/				
+				
+	/*
+	 *
+	 *					  			 			                
+	 *CLOSE:
+	 **************************************************************************/
+				
+
+                        
+                        

@@ -1,0 +1,161 @@
+@charset'utf-8';
+	    body,div,dl,dt,span,img,a
+		{margin:0;padding:0;font-family:'Helvetica'}
+body{background-color:rgb(255,125,0);}
+
+#BodY_scroll
+{width:100%;
+     height:100%;
+           padding:0;
+	 background-color:rgba(0,0,0,0);
+              position:absolute;
+              top:0;
+                 left:0;
+         bottom:0;
+ z-index:2500;
+}
+	/*ScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolL*/
+/*._mCS_1 is the class of the frame that custom scroll*/
+._mCS_1{width:100%;height:100%;background-color:;margin:0 auto;overflow:auto;}
+	/*hidden system default scroll and show jq scroll*/
+	._mCS_1  .mCustomScrollBox{overflow:;position:relative;}/**/		
+		/*content area content area content area content area content area*/
+	           ._mCS_1  .mCSB_container{width:100%;overflow:;position:relative;z-index:2500;}/*top:;动态变化*/
+		           		
+	          /*scroll area scroll area scroll area scroll area scroll area*/		
+		._mCS_1 .mCSB_scrollTools
+		{width:25px;
+                             background-color:;
+                             opacity:1;
+                                        position:absolute;
+                                     top:0;
+                                 right:0;
+                           bottom:0;
+	             z-index:2501;
+                        }
+                        /*position:absolute;top:0;right:0;指定滚动条浮于内容之上 且在右 */
+			/*scroll area:Upbutton*/
+			._mCS_1 .mCSB_scrollTools .mCSB_buttonUp{}
+			._mCS_1 .mCSB_scrollTools a + .mCSB_draggerContainer{margin:0;}Delete the buttonUp and Down
+			
+			/*scroll area:dragarea*/
+		            ._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer
+			{width:25px;
+	                             background-color:;
+	                             opacity:1;
+	                                        position:absolute;
+	                                     top:0;
+	                                 right:0;
+	                         bottom:0;
+	                        }
+				/*dragarea:dragblockout*/
+				._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger
+				{width:25px;background-color:;opacity:1;position:absolute;right:0;}/*top:;动态变化*/
+					/*dragarea:dragblockin*/
+					._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger .mCSB_dragger_bar
+					{width:12px;
+	                                                      background-color:rgb(50,25,0);
+	                                                                                 margin:0 auto;
+				 	border-radius:0;
+					    border-shadow:none;
+						border-width:0;
+	                        		
+					}	
+				._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger .mCSB_dragger_bar:hover{opacity:1;}
+				
+				/*dragarea:scrolllineunderdragblock*/
+				._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer .mCSB_draggerRail
+				{width:5px;
+                                                      background-color:;
+                                                                             opacity:0;
+                                                                                 margin:0 auto;
+			 	border-radius:0;
+				    border-shadow:none;
+					border-width:0;
+                        		
+				}
+				
+			/*scroll area:Downbutton*/
+			._mCS_1 .mCSB_scrollTools .mCSB_buttonDown{}		     				          
+	/*ScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolLScrolL*/
+#PtprocesstoP
+{}
+#PtprocesscenteR{
+      margin:75px auto;
+       	position:relative;
+      		z-index:2502;
+}
+	#CenteR_content{
+	          margin:0 auto;
+	             position:relative;
+	          z-index:2500;	
+	}
+
+	/*closeowncloseowncloseowncloseowncloseown*/
+	#PtprocesscenteR_closeown{
+		float:right;
+		      margin-right:0;
+		          position:relative;
+		      z-index:2501;		
+	}			
+	/*closeowncloseowncloseowncloseowncloseown*/
+
+	
+	
+	
+             /*ideamenuideamenuideamenuideamenuideamenuideamenuideamenuideamenuideamenuideamenuideamenuideamenuideamenuideamenu*/
+	 /*more*/
+	 #MenU_ideatoolmore{
+	     display:none;
+	     width:125px;
+	            height:;
+	     	   background-color:;			
+	               position:fixed;
+	       	  top:0;
+	           left:0;
+	     z-index:999999999999999999999;			
+	 }
+		.menu_ideatoolmore-kind{
+		 width:100%;
+		         height:;
+		     	background-color:rgba(0,0,0,0.25);
+		      margin:0 auto;
+		 overflow:hidden;		
+		}
+		
+			.menu_ideatoolmore-kind-1{
+			 width:125px;
+			     height:35px;
+			          background-color:rgb(255,255,255);
+				         opacity:0.85;
+				    padding:0;	
+			          margin:0 auto;
+			      margin-top:5px;
+			   overflow:hidden;
+			 cursor:default;
+
+			 color:rgb(50,25,0);
+			}
+			.menu_ideatoolmore-kind-1:nth-child(1){margin-top:0;}
+		
+			.menu_ideatoolmore-kind-1:hover{}
+				.menu_ideatoolmore-kind-1-1{
+			             display:block;				
+			                    margin:0 auto;				
+				               text-align:center;
+			                                    line-height:35px;
+				                               font-size:16px;						
+                                                           }
+				.menu_ideatoolmore-kind-1-1:hover{font-size:20px;}	
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>props's edit</title>
+    <meta charset="UTF-8">
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react-dom.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        const Pro = React.createClass({
+            getDefaultProps:function(){
+                return {
+                    info:'HelloHello',
+                    func:function(){return '';},
+                    arr:[2,5],
+                    obj:{a:'0',b:0},
+                    typeMore:'w',
+                    accept:'no',
+                    children:'children'
+                }
+            },
+            propTypes:{
+                info:React.PropTypes.string,
+                func:React.PropTypes.func,
+                arr:React.PropTypes.instanceOf(Object),
+                //arrayOf(React.PropTypes.number)the array elements type is not all the number echo a error
+                arr:React.PropTypes.arrayOf(React.PropTypes.number),
+//                obj:React.PropTypes.objectOf(React.PropTypes.Math),
+                //shape({obj1:React.PropTypes.dataType,obj2:React.PropTypes.dataType})
+                obj:React.PropTypes.shape({
+                    a:React.PropTypes.string,
+                    b:React.PropTypes.number
+                }),
+                //objectOf(React.PropTypes.number)
+                typeMore:React.PropTypes.oneOfType([
+                    React.PropTypes.number,
+                    React.PropTypes.string,
+                    React.PropTypes.instanceOf(Object)
+                ]),
+                accept:React.PropTypes.oneOf(['ok','blue']),
+                //any mean anyType
+                name:React.PropTypes.any.isRequired,
+                children:React.PropTypes.element
+            },
+            render:function(){
+                return (
+                    <div>{
+                    this.props.info instanceof Number ?(
+                        //this.props.name instanceof String
+                            //a instanceof b:a is a data     b is a object like js Array Object
+                        //typeof this.props.name =='string'
+                            //typeof a =='b':a is a data b is a dataType like string boolean
+                            <div>{this.props.info}</div>
+                        ):(
+                            ''
+                        )
+                    }
+                    </div>
+
+
+                )
+            }
+        });
+        ReactDOM.render(
+                <Pro />,
+                document.getElementById('container')
+        );
+        //getDefaultProps:function(){return{name:value,name:value}
+            //set the sys props for this component
+        /*PropTypes
+            //one
+                1type checking with PropTypes echo the error to console
+                    like typeof
+                        propTypes:{ name:React.PropTypes.number.isRequired,}
+                            name:is the props'name
+                            number:the type you wanna check
+                                bool number string array func object
+                                node element
+
+                    like instanceOf
+                        propTypes{name:React.PropTypes.instanceOf(Object)}
+
+                    special
+                        element
+                            only a child can be contained in component
+
+             //more
+                propTypes{
+                    moreType:React.PropTypes.oneOfType([
+                        React.PropTypes.number,
+                        React.PropType.instanceOf(Number)
+                    ])
+                }
+            2.value checking
+                name:React.PropTypes.dataType.isRequired
+                    //You can use isRequired to make sure a warning is shown if the prop is not provided.
+                accept:'no'-PropTypes.oneOf(['y','u','i'])     'no' not in the array echo the error to console
+         */
+
+        //setProps replaceProps not be supported by react
+
+    </script>
+</body>
+
+</html>

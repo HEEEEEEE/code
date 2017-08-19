@@ -1,0 +1,266 @@
+	@charset'utf-8';
+div,dl,dt,img,input,span,a
+	{margin:0;padding:0;font-family:'Helvetica'}
+
+#ToP{width:100%;height:;background-color:rgb(0,0,0); position:absolute;top:0;left:0;z-index:500000;}
+/*Signed in:yes*/
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+	#ToP_basic{width:250px;height:50px;background-color:;position:absolute;top:0;left:25px;z-index:5;}
+
+	/*basic facebasic facebasic facebasic facebasic facebasic face*/
+	/*face*/
+	#BasicF_dl1dt1
+	{width:42.5px;
+	     height:50px;
+	     	background-color:rgb(255,125,0);
+	                position:absolute;
+	              top:0;
+	       left:100px;
+	 z-index:5;
+	}
+		#BasicF_img{display:block;width:30px;height:30px;opacity:0.75;margin:10px auto;cursor:pointer;}
+		#BasicF_img:hover{opacity:1;}
+		#BasicfnO_img{display:none;width:30px;height:30px;opacity:0.75;margin:10px auto;cursor:pointer;}
+		#BasicfnO_img:hover{opacity:1;}
+	
+	/*name*/
+	#BasicF_dl1dt2
+	{width:250px;
+	     height:30px;
+	     	background-color:rgb(255,125,0);
+	     margin:10px auto;
+	 overflow:hidden;
+	 cursor:default;
+	}		
+		#BasicF_username
+		{display:block;
+	                 width:103.75px;
+		         height:30px;
+	                 padding-left:146.25px;
+		           background-color:rgb(255,125,0);
+		 margin:0 auto;
+	             		text-align:left;
+	             	line-height:30px;
+	             color:rgb(0,0,0);
+	             	font-size:15px;
+	             text-overflow:ellipsis;
+	             overflow:hidden;          
+		}
+	/*basic menubasic menubasic menubasic menubasic menubasic menu*/
+	#ToP_basicmenu{display:none; width:250px;position:absolute;top:50px;left:25px;z-index:6;}
+		#BasicmenU_top
+		{width:42.5px;
+		     height:10px;
+		     	background-color:rgb(255,125,0);
+			border-width:0 5px;
+				border-style:solid;
+			border-color:rgb(0,0,0);
+		 position:absolute;
+		       	     top:0;
+		 	          left:95px;
+		                            z-index:6;
+		}
+		#BasicmenU_center
+		{
+		 width:250px;
+		     height:;
+		     	background-color:;
+			border-width:0;
+				border-style:solid;
+			border-color:rgb(0,0,0);			
+		 position:absolute;
+		       	     top:5px;
+		 	           left:0;
+		                            z-index:5;
+		}
+			#BasicmenU_center dl
+			{
+			 width:100px;
+			     height:;
+			     	background-color:rgb(0,0,0);
+				border-width:0;
+					border-style:solid;
+				border-color:rgb(0,0,0);	
+			 margin:0 auto;
+			 overflow:hidden;		
+			}
+			
+				#BasicmenU_center dl dt
+				{
+				 width:95px;
+				     height:25px;
+				     	background-color:rgb(0,75,0);
+					opacity:0.5;
+					padding:0 2.5px;
+					border-width:0;
+						border-style:solid;
+					border-color:rgb(0,0,0);	
+				     margin:0 auto;
+				     margin-top:5px;
+				   overflow:hidden;
+				 cursor:pointer;		
+				}
+				#BasicmenU_centerdl1 dt:nth-child(2){margin-top:7.5px;}				
+				#BasicmenU_centerdl1 dt:last-child{margin-top:7.5px;}
+				
+				#BasicmenU_center dl dt:hover{opacity:1;}
+					#BasicmenU_center span
+					{display:block;				
+				                    margin:0 auto;				
+					text-align:center;
+				                    line-height:25px;
+				
+						      color:rgb(255,255,255);
+						  font-size:12.5px;						
+                                                            }
+ 					#BasicmenU_center #BasicmenU_centerbasic1{font-size:15px;}
+/*basicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasicbasi*/
+/*Signed in:no*/
+             /*start*/                                               
+	#ToP_sign{width:250px;height:50px;background-color:;position:absolute;top:0;left:25px;z-index:5;}
+	#SigN_dl1dt1
+	{width:42.5px;
+	     height:40px;
+	     	background-color:rgb(255,255,255);
+	                position:absolute;
+	              top:10px;
+	       left:100px;
+	 z-index:5;
+	}
+	#SigN_dl1dt1 span
+	{display:block;
+                 width:42.5px;
+	         height:30px;
+	           background-color:rgb(255,255,255);
+	 margin:0 auto;
+             		text-align:center;
+             	        line-height:30px;
+                           color:rgb(0,112,255);
+                       font-size:15px;
+                 overflow:hidden;   
+	 cursor:default;       
+	}
+	
+	#SigN_dl1dt2
+	{width:250px;
+	     height:30px;
+	     	background-color:rgb(255,255,255);
+	     margin:10px auto;
+	 overflow:hidden;
+	}		
+		.signin-click
+		{display:inline-block;
+	                 width:125px;
+		         height:30px;
+		           background-color:rgb(255,255,255);
+		 margin:0 auto;
+	
+	             		text-align:center;
+	             	        line-height:30px;
+	                           color:rgb(255,112,0);
+	                       font-size:22px;
+	                 overflow:hidden;   
+		 cursor:default;           
+		}
+			.signin
+			{display:inline-block;
+		                 width:125px;
+			         height:30px;
+			           background-color:rgb(25,25,25);
+			           opacity:1;
+			 margin:0 auto;
+		
+		             		text-align:center;
+		             	        line-height:30px;
+		                           color:rgb(125,125,125);
+		                       font-size:22px;
+		                 overflow:hidden;   
+			 cursor:pointer;           
+			}
+			.signin:hover{opacity:0.75;}		
+		.signup
+		{display:inline-block;
+	                 width:125px;
+		         height:30px;
+		           background-color:rgb(25,25,25);
+		           opacity:1;
+		 margin:0 auto;
+	
+	             		text-align:center;
+	             	        line-height:30px;
+	                           color:rgb(125,125,125);
+	                       font-size:22px;
+	                 overflow:hidden;   
+		 cursor:pointer;           
+		}
+		.signup:hover{opacity:0.75;}
+			.signup-click
+			{display:inline-block;
+		                 width:125px;
+			         height:30px;
+			           background-color:rgb(255,255,255);
+			 margin:0 auto;
+		
+		             		text-align:center;
+		             	        line-height:30px;
+		                           color:rgb(0,112,255);
+		                       font-size:22px;
+		                 overflow:hidden;   
+			 cursor:default;           
+			}				                                                            		
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+#ToP_mark{width:50px;height:50px;margin:0 auto;}
+		#MarK_img{display:block;width:50px;height:50px;cursor:default;}	
+/*markmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmarkmark*/
+
+		
+		
+/*searchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearch*/
+	#ToP_search
+	{width:250px;
+	     height:30px;
+	     background-color:rgb(25,25,25);
+	     opacity:1;
+	 	border-width:0;
+			border-style:;
+		border-color:;
+	 position:absolute;
+	           top:10px;
+	              right:25px;
+	                   z-index:5;		
+	}
+	#ToP_search input
+		{display:block;
+			width:248px;height:28px;
+		 		background-color:rgb(0,0,0);
+	                                    opacity:0.75;
+			border-width:0;
+				border-style:;
+			border-color:;
+			margin:1px auto;
+		
+		 text-align:left;
+		 	color:rgb(255,255,255);
+		 		font-size:16px;
+		}
+	#ToP_search input:hover{ opacity:1;}
+
+	#ToP_search img
+		{display:block;
+			width:30px;height:30px;
+		 		background-color:;
+	                                    opacity:0.75;
+		 position:absolute;
+		           top:2.5px;
+		              right:2.5px;
+		                   z-index:5;
+		cursor:pointer;		
+		}
+	#ToP_search img:hover{ opacity:1;}		
+/*searchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearchsearch*/		
+		
+		
+		
+		
+	
+		

@@ -1,0 +1,203 @@
+/*fullscreenfullscreenfullscreenfullscreenfullscreen
+ *fullscreenfullscreenfullscreen
+ *fullscreen
+ *fullscreenfullscreenfullscreen
+ *fullscreenfullscreenfullscreenfullscreenfullscreen
+ */
+	/*no fullscreen
+	 * 
+	 */
+	.fullscreen{
+		width:100%;
+		    height:100%;
+		          background-color:rgba(0,0,0,1);
+			  overflow:hidden;
+		position:fixed;
+		           top:0;
+		       left:0;
+		z-index:99999999999999999999999999;		
+	}
+	/*mainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmain*/
+		.fullscreenLevel{
+			width:100%;
+			    height:100%;
+			          background-color:;
+				  overflow:hidden;
+			position:fixed;
+			           top:0;
+			       left:0;
+			z-index:2500;		
+		}		
+		/*leval1leval1leval1leval1leval1leval1leval1leval1leval1leval1*/
+			.fullscreenLevel1{
+				width:100%;
+				    height:100%;
+				          background-color:;
+					  overflow:hidden;
+				position:fixed;
+				           top:0;
+				       left:0;
+				z-index:2500;		
+			}
+				/*center:content area center:content area center:content area*/			
+				.fullscreenLevel1_center{
+					width:100%;
+					    height:100%;
+						background-color:;
+					        overflow:hidden;
+					     position:absolute;
+					    top:0;
+					  left:0;
+					z-index:2500;		
+				}
+					.fullscreenLevel1_centerCenter{
+						width:90%;
+						    height:90%;
+							background-color:;
+						          position:relative;
+						    margin:0 auto;
+						    top:5%;
+						z-index:2500;		
+					}
+						.fullscreenLevel1_centerCenterContent{
+							width:100%;
+							    height:100%;
+								background-color:;
+							          position:relative;
+							    margin:0 auto;
+							z-index:2500;		
+						}
+							.fullscreenLevel1_contentType1{
+								display:block;
+								width:100%;
+								    height:100%;
+								       background-color:;
+								       margin:0 auto;
+								    position:relative;
+								z-index:2500;
+								
+								cursor:default;	
+							}
+
+					
+				/*toptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptop*/							
+				.fullscreenLevel1_top{
+						width:100%;
+						    height:5%;
+							background-color:;
+							overflow:hidden;
+						      position:absolute;
+						    top:0;
+						 left:0;
+						z-index:2501;		
+					}
+				
+				.fullscreenLevel1_right{
+					width:5%;
+					    height:100%;
+						background-color:;
+						overflow:hidden;
+					    position:absolute;
+					  top:0;
+					 right:0;
+					z-index:2502;		
+				}
+					.fullscreenLevel1_rightClickToExit{
+						width:100%;
+						    height:5%;
+							background-color:;
+						overflow:hidden;
+						position:absolute;
+						top:0;
+						right:0;
+						z-index:2500;	
+					}
+		
+						.fullscreenLevel1_exitButton{
+							display:block;
+							
+							width:100%;
+							    height:100%;
+							
+							background-color:;
+							opacity:0.25;
+							background-repeat:no-repeat;
+							background-size:contain;
+							background-position:center right;
+							
+							position:absolute;
+							top:0;
+							right:0;
+							z-index:2500;
+							
+							cursor:pointer;	
+						}
+						.fullscreenLevel1_exitButton:hover{opacity:1;}											
+
+						
+						
+				/*leftleftleftleftleftleftleftleftleftleftleftleftleftleftleftleftleftleftleft*/						
+				.fullscreenLevel1_left{
+					width:5%;
+					    height:100%;
+						background-color:;
+					overflow:hidden;
+					position:absolute;
+					top:0;
+					left:0;
+					z-index:2502;		
+				}
+
+				
+				
+				/*bottombottombottombottombottombottombottombottombottombottombottombottombottom*/				
+				.fullscreenLevel1_bottom{
+					width:100%;
+					    height:5%;
+						background-color:;
+					overflow:hidden;
+					position:absolute;
+					bottom:0;
+					left:0;
+					z-index:2505;		
+				}
+
+				
+				
+				
+				
+	/*othersothersothersothersothersothersothersothersothersothersothersotherso*/
+		.hiddenForFullscreen{width:5px;height:5px;}
+	
+	
+	
+	
+	
+	/*in fullscreen
+	 * 
+	 */
+	:full-screen .hiddenForFullscreen{width:1px;height:1px;}
+		:-moz-full-screen .hiddenForFullscreen{width:1px;height:1px;}
+			:-ms-full-screen .hiddenForFullscreen{width:1px;height:1px;}
+		:-o-full-screen .hiddenForFullscreen{width:1px;height:1px;}
+	:-webkit-full-screen .hiddenForFullscreen{width:1px;height:1px;}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

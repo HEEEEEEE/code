@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's ReactDOM.render()</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        ReactDOM.render(
+                <a href="javascript:void(alert('ok'))">ok</a>,
+                document.getElementById('container')
+        )
+    </script>
+</body>
+
+</html>

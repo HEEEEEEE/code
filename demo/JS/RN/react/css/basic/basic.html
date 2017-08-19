@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's css</title>
+    <meta charset="utf-8">
+    <style>
+        @charset "UTF-8";
+        body,div,span{margin:0;padding:0}
+        .green{width:25px;height:25px;background:green}
+    </style>
+    <script src='http://localhost:63342/react/tech/JS/SJ/react/corks/react/3applied/lib/react.js'></script>
+    <script src='http://localhost:63342/react/tech/JS/SJ/react/corks/react/3applied/lib/react-dom.js'></script>
+    <script src='http://localhost:63342/react/tech/JS/SJ/react/corks/react/3applied/lib/browser.min.js'></script>
+</head>
+<body>
+    <div id='Container'></div>
+    <script type='text/babel'>
+        var CssComponent = React.createClass({
+            getInitialState: function(){
+                return {red:true}
+            },
+            click: function(){
+                this.setState({red:!this.state.red})
+            },
+            render: function(){
+                let style={width:'25px',height:'25px',background:'blue'};
+                let stylf={width:'5px',height:'75px',background:'red'};
+                return (
+                    <div>
+                        <span onClick={this.click} style={this.state.red?({width:'25px',height:'25px',background:'red'}):({})}>{this.props.cssA}</span>
+                        <span style={style} className='green'>{this.props.cssB}</span>
+                        <span style={{width:'5px',height:'75px',background:'red'}}>{this.props.cssC}</span>
+                    </div>
+                )
+            }
+        });
+
+        var props = {cssA:'RED',cssB:'GREEN',cssC:'BLUE'};
+        ReactDOM.render(
+            <CssComponent {...props}/>,
+            document.getElementById('Container')
+        )
+        {/*
+            <span style={*style*}>{this.props.cssC}</span>
+            *style*
+            *   all in tag
+            *       {{width:'50px',backgroundColor:'red'}}
+            *   ull in tag
+            *       in tag
+            *           {style}
+            *       in js
+            *       const style = {
+                        width:'50px',
+                        backgroundColor:'red',
+            *       }
+            *
+            *
+            *
+            *
+            *
+            *
+            *
+            *
+            *
+            *
+            *
+            *
+        */}
+    </script>
+</body>
+</html>

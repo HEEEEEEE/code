@@ -1,0 +1,631 @@
+		/*createcreatecreatecreatecreatecreatecreatecreatecreate*/
+		#ProjectclosE_create{
+			width:100%;
+			       height:125px;
+			        background-color:;
+			         position:relative;
+			     margin:0 auto;
+			z-index:2501;					
+		}
+			/*Frame:leftleftleftleftleftleftleftleftleftleftleftleftleftleftleftleft*/
+			#ProjectclosE_createframeleft{
+				width:100px;
+				       height:10px;
+				background-color:rgba(255,75,0,0);
+				
+				position:absolute;
+				             top:0;
+				         left:0;
+				z-index:2500;
+			}
+			/*Frame:centercentercentercentercentercentercentercentercentercentercenter*/
+			#ProjectclosE_createframecenter{
+				width:100%;
+				       height:10px;
+				background-color:;
+				
+				position:absolute;
+				             bottom:0;
+				         left:0;
+				z-index:2500;
+			}			
+			/*Frame:rightrightrightrightrightrightrightrightrightrightrightrightright*/
+			#ProjectclosE_createframeright{
+				width:50px;
+				       height:10px;
+				background-color:rgba(255,75,0,0);
+				
+				position:absolute;
+				           top:45px;
+				             right:2.5px;
+				z-index:2500;
+			}
+
+			/*ContenTContenTContenTContenTContenTContenTContenTContenTContenTContenT*/
+			#ProjectclosE_createcontent{
+				width:100%;
+				       height:100%;
+				           background-color:;
+				       margin:0 auto;
+				       position:relative;
+				z-index:2501;				
+			}
+			/*ContenT:guide*/
+				#ProjectclosE_createguide{
+				         width:45%;
+					height:35px;
+					    padding:0;
+					margin:0 0 0 7.5px;
+				         position:relative;
+				         z-index:2500;					
+	
+				}
+					#ProjectclosE_createguide dl dt:nth-child(1){
+				                       width:100%;
+				                            height:35px;
+				                               padding:0;
+				                           position:absolute;
+				                       top:0;
+				                        left:0; 
+				                           z-index:2500;
+				
+					                  text-align:left;
+						line-height:35px;
+						
+					                  color:rgba(0,25,0,1);
+						           font-size:15px;
+					                               cursor:default;						
+					}
+					
+					#ProjectclosE_createguide dl dt:nth-child(2){
+			                                          width:100%;
+			                                   height:35px;
+			                                margin:0 auto;
+			                                   position:relative;						                           
+			                                        z-index:2500;
+						
+				                  text-align:center;
+					line-height:35px;
+					
+				                  color:rgba(0,25,0,1);
+					           font-size:15px;
+				                               cursor:default;						
+					}
+						#CreateguidE_lan2{
+							color:rgba(255,112,0,1);
+						}
+												
+					#ProjectclosE_createguide dl dt:nth-child(3){
+				                                   height:35px;
+				                                padding-right:7.5px;
+				                              position:absolute;
+				                           top:0;
+				                             right:0;						                           
+				                                   z-index:2500;
+				
+				                  text-align:left;
+					line-height:35px;
+					
+				                  color:rgba(0,25,0,1);
+					           font-size:15px;
+				                               cursor:default;						
+					}					
+			/*Content:choose*/
+				#ProjectclosE_createchoose{
+					height:35px;
+					      width:100%;
+											
+					   position:absolute;
+					top:50px;
+					     left:0;
+					z-index:2500;						
+				}
+				
+					/*lanlanlanlanlanlanlanlanlanlanlanlanlanlanlanlanlanlan*/
+					.createlan{
+						width:42.5%;
+						       height:75px;
+						         padding:0;
+						           background-color:;
+						
+						position:absolute;
+						        top:12.5px;
+						          left:7.5px;
+						z-index:2500;
+					}
+					.createlanalways{
+						width:500px;
+						    height:75px;
+						         padding:0;
+						           background-color:;
+						       margin:0 auto;
+						       margin-top:12.5px;
+						    position:relative;
+						z-index:2500;
+					}					
+						/*toptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptoptop*/
+						.createlan-top{
+						   display:none;	
+						          width:100%;
+						              height:25px;
+							       background-color:;
+						          margin:0 auto;
+						    position:relative;
+							        z-index:2250;		
+						}
+							/*tips:forcon*/
+							#CreatelaN_enteralbetips{
+							       display:none;
+							   width:;
+							      height:25px;
+								 background-color:;
+								
+							    position:absolute;
+								        left:0;
+									   top:0;
+								 z-index:2500;	
+							}
+								#CreatelaN_enteralbetips span{
+									display:block;
+									width:;
+									    height:25px;
+									       padding-left:5px;
+										       margin:0;
+			
+											overflow:hidden;
+															
+									       text-align:left;
+										line-height:25px;
+									
+									    color:rgba(255,75,0,1);
+									font-size:16px;
+								}
+								
+							/*tips:forback*/
+																								
+								
+							/*cont*/
+							#CreatelaN_enteralbecont{
+							   width:;
+							      height:25px;
+								padding-right:5px;
+								        background-color:;
+								
+							             position:absolute;
+									 right:0;
+									top:0;
+								 z-index:2501;	
+							}
+								#CreatelaN_enteralbecont span{
+									 display:inline-block;
+									width:;
+								   height:25px;
+								margin:0;	
+										overflow:hidden;
+															
+									       text-align:left;
+										line-height:25px;
+									
+									    color:rgba(50,25,0,1);
+									font-size:16px;
+								}
+								#CreatelaN_enteralbecont #CreatelaN_enteralbenum{
+										color:rgba(0,125,0,1);
+								}
+							/*boxboxboxboxboxboxboxboxboxboxboxboxboxboxboxboxboxboxbox*/
+							.createlan-center{
+							   width:;
+							        height:;
+								 background-color:;
+								         margin:0 auto;
+							    		position:relative;
+                                                                                                                        z-index:2500;	
+							}			
+								.createlan-center dt span{	
+									     display:block;									
+									          width:;
+										   height:25px;
+										         padding:5px;
+									                        background-color:rgba(255,112,0,1);
+										         	border-radius:25px;
+									                        margin:0;
+								                     overflow-x:hidden;
+									      overflow-y:auto;
+					
+										    white-space:pre-wrap;
+									
+										overflow-wrap:break-word;word-wrap:break-word;			
+										  word-break:break-all;
+															
+									       text-align:left;
+										line-height:25px;
+									
+									    color:rgba(255,255,255,1);
+									font-size:16px;
+									
+									cursor:text;
+								}
+								.createlan-placeholder::before{							
+									content:attr(data-placeholder-default);
+								}
+						/*bottombottombottombottombottombottombottombottom*/
+								.createlan-bottom{
+								     display:none;
+								            width:100%;
+								                height:25px;
+								                   background-color:rgba(255,112,0,1);
+								                margin:0 auto;
+								            position:relative;
+								     z-index:2550;		
+								}
+									/*DONEDONEDONEDONEDONEDONEDONEDONEDONEDONEDONE*/		
+									#IdeawithlansdonE{
+									   width:50px;
+									      height:25px;										
+										background-color:rgba(255,255,255,1);
+										opacity:0.75;
+									   margin:0 auto;						
+									}
+									#IdeawithlansdonE:hover{opacity:1;}
+										#IdeawithlansdonE span{
+										     display:block;									
+										     width:50px;
+										        height:25px;
+											        margin:0 auto;
+	
+										                overflow:hidden;
+																
+										       text-align:center;
+										       	line-height:25px;
+										
+										    color:rgba(255,75,0,1);
+										font-size:16px;
+										
+										cursor:pointer;											
+										}																								
+					/*ororororororororororororororororororororororororororor*/		
+					#CreatechoosE_frame{
+						width:100%;
+						       height:35px;
+						           background-color:;
+						
+						position:absolute;
+						        top:2.5px;
+						          left:0;
+						       bottom:0;
+						z-index:2499;	
+					}
+						#CreatechoosE_frame dl dt{					
+						}
+							#CreatechoosE_or{
+								display:block;
+								  width:100%;
+								    height:35px;
+								         margin:10px auto;						
+								                text-align:center;
+									         line-height:35px;						
+								      color:rgba(255,112,0,1);
+								font-size:16px;
+							}
+					.createChooseOthersImg{
+						width:35px;
+						       height:35px;
+						           background-color:;
+						
+						position:absolute;
+						        top:0;
+						          right:50px;
+						z-index:2550;	
+					}
+						.createChooseImg{
+							display:block;
+							width:35px;
+							       height:35px;
+								 background-color:rgba(255,112,0,1);
+							             background-repeat:no-repeat;
+								 background-position:center center;
+							             background-size:contain;
+							             opacity:0.5;
+							            margin:0 auto;
+							     position:relative;
+							z-index:2550;	
+						}
+						.createChooseImg:hover{opacity:1;}
+						
+					.createChooseOthersLan{
+						width:35px;
+						       height:35px;
+						           background-color:;
+						
+						position:absolute;
+						        top:2.5px;
+						          right:50px;
+						z-index:2550;	
+					}						
+						.createChooseLan{
+							display:block;							
+							width:35px;
+							       height:35px;
+								 background-color:rgba(255,112,0,1);
+							             background-repeat:no-repeat;
+								 background-position:center center;
+							             background-size:contain;
+								 opacity:0.5;
+							            margin:0 auto;
+							     position:relative;
+							z-index:2550;	
+						}
+						.createChooseLan:hover{opacity:1;}					
+					/*picpicpicpicpicpicpicpicpicpicpicpicpicpicpicpicpicpicpic*/						
+					.createpic{
+						width:42.5%;
+						       height:40px;
+						         padding:0;
+						           background-color:;
+						
+						position:absolute;
+						        top:10px;
+						          right:7.5px;
+						z-index:2500;	
+					}
+					.createpicalways{
+						width:500px;
+						    height:75px;
+						         padding:0;
+						           background-color:;
+						       margin:0 auto;
+						       margin-top:12.5px;
+						    position:relative;
+						z-index:2500;
+					}					
+						/*beginbeginbeginbeginbeginbeginbeginbeginbeginbeginbeginbegin*/
+						/*Frame*/
+							#CreatechoosE_picdl2dt1{
+									display:block;
+							                             height:40px;
+									            width:100%;
+									         background-color:;
+									     position:absolute;
+									    top:0;
+									  left:0;
+									z-index:2500;									
+							}	
+								#CreatechoosE_picframe{
+									display:block;
+							                             height:35px;
+									            width:100%;
+									         background-color:rgba(255,112,0,1);
+									      position:absolute;
+									    top:2.5px;
+									  left:0;
+									z-index:2500;						
+								}
+							
+						/*Img*/	
+						#CreatechoosE_picdl2dt2{
+							width:100%;
+							       height:40px;
+							           background-color:;
+							
+							                 position:absolute;
+							               top:0;
+							          right:0;
+							z-index:2500;	
+						}
+							/*Img:con*/
+							#CreatechoosE_piccon{
+								display:block;											display:block;
+								      width:34px;
+								          height:34px;
+								background-color:;
+								      border-width:3px;
+								      	border-style:solid;
+								      		border-color:rgba(255,75,0,1);
+												margin:0 auto;	
+								}													
+									#CreatechoosE_picimg{
+										display:block;
+										      width:34px;
+										          height:34px;
+										              background-color:;	
+												margin:0 auto;
+									}
+							/*Img:upload*/
+							#CreatechoosE_picupload{
+								display:block;											display:block;
+								      width:100%;
+								          height:40px;
+								background-color:rgba(0,0,0,0);
+								border-width:0;
+							         position:absolute;
+							                     right:0;
+							                   top:0;
+							         z-index:2501;	
+							}										
+							#UploaD_image{
+								display:block;											display:block;
+								      width:40px;
+								          height:40px;
+								           background-color:rgba(0,0,0,0);
+								           opacity:0;
+								      border-width:0;
+								margin:0 auto;	
+							}									
+						/*beginbeginbeginbeginbeginbeginbeginbeginbeginbeginbeginbegin*/			
+
+						/*browserbrowserbrowserbrowserbrowserbrowserbrowserbrowserbrowserbrowserbrowserbrowser*/
+						#CreatechoosE_picuploadbrowser{
+							   display:none;
+							   width:100%;
+							      height:;
+							         background-color:;
+								
+							    position:absolute;
+							                 right:0;
+							                   top:25px;
+							         z-index:2500;	
+						}
+							#PicuploadbrowseR_show{
+								   width:100%;
+								      height:100%;
+								         background-color:rgba(0,0,0,0.25);
+								    margin:0 auto;
+								    	position:relative;
+								         		z-index:2501;		
+							}
+								#PicuploadbrowseR_show_con{
+									   width:100%;
+									      height:100%;
+									         background-color:;
+									   margin:0 auto;
+									    	position:relative;
+									         		z-index:2500;								
+								}
+									#PicuploadbrowseR_show_con img{
+										   display:block;
+										   width:100%;
+										      height:100%;
+										         background-color:;
+										    margin:0 auto;
+										    	position:relative;
+										         		z-index:2500;								
+									}																													
+							#PicuploadbrowseR_done{
+								   width:100%;
+								      height:35px;
+								         background-color:rgba(255,112,0,0.75);
+									
+								    position:absolute;
+								                 left:0;
+								                   bottom:0;
+								    z-index:2550;		
+							}		
+								#PicuploadbrowseR_donein{
+								   width:50px;
+								      height:25px;										
+									background-color:rgba(255,255,255,1);
+									opacity:0.75;
+								   margin:0 auto;margin-top:10px;						
+								}
+								#PicuploadbrowseR_donein:hover{opacity:1;}
+									#PicuploadbrowseR_donein span{
+									     display:block;									
+									     width:50px;
+									        height:25px;
+										        margin:0 auto;
+	
+									                overflow:hidden;
+															
+									       text-align:center;
+									       	line-height:25px;
+									
+									    color:rgba(255, 75, 0, 1);
+									font-size:16px;
+									
+									cursor:pointer;											
+									}
+						/*tiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptiptip*/
+						#CreatechoosE_picuploadtip{
+							   display:none;
+							   width:100%;
+							      height:;
+							         background-color:;	
+							    position:absolute;
+							                 right:0;
+							                   top:40px;
+							         z-index:2550;	
+						}
+							#PicuploadtiP_jstop{
+								   width:100%;
+								      height:35px;
+								         background-color:rgba(0, 0, 0, 1);
+								    margin:0 auto;	
+								        position:relative;
+								         	   z-index:2500;	
+							}
+								#PicuploadtiP_jstop span{
+									     display:block;									
+									              width:;
+									                  height:;
+										        margin:0 auto;
+	
+									                overflow:hidden;
+															
+									       text-align:center;
+									       	line-height:35px;
+									
+									    color:rgba(255,255,0,1);
+									font-size:22.5px;
+									
+									cursor:text;											
+								}
+						            #PicuploadtiP_jscenter{
+								   width:100%;
+								      height:;
+								         background-color:;
+								    margin:0 auto;	
+								        position:relative;
+								         	   z-index:2501;	
+							}
+								#PicuploadtiP_jscentercon{
+								   width:100%;
+								      height:;
+								           background-color:;
+								    margin:0 auto;	
+								        position:relative;
+								         	   z-index:2500;	
+								}
+									#PicuploadtiP_jscentercon dt{
+									   width:100%;
+									      height:;
+									           background-color:;
+									    margin:0 auto;	
+									        position:relative;
+									         	   z-index:2500;	
+									}
+										#PicuploadtiP_jscentercon dt span{
+											     display:block;									
+											              width:100%;
+											                  height:25px;
+												        margin:0 auto;
+			
+											                overflow:hidden;
+																	
+											       text-align:center;
+											       	line-height:25px;
+											
+											    color:rgba(255,255,255,1);
+											font-size:16px;
+											
+											cursor:text;		
+										}
+										#PicuploadtiP_jscentercon dt .picuploadtip-tiptype{
+												    background-color:rgba(0, 0, 0, 0.35);												
+										}
+										#PicuploadtiP_jscentercon dt .picuploadtip-tiptypevalue{	
+												    background-color:rgba(0, 0, 0, 0.75);
+												    color:rgba(255,255,0,1);											
+										}
+								/*tips:forback*/																																																	
+										
+		/*createcreatecreatecreatecreatecreatecreatecreatecreate*/
+
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								

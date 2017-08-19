@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv='content-type' content='text/html;charset=utf-8' />
+	<title>video</title>
+	<link type='text/css' rel='stylesheet' href='WATCH/CSS/lE.css' />		   							
+</head>
+<body>
+<!--                         
+<video src='' controls="" height='' width='' id='' class=''></video>
+	src:视频播放地址
+	controls="controls"：   显示一个系统预定义的播放插件 		
+	preload='auto/metadata/none':
+	height:
+	width:
+-->
+	<!-- 框住整个视频的width:1189px;height:740px;区域开始--> 
+	<div id="VideO" class="">   	                        
+		<!-- 整个视频播放区域开始-->            
+		<div id='VideocontrolcenteR' class=''>
+			<div id='Videofcontrol' class=''>           
+						<video src='' preload='metadata' id='VideocontenT'></video>
+			</div>
+		<!-- 整个视频时间区域开始-->                               
+			<div id='VideotimecontroL' class=''>
+				<div id='timehh' class=''></div>
+				<div id='hhtime' class=''></div>
+				<div id='timefhy' class=''></div>	
+				<pre id='timeyy' class=''>00:00:00/00:00:00</pre>
+			</div>		        
+		</div>
+		
+		<!-- 整个视频控制区域开始--> 	        
+		<div id='videocontrolbottom' class=''>
+			<!-- 视频控制区域之循环--> 
+			<div id='PlaylooP'>
+				<dl>
+					<dt><img id='looP1' class='' src='WATCH/IMAGE/looP1.png' /></dt>
+					<dt><img id='looP2' class='' src='WATCH/IMAGE/looP2.png' /></dt>
+					<dt><img id='looP3' class='' src='WATCH/IMAGE/looP3.png' /></dt>
+					<dt><img id='looP4' class='' src='WATCH/IMAGE/looP4.png' /></dt>
+					<dt><img id='looP5' class='' src='WATCH/IMAGE/looP5.png' /></dt>		      
+				</dl>
+			</div>
+			<!-- 视频控制区域之上一个--> 
+			<img id='UponE' class='' src='WATCH/IMAGE/UponE.png' />             	        
+			<!-- 视频控制区域之播放--> 
+			<img id='buttonplay' class='' src='WATCH/IMAGE/button_play.png' onclick="VplayorpausE()" />
+			<!-- 视频控制区域之下一个--> 
+			<img id='DownonE' class='' src='WATCH/IMAGE/DownonE.png' />               
+			<!-- 视频控制区域之停止--> 
+			<img id='STOP' class='' src='WATCH/IMAGE/STOP.png' />                                  
+			<!-- 视频控制区域之声音--> 		        
+			<div id='VoicecontroL' class=''>
+				<!-- 视频控制区域之静音--> 
+				<img id='VoicestarT' class='' src='WATCH/IMAGE/voicestart.png' onclick="VoicestsP()" />
+				<!-- 视频控制区域之音量--> 
+				 <div id='VolumecontroL'>
+					 <dl>
+					 <dt><img id='volume1' class='' src='WATCH/IMAGE/volume1.png' onclick="Volume1()" /></dt>
+					 <dt><img id='volume2' class='' src='WATCH/IMAGE/volume2.png' onclick="Volume2()" /></dt>
+					 <dt><img id='volume3' class='' src='WATCH/IMAGE/volume3.png' onclick="Volume3()" /></dt>
+					 <dt><img id='volume4' class='' src='WATCH/IMAGE/volumegray4.png' onclick="Volume4()" /></dt>
+					 <dt><img id='volume5' class='' src='WATCH/IMAGE/volumegray5.png' onclick="Volume5()" /></dt>		      
+					 </dl>
+				 </div>
+				 <div>
+							 <img src="WATCH/IMAGE/fullscreen.png" id='FullscreeN' />
+				 </div>
+			</div>			    
+		</div>
+		
+		<!-- 整个播放列表区域开始--> 
+		<div id='PlaylisT' class=''>
+			<div id='PlisT' class=''>
+				<pre id='list1' class='list'>QUEENQUEENQUEEN</pre>
+				<pre id='list2' class='list'>SOMEBODY TO LOVE</pre>
+				<pre id='list3' class='list'>LOVE OF MY LIFE</pre>
+				<pre id='list4' class='list'>UNDER PRESSURE</pre>
+				<pre id='list5' class='list'>KEEP YOURSELF ALIVE</pre>
+			</div>	
+		</div> 
+		
+	</div>
+	<script src='WATCH/JS/WATCH.js'></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

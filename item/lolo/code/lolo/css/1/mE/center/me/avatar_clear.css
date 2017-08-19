@@ -1,0 +1,184 @@
+
+#MenU_avatarclear{
+	width:100%;
+	     height:;
+	        background-color:rgba(0,0,0,0.25);
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	          bottom:0;
+	z-index:5000;
+}
+#MenU_avatarclearback{
+	width:100%;
+	     height:100%;
+	        background-color:;
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	z-index:2499;	
+}
+	#MenU_avatarclearin{
+		width:360px;
+		     height:;
+		        background-color:;
+		position:fixed;
+		          top:0;
+		                left:0;
+		z-index:2500;
+	}
+		#MenU_avatarclearinin{
+			width:325px;
+			     height:;
+			        background-color:rgba(255,255,255,0.75);
+			margin:0 auto;
+			   position:relative;
+				z-index:2500;
+		}
+		/*toptoptoptoptoptoptoptoptoptoptoptop*/
+		#MenU_avatarcleartop{
+			display:none;
+			width:100%;
+			   height:25px;
+			        background-color:;
+			margin:0 auto;
+			   position:relative;
+				z-index:2500;	
+		}
+			#MenU_avatarcleartoptips{
+			   width:;
+			      height:25px;
+			         background-color:;
+				
+			    position:ralative;
+			         	  z-index:2550;	
+			}
+				#MenU_avatarcleartoptips span{
+					display:inline-block;
+				     	width:;
+					    height:25px;
+						margin-left:2.5px;
+
+					                overflow:hidden;
+											
+					       text-align:left;
+					       	line-height:25px;
+					
+					    color:rgba(255,0,0,1);
+					font-size:16px;
+				}
+				#MenU_avatarcleartoptips .refresh{
+				     	width:25px;
+					    height:25px;
+					         background-repeat:no-repeat;
+						background-size:contain;
+							background-position:right center;
+					         opacity:0.5;
+				            cursor:pointer;
+				}
+				#MenU_avatarcleartoptips .refresh:hover{opacity:1;}			
+/*contentcontentcontentcontentcontent*/
+		#MenU_avatarclearcontent{
+			width:100%;
+			   height:35px;
+			        background-color:;
+			margin:0 auto;
+			   position:relative;
+				z-index:2500;			
+		}
+			#MenU_avatarclearcontent dl dt{
+				float:left;
+				width:;
+				   height:35px;
+				       background-color:rgba(0,0,0,0.075);
+				margin:0;				
+			}
+			#MenU_avatarclearcontent dl #MenU_avatarclearcon_fra{
+				width:250px;
+				   height:35px;
+				        background-color:;
+				   margin:0;
+				color:rgba(255,0,0,1);
+				font-size:16px;												
+			}
+			#MenU_avatarclearcontent dl #MenU_avatarclearcon_can{
+				width:75px;
+				   height:35px;
+				        background-color:;
+				   margin:0;	
+				  color:rgba(255,255,255,1);
+				 font-size:16px;
+				cursor:default;
+			}
+			#MenU_avatarclearcontent dl #MenU_avatarclearcon_can:hover{
+				font-size:20px;color:rgba(255,255,255,1);
+			}									
+				#MenU_avatarclearcontent dl dt span{
+					display:block;
+					width:;
+					   height:35px;
+					        background-color:;
+					margin:0 auto;
+                                                            
+					line-height:35px;
+					    text-align:center;
+				}		
+		/*bottombottombottombottombottombottom*/
+		#MenU_avatarclearbom{
+			width:100%;
+			   height:35px;
+			        background-color:;
+			margin:0 auto;
+			   position:relative;
+				z-index:2500;	
+		}
+			#MenU_avatarclearbom dl{
+				width:100%;
+				   height:35px;
+				        background-color:rgba(0,0,0,0.12);
+				margin:0 auto;	
+			}
+				#MenU_avatarclearbom dl dt{
+					width:75px;
+					   height:35px;
+					        background-color:rgba(255,255,255,1);
+					        opacity:0.75;
+					margin:0 auto;
+
+					cursor:pointer;
+				}
+				#MenU_avatarclearbom dl dt:hover{opacity:1;}					
+					#MenU_avatarclearbom dl dt span{
+						display:block;
+						width:;
+						   height:35px;
+						        background-color:;
+						margin:0 auto;
+			                                                          
+						line-height:35px;
+						    text-align:center;
+						
+						     color:rgba(50,25,0,1);
+						font-size:16px;	
+					}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

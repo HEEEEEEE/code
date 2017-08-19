@@ -1,0 +1,245 @@
+
+#MenU_avataradd{
+	width:100%;
+	     height:;
+	        background-color:rgba(0,0,0,0.25);
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	          bottom:0;
+	z-index:5000;
+}
+#MenU_avataraddback{
+	width:100%;
+	     height:100%;
+	        background-color:;
+	
+	position:fixed;
+	          top:0;
+	                left:0;
+	z-index:2499;	
+}
+	#MenU_avataraddin{
+		width:500px;
+		     height:;
+		        background-color:;
+		position:fixed;
+		          top:0;
+		                left:0;
+		          bottom:0;
+		z-index:2500;
+	}		
+#AvataR_add{
+	width:500px;
+	       height:500px;
+	    position:absolute;
+	        top:0;
+	     left:0;	            
+	z-index:2500;
+	
+	overflow:hidden;
+}
+	/*image:CONcenterimage:CONcenterimage:CONcenterimage:CONcenter*/
+	#AvataR_addcenter{
+	
+	}
+		/*uploaduploaduploaduploaduploaduploaduploadupload*/
+		#AvataR_addupload{
+			width:250px;
+			       height:50px;
+			           background-color:rgba(50,50,50,0.5);
+			    position:absolute;
+			        top:50px;
+			     left:0;	 			            
+			z-index:2500;	
+		}
+			#AvataR_addupload1{
+			          width:;
+				 height:;							
+				         margin:0 auto;
+					    margin-top:0;
+					    position:relative;
+				         z-index:2500;
+												
+			          overflow:hidden;	
+			}
+				#AvataR_adduploadfra{
+					display:block;									
+					     width:50px;
+					        height:25px;
+					     background-color:rgba(255, 255, 255, 1);
+					     opacity:0.75;
+					   margin:0 auto;
+					margin-top:12.5px;
+					
+					       text-align:center;
+					       	line-height:25px;
+					
+					    color:rgba(255, 150, 0, 1);
+				         font-size:15px;																														
+				}
+			#AvataR_addupload11{									
+			          width:100%;
+				    height:50px;				
+			        		position:absolute;
+			        	         top:0;
+			        	    left:0;	            
+			          z-index:2499;	
+			}
+				#AvataR_addupload11 span:nth-child(1){
+					display:block;									
+				     	   width:50px;
+					        height:12.5px;
+				   	            background-color:rgba(255,125,17,0.75);					
+					   margin:0 auto;					
+					cursor:pointer;											
+				}
+				#AvataR_addupload11 span:nth-child(2){
+					display:block;									
+				     	   width:50px;
+					        height:12.5px;
+				   	            background-color:rgba(255,125,17,0.75);					
+					   margin:0 auto;
+					 margin-top:25px;					
+					cursor:pointer;											
+				}
+				
+			#AvataR_addupload2{									
+			          width:100%;
+				        height:50px;
+				              opacity:0;
+				
+			        		position:absolute;
+			        	         top:0;
+			        	        left:0;	            
+			          z-index:2550;	
+			}
+				#AvataR_adduploadcon{
+					display:block;									
+				     	   width:50px;
+					        height:100%;
+					   margin:0 auto;					
+					cursor:pointer;											
+				}
+					#AvataR_adduploadcon input{
+						display:block;									
+						     	width:100%;
+						        height:100%;
+						margin:0 auto;																
+					}
+			#AvataR_addupload3{									
+			          width:;
+				   height:;
+				         opacity:1;
+				
+			        		position:absolute;
+			        	         top:2.5px;
+			        	        right:2.5px;	            
+			          z-index:2551;	
+			}
+				#AvataR_adduploadcancel{
+					display:block;									
+					     width:;
+					        height:;
+						 margin:0;
+											
+					       text-align:right;
+					       	line-height:16px;
+					
+					    color:rgba(255,125,0,0.5);
+					font-size:16px;
+					
+					cursor:pointer;											
+				}
+				#AvataR_adduploadcancel:hover{color:rgba(255,125,0,1);}												
+		/*browserbrowserbrowserbrowserbrowserbrowserbrowserbrowserbrowserbrowser*/
+		#AvataR_adduploadbrowser{
+			   display:none;
+			   width:360px;
+			      height:360px;
+			         background-color:;
+				
+			    position:absolute;
+			                 left:125px;
+			                   top:50px;
+			         z-index:2500;	
+		}
+			#AvataR_adduploadbrowsershow{
+				   width:;
+				      height:;
+				   background-color:rgba(0,0,0,0.25);
+				
+				   margin:0 auto;
+				      position:relative;
+				              z-index:2500;		
+			}
+				#AvataR_adduploadbrowsershowcon{
+					   width:360px;
+					      height:360px;
+					         background-color:;
+					   margin:0 auto;
+					    	position:relative;
+					         		z-index:2500;								
+				}
+					#AvataR_adduploadbrowsershowcon img{
+						                display:block;
+						            width:360px;
+						      height:360px;
+					       background-color:;
+						    margin:0 auto;
+						    	position:relative;
+						         		z-index:2500;								
+					}
+																													
+			#AvataR_adduploadbrowserdone{
+				   width:360px;
+				      height:25px;
+				         background-color:;
+					
+				    position:absolute;
+				                 left:0;
+				                   bottom:0;
+				         z-index:2500;		
+			}		
+				#AvataR_adduploadbrowserdonecon{
+				   width:50px;
+				      height:25px;										
+					background-color:rgba(255,255,255,1);
+					opacity:0.75;
+				   margin:0 auto;						
+				}
+				#AvataR_adduploadbrowserdonecon:hover{opacity:1;}
+					#AvataR_adduploadbrowserdonecon span{
+					     display:block;									
+					     width:50px;
+					        height:25px;
+						        margin:0 auto;
+
+					                overflow:hidden;
+											
+					       text-align:center;
+					       	line-height:25px;
+					
+					    color:rgba(0, 125, 0, 1);
+					font-size:16px;
+					
+					cursor:pointer;											
+					}							
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					

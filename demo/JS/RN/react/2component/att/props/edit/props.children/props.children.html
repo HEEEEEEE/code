@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's this.props.children</title>
+    <meta charset="UTF-8">
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/react-dom.js'></script>
+    <script src='http://localhost:63342/tech/JS/SJ/react/corks/3applied/lib/browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+                const Child = React.createClass({
+                    render: function(){
+                        return (
+                            <span>I'm a component child</span>
+                        );
+                    }
+                });
+//                class Child extends React.Component{
+//                    render(){
+//                        return (
+//                                <span>I'm a component child</span>
+//                        );
+//                    }
+//                };
+//            const Father = React.createClass({
+//                render: function(){
+//                    return (
+//                            <div>
+//                            { React.Children.map(this.props.children,function(child){
+//                                return (<a>{child}</a>);
+//                            })}
+//                    </div>
+//                    );
+//                }
+//            });
+            class Father extends React.Component{
+                render(){
+                    return(
+                            <div>{
+                                React.Children.map(this.props.children, function(child){
+                                    return(<a>{child}</a>)
+                                })
+                            }</div>
+                    )
+                }
+            };
+        const element=
+        <Father>
+            <Child />
+            <button>I'm a html child</button>
+        </Father>;
+
+        ReactDOM.render(
+            element,
+            document.getElementById('container')
+        );
+        /*
+
+         */
+    </script>
+</body>
+
+</html>

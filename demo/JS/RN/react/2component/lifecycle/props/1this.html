@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's component lifecycle</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <!-- <script type='text/babel' src='react.js'> -->
+    <script type='text/babel'>
+        class Lifecycle extends React.Component{
+            //Mounting
+            //Updating
+                //componentWillReceiveProps()
+                componentWillReceiveProps(){
+                    console.log('props has been changed')
+                }
+            //Unmounting
+            render(){
+                return(
+                        <div>any props change componentWillReceiveProps start</div>
+                )
+            }
+        }
+        class Life extends React.Component{
+            constructor(props){
+                super(props);
+                this.state={click:true,change:false}
+            }
+
+            lifeClick(){
+                this.setState({click:!this.state.click})
+            }
+
+            lifeChange(){
+                this.setState({change:false})
+            }
+            render(){
+                return(
+                        <div>
+                            <div onClick={this.lifeClick.bind(this)}>CLICK ME</div>
+                            {this.state.click?(<Lifecycle Change={this.state.change} />):(<div>0</div>)}
+                            <div onClick={this.lifeChange.bind(this)}>change ME</div>
+                        </div>
+            )
+            }
+        }
+        ReactDOM.render(
+                <Life />,
+                document.getElementById('container')
+        )
+        /*
+         Mounting
+         Updating These methods are called when a component is being re-rendered
+            componentWillReceiveProps()//any props change[even if the value no any change] then componentWillReceiveProps
+         Unmounting
+         */
+    </script>
+
+</body>
+
+</html>

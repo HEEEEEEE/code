@@ -1,0 +1,294 @@
+div,form,dl,dt,span,img,input,textarea
+{margin:0;padding:0;font-family:'Helvetica'}
+#AlbumsMbacK{display:none;width:100%;height:100%;background-color:rgb(0,0,0);opacity:0.5;position:fixed;left:0px;top:0px;z-Index:4900000;}
+
+#AlbumsM{display:none;width:100%;height:100%;position:fixed;top:0;left:0;z-index:5000000;}
+.AlbumsM{width:425px;height:0;background-color:rgb(255,255,255);position:relative;margin:50px auto;z-index:5;}
+/*******************************************************/
+	#AlbumsM_top{width:425px;height:40px;background-color:rgb(255,255,255);opacity:1;margin:0;}
+	
+		#AlbumsM_top #AlbumsM_toptitle{width:425px;height:40px;margin:0 auto;overflow:hidden;}
+			#AlbumsM_top span:nth-child(1)
+			{color:rgb(255,125,0);font-size:37px;}
+			#AlbumsM_top span:nth-child(2)
+			{color:rgb(0,0,0);font-size:37px;}
+
+				#AlbumsM_top #AlbumsM_topmarkdt
+				{
+				 width:425px;
+				       height:40px;					
+				 position:absolute;
+				               top:0px;
+				        left:0px;
+				z-index:4;
+				}		
+					#AlbumsM_topmarkdt img
+					{display:block;
+				            	width:30px;
+				            	    height:30px;
+				                                  background-color:;
+				                                  opacity:1; 
+				                        margin:5px auto;				
+				             cursor:default;
+		                                    } 
+		
+		#AlbumsM_top #AlbumsM_topclosedt{width:425px;height:40px;position:absolute;top:0px;left:0px;z-index:5;}		
+			#AlbumsM_topclosedt img
+			{display:block;
+                                            width:29px;
+                                                 height:29px;
+			                  border-width:3px 3px 0 3px;
+				                 border-style:solid;	
+				                      border-color:rgb(255,125,0);
+				      background-color:;
+				   opacity:0.75;
+				 position:absolute;
+				               top:9px;
+				        right:12px;
+				z-index:5;				
+		             cursor:pointer;
+                                    } 
+			#AlbumsM_topclosedt img:hover{opacity:1;}
+/*******************************************************/
+#AlbumsM_content{width:425px;height:;background-color:rgb(255,125,0);opacity:1;margin:0;overflow:hidden;}
+		
+	#AlbumsM_content dl
+	{background-color:;margin:0 auto;}		
+		/*NamENamENamENamENamENamENamENamENamENamENamENamENamE*/
+		#AlbumsM_sname{}
+		#AlbumsM_sname span
+		{display:block;
+                              width:250px;
+                                    hright:25px;
+                                    background-color:rgb(0,0,0);
+                                          text-align:center;
+                                                 margin:0 auto;
+                                    color:rgb(255,112,0);
+                              font-size:16px;
+                        font-weight:500;
+                        }			
+		#AlbumsM_sname #NamE
+		{display:block;
+		      width:240px;
+		         height:25px;
+			padding:0 5px;
+			background-color:rgb(0,0,0);
+		border-width:0;		
+			margin:0 auto;
+			text-align:center;
+		    color:rgb(255,255,255);
+		font-size:16px; 
+		}
+		
+		/*Face Face Face Face Face Face Face Face Face Face Face Face Face*/
+		/*Face:add*/
+		/*up up up up up*/
+		#AlbumsM_content #AlbumsM_sfaceadd{display:block;margin-top:5px;}			
+		#AlbumsM_sup
+		{width:250px;height:25px;
+		      opacity:0;
+		            position:absolute;
+		                         top:110px;
+		                    left:87.5px;	
+		          z-index:5249;
+		 overflow:hidden;	
+		}
+			#AlbumsM_sup #UP
+			{			
+			 display:block;
+			     width:250px;
+			         height:25px;
+			 margin:0 auto;
+		             cursor:pointer;				
+			}									
+		/*add:be covered by up*/
+			#AlbumsM_supcover span:nth-child(1)
+			{display:block;
+			       width:250px;height:25px;
+			                background-color:rgb(0,0,0);
+				text-align:center;
+				           margin:0 auto;
+				      color:rgb(255,112,0);
+			            font-size:16px; 
+			         font-style:;
+			font-weight:500;	
+			}			
+			#AlbumsM_supcover span:nth-child(2)
+			{display:block;
+			     width:250px;height:25px;
+			           background-color:rgb(0,0,0);
+		                       opacity:1;				
+			           margin:0 auto;
+			
+		                       text-align:center;
+			           line-height:25px;
+				    color:rgb(255,255,255);
+			            font-size:16px; 
+			 font-weight:500;	
+			}
+		/*FacE:show*/
+		#AlbumsM_content #AlbumsM_sface{display:none;margin-top:5px;}	
+		#AlbumsM_sface #AlbumsM_sfacestr
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:black;
+		            font-size:16px; 
+		         font-style:;
+		font-weight:500;	
+		}
+		#AlbumsM_sface #AlbumsM_sfaceimgdt{width:425px;height:50px;opacity:1;margin:0 auto;}
+		#AlbumsM_sfaceimgdt span:nth-child(1){display:block;width:75px;height:75px;position:absolute;top:110px;left:175px;z-index:5;}			
+		#AlbumsM_sface #AlbumsM_sfaceimg{display:block;width:100%;height:100%;}
+		#AlbumsM_sfaceimgdt span:nth-child(2){display:block;width:250px;height:50px;background-color:rgb(0,0,0);margin:0 auto;margin-top:25px;}	
+				
+		#AlbumsM_sface dt:nth-child(3){width:425px;position:absolute;top:160px;left:0;z-index:6;}
+		#AlbumsM_sface #AlbumsM_sfacechange
+		{			
+		 display:block;
+		     width:75px;height:25px;
+			background-color:rgb(0,0,0);
+			opacity:0.5;		
+			    border-width:0;
+			         border-style:solid;
+				  border-color:white;
+			         margin:0 auto;
+			     text-align:center;
+			line-height:25px;
+		       color:white;
+		    font-size:16px;
+		cursor:pointer; 
+		}
+		#AlbumsM_sface #AlbumsM_sfacechange:hover{opacity:1;}
+		/*Face:delete*/
+		#AlbumsM_sface #AlbumsM_sfaceremove
+		{display:block;
+		         width:25px;
+		               height:12.5px;
+		                    opacity:0.75;
+		                        border-width:1px 1px 0 1px;
+		                            border-style:solid;
+		                        border-color:rgb(125,255,0);
+		             position:absolute;
+		           top:152.5px;
+		      right:140px;	
+		 z-index:5250;
+		cursor:pointer;									
+		}			
+			#AlbumsM_sfaceremoveimg{display:block;width:25px;height:10px;}	
+		#AlbumsM_sface #AlbumsM_sfaceremove:hover{opacity:1;}		
+		/*Face Face Face Face Face Face Face Face Face Face Face Face Face*/		
+
+		
+		
+		/*DeSDeSDeSDeSDeSDeSDeSDeSDeSDeSDeSDeSDeSDeSDeSDeSDeSDeS*/
+		#AlbumsM_content #AlbumsM_sdes{margin-top:5px;}
+		#AlbumsM_sdes span
+		{display:block;	
+		         width:250px;
+		               height:25px;
+		background-color:rgb(0,0,0);
+		                      margin:0 auto;
+			              text-align:center;
+		                      line-height:25px;
+			      color:rgb(255,112,0);
+		            font-size:16px; 
+		font-weight:500;	
+		}
+		#AlbumsM_sdes #DeSdt{}			
+		#AlbumsM_sdes #DeS
+		{			
+		 display:block;
+		     width:240px;
+		     min-width:240px;
+		     max-width:415px;
+		        height:25px;
+		        min-height:25px;
+		        max-height:100px;
+			padding:0 5px;
+			background-color:rgb(12,12,12);
+			border-width:0;
+			margin:0 auto;
+			
+		            resize:both;
+		                  overflow-y:auto;
+		                        overflow-x:hidden;
+						
+			overflow-wrap:break-word;word-wrap:break-word;			
+		          word-break:break-all;						
+		       text-align:left;
+		    color:rgb(255,255,255);
+		font-size:16px;		
+		}																	
+/*******************************************************/
+	#AlbumsM_bom
+	{
+	 width:425px;height:40px;
+	        background-color:rgb(255,255,255);
+		      border-width:0;
+			   border-style:solid;
+		      border-color:white;
+		margin:0;
+	 overflow:hidden;	
+	}
+		#AlbumsM_bom	#SubmiT
+		{			
+		 display:block;
+		     width;height:;
+			background-color:black;		
+			    border-width:0;
+			         border-style:solid;
+				  border-color:white;
+			      opacity:0.85;
+			margin:0 auto;
+			text-align:center;
+		       color:white;
+		  font-size:25px;
+		cursor:pointer; 
+		}
+		#AlbumsM_bom	#SubmiT:hover{opacity:1;}				
+/*******************************************************/		
+#AlbumsM_tip
+{display:none;
+       width:250px;
+               height:25px;
+            background-color:rgb(0,0,0);
+               position:absolute;
+              top:40px;
+            left:87.5px;	
+       z-index:5250;
+ overflow:hidden;	
+}						
+	#AlbumsM_tipspan1	
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:rgb(255,255,255);
+		            font-size:16px;	
+		}				
+#AlbumsM_tip1
+{display:none;
+       width:250px;
+               height:25px;
+            background-color:rgb(0,0,0);
+               position:absolute;
+              top:145px;
+            left:87.5px;	
+       z-index:5250;
+ overflow:hidden;	
+}						
+	#AlbumsM_tipspan2	
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:rgb(255,255,255);
+		            font-size:16px;	
+		}		
+		
+		
+		
+		
+		
+		
+		
+		

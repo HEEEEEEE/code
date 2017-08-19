@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>react's jsx</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        var arr=['com','net','top','info','org'];
+        var arr1=[<a href="http://www.ocloclo.com/">ocloclo.com </a>,<a href="http://www.ocloclo.net/">ocloclo.net</a>];
+        ReactDOM.render(
+            <div>
+                <div>
+                    {arr.map(function(name){
+                        return <a href={'http://www.ocloclo.'+name+'/'}>{'ocloclo.'+name+' '}</a>
+                    })}
+                </div>
+                <div>{arr1}</div>
+            </div>,
+            document.getElementById('container')
+        );
+        /*
+         basic
+             var arr=['com','net','top','info','org'];
+             <div>
+             {arr.map(function(name){
+             return <a href={'http://www.ocloclo.'+name+'/'}>{'ocloclo.'+name+' '}</a>div
+             })}
+             </div>,
+              jsx:可以将 html 与 js 混写
+              html 不包含在引号中
+              js代码包含在{}中 其形式与 php 同
+
+           special
+                var arr1=[<a href="http://www.ocloclo.com/">ocloclo.com </a>,<a href="http://www.ocloclo.net/">ocloclo.net</a>];
+                <div>{arr1}</div>
+                jsx:可以将 html 直接写在 数组中 不加引号
+         */
+    </script>
+</body>
+
+</html>

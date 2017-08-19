@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>props</title>
+    <meta charset="UTF-8">
+    <script src='react.js'></script>
+    <script src='react-dom.js'></script>
+    <script src='browser.min.js'></script>
+</head>
+
+<body>
+    <div id='container'></div>
+    <script type='text/babel'>
+        function Att(props){
+            return (
+                <div>{props.att[0]}</div>
+                //props.att in function
+                    //props.arr[0] to a array
+            )
+        }
+
+        class Att1 extends React.Component{
+            render(){
+                return(
+                    <div>{this.props.att2.two}</div>
+                    //this.props.att in class
+                        //props.att2.two to a object
+                )
+            }
+        };
+        const arr =['a','b'];
+        const element =<Att att={arr} />;
+
+        const props= {
+            att1:'a',
+            att2:{
+                one:'1',
+                two:'2'
+            }
+        };
+        const element1 =<Att1 {...props} />;
+
+        ReactDOM.render(
+                element,
+                document.getElementById('container')
+        )
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+@charset'utf-8';
+	div,dl,dt,form,input
+{margin:0;padding:0;font-family:'Helvetica'}
+#LogiN_back{display:block;width:250px;height:195px;background-color:gray;opacity:1;position:absolute;top:50px;left:25px;z-index:4;}	
+	#LogiN_backframe{display:block;width:42.5px;height:25px;background-color:rgb(255,255,255);margin-left:100px;}	
+
+	
+	
+#LogiN{display:block;width:250px;height:;overflow:hidden;position:absolute;top:50px;left:25px;z-index:5;}
+	#LogiN_top{}
+
+	#LogiN_outside{width:250px;height:;margin:0 auto;}
+	#LogiN_outside dl dt:nth-child(1){margin-top:25px;}
+	#LogiN_outside dl dt
+	{width:250px;
+	        height:25px;
+	            background-color:rgb(0,0,0);
+                           margin:0 auto;
+	margin-top:5px;
+            }
+
+		#LogiN_outside dl dt input
+		{display:block;
+                                 width:200px;
+	                             height:25px;
+	                                background-color:rgb(255,255,255);
+	                       margin:0 auto;			
+		 padding:0 5px;
+		
+		 border-width:0;	
+	                       color:rgb(0,0,0);
+	                                 font-size:19px;
+		}
+		
+		#LogiN_outside dl dt .remember{display:block;float:left;width:12.5px;height:12.5px;border-width:0;padding:0;margin-top:6.25px;margin-left:20px;}
+                        #LogiN_outside dl dt #RemembeR{display:none;}
+		#LogiN_outside dl dt span{display:block;float:left;color:gray;font-size:19px;}
+		
+		#LogiN_outside dl dt #VercodE{display:block;float:left;width:100px;height:25px;padding:0 5px;margin-left:20px;}
+		#LogiN_outside dl dt #code
+			{display:block;
+		                  float:left;
+		                       width:100px;
+		                               height:25px;
+		                  opacity:0.75;
+		             cursor:pointer;
+                                     }
+		#LogiN_outside dl dt #code:hover{opacity:1;}
+                                     
+		#LogiN_outside dl dt #SubmiT
+		{display:block;
+                                width:210px;
+                                  height:25px;
+                                        margin-left:20px;		
+		border-width:0;		
+		background-color:rgb(255,255,255);
+                        opacity:0.75;		
+		                   color:rgb(255,112,0);
+		           font-size:21px;
+		cursor:pointer;
+		}
+		#LogiN_outside dl dt #SubmiT:hover{opacity:1;}
+	
+
+		
+#LogiN_tip
+{display:none;
+       width:250px;
+               height:25px;
+            background-color:rgb(0,0,0);
+               position:absolute;
+              top:0;
+            left:0;	
+       z-index:5250;
+ overflow:hidden;	
+}						
+	#LogiN_tipspan1	
+		{display:block;
+			text-align:center;
+			           margin:0 auto;
+			      color:rgb(255,255,255);
+		            font-size:16px; 	
+		}	
+	
+	
+	
+	
+	

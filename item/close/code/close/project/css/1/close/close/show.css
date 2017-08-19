@@ -1,0 +1,510 @@
+@charset'utf-8';
+             div,img,span,dl,dt,a,form,input
+{margin:0;padding:0;color:black;font-size:22.5px;font-family:'Helvetica'}
+/*design the closeproc_show outside backframe:*/  
+#CoutsidebacK
+          {display:none;
+                       opacity:0.5;             
+	               width:325px;
+	                       height:100%;
+	                   background-color:rgb(0,0,0);
+	 position:absolute;top:90px;left:0;
+           z-index:2500;		 
+          }
+#CoutsideforE
+          {display:none;opacity:1;width:325px;height:100%;overflow:hidden;position:absolute;top:90px;left:0;z-index:2501;}
+          #CoutsideforE_div1
+	          {display: block;
+                                 width: 325px;
+                                         height:;
+                       background-color:;
+                       opacity: 1;
+    			border-color:rgb(255, 125, 0) rgb(0, 0, 0);
+    		                             border-style: solid;
+   		            border-width: 3.5px;
+                       position: absolute;
+                                     top: 35px;
+                               left: 35.5px;
+                       z-index: 5;
+	          }
+	          #CoutsideforE_div1_dl1
+	          {width:;
+	               height:25px;
+	                    background-color:rgb(255,125,0);
+                      }
+	          		#CoutsideforE_div1_dl1 dt span{text-align:left;line-height:25px;color:rgb(0, 0, 0);font-size:22.5px;}
+	          
+	          #CoutsideforE_div1_dl2
+	          {width:;
+	               height:25px;
+                      }         
+	          	     #CoutsideforE_div1_dl2 dt{float:left;text-align:left;line-height:25px;color:rgb(0, 0, 0);font-size:18px;}
+	          	     #CoutsideforE_div1_dl2 #CoutsideforE_CloseadD{color:rgb(255,125,0);font-size:22.5px;cursor:pointer;}
+	          		#CoutsideforE_div1_dl2 dt span{color:rgb(0, 0, 0);font-size:18px;}  
+/*design the closeproc_show outside frame:*/  
+#CloseprocoutsidE{}
+             
+             
+             
+	/**************************************************************************
+	 *design the closeproc_show outside frame_top:
+	 */
+	#CloseprocoutsidE_top
+		{display:block;
+	                     opacity:1;             
+		             width:325px;
+		                  height:35px;
+		                    background-color:rgb(255,125,0);
+	                     overflow:hidden;
+				border-width:0;
+			border-style:solid;
+		      border-color:rgb(0,0,0);
+	             margin:0 auto;
+		 }
+		 /*Close item number Close item number Close item number*/		 
+		 #CloseitemnuM
+		 	{display:block;
+		                     width:325px;
+		                         height:35px;
+		                     text-align:center;
+		             line-height:35px;
+                                    }
+			#CloseitemnuM dt{color:rgb(255,255,255);font-size:15px;cursor:text;}	 
+			 	#CloseitemnuM_show{color:rgb(255,255,255);font-size:15px;}
+		 
+                       /*Close item search Close item search Close item search*/
+		#CloseiteM2
+		          {display:block;
+		                       opacity:1;             
+			               width:325px;
+			                       height:35px;
+			                   background-color:;
+			               border-width:0;
+			      border-style:solid;
+			   border-color:rgb(0,0,0);
+			 position:absolute;top:90px;left:0;
+		           z-index:5;		 
+		          }
+		          /*search start search start search start*/
+		          #CloseitemsearcH
+		          {display:block;
+		                       opacity:0.75;             
+			               width:;
+			                 height:35px;
+			                 background-color:;
+			           border-width:0;
+			      border-style:solid;
+			   border-color:rgb(0,0,0);
+		           position:absolute;top:0;right:12.5px;
+		           z-index:5;			           	 
+		          }
+		          #CloseitemsearcH:hover{opacity:1;}
+		          #CloseitemsearcH img{display:block;width:35px;height:35px;cursor:pointer;}
+		          /*search end search end search end*/
+		          #CloseitemsearcH_menu
+		          {display:none;
+		                       opacity:1;             
+			               width:325px;
+			                 height:35px;
+			                 background-color:rgb(255,125,0);
+			       border-width:0;
+			   border-style:solid;
+			 border-color:rgb(0,0,0);
+		           position:absolute;top:0;left:0;
+		           z-index:6;			           	 
+		          }
+		                      /*search end search end search end:back*/
+			          #CloseitemsearcH_menu dt:nth-child(1)
+			          {display:block;
+			                opacity:0.75;             
+				           width:37.5px;
+				                 height:35px;
+			                       position:absolute;
+			                     top:0;
+			              left:0;
+			           z-index:5;
+		                       cursor:pointer;			           	 
+			          }
+			          #CloseitemsearcH_menu dt:hover{opacity:1;}			          	
+					#CloseitemsearcH_back{display:block;opacity:1;width:25px;height:25px;margin:5px auto;}
+			          /*search end search end search end:input*/
+			          #CloseitemsearcH_menu dt:nth-child(2){}	
+			          #CloseitemsearcH_input
+				          {display:block;
+				                opacity:1;             
+					           width:215px;
+					                 height:25px;
+			                       padding:0 5px;
+			                                            background-color:rgb(0,0,0);
+					                 border-width:0;
+					           border-style:solid;
+					    border-color:rgb(0,0,0);			          			          	          
+		           	                      margin:5px 37.5px;	
+			          
+			                      color:rgb(255,255,255);
+			                             font-size:15px;
+			                                    text-align:left;
+				          }	
+			          /*search end search end search end:search*/			          
+			          #CloseitemsearcH_menu dt:nth-child(3)
+			          {display:block;
+			                opacity:1;             
+				           width:25px;
+				                 height:25px;
+				          background-color:rgb(0,0,0);
+			                       position:absolute;
+			                     top:5px;
+			              right:37.5px;
+			           z-index:5;
+			           cursor:pointer;			           	 
+			          }
+			          #CloseitemsearcH_search
+			          {display:block; opacity:0.75;width:25px;height:25px;margin:0 auto;}
+			          #CloseitemsearcH_search:hover{opacity:1;}		          				          	          		          		
+	/**************************************************************************
+	 *design the closeproc_show outside frame_left:
+	 */
+	#CloseprocoutsidE_left
+		{display:block;
+	                       opacity:1;             
+		               width:325px;
+		                       height:;
+		 background-color:rgb(,255,125,0);
+		 position:absolute;top:125px;left:0;
+		 z-index:500;
+		 }		 
+		 	#CoutsidE_lefttool
+			{display:block;
+		                       opacity:1;             
+			               width:32.5px;
+			                       height:;
+			 background-color:rgb(,255,125,0);
+			 border-width:0 3.5px;
+				 border-style:solid;
+			 border-color:rgb(0,0,0);
+			 position:absolute;top:0;left:0;
+			 z-index:5;		 
+			 }
+			 	#CoutsidE_lefttool dl{opacity:0.85;width:32.5px;height:50px;margin-bottom:5px;overflow:hidden;cursor:pointer;}
+				#CoutsidE_lefttool dl:hover{opacity:1;}
+		 	#CoutsidE_lefttoolmenu
+			{display:none;
+		                       opacity:1;             
+			                  width:325px;
+			                       height:525px;
+			        background-color:;
+			 border-width:0;
+				 border-style:solid;
+			 border-color:rgb(255,255,255);
+			 position:absolute;top:0;left:37.5px;
+			 z-index:5;				 
+			 }
+/*itemsorTitemsorTitemsorTitemsorTitemsorT*/
+#CloseitemsorT span
+	{
+	 width:32.5px;
+	          height:25px;
+	               background-color:rgb(50,0,125);
+	                       border-width:0;
+		                    border-style:solid;
+	                       border-color:rgb(255,255,255);
+	 margin:5px auto;
+			 	
+	 text-align:center;
+	             line-height:25px;
+	                          color:rgb(255,255,255);
+	                    font-size:15px;
+	             font-style:;
+	 font-weight:500;
+            }
+#CloseitemsorT_mark{display:block;}	
+#CloseitemsorT_mark1{display:none;}
+
+#CloseitemsorT_menu
+	{width:250px;
+	      height:;
+	           background-color:rgb(255,125,0);
+	             border-width:0;
+		            border-style:solid;
+	             border-color:rgb(255,255,255);
+                  margin:0;
+	 margin-top:5px;
+            }
+	#CloseitemsorT_menu span
+		{display:block;
+	             opacity:0.85;
+	                 width:250px;
+		          height:25px;
+		              background-color:rgb(50,0,125);
+		                                 border-width:0;
+			          border-style:solid;
+		 border-color:rgb(255,255,255);
+	             margin:0;
+				 	
+		 text-align:left;
+		       line-height:25px;
+		                   color:rgb(255,255,255);
+		           font-size:15px;
+		       font-style:;
+		 font-weight:500;
+	            cursor:pointer;
+	            }
+	#CloseitemsorT_menu span:hover{opacity:1;}                       
+/*itemsorT_menuitemsorT_menuitemsorT_menui*/
+
+            
+             /**************************************************************************
+	  *design the closeproc_show inside frame:
+	  */  
+	#CloseprocinsidE
+		{display:block;
+	                      opacity:1;             
+		             width:325px;
+		                    height:525px;
+		                        background-color:rgb(,255,125,0);
+	                                overflow:hidden;
+			 border-width:0;
+		    border-style:solid;
+		border-color:rgb(0,0,0);
+	            margin:0 auto;
+		 }	                                                                      
+	/**************************************************************************
+	 *CLOSE:
+	 *
+	 *
+	 */
+	#CloseprocinsidE div[class='closediv']:first-child{margin-top:0;}
+	#CloseprocinsidE div[class='closediv'] 
+		{display:block;
+		 opacity:0.85;
+			 width:250px;
+			 height:100px;
+		             background-color:rgb(0,0,0);
+		 overflow:hidden;
+		   	              border-width:0;
+			              border-style:solid;
+				  border-color:rgb(255,255,255);
+		            	  		margin:6.25px auto;
+		}
+	#CloseprocinsidE div[class='closediv']:last-child{margin-bottom:0;}
+	#CloseprocinsidE div[class='closediv']:hover{opacity:1;}
+	
+	
+	
+			#CloseprocinsidE div[class='closediv'] dl{float:left;}
+	
+	/*closefaceclosefaceclosefaceclosefacecloseface*/
+			#CloseprocinsidE div[class='closediv'] .closediv_dl1{}
+			#CloseprocinsidE div[class='closediv'] .closediv_dl1dt1{width:75px;height:75px;background-color:rgb(0,0,0);opacity:1;margin:12.5px 12.5px 0 18.75px;cursor:default;}
+			#CloseprocinsidE div[class='closediv'] .closeface{display:block;width:100%;height:100%;	}
+	/*closefaceclosefaceclosefaceclosefacecloseface*/
+	
+	/*closenameclosenameclosenameclosenameclosename*/		
+			#CloseprocinsidE div[class='closediv'] .closediv_dl2
+				{width:125px;height:100px;margin:12.5px 0;}
+			#CloseprocinsidE div[class='closediv'] .closename
+			{display:block;
+			       width:125px;height:25px;
+			 background-color:black;	 
+			             border-width:0;
+				          border-style:solid;
+				 border-color:rgb(0,0,0);	   
+			         margin:0 auto;
+			         margin-bottom:0;	
+		            text-align:center;
+			        color:white;
+			                font-size:15px;
+			                  font-family:'Helvetica';
+			             opacity:1;
+			white-space:nowrap;
+			text-overflow:ellipsis;
+		                 overflow-x:hidden;overflow-y:hidden;
+			cursor:default;
+			}
+	/*closenameclosenameclosenameclosenameclosename*/
+			
+	/*closemark=closemark+sourcemark+informationmarkclosemarkclosemarkclosemarkclosemark*/		
+			#CloseprocinsidE div[class='closediv'] .closemark
+			{
+		       	width:125px;height:50px;
+			        background-color:;
+			                     background-repeat:no-repeat;
+			                                background-size:50px 50px;
+			        background-position:center center;			
+		 
+			                  border-width:0;
+				          border-style:solid;
+				 border-color:white;	   
+		         	     margin:0 auto;				
+			}		
+				#CloseprocinsidE div[class='closediv'] .close_part
+				{display:block;
+			                width:125px;height:25px;
+				            background-color:rgb(255,255,255);
+				 background-repeat:no-repeat;
+			                                   background-size:25px 25px;
+			             background-position:center center;							 
+				                  border-width:0;
+					          border-style:solid;
+					      border-color:white;
+				         opacity:0.725;				   
+			         	    margin:0 auto;
+			              overflow:hidden;
+				cursor:pointer;		                				
+				}
+			            #CloseprocinsidE div[class='closediv'] #ClosE_sourc{}
+				#CloseprocinsidE div[class='closediv'] #ClosE_sourc:hover{opacity:1;}
+			            #CloseprocinsidE div[class='closediv'] #ClosE_infor{}
+				#CloseprocinsidE div[class='closediv'] #ClosE_infor:hover{opacity:1;}
+	/*closemark=closemark+sourcemark+informationmarkclosemarkclosemarkclosemarkclosemark*/												
+	/*
+	 *
+	 *					  			 			                
+	 *CLOSE:
+	 **************************************************************************/
+		 
+	/*inside scroll inside scroll inside scroll inside scroll inside scrollinside scroll*/
+	/*content area content area content area content area content area*/
+	           ._mCS_1  .mCSB_container
+		{display:block;
+		         opacity:1;
+			width:325px;
+			    background-color:rgb(,255,125,0);
+		 border-radius:0;
+		      border-shadow:none;
+		                border-width:0;
+		      border-style:solid;
+		 border-color:rgb(0,0,0);
+		 z-index:5;			
+		}           		
+	          /*scroll area scroll area scroll area scroll area scroll area*/		
+		._mCS_1 .mCSB_scrollTools
+		{display:block;
+		        opacity:1;
+			width:15px;
+			     background-color:rgb(,255,125,0);
+		 border-radius:0;
+			border-shadow:none;
+				border-width:0;
+			border-style:solid;
+		 border-color:rgb(0,0,0);
+		 z-index:6;			
+		}
+		
+			._mCS_1 .mCSB_scrollTools .mCSB_buttonUp
+			{display:block;
+		                     opacity:1;
+				width:15px;
+				     height:0;
+			                   background-color:rgb(,255,125,0);
+		 	border-radius:0;
+				border-shadow:none;
+					border-width:0;
+				border-style:solid;
+		 	border-color:rgb(0,0,0);		
+			 z-index:5;			
+			}
+			._mCS_1 .mCSB_scrollTools a + .mCSB_draggerContainer{margin:0;}/*Delete the buttonUp and Bottom*/
+		            ._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer
+			{display:block;
+			         opacity:1;
+				width:15px;
+				     background-color:rgb(,255,125,0);
+		 	 border-radius:0;
+				border-shadow:none;
+					border-width:0;
+				border-style:solid;
+		 	 border-color:rgb(0,0,0);	
+			 z-index:6;			
+			}
+				._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger
+				{display:block;
+				        opacity:0.75;
+					  width:15px;
+					     background-color:rgb(0,0,0);
+			 	 border-radius:0;
+					border-shadow:none;
+						border-width:0;
+					border-style:solid;
+			 	 border-color:rgb(0,0,0);		
+				 z-index:5;		
+				}	
+					._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger .mCSB_dragger_bar
+					{display:block;
+					          opacity:1;
+						  width:7.5px;
+						        height:50%;
+						            background-color:rgb(0,0,0);
+				 	 border-radius:0;
+						border-shadow:none;
+							border-width:0;
+						border-style:solid;
+				 	 border-color:rgb(0,0,0);		
+					}	
+				._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer .mCSB_dragger:hover{opacity:1;}
+		
+				._mCS_1 .mCSB_scrollTools .mCSB_draggerContainer .mCSB_draggerRail
+				{display:none;
+				        opacity:0;
+					width:2.5px;
+					     background-color:rgb(0,0,0);
+			 	 border-radius:0;
+					border-shadow:none;
+						border-width:0;
+					border-style:solid;
+			 	 border-color:rgb(0,0,0);		
+				}
+		
+			._mCS_1 .mCSB_scrollTools .mCSB_buttonDown
+			{display:none;
+			        opacity:0;
+				width:15px;
+			                  background-color:rgb(0,0,0);
+		 	 border-radius:0;
+				border-shadow:none;
+					border-width:0;
+				border-style:solid;
+		 	 border-color:rgb(0,0,0);					
+			 z-index:5;			
+			}
+	/*inside scroll inside scroll inside scroll inside scroll inside scrollinside scroll*/
+
+	
+	
+	/**************************************************************************
+	 *design the closeproc_show outside frame_bottom:
+	 */
+	#CloseprocoutsidE_bottom
+		{display:none;
+	                     opacity:1;             
+		             width:325px;
+		                  height:;
+		                    background-color:rgb(255,125,0);
+				border-width:0;
+			border-style:solid;
+		      border-color:rgb(0,0,0);
+	             margin:0 auto;
+		 }
+		 /*Close search number Close search number Close search number*/		 
+		 #CloseitemsearcH_num
+	 	{display:block;
+	                     width:325px;
+	                         height:35px;
+	 		       background-color:rgb(255,255,255);
+	                     text-align:center;
+	             line-height:35px;
+                        }
+			#CloseitemsearcH_numitemdt
+                                    {display:inline;
+                                            color:rgb(255,125,0);
+                                     font-size:15px;
+                                    }	 
+				#CloseitemsearcH_numitem{color:rgb(255,125,0);font-size:15px; }
+                                    
+		#CloseitemsearcH_numshowdt
+                        {display:none;
+                                color:rgb(255,125,0);
+                         font-size:15px;
+                        }                                                 
+	                        #CloseitemsearcH_numshow{color:rgb(0,0,0);font-size:15px; }
+                        /*Close search number Close search number Close search number*/                                                                 
