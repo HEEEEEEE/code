@@ -18,7 +18,7 @@ close项目
 		
 	效果
 	项目之图片管理器
-	![项目之图片管理器](https://github.com/HEEEEEEE/code/raw/master/Screenshots/close_filebox.png)			
+	![项目之图片管理器](https://github.com/HEEEEEEE/code/tree/master/Screenshots/close_filebox.png)			
 
 
 	
