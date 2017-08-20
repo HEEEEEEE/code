@@ -21,10 +21,11 @@ daiGo项目
 				【本人参与的那部分 
 			picture目录：	
 				存放daiGo项目的效果图	
-			apk目录：
-				存放daiGo项目的.apk文件
+				
 	工作
 		本人主要参与了项目前端的开发工作
 	
 	
-			
+	app下载
+		www.daidai2u.com
+		andorid版本下载需要打开手机浏览器
