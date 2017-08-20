@@ -1,7 +1,7 @@
-#close项目
+# close项目
 
-类型：
-信息编辑与图片存储
+类型
+	信息编辑与图片存储
 
 
 	
@@ -26,7 +26,7 @@
 项目之信息页面
 ![项目之资源页面](https://github.com/HEEEEEEE/code/raw/master/image/close_source.png)
 项目之信息页面
-![项目之资源全屏](https://github.com/HEEEEEEE/code/raw/master/image/close_sourceFullscreen.png)
+![项目之资源全屏页面](https://github.com/HEEEEEEE/code/raw/master/image/close_sourceFullscreen.png)
 
 
 
