@@ -14,7 +14,7 @@ lolo项目
 			如果关注的人较多 看都看不过来 你可以通过置顶lolo来特别
 			关注你想关注的人和事
 			
-			关注的同时你还可以对每一个经历进行点评与主人互动
+			关注的同时你还可以对lolo中的每一个经历进行点评
 			
 			更多功能..............................................
 			
@@ -22,12 +22,11 @@ lolo项目
 		技术：
 			前端
 				html[H5 css3 js[jq ajax
-				
-				插件
-					mCustomScroll:用来自定义滚动条
 					
 				@media响应式设计
+				
 				地理位置获取
+				
 				
 			后台
 				php mysql
@@ -45,7 +44,7 @@ lolo项目
 			Apache24 php5 mysql14.14
 		编译
 			1创建名为heeeeeeeeek的数据库
-			2导入代码根目录/info/heeeeeeeeee.sql的文件
+			2导入 代码根目录/info 下的heeeeeeeeee.sql文件
 			
 	
 	

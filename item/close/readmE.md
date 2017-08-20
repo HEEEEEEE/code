@@ -1,6 +1,6 @@
 close项目
 	项目	
-		类型：信息编辑与图片存储网站
+		类型：信息编辑与图片存储
 		
 		简介：
 			1用户注册登录后进入 HOME 中
@@ -17,8 +17,11 @@ close项目
 		技术：
 			前端
 				html[H5 css3 js[jq ajax
+				
 				插件
 					mCustomScroll:用来自定义滚动条
+					
+					
 			后台
 				php mysql
 	
@@ -37,7 +40,7 @@ close项目
 			Apache24 php5 mysql14.14
 		编译
 			1创建名为heeeeeeeeet的数据库
-			2导入代码根目录/info/heeeeeeeeet.sql的文件
+			2导入 代码根目录/info 下的heeeeeeeeet.sql文件
 			
 	
 	
