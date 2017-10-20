@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*响应式网页设计：图片
+*/
+
+
+
+    html,body{height:100%;background-color: #0f0f0f;overflow-x: hidden;}
+    body,div{margin:0;padding:0;}
+    img{display:block;margin:0 auto;max-width: 100%;max-height: 100%;-ms-interpolation-mode: bicubic;}
+    .back_img{background-repeat:no-repeat;background-position: center center;background-size: contain;}
+        /*IMAGE
+            IMG
+                *实现：img{display:block;margin:0 auto;max-width: 100%;max-height: 100%;}
+                *问题
+                        windows平台缩放图片时，可能出现图像失真现象
+                *       决解：img{display:block;margin:0 auto;max-width: 100%;max-height: 100%;-ms-interpolation-mode: bicubic;}
+                *效果：无法垂直居中2不能与@media配合加载不同分辨率的图片
+                *
+            BACK
+                *实现：.back_img{background-repeat:no-repeat;background-position: center center;background-size: contain;}
+                *问题
+                *效果：1能垂直居中2可与@media配合加载不同分辨率的图片
+                *
+            CANVAS
+                *实现：
+                *问题
+                *效果：
+                *
+        */
+
+#container{
+    width:100%;
+    height:100%;
+}
+
+    #fluid{
+        width:100%;
+        height:100%;
+    }
+        #fluid_one{
+            float:left;
+            width:42.4%;
+            height:60%;
+            background-color: #0b97c4;
+        }
+        #fluid_two{
+            float:left;
+            width:42.4%;
+            height:60%;
+            background-color: #00A000;
+
+            background-image: url('img.jpg');
+        }

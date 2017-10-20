@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*响应式网页设计：布局
+    *1:不使用绝对宽度 流动布局（fluid grid）
+    *2:选择性加载CSS
+    *
+    *
+*/
+
+
+/*1:不使用绝对宽度 流动布局（fluid grid）
+*    不使用绝对宽度
+        使用百分比
+*   “流动布局”的含义是，各个区块的位置都是浮动的，不是固定不变的
+*           float的好处是，如果宽度太小，放不下两个元素，后面的元素会自动滚动到前面元素的下方，
+*       不会在水平方向overflow（溢出），避免了水平滚动条的出现。
+*/
+html,body{height: 100%;background-color: #ff5a00;overflow-x: hidden;}
+    /*height*/
+        /*height:100%;:需同时设置才能让下级元素的百分比设置起作用*/
+    /*back*/
+        /*html{background-color: #0f0f0f;}!*整个网页的背景色 包括滚动条部分*!*/
+        /*body{background-color: #5E740B;}!*整个网页的背景色 包括滚动条部分 warning:但是如果html也设置了则不包括滚动条部分*!*/
+    /*overflow*/
+        /*overflow-x: hidden; 隐藏可能出现的水平方向的滚动条*/
+body,div{margin:0;padding:0;}
+
+
+
+#container{
+    width:100%;
+    height:100%;
+}
+
+    #fluid{
+        width:100%;
+        height:100%;
+
+    }
+        #fluid_one{
+            float:left;
+            width:35%;
+            height:100%;
+            background-color: #0b97c4;
+        }
+        #fluid_two{
+            float:left;
+            width:50%;
+            height:50%;
+            background-color: #00A000;
+        }
+
+/*
+    *2：选择性加载CSS
+    *当某些地方需要 使用绝对尺寸时 使用不同分辨率的图片 使用不同大小的字体
+*/
+/*1280分辨率以上（大于1200px)*/
+@media screen and ( min-width:1200px ){
+    #fluid_two{
+        background-color: red;
+    }
+}
+/*1100分辨率（大于960px，小于1199px）*/
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+
+}
+/*880分辨率（大于768px，小于959px）*/
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+/*720分辨率（大于480px，小于767px）*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+    /*
+      720*1280的手机
+          横屏：w1280/2=640显示此分辨率下的样式*/
+}
+/*440分辨率以下（小于479px)*/
+@media screen and ( max-width:479px ){
+    /*
+      720*1280的手机
+          竖屏：w720/2=360显示此分辨率下的样式
+          横屏：w1280/2=640显示720分辨率的样式*/
+}
